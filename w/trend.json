@@ -1,0 +1,22 @@
+[
+  {
+    "ticker": "ETH/USDT",
+    "upTrend": true,
+    "start_date": "2023-09-04T00:00:00"
+  },
+  {
+    "ticker": "BTC/USDT",
+    "upTrend": true,
+    "start_date": "2023-09-04T00:00:00"
+  },
+  {
+    "ticker": "PYR/USDT",
+    "upTrend": false,
+    "start_date": "2024-02-27T00:00:00"
+  },
+  {
+    "ticker": "LINK/USDT",
+    "upTrend": false,
+    "start_date": "2024-03-04T00:00:00"
+  }
+]

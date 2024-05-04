@@ -1,0 +1,72 @@
+[
+  {
+    "ticker": "ENS/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "LOOKS/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "THG/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "AURORA/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "ERN/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "ELS/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "KAS/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "TRVL/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "GPT/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "NAKA/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "ANKR/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "PHB/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "HOT/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "SOULS/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  }
+]

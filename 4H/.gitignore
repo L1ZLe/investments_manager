@@ -1,0 +1,5 @@
+.env
+node_modules
+backups
+trading_bot.sh
+.vscode

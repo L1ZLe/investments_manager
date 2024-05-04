@@ -1,0 +1,22 @@
+[
+  {
+    "ticker": "ETH/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "7DAY"
+  },
+  {
+    "ticker": "BTC/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "7DAY"
+  },
+  {
+    "ticker": "PYR/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "7DAY"
+  },
+  {
+    "ticker": "LINK/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "7DAY"
+  }
+]

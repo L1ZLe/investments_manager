@@ -1,0 +1,37 @@
+[
+  {
+    "ticker": "ONDO/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "1DAY"
+  },
+  {
+    "ticker": "SAND/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "1DAY"
+  },
+  {
+    "ticker": "VERA/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "1DAY"
+  },
+  {
+    "ticker": "AMU/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "1DAY"
+  },
+  {
+    "ticker": "YGG/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "1DAY"
+  },
+  {
+    "ticker": "ARB/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "1DAY"
+  },
+  {
+    "ticker": "VEE/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "1DAY"
+  }
+]
