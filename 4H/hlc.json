@@ -1,11 +1,5 @@
 [
   {
-    "ticker": "KAS/USDT",
-    "high": 0.11483,
-    "low": null,
-    "close": null
-  },
-  {
     "ticker": "ENS/USDT",
     "high": 15.87,
     "low": null,
@@ -42,6 +36,12 @@
     "close": 0.283
   },
   {
+    "ticker": "KAS/USDT",
+    "high": null,
+    "low": 0.10468,
+    "close": 0.11177
+  },
+  {
     "ticker": "TRVL/USDT",
     "high": 0.062,
     "low": null,
@@ -67,7 +67,7 @@
   },
   {
     "ticker": "PHB/USDT",
-    "high": 1.7786,
+    "high": 1.8664,
     "low": null,
     "close": 1.7067
   },
@@ -76,5 +76,11 @@
     "high": null,
     "low": 0.002417,
     "close": 0.002511
+  },
+  {
+    "ticker": "SOUL/USDT",
+    "high": null,
+    "low": 0.094,
+    "close": 0.12028
   }
 ]
