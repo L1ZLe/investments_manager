@@ -12,7 +12,7 @@ cd /home/l1zle/Investment-manager/Automation
 /home/l1zle/.nvm/versions/node/v20.12.1/bin/node last_run.js && wait
 
 # Now, git commands will execute after both Node.js scripts have finished
-
+cd /home/l1zle/Investment-manager/
 git add .
 git commit -m "saving daily"
 git push origin main

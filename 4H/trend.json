@@ -11,7 +11,7 @@
   },
   {
     "ticker": "LOOKS/USDT",
-    "upTrend": true,
+    "upTrend": false,
     "start_date": "2024-05-03T16:00:00"
   },
   {
@@ -52,11 +52,11 @@
   {
     "ticker": "NAKA/USDT",
     "upTrend": false,
-    "start_date": "2024-05-04T00:00:00"
+    "start_date": "2024-05-04T20:00:00"
   },
   {
     "ticker": "ANKR/USDT",
-    "upTrend": true,
+    "upTrend": false,
     "start_date": "2024-05-04T08:00:00"
   },
   {
@@ -66,7 +66,7 @@
   },
   {
     "ticker": "HOT/USDT",
-    "upTrend": true,
+    "upTrend": false,
     "start_date": "2024-05-04T04:00:00"
   }
 ]
