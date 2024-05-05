@@ -15,4 +15,4 @@ cd /home/l1zle/Investment-manager/Automation
 
 git add .
 git commit -m "saving weekly"
-git push origin master
+git push origin main
