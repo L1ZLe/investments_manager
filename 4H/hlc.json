@@ -67,9 +67,9 @@
   },
   {
     "ticker": "PHB/USDT",
-    "high": 2.0604,
+    "high": 2.1515,
     "low": null,
-    "close": 1.7067
+    "close": 2.0126
   },
   {
     "ticker": "HOT/USDT",
@@ -79,8 +79,8 @@
   },
   {
     "ticker": "SOUL/USDT",
-    "high": 0.1388,
-    "low": null,
-    "close": 0.1255
+    "high": null,
+    "low": 0.094,
+    "close": null
   }
 ]
