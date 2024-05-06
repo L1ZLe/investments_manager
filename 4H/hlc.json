@@ -1,9 +1,9 @@
 [
   {
     "ticker": "ENS/USDT",
-    "high": 16.03,
+    "high": 16.1,
     "low": null,
-    "close": 15.24
+    "close": 15.67
   },
   {
     "ticker": "LOOKS/USDT",
@@ -79,7 +79,7 @@
   },
   {
     "ticker": "SOUL/USDT",
-    "high": 0.1388,
+    "high": 0.14016,
     "low": null,
     "close": 0.1255
   }

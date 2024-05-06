@@ -2,7 +2,7 @@
   {
     "ticker": "ENS/USDT",
     "upTrend": true,
-    "start_date": "2024-05-05T12:00:00"
+    "start_date": "2024-05-06T04:00:00"
   },
   {
     "ticker": "LOOKS/USDT",
@@ -67,6 +67,6 @@
   {
     "ticker": "SOUL/USDT",
     "upTrend": true,
-    "start_date": "2024-05-01T04:00:00"
+    "start_date": "2024-05-06T04:00:00"
   }
 ]
