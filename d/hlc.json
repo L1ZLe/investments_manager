@@ -12,6 +12,18 @@
     "close": 0.69965
   },
   {
+    "ticker": "SAND/USDT",
+    "high": null,
+    "low": 0.3639,
+    "close": 0.6489
+  },
+  {
+    "ticker": "VERA/USDT",
+    "high": null,
+    "low": 0.0005744,
+    "close": 0.000991
+  },
+  {
     "ticker": "AMU/USDT",
     "high": 0.055,
     "low": null,
@@ -28,17 +40,5 @@
     "high": 0.00021801,
     "low": null,
     "close": 0.0000853
-  },
-  {
-    "ticker": "SAND/USDT",
-    "high": null,
-    "low": 0.3639,
-    "close": 0.6489
-  },
-  {
-    "ticker": "VERA/USDT",
-    "high": null,
-    "low": 0.0005744,
-    "close": 0.000991
   }
 ]
