@@ -18,12 +18,6 @@
     "close": 0.8623
   },
   {
-    "ticker": "VEE/USDT",
-    "high": 0.00021801,
-    "low": null,
-    "close": 0.0000853
-  },
-  {
     "ticker": "ONDO/USDT",
     "high": 1.03,
     "low": null,
@@ -40,5 +34,11 @@
     "high": 0.055,
     "low": null,
     "close": 0.02852
+  },
+  {
+    "ticker": "VEE/USDT",
+    "high": 0.00021801,
+    "low": null,
+    "close": 0.0000853
   }
 ]
