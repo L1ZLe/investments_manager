@@ -5,6 +5,16 @@
     "start_date": "2024-05-06T04:00:00"
   },
   {
+    "ticker": "PHB/USDT",
+    "upTrend": true,
+    "start_date": "2024-05-06T00:00:00"
+  },
+  {
+    "ticker": "SOUL/USDT",
+    "upTrend": true,
+    "start_date": "2024-05-06T12:00:00"
+  },
+  {
     "ticker": "LOOKS/USDT",
     "upTrend": false,
     "start_date": "2024-05-04T20:00:00"
@@ -16,12 +26,12 @@
   },
   {
     "ticker": "AURORA/USDT",
-    "upTrend": false,
+    "upTrend": true,
     "start_date": "2024-05-04T00:00:00"
   },
   {
     "ticker": "ERN/USDT",
-    "upTrend": false,
+    "upTrend": true,
     "start_date": "2024-05-06T08:00:00"
   },
   {
@@ -55,18 +65,8 @@
     "start_date": "2024-05-06T08:00:00"
   },
   {
-    "ticker": "PHB/USDT",
-    "upTrend": true,
-    "start_date": "2024-05-06T00:00:00"
-  },
-  {
     "ticker": "HOT/USDT",
     "upTrend": false,
-    "start_date": "2024-05-06T08:00:00"
-  },
-  {
-    "ticker": "SOUL/USDT",
-    "upTrend": true,
-    "start_date": "2024-05-06T12:00:00"
+    "start_date": "2024-05-06T16:00:00"
   }
 ]
