@@ -22,7 +22,7 @@
   {
     "ticker": "ERN/USDT",
     "upTrend": true,
-    "start_date": "2024-05-06T20:00:00"
+    "start_date": "2024-05-07T04:00:00"
   },
   {
     "ticker": "ELS/USDT",
@@ -37,7 +37,7 @@
   {
     "ticker": "TRVL/USDT",
     "upTrend": false,
-    "start_date": "2024-05-02T12:00:00"
+    "start_date": "2024-05-07T04:00:00"
   },
   {
     "ticker": "GPT/USDT",
@@ -57,7 +57,7 @@
   {
     "ticker": "PHB/USDT",
     "upTrend": true,
-    "start_date": "2024-05-06T00:00:00"
+    "start_date": "2024-05-07T04:00:00"
   },
   {
     "ticker": "HOT/USDT",

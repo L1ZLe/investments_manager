@@ -10,11 +10,6 @@
     "timeframe": "1DAY"
   },
   {
-    "ticker": "VERA/USDT",
-    "exchange_id": "GATEIO",
-    "timeframe": "1DAY"
-  },
-  {
     "ticker": "AMU/USDT",
     "exchange_id": "GATEIO",
     "timeframe": "1DAY"
