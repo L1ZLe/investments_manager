@@ -383,7 +383,7 @@ async function main() {
       const mailOptions = {
         from: process.env.MAIL_USERNAME,
         to: "samielyaagoubius@gmail.com",
-        subject: "Investment Manager",
+        subject: "Investment Manager: " + timeEnd,
         text:
           "Investment Manager: " +
           ticker +
@@ -407,7 +407,7 @@ async function main() {
       const mailOptions = {
         from: process.env.MAIL_USERNAME,
         to: "samielyaagoubius@gmail.com",
-        subject: "Investment Manager",
+        subject: "Investment Manager: " + timeEnd,
         text:
           "Investment Manager: " +
           ticker +

@@ -19,9 +19,9 @@
   },
   {
     "ticker": "THG/USDT",
-    "high": 0.06704,
-    "low": null,
-    "close": 0.05888
+    "high": null,
+    "low": 0.05725,
+    "close": 0.06111
   },
   {
     "ticker": "ERN/USDT",
@@ -37,7 +37,7 @@
   },
   {
     "ticker": "KAS/USDT",
-    "high": 0.114,
+    "high": 0.115,
     "low": null,
     "close": 0.11125
   },
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "high": null,
-    "low": 1.621,
-    "close": 1.6478
+    "high": 1.7098,
+    "low": null,
+    "close": 1.6279
   },
   {
     "ticker": "ANKR/USDT",

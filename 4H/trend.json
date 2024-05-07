@@ -16,7 +16,7 @@
   },
   {
     "ticker": "THG/USDT",
-    "upTrend": true,
+    "upTrend": false,
     "start_date": "2024-05-06T20:00:00"
   },
   {
@@ -32,7 +32,7 @@
   {
     "ticker": "KAS/USDT",
     "upTrend": true,
-    "start_date": "2024-05-04T20:00:00"
+    "start_date": "2024-05-07T12:00:00"
   },
   {
     "ticker": "TRVL/USDT",
@@ -46,7 +46,7 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "upTrend": false,
+    "upTrend": true,
     "start_date": "2024-05-07T08:00:00"
   },
   {
