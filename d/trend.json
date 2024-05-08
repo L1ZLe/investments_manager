@@ -1,10 +1,5 @@
 [
   {
-    "ticker": "ARB/USDT",
-    "upTrend": false,
-    "start_date": "2024-04-08T00:00:00"
-  },
-  {
     "ticker": "ONDO/USDT",
     "upTrend": true,
     "start_date": "2024-04-14T00:00:00"
@@ -16,13 +11,18 @@
   },
   {
     "ticker": "AMU/USDT",
-    "upTrend": true,
+    "upTrend": false,
     "start_date": "2024-04-25T00:00:00"
   },
   {
     "ticker": "YGG/USDT",
     "upTrend": true,
-    "start_date": "2024-04-30T00:00:00"
+    "start_date": "2024-05-06T00:00:00"
+  },
+  {
+    "ticker": "ARB/USDT",
+    "upTrend": false,
+    "start_date": "2024-04-12T00:00:00"
   },
   {
     "ticker": "VEE/USDT",
