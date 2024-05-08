@@ -63,10 +63,5 @@
     "ticker": "HOT/USDT",
     "exchange_id": "BINANCE",
     "timeframe": "4HRS"
-  },
-  {
-    "ticker": "SOUL/USDT",
-    "exchange_id": "GATEIO",
-    "timeframe": "4HRS"
   }
 ]

@@ -1,15 +1,9 @@
 [
   {
     "ticker": "ENS/USDT",
-    "high": 16.1,
-    "low": null,
-    "close": null
-  },
-  {
-    "ticker": "AURORA/USDT",
-    "high": 0.2864,
-    "low": null,
-    "close": null
+    "high": null,
+    "low": 13.93,
+    "close": 14.79
   },
   {
     "ticker": "LOOKS/USDT",
@@ -24,6 +18,12 @@
     "close": 0.05687
   },
   {
+    "ticker": "AURORA/USDT",
+    "high": null,
+    "low": 0.23872,
+    "close": 0.24736
+  },
+  {
     "ticker": "ERN/USDT",
     "high": 6.213,
     "low": null,
@@ -32,25 +32,25 @@
   {
     "ticker": "ELS/USDT",
     "high": null,
-    "low": 0.2269,
+    "low": 0.2202,
     "close": 0.234
   },
   {
     "ticker": "KAS/USDT",
-    "high": null,
-    "low": 0.11,
-    "close": 0.11405
+    "high": 0.12197,
+    "low": null,
+    "close": null
   },
   {
     "ticker": "TRVL/USDT",
     "high": null,
-    "low": 0.05241,
+    "low": 0.05209,
     "close": 0.05299
   },
   {
     "ticker": "GPT/USDT",
     "high": null,
-    "low": 0.38302,
+    "low": 0.37264,
     "close": 0.4067
   },
   {
@@ -62,7 +62,7 @@
   {
     "ticker": "ANKR/USDT",
     "high": null,
-    "low": 0.04528,
+    "low": 0.04518,
     "close": 0.04628
   },
   {
@@ -74,13 +74,7 @@
   {
     "ticker": "HOT/USDT",
     "high": null,
-    "low": 0.002267,
+    "low": 0.002259,
     "close": 0.002398
-  },
-  {
-    "ticker": "SOUL/USDT",
-    "high": 0.14878,
-    "low": null,
-    "close": 0.1255
   }
 ]
