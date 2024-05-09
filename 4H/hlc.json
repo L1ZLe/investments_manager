@@ -1,7 +1,7 @@
 [
   {
-    "ticker": "KAS/USDT",
-    "high": 0.12197,
+    "ticker": "NAKA/USDT",
+    "high": 1.5862,
     "low": null,
     "close": null
   },
@@ -38,13 +38,19 @@
   {
     "ticker": "ELS/USDT",
     "high": null,
-    "low": 0.1968,
+    "low": 0.1923,
     "close": 0.234
+  },
+  {
+    "ticker": "KAS/USDT",
+    "high": 0.125,
+    "low": null,
+    "close": 0.11836
   },
   {
     "ticker": "TRVL/USDT",
     "high": null,
-    "low": 0.05115,
+    "low": 0.05113,
     "close": 0.05229
   },
   {
@@ -52,12 +58,6 @@
     "high": null,
     "low": 0.36,
     "close": 0.4067
-  },
-  {
-    "ticker": "NAKA/USDT",
-    "high": 1.5862,
-    "low": null,
-    "close": null
   },
   {
     "ticker": "ANKR/USDT",
