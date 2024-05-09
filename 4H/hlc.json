@@ -44,7 +44,7 @@
   {
     "ticker": "TRVL/USDT",
     "high": null,
-    "low": 0.05148,
+    "low": 0.05115,
     "close": 0.05229
   },
   {
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "high": null,
-    "low": 1.533,
-    "close": 1.57
+    "high": 1.5862,
+    "low": null,
+    "close": null
   },
   {
     "ticker": "ANKR/USDT",
