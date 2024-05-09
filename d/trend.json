@@ -11,12 +11,12 @@
   },
   {
     "ticker": "AMU/USDT",
-    "upTrend": false,
+    "upTrend": true,
     "start_date": "2024-04-25T00:00:00"
   },
   {
     "ticker": "YGG/USDT",
-    "upTrend": true,
+    "upTrend": false,
     "start_date": "2024-05-06T00:00:00"
   },
   {
