@@ -12,21 +12,21 @@
     "close": 0.69965
   },
   {
-    "ticker": "SAND/USDT",
-    "high": null,
-    "low": 0.3639,
-    "close": 0.6489
-  },
-  {
     "ticker": "AMU/USDT",
     "high": 0.055,
     "low": null,
     "close": null
   },
   {
-    "ticker": "YGG/USDT",
+    "ticker": "SAND/USDT",
     "high": null,
-    "low": 0.7942,
+    "low": 0.3639,
+    "close": 0.6489
+  },
+  {
+    "ticker": "YGG/USDT",
+    "high": 0.94,
+    "low": null,
     "close": null
   },
   {
