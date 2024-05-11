@@ -12,12 +12,12 @@
   {
     "ticker": "LOOKS/USDT",
     "upTrend": false,
-    "start_date": "2024-05-10T12:00:00"
+    "start_date": "2024-05-10T16:00:00"
   },
   {
     "ticker": "AURORA/USDT",
     "upTrend": false,
-    "start_date": "2024-05-10T12:00:00"
+    "start_date": "2024-05-10T16:00:00"
   },
   {
     "ticker": "ERN/USDT",
@@ -32,7 +32,7 @@
   {
     "ticker": "KAS/USDT",
     "upTrend": false,
-    "start_date": "2024-05-10T04:00:00"
+    "start_date": "2024-05-10T12:00:00"
   },
   {
     "ticker": "TRVL/USDT",
@@ -56,12 +56,12 @@
   },
   {
     "ticker": "PHB/USDT",
-    "upTrend": false,
+    "upTrend": true,
     "start_date": "2024-05-10T08:00:00"
   },
   {
     "ticker": "HOT/USDT",
     "upTrend": false,
-    "start_date": "2024-05-10T12:00:00"
+    "start_date": "2024-05-10T16:00:00"
   }
 ]
