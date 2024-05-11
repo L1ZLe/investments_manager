@@ -21,12 +21,12 @@
   },
   {
     "ticker": "AURORA/USDT",
-    "upTrend": false,
+    "upTrend": true,
     "start_date": "2024-05-11T08:00:00"
   },
   {
     "ticker": "ERN/USDT",
-    "upTrend": false,
+    "upTrend": true,
     "start_date": "2024-05-11T04:00:00"
   },
   {
