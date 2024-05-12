@@ -12,42 +12,6 @@
     "close": null
   },
   {
-    "ticker": "KAS/USDT",
-    "high": null,
-    "low": 0.12001,
-    "close": 0.13237
-  },
-  {
-    "ticker": "TRVL/USDT",
-    "high": null,
-    "low": 0.04287,
-    "close": 0.05051
-  },
-  {
-    "ticker": "GPT/USDT",
-    "high": null,
-    "low": 0.36,
-    "close": 0.4067
-  },
-  {
-    "ticker": "NAKA/USDT",
-    "high": null,
-    "low": 1.4856,
-    "close": 1.5881
-  },
-  {
-    "ticker": "ANKR/USDT",
-    "high": null,
-    "low": 0.04339,
-    "close": 0.04707
-  },
-  {
-    "ticker": "HOT/USDT",
-    "high": null,
-    "low": 0.002217,
-    "close": 0.0024
-  },
-  {
     "ticker": "ENS/USDT",
     "high": null,
     "low": 13.52,
@@ -76,5 +40,41 @@
     "high": null,
     "low": 0.1917,
     "close": 0.234
+  },
+  {
+    "ticker": "KAS/USDT",
+    "high": null,
+    "low": 0.12001,
+    "close": 0.13237
+  },
+  {
+    "ticker": "TRVL/USDT",
+    "high": null,
+    "low": 0.04287,
+    "close": 0.05051
+  },
+  {
+    "ticker": "GPT/USDT",
+    "high": null,
+    "low": 0.36,
+    "close": 0.4067
+  },
+  {
+    "ticker": "NAKA/USDT",
+    "high": null,
+    "low": 1.4856,
+    "close": 1.5881
+  },
+  {
+    "ticker": "ANKR/USDT",
+    "high": null,
+    "low": 0.04339,
+    "close": 0.04448
+  },
+  {
+    "ticker": "HOT/USDT",
+    "high": null,
+    "low": 0.002217,
+    "close": 0.0024
   }
 ]
