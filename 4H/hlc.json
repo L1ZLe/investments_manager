@@ -12,36 +12,6 @@
     "close": null
   },
   {
-    "ticker": "ENS/USDT",
-    "high": null,
-    "low": 13.52,
-    "close": 14.65
-  },
-  {
-    "ticker": "LOOKS/USDT",
-    "high": null,
-    "low": 0.08215,
-    "close": 0.08362
-  },
-  {
-    "ticker": "AURORA/USDT",
-    "high": 0.22509,
-    "low": null,
-    "close": 0.21391
-  },
-  {
-    "ticker": "ERN/USDT",
-    "high": 4.881,
-    "low": null,
-    "close": 4.618
-  },
-  {
-    "ticker": "ELS/USDT",
-    "high": null,
-    "low": 0.1917,
-    "close": 0.234
-  },
-  {
     "ticker": "KAS/USDT",
     "high": null,
     "low": 0.12001,
@@ -76,5 +46,35 @@
     "high": null,
     "low": 0.002217,
     "close": 0.0024
+  },
+  {
+    "ticker": "ENS/USDT",
+    "high": null,
+    "low": 13.52,
+    "close": 14.65
+  },
+  {
+    "ticker": "LOOKS/USDT",
+    "high": null,
+    "low": 0.08103,
+    "close": 0.08362
+  },
+  {
+    "ticker": "AURORA/USDT",
+    "high": 0.22509,
+    "low": null,
+    "close": 0.21391
+  },
+  {
+    "ticker": "ERN/USDT",
+    "high": 4.881,
+    "low": null,
+    "close": 4.618
+  },
+  {
+    "ticker": "ELS/USDT",
+    "high": null,
+    "low": 0.1917,
+    "close": 0.234
   }
 ]
