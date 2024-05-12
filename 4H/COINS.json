@@ -24,18 +24,14 @@
     "exchange_id": "BINANCE",
     "timeframe": "4HRS"
   },
-  {
-    "ticker": "ELS/USDT",
-    "exchange_id": "GATEIO",
-    "timeframe": "4HRS"
-  },
+
   {
     "ticker": "KAS/USDT",
     "exchange_id": "GATEIO",
     "timeframe": "4HRS"
   },
   {
-    "ticker": "TRVL/USDT",
+    "ticker": "RTF/USDT",
     "exchange_id": "GATEIO",
     "timeframe": "4HRS"
   },
