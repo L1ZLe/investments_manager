@@ -7,7 +7,7 @@
   {
     "ticker": "LOOKS/USDT",
     "upTrend": false,
-    "start_date": "2024-05-12T00:00:00"
+    "start_date": "2024-05-13T00:00:00"
   },
   {
     "ticker": "THG/USDT",
@@ -22,7 +22,7 @@
   {
     "ticker": "ERN/USDT",
     "upTrend": false,
-    "start_date": "2024-05-12T00:00:00"
+    "start_date": "2024-05-12T20:00:00"
   },
   {
     "ticker": "KAS/USDT",
@@ -42,7 +42,7 @@
   {
     "ticker": "NAKA/USDT",
     "upTrend": false,
-    "start_date": "2024-05-12T20:00:00"
+    "start_date": "2024-05-13T00:00:00"
   },
   {
     "ticker": "ANKR/USDT",
@@ -52,7 +52,7 @@
   {
     "ticker": "PHB/USDT",
     "upTrend": false,
-    "start_date": "2024-05-12T08:00:00"
+    "start_date": "2024-05-13T00:00:00"
   },
   {
     "ticker": "HOT/USDT",
