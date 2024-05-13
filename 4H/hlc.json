@@ -7,9 +7,9 @@
   },
   {
     "ticker": "LOOKS/USDT",
-    "high": null,
-    "low": 0.07883,
-    "close": 0.08336
+    "high": 0.08461,
+    "low": null,
+    "close": null
   },
   {
     "ticker": "THG/USDT",
@@ -20,8 +20,8 @@
   {
     "ticker": "AURORA/USDT",
     "high": null,
-    "low": 0.20356,
-    "close": 0.21152
+    "low": 0.19607,
+    "close": 0.2087
   },
   {
     "ticker": "ERN/USDT",
