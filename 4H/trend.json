@@ -12,7 +12,7 @@
   {
     "ticker": "THG/USDT",
     "upTrend": true,
-    "start_date": "2024-05-13T16:00:00"
+    "start_date": "2024-05-13T20:00:00"
   },
   {
     "ticker": "AURORA/USDT",
@@ -37,16 +37,16 @@
   {
     "ticker": "GPT/USDT",
     "upTrend": false,
-    "start_date": "2024-05-13T16:00:00"
+    "start_date": "2024-05-13T20:00:00"
   },
   {
     "ticker": "NAKA/USDT",
-    "upTrend": true,
+    "upTrend": false,
     "start_date": "2024-05-13T08:00:00"
   },
   {
     "ticker": "ANKR/USDT",
-    "upTrend": true,
+    "upTrend": false,
     "start_date": "2024-05-13T12:00:00"
   },
   {
