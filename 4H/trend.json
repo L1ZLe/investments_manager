@@ -22,7 +22,7 @@
   {
     "ticker": "ERN/USDT",
     "upTrend": false,
-    "start_date": "2024-05-12T20:00:00"
+    "start_date": "2024-05-14T00:00:00"
   },
   {
     "ticker": "KAS/USDT",
@@ -37,16 +37,16 @@
   {
     "ticker": "GPT/USDT",
     "upTrend": false,
-    "start_date": "2024-05-13T20:00:00"
+    "start_date": "2024-05-14T00:00:00"
   },
   {
     "ticker": "NAKA/USDT",
     "upTrend": false,
-    "start_date": "2024-05-13T08:00:00"
+    "start_date": "2024-05-13T20:00:00"
   },
   {
     "ticker": "ANKR/USDT",
-    "upTrend": false,
+    "upTrend": true,
     "start_date": "2024-05-13T12:00:00"
   },
   {
