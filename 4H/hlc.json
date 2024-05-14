@@ -7,15 +7,15 @@
   },
   {
     "ticker": "LOOKS/USDT",
-    "high": 0.08461,
+    "high": 0.0848,
     "low": null,
     "close": 0.08011
   },
   {
     "ticker": "THG/USDT",
-    "high": 0.06274,
+    "high": 0.06295,
     "low": null,
-    "close": 0.05485
+    "close": 0.06034
   },
   {
     "ticker": "AURORA/USDT",
@@ -44,20 +44,20 @@
   {
     "ticker": "GPT/USDT",
     "high": null,
-    "low": 0.36,
-    "close": 0.4067
+    "low": 0.34615,
+    "close": 0.37038
   },
   {
     "ticker": "NAKA/USDT",
     "high": 1.5979,
     "low": null,
-    "close": null
+    "close": 1.4571
   },
   {
     "ticker": "ANKR/USDT",
-    "high": 0.04356,
+    "high": 0.04413,
     "low": null,
-    "close": 0.04116
+    "close": 0.04282
   },
   {
     "ticker": "PHB/USDT",
@@ -67,7 +67,7 @@
   },
   {
     "ticker": "HOT/USDT",
-    "high": 0.002262,
+    "high": 0.002284,
     "low": null,
     "close": 0.002112
   }
