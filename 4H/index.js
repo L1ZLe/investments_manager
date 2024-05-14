@@ -199,15 +199,17 @@ async function getLatestHighAndLow(
       // we need to store the start date for the next cycle so that we fetch only the new data in the next cycle
       start_date = temp_date
     }
-    if (close == null) {
-      console.log("we assume that close is the starting point")
-      close = data[0].price_close
-    }
 
     return { high, low, close, start_date }
   } catch (err) {
-    console.error(err)
-    return { high: null, low: null, close: null, start_date: null }
+    //console.error(err)
+    console.log("we assume that close is the starting point")
+    return {
+      high: null,
+      low: null,
+      close: null,
+      start_date: null,
+    }
   }
 }
 ////////////////////////////////////////////// WRITE JSON DATA TO FILE //////////////////////////////////////////////
