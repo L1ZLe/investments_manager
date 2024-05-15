@@ -1,27 +1,12 @@
 [
   {
-    "ticker": "NAKA/USDT",
-    "upTrend": false,
-    "start_date": "2024-05-14T08:00:00"
-  },
-  {
-    "ticker": "PHB/USDT",
-    "upTrend": false,
-    "start_date": "2024-05-14T12:00:00"
-  },
-  {
-    "ticker": "HOT/USDT",
-    "upTrend": true,
-    "start_date": "2024-05-13T12:00:00"
-  },
-  {
     "ticker": "ENS/USDT",
     "upTrend": false,
     "start_date": "2024-05-12T20:00:00"
   },
   {
     "ticker": "LOOKS/USDT",
-    "upTrend": true,
+    "upTrend": false,
     "start_date": "2024-05-13T12:00:00"
   },
   {
@@ -32,12 +17,12 @@
   {
     "ticker": "AURORA/USDT",
     "upTrend": false,
-    "start_date": "2024-05-14T08:00:00"
+    "start_date": "2024-05-15T04:00:00"
   },
   {
     "ticker": "ERN/USDT",
     "upTrend": false,
-    "start_date": "2024-05-14T12:00:00"
+    "start_date": "2024-05-15T04:00:00"
   },
   {
     "ticker": "KAS/USDT",
@@ -55,8 +40,23 @@
     "start_date": "2024-05-14T16:00:00"
   },
   {
+    "ticker": "NAKA/USDT",
+    "upTrend": false,
+    "start_date": "2024-05-14T08:00:00"
+  },
+  {
     "ticker": "ANKR/USDT",
     "upTrend": false,
     "start_date": "2024-05-14T20:00:00"
+  },
+  {
+    "ticker": "PHB/USDT",
+    "upTrend": false,
+    "start_date": "2024-05-14T12:00:00"
+  },
+  {
+    "ticker": "HOT/USDT",
+    "upTrend": true,
+    "start_date": "2024-05-13T12:00:00"
   }
 ]
