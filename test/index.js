@@ -199,15 +199,27 @@ async function getLatestHighAndLow(
       // we need to store the start date for the next cycle so that we fetch only the new data in the next cycle
       start_date = temp_date
     }
-    if (close == null) {
-      console.log("we assume that close is the starting point")
+
+    if (close == null || close == Infinity || close == -Infinity) {
+      console.log(
+        "\x1b[33m",
+        "we assume that close is the starting point",
+        "\x1b[0m"
+      )
+
       close = data[0].price_close
     }
 
     return { high, low, close, start_date }
   } catch (err) {
     console.error(err)
-    return { high: null, low: null, close: null, start_date: null }
+    console.log("we assume that close is the starting point")
+    return {
+      high: null,
+      low: null,
+      close: null,
+      start_date: null,
+    }
   }
 }
 ////////////////////////////////////////////// WRITE JSON DATA TO FILE //////////////////////////////////////////////
@@ -344,6 +356,7 @@ async function main() {
     console.log("\x1b[31m", symbolId, periodId, ticker, "\x1b[0m")
 
     const coinTrend = await coinsTrends.find((coin) => coin.ticker === ticker)
+
     if (!coinTrend) {
       console.error(`Coin ${ticker} not found in trend.json`)
       console.error("Please add it to trend.json")
@@ -353,7 +366,7 @@ async function main() {
     console.log(`The Original trend of ${ticker} was : ${initialTrend}`)
 
     const { start_date: timeStart } = coinTrend
-    let timeEnd = new Date().toISOString()
+    let timeEnd = "2024-05-13T12:00:00"
     const [date, time] = timeEnd.split("T")
     const [hours, minutes, seconds, _] = time.split(":")
     timeEnd = `${date}T${String(Number(hours)).padStart(2, "0")}:00:00`
