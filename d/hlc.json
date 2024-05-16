@@ -6,12 +6,6 @@
     "close": 0.000991
   },
   {
-    "ticker": "YGG/USDT",
-    "high": 0.94,
-    "low": null,
-    "close": null
-  },
-  {
     "ticker": "ONDO/USDT",
     "high": 1.03,
     "low": null,
@@ -22,6 +16,18 @@
     "high": null,
     "low": 0.3639,
     "close": 0.6489
+  },
+  {
+    "ticker": "AMU/USDT",
+    "high": 0.046,
+    "low": null,
+    "close": 0.02962
+  },
+  {
+    "ticker": "YGG/USDT",
+    "high": 0.94,
+    "low": null,
+    "close": 0.885
   },
   {
     "ticker": "ARB/USDT",

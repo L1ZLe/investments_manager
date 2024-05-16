@@ -1,38 +1,38 @@
 [
   {
-    "ticker": "AMU/USDT",
-    "upTrend": true,
-    "start_date": "2024-05-06T00:00:00",
-    "extrems_date": ""
-  },
-  {
-    "ticker": "YGG/USDT",
-    "upTrend": true,
-    "start_date": "2024-05-06T00:00:00",
-    "extrems_date": ""
-  },
-  {
     "ticker": "ONDO/USDT",
     "upTrend": true,
     "start_date": "2024-04-14T00:00:00",
-    "extrems_date": ""
+    "extrems_date": "2024-04-14T00:00:00"
   },
   {
     "ticker": "SAND/USDT",
     "upTrend": false,
     "start_date": "2024-04-12T00:00:00",
-    "extrems_date": ""
+    "extrems_date": "2024-04-12T00:00:00"
+  },
+  {
+    "ticker": "AMU/USDT",
+    "upTrend": true,
+    "start_date": "2024-05-06T00:00:00",
+    "extrems_date": "2024-05-11T00:00:00"
+  },
+  {
+    "ticker": "YGG/USDT",
+    "upTrend": true,
+    "start_date": "2024-05-06T00:00:00",
+    "extrems_date": "2024-05-06T00:00:00"
   },
   {
     "ticker": "ARB/USDT",
     "upTrend": false,
     "start_date": "2024-04-12T00:00:00",
-    "extrems_date": ""
+    "extrems_date": "2024-04-12T00:00:00"
   },
   {
     "ticker": "VEE/USDT",
     "upTrend": true,
     "start_date": "2024-04-24T00:00:00",
-    "extrems_date": ""
+    "extrems_date": "2024-04-24T00:00:00"
   }
 ]
