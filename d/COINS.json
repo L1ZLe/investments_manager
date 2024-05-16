@@ -28,5 +28,20 @@
     "ticker": "VEE/USDT",
     "exchange_id": "GATEIO",
     "timeframe": "1DAY"
+  },
+  {
+    "ticker": "BTC/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "1DAY"
+  },
+  {
+    "ticker": "PYR/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "1DAY"
+  },
+  {
+    "ticker": "LINK/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "1DAY"
   }
 ]
