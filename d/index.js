@@ -120,6 +120,7 @@ async function readJson(trend, ticker) {
 async function getLatestHighAndLow(
   data,
   start_date,
+  extrems_date,
   initialTrend,
   newTrend,
   high,
@@ -127,21 +128,23 @@ async function getLatestHighAndLow(
   close
 ) {
   try {
-    let i = 0
+    let i = 1
     let temp
-    let temp_date
 
     if (initialTrend && !newTrend) {
       // if the trend shifted then we need to reset the variables
       low = Infinity
       close = Infinity
-      high = -Infinity
+      high = null
+      start_date = extrems_date // this will assign the extreme date to the start date
     }
     if (!initialTrend && newTrend) {
       high = -Infinity
       close = -Infinity
-      low = Infinity
+      low = null
+      start_date = extrems_date // this will assign the extreme date to the start date
     }
+
     // if the trend is up
     if (newTrend) {
       //finding the high starting from the current price leg we are at
@@ -149,7 +152,7 @@ async function getLatestHighAndLow(
         // find the highest point in the current leg
         if (high <= data[i]?.price_high) {
           high = data[i]?.price_high
-          temp_date = data[i - 1]?.time_period_start // this will make the code start from the previous day in the next cycle
+          extrems_date = data[i - 1]?.time_period_start
           temp = i - 1 // theis will makes it start from the previous day (if temp = i -1 ) or from today (if temp = i)
         }
       }
@@ -160,9 +163,7 @@ async function getLatestHighAndLow(
           break
         }
         if (
-          data[temp - 1].price_close > data[temp]?.price_close &&
-          data[temp - 1] &&
-          data[temp + 1].price_close > data[temp]?.price_close &&
+          data[temp].price_open > data[temp]?.price_close &&
           close < data[temp]?.price_close
         ) {
           close = data[temp]?.price_close
@@ -175,7 +176,7 @@ async function getLatestHighAndLow(
       for (i; i < data.length; i++) {
         if (low >= data[i]?.price_low) {
           low = data[i]?.price_low
-          temp_date = data[i - 1]?.time_period_start
+          extrems_date = data[i - 1]?.time_period_start
           temp = i - 1
         }
       }
@@ -184,9 +185,7 @@ async function getLatestHighAndLow(
           break
         }
         if (
-          data[temp - 1].price_close < data[temp]?.price_close &&
-          data[temp - 1] &&
-          data[temp + 1].price_close < data[temp]?.price_close &&
+          data[temp].price_open < data[temp]?.price_close &&
           close > data[temp]?.price_close
         ) {
           close = data[temp]?.price_close
@@ -195,19 +194,36 @@ async function getLatestHighAndLow(
       }
     }
 
-    if (newTrend == initialTrend) {
-      // we need to store the start date for the next cycle so that we fetch only the new data in the next cycle
-      start_date = temp_date
+    if (close == null || close == Infinity || close == -Infinity) {
+      console.log(
+        "\x1b[33m",
+        "we assume that close is the starting point",
+        "\x1b[0m"
+      )
+      close = data[0].price_close
     }
 
-    return { high, low, close, start_date }
+    return { high, low, close, start_date, extrems_date }
   } catch (err) {
     console.error(err)
-    return { high: null, low: null, close: null, start_date: null }
+    return {
+      high: null,
+      low: null,
+      close: null,
+      start_date: null,
+    }
   }
 }
 ////////////////////////////////////////////// WRITE JSON DATA TO FILE //////////////////////////////////////////////
-async function writeJsonFiles(newTrend, start_date, ticker, high, low, close) {
+async function writeJsonFiles(
+  newTrend,
+  start_date,
+  extrems_date,
+  ticker,
+  high,
+  low,
+  close
+) {
   try {
     if (close == null || ticker == null) {
       console.log("No data available to write to the file")
@@ -236,16 +252,23 @@ async function writeJsonFiles(newTrend, start_date, ticker, high, low, close) {
 
     const newCoin = { ticker, high, low, close }
     start_date = start_date.substring(0, 19)
+    extrems_date = extrems_date.substring(0, 19)
     console.log({
       ticker: ticker,
       newTrend: newTrend,
       "the high": high,
       "the low": low,
       "the close": close,
-      "the start_date": start_date,
+      "the start_date - 1 day": start_date,
+      "the extrems_date - 1 day": extrems_date,
     })
     hlcData.push(newCoin)
-    const newTrendData = { ticker, upTrend: newTrend, start_date: start_date }
+    const newTrendData = {
+      ticker,
+      upTrend: newTrend,
+      start_date: start_date,
+      extrems_date: extrems_date,
+    }
     trendData.push(newTrendData)
 
     // Write the updated hlc and trend files
@@ -340,12 +363,13 @@ async function main() {
     console.log("\x1b[31m", symbolId, periodId, ticker, "\x1b[0m")
 
     const coinTrend = await coinsTrends.find((coin) => coin.ticker === ticker)
+
     if (!coinTrend) {
       console.error(`Coin ${ticker} not found in trend.json`)
       console.error("Please add it to trend.json")
       return
     }
-    const { upTrend: initialTrend } = coinTrend
+    const { upTrend: initialTrend, extrems_date: extrems } = coinTrend
     console.log(`The Original trend of ${ticker} was : ${initialTrend}`)
 
     const { start_date: timeStart } = coinTrend
@@ -364,17 +388,19 @@ async function main() {
 
     let newTrend = await detectTrend(data, initialTrend, close_readfiles) // Detecting the new trend based on the previous close price and the new close we get from CoinAPI data
 
-    const { high, low, close, start_date } = await getLatestHighAndLow(
-      data,
-      timeStart,
-      initialTrend,
-      newTrend,
-      high_readfiles,
-      low_readfiles,
-      close_readfiles
-    )
+    const { high, low, close, start_date, extrems_date } =
+      await getLatestHighAndLow(
+        data,
+        timeStart,
+        extrems,
+        initialTrend,
+        newTrend,
+        high_readfiles,
+        low_readfiles,
+        close_readfiles
+      )
 
-    writeJsonFiles(newTrend, start_date, ticker, high, low, close) // Writing the new data to the hlc.json and trend.json files
+    writeJsonFiles(newTrend, start_date, extrems_date, ticker, high, low, close) // Writing the new data to the hlc.json and trend.json files
 
     if (initialTrend && !newTrend) {
       // if we shifted the trend from up to down, then we need to sell
@@ -387,7 +413,7 @@ async function main() {
         text:
           "Investment Manager: " +
           ticker +
-          " has been sold on the Daily Timeframe on " +
+          " has been sold on the 4h Timeframe on " +
           coinData.exchange_id,
       }
 
@@ -401,7 +427,7 @@ async function main() {
     }
     if (!initialTrend && newTrend) {
       // if we shifted the trend from down to up, then we need to buy
-      const amountToSpend = 10 // the $ amount we want to spend on buying the coin. This can be changed based on how many coins we want to buy (from the coins.json file)
+      const amountToSpend = 20 // the $ amount we want to spend on buying the coin. This can be changed based on how many coins we want to buy (from the coins.json file)
       buy(amountToSpend, ticker, coinData.exchange_id)
       // Send email
       const mailOptions = {
@@ -411,7 +437,7 @@ async function main() {
         text:
           "Investment Manager: " +
           ticker +
-          " has been bought on the Daily Timeframe on " +
+          " has been bought on the 4h Timeframe on " +
           coinData.exchange_id,
       }
 
