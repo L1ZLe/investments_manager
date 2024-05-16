@@ -413,7 +413,7 @@ async function main() {
         text:
           "Investment Manager: " +
           ticker +
-          " has been sold on the 4h Timeframe on " +
+          " has been sold on the Daily Timeframe on " +
           coinData.exchange_id,
       }
 
@@ -437,7 +437,7 @@ async function main() {
         text:
           "Investment Manager: " +
           ticker +
-          " has been bought on the 4h Timeframe on " +
+          " has been bought on the Daily Timeframe on " +
           coinData.exchange_id,
       }
 
