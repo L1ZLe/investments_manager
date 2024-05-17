@@ -27,6 +27,10 @@ const GATEIO = new ccxt.gateio({
     createMarketBuyOrderRequiresPrice: false,
   },
 })
+const MEXC = new ccxt.mexc({
+  apiKey: process.env.MEXC_ApiKey,
+  secret: process.env.MEXC_SecretKey,
+})
 ////////////////////////////////////////////// FETCHING DATA USING COINAPI //////////////////////////////////////////////
 async function fetchOHLCV(
   symbolId,
@@ -68,20 +72,22 @@ async function fetchOHLCV(
   }
 }
 ////////////////////////////////////////////// UPTREND || DOWNTREND DETECTION //////////////////////////////////////////////
-async function detectTrend(data, trend, close_readfiles) {
+async function detectTrend(data, extrems_date, trend, close_readfiles) {
   try {
     const latestClose = data[data.length - 1].price_close // this is the latest close price there is no data.length
-
     if (trend && latestClose < close_readfiles) {
       trend = false
+      data = data.filter((d) => d.time_period_start >= extrems_date)
     }
 
     if (!trend && latestClose > close_readfiles) {
       trend = true
+      data = data.filter((d) => d.time_period_start >= extrems_date)
     }
 
     console.log(`The Final trend is : ${trend}`)
-    return trend
+
+    return { newTrend: trend, data } // WHAT THIS DOES IS RETURN THE DATA AND THE TREND AS NEWTREND
   } catch (error) {
     console.log(error)
   }
@@ -153,7 +159,7 @@ async function getLatestHighAndLow(
         if (high <= data[i]?.price_high) {
           high = data[i]?.price_high
           extrems_date = data[i - 1]?.time_period_start
-          temp = i - 1 // theis will makes it start from the previous day (if temp = i -1 ) or from today (if temp = i)
+          temp = i - 1 // this will makes it start from the previous day (if temp = i -1 ) or from today (if temp = i)
         }
       }
       //finding the close that preceded the high starting from the previous day (latest price swing)
@@ -163,8 +169,9 @@ async function getLatestHighAndLow(
           break
         }
         if (
-          data[temp].price_open > data[temp]?.price_close &&
-          close < data[temp]?.price_close
+          data[temp - 1].price_close > data[temp]?.price_close &&
+          data[temp - 1] &&
+          data[temp + 1].price_close > data[temp]?.price_close
         ) {
           close = data[temp]?.price_close
           break
@@ -185,8 +192,9 @@ async function getLatestHighAndLow(
           break
         }
         if (
-          data[temp].price_open < data[temp]?.price_close &&
-          close > data[temp]?.price_close
+          data[temp - 1].price_close < data[temp]?.price_close &&
+          data[temp - 1] &&
+          data[temp + 1].price_close < data[temp]?.price_close
         ) {
           close = data[temp]?.price_close
           break
@@ -273,9 +281,7 @@ async function writeJsonFiles(
 
     // Write the updated hlc and trend files
     fs.writeFileSync(hlcFilePath, JSON.stringify(hlcData, null, 2))
-    console.log(`${hlcFilePath} was modified for ${ticker}`)
     fs.writeFileSync(trendFilePath, JSON.stringify(trendData, null, 2))
-    console.log(`${trendFilePath} was modified for ${ticker}`)
   } catch (err) {
     console.error(err)
   }
@@ -289,11 +295,16 @@ async function sell(ticker, broker) {
     // Extract the base currency from the trading pair (EX: BTC/USDT -> BTC)
     const baseCurrency = ticker.split("/")[0]
     const selectedBroker =
-      broker === "BINANCE" ? BINANCE : broker === "GATEIO" ? GATEIO : null
+      broker === "BINANCE"
+        ? BINANCE
+        : broker === "GATEIO"
+        ? GATEIO
+        : broker === "MEXC"
+        ? MEXC
+        : null
 
     if (!selectedBroker) {
       console.error("Invalid broker specified.")
-      return
     }
     // Fetch your balance for the base currency
     const balance = await selectedBroker.fetchBalance()
@@ -321,7 +332,13 @@ async function buy(amountToSpend, ticker, broker) {
   try {
     console.log(`Buying ${ticker} on ${broker}`)
     const selectedBroker =
-      broker === "BINANCE" ? BINANCE : broker === "GATEIO" ? GATEIO : null
+      broker === "BINANCE"
+        ? BINANCE
+        : broker === "GATEIO"
+        ? GATEIO
+        : broker === "MEXC"
+        ? MEXC
+        : null
     if (selectedBroker === BINANCE) {
       const tickerData = await selectedBroker.fetchTicker(ticker)
       const Price = tickerData.last
@@ -366,8 +383,7 @@ async function main() {
 
     if (!coinTrend) {
       console.error(`Coin ${ticker} not found in trend.json`)
-      console.error("Please add it to trend.json")
-      return
+      console.error("\x1b[31m", "Please add it to trend.json", "\x1b[0m")
     }
     const { upTrend: initialTrend, extrems_date: extrems } = coinTrend
     console.log(`The Original trend of ${ticker} was : ${initialTrend}`)
@@ -378,7 +394,7 @@ async function main() {
     const [hours, minutes, seconds, _] = time.split(":")
     timeEnd = `${date}T${String(Number(hours)).padStart(2, "0")}:00:00`
 
-    const data = await fetchOHLCV(symbolId, periodId, timeStart, timeEnd) // Fetching the data from CoinAPI
+    const data1 = await fetchOHLCV(symbolId, periodId, timeStart, timeEnd) // Fetching the data from CoinAPI
 
     let {
       high: high_readfiles,
@@ -386,8 +402,12 @@ async function main() {
       close: close_readfiles,
     } = await readJson(initialTrend, ticker) // Reading the hlc and trend files and creating new object if it does not exist
 
-    let newTrend = await detectTrend(data, initialTrend, close_readfiles) // Detecting the new trend based on the previous close price and the new close we get from CoinAPI data
-
+    let { newTrend, data } = await detectTrend(
+      data1,
+      extrems,
+      initialTrend,
+      close_readfiles
+    ) // Detecting the new trend based on the previous close price and the new close we get from CoinAPI data
     const { high, low, close, start_date, extrems_date } =
       await getLatestHighAndLow(
         data,

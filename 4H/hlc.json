@@ -14,12 +14,12 @@
   {
     "ticker": "THG/USDT",
     "high": null,
-    "low": 0.05985,
-    "close": 0.06238
+    "low": 0.0594,
+    "close": 0.06226
   },
   {
     "ticker": "AURORA/USDT",
-    "high": 0.2167,
+    "high": 0.2171,
     "low": null,
     "close": 0.1964
   },
@@ -40,12 +40,6 @@
     "high": 0.2503,
     "low": null,
     "close": 0.2107
-  },
-  {
-    "ticker": "GPT/USDT",
-    "high": null,
-    "low": 0.30358,
-    "close": 0.37038
   },
   {
     "ticker": "NAKA/USDT",

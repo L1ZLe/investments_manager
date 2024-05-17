@@ -75,7 +75,6 @@ async function fetchOHLCV(
 async function detectTrend(data, extrems_date, trend, close_readfiles) {
   try {
     const latestClose = data[data.length - 1].price_close // this is the latest close price there is no data.length
-
     if (trend && latestClose < close_readfiles) {
       trend = false
       data = data.filter((d) => d.time_period_start >= extrems_date)
@@ -160,7 +159,7 @@ async function getLatestHighAndLow(
         if (high <= data[i]?.price_high) {
           high = data[i]?.price_high
           extrems_date = data[i - 1]?.time_period_start
-          temp = i - 1 // theis will makes it start from the previous day (if temp = i -1 ) or from today (if temp = i)
+          temp = i - 1 // this will makes it start from the previous day (if temp = i -1 ) or from today (if temp = i)
         }
       }
       //finding the close that preceded the high starting from the previous day (latest price swing)
@@ -282,9 +281,7 @@ async function writeJsonFiles(
 
     // Write the updated hlc and trend files
     fs.writeFileSync(hlcFilePath, JSON.stringify(hlcData, null, 2))
-    console.log(`${hlcFilePath} was modified for ${ticker}`)
     fs.writeFileSync(trendFilePath, JSON.stringify(trendData, null, 2))
-    console.log(`${trendFilePath} was modified for ${ticker}`)
   } catch (err) {
     console.error(err)
   }
