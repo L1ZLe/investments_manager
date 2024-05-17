@@ -14,8 +14,8 @@
   {
     "ticker": "THG/USDT",
     "high": null,
-    "low": 0.06148,
-    "close": 0.0637
+    "low": 0.0594,
+    "close": 0.06226
   },
   {
     "ticker": "AURORA/USDT",
@@ -25,9 +25,9 @@
   },
   {
     "ticker": "ERN/USDT",
-    "high": null,
-    "low": 3.913,
-    "close": 4.102
+    "high": 4.82,
+    "low": null,
+    "close": 4.399
   },
   {
     "ticker": "KAS/USDT",
