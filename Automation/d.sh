@@ -4,7 +4,7 @@
 cd /home/l1zle/Investment-manager/d
 
 # Run your Node.js script and wait for it to finish
-/home/l1zle/.nvm/versions/node/v20.12.1/bin/node index.js && wait
+/home/l1zle/.nvm/versions/node/v20.12.1/bin/node index.js &> /home/l1zle/Investment-manager/Automation/last_output_d.txt && wait
 
 cd /home/l1zle/Investment-manager/Automation
 

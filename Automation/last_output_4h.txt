@@ -1,0 +1,132 @@
+[31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
+The Original trend of ENS/USDT was : true
+The Final trend is : true
+{
+  ticker: 'ENS/USDT',
+  newTrend: true,
+  'the high': 15.29,
+  'the low': null,
+  'the close': 14.08,
+  'the start_date - 1 day': '2024-05-12T20:00:00',
+  'the extrems_date - 1 day': '2024-05-17T00:00:00'
+}
+[31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
+The Original trend of LOOKS/USDT was : true
+The Final trend is : true
+{
+  ticker: 'LOOKS/USDT',
+  newTrend: true,
+  'the high': 0.08823,
+  'the low': null,
+  'the close': 0.07905,
+  'the start_date - 1 day': '2024-05-14T16:00:00',
+  'the extrems_date - 1 day': '2024-05-15T16:00:00'
+}
+[31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
+The Original trend of THG/USDT was : false
+The Final trend is : false
+{
+  ticker: 'THG/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.0594,
+  'the close': 0.06226,
+  'the start_date - 1 day': '2024-05-15T00:00:00',
+  'the extrems_date - 1 day': '2024-05-17T04:00:00'
+}
+[31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
+The Original trend of AURORA/USDT was : true
+The Final trend is : true
+{
+  ticker: 'AURORA/USDT',
+  newTrend: true,
+  'the high': 0.2288,
+  'the low': null,
+  'the close': 0.1964,
+  'the start_date - 1 day': '2024-05-15T04:00:00',
+  'the extrems_date - 1 day': '2024-05-17T16:00:00'
+}
+[31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
+The Original trend of ERN/USDT was : true
+The Final trend is : true
+{
+  ticker: 'ERN/USDT',
+  newTrend: true,
+  'the high': 4.82,
+  'the low': null,
+  'the close': 4.399,
+  'the start_date - 1 day': '2024-05-15T04:00:00',
+  'the extrems_date - 1 day': '2024-05-17T04:00:00'
+}
+[31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
+The Original trend of KAS/USDT was : true
+The Final trend is : true
+{
+  ticker: 'KAS/USDT',
+  newTrend: true,
+  'the high': 0.12481,
+  'the low': null,
+  'the close': 0.12095,
+  'the start_date - 1 day': '2024-05-16T08:00:00',
+  'the extrems_date - 1 day': '2024-05-17T08:00:00'
+}
+[31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
+The Original trend of RTF/USDT was : true
+The Final trend is : true
+{
+  ticker: 'RTF/USDT',
+  newTrend: true,
+  'the high': 0.2503,
+  'the low': null,
+  'the close': 0.2107,
+  'the start_date - 1 day': '2024-05-11T20:00:00',
+  'the extrems_date - 1 day': '2024-05-15T04:00:00'
+}
+[31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
+The Original trend of NAKA/USDT was : false
+The Final trend is : false
+{
+  ticker: 'NAKA/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 1.3211,
+  'the close': 1.4905,
+  'the start_date - 1 day': '2024-05-15T20:00:00',
+  'the extrems_date - 1 day': '2024-05-16T12:00:00'
+}
+[31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
+The Original trend of ANKR/USDT was : false
+The Final trend is : false
+{
+  ticker: 'ANKR/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.04328,
+  'the close': 0.04569,
+  'the start_date - 1 day': '2024-05-16T00:00:00',
+  'the extrems_date - 1 day': '2024-05-16T08:00:00'
+}
+[31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
+The Original trend of PHB/USDT was : true
+The Final trend is : true
+{
+  ticker: 'PHB/USDT',
+  newTrend: true,
+  'the high': 2.8749,
+  'the low': null,
+  'the close': 2.1843,
+  'the start_date - 1 day': '2024-05-14T12:00:00',
+  'the extrems_date - 1 day': '2024-05-15T16:00:00'
+}
+[31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
+The Original trend of HOT/USDT was : true
+The Final trend is : true
+{
+  ticker: 'HOT/USDT',
+  newTrend: true,
+  'the high': 0.002333,
+  'the low': null,
+  'the close': 0.002246,
+  'the start_date - 1 day': '2024-05-16T08:00:00',
+  'the extrems_date - 1 day': '2024-05-17T12:00:00'
+}
