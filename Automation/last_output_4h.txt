@@ -76,11 +76,11 @@ The Final trend is : true
 {
   ticker: 'RTF/USDT',
   newTrend: true,
-  'the high': 0.2503,
+  'the high': 0.2856,
   'the low': null,
-  'the close': 0.2107,
+  'the close': 0.22749,
   'the start_date - 1 day': '2024-05-11T20:00:00',
-  'the extrems_date - 1 day': '2024-05-15T04:00:00'
+  'the extrems_date - 1 day': '2024-05-18T12:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : true
