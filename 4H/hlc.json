@@ -1,9 +1,9 @@
 [
   {
     "ticker": "ENS/USDT",
-    "high": 15.29,
+    "high": 15.3,
     "low": null,
-    "close": 14.08
+    "close": 14.98
   },
   {
     "ticker": "LOOKS/USDT",
@@ -19,7 +19,7 @@
   },
   {
     "ticker": "AURORA/USDT",
-    "high": 0.2309,
+    "high": 0.2312,
     "low": null,
     "close": 0.2125
   },
@@ -43,7 +43,7 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "high": 1.5332,
+    "high": 1.5743,
     "low": null,
     "close": 1.4756
   },
