@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 15.3,
+  'the high': 15.44,
   'the low': null,
-  'the close': 14.98,
+  'the close': 15,
   'the start_date - 1 day': '2024-05-12T20:00:00',
-  'the extrems_date - 1 day': '2024-05-18T04:00:00'
+  'the extrems_date - 1 day': '2024-05-18T20:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
@@ -71,20 +71,17 @@ The Final trend is : true
   'the extrems_date - 1 day': '2024-05-17T08:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
-The Original trend of RTF/USDT was : true
+The Original trend of RTF/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'RTF/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.21714,
+  'the low': 0.20437,
   'the close': 0.27863,
   'the start_date - 1 day': '2024-05-18T12:00:00',
-  'the extrems_date - 1 day': '2024-05-18T16:00:00'
+  'the extrems_date - 1 day': '2024-05-18T20:00:00'
 }
-Selling RTF/USDT on GATEIO
-Email sent: 250 2.0.0 OK  1716076846 5b1f17b1804b1-41fccee94dasm363952665e9.32 - gsmtp
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : true
 The Final trend is : true
@@ -109,8 +106,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-16T00:00:00',
   'the extrems_date - 1 day': '2024-05-16T08:00:00'
 }
-Error creating order: PermissionDenied: gateio {"label":"FORBIDDEN","message":"Request IP not in whitelist: 160.177.65.216"}
-
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : true
 The Final trend is : true
