@@ -37,9 +37,9 @@
   },
   {
     "ticker": "RTF/USDT",
-    "high": 0.2856,
-    "low": null,
-    "close": 0.22749
+    "high": null,
+    "low": 0.21714,
+    "close": 0.27863
   },
   {
     "ticker": "NAKA/USDT",
