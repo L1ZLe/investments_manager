@@ -1,15 +1,19 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
 The Original trend of ENS/USDT was : true
-The Final trend is : true
+The Final trend is : false
+[33m we assume that close is the starting point [0m
 {
   ticker: 'ENS/USDT',
-  newTrend: true,
-  'the high': 15.44,
-  'the low': null,
-  'the close': 15,
-  'the start_date - 1 day': '2024-05-12T20:00:00',
-  'the extrems_date - 1 day': '2024-05-18T20:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 14.7,
+  'the close': 15.22,
+  'the start_date - 1 day': '2024-05-18T20:00:00',
+  'the extrems_date - 1 day': '2024-05-19T04:00:00'
 }
+Selling ENS/USDT on BINANCE
+Error creating order: AuthenticationError: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
+Email about selling is sent
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
 The Final trend is : true
@@ -77,10 +81,10 @@ The Final trend is : false
   ticker: 'RTF/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.20116,
+  'the low': 0.1867,
   'the close': 0.27863,
   'the start_date - 1 day': '2024-05-18T12:00:00',
-  'the extrems_date - 1 day': '2024-05-19T00:00:00'
+  'the extrems_date - 1 day': '2024-05-19T04:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : true
@@ -120,13 +124,16 @@ The Final trend is : true
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'HOT/USDT',
-  newTrend: true,
-  'the high': 0.002333,
-  'the low': null,
-  'the close': 0.002246,
-  'the start_date - 1 day': '2024-05-16T08:00:00',
-  'the extrems_date - 1 day': '2024-05-17T12:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.002214,
+  'the close': 0.00227,
+  'the start_date - 1 day': '2024-05-17T12:00:00',
+  'the extrems_date - 1 day': '2024-05-19T04:00:00'
 }
+Selling HOT/USDT on BINANCE
+Error creating order: AuthenticationError: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
+Email about selling is sent

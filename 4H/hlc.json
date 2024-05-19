@@ -1,9 +1,9 @@
 [
   {
     "ticker": "ENS/USDT",
-    "high": 15.44,
-    "low": null,
-    "close": 15
+    "high": null,
+    "low": 14.7,
+    "close": 15.22
   },
   {
     "ticker": "LOOKS/USDT",
@@ -38,7 +38,7 @@
   {
     "ticker": "RTF/USDT",
     "high": null,
-    "low": 0.20116,
+    "low": 0.1867,
     "close": 0.27863
   },
   {
@@ -61,8 +61,8 @@
   },
   {
     "ticker": "HOT/USDT",
-    "high": 0.002333,
-    "low": null,
-    "close": 0.002246
+    "high": null,
+    "low": 0.002214,
+    "close": 0.00227
   }
 ]

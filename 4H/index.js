@@ -439,9 +439,9 @@ async function main() {
 
       transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
-          console.error("Error:", error)
+          console.error("Error sending email:", error)
         } else {
-          console.log("Email sent:", info.response)
+          console.log("Email about selling is sent")
         }
       })
     }
@@ -463,9 +463,9 @@ async function main() {
 
       transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
-          console.error("Error:", error)
+          console.error("Error sending email:", error)
         } else {
-          console.log("Email sent:", info.response)
+          console.log("Email about buying is sent")
         }
       })
     }
