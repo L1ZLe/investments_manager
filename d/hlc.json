@@ -1,9 +1,9 @@
 [
   {
     "ticker": "ONDO/USDT",
-    "high": 1.03,
+    "high": 1.0414,
     "low": null,
-    "close": 0.69965
+    "close": 0.73378
   },
   {
     "ticker": "SAND/USDT",
@@ -19,7 +19,7 @@
   },
   {
     "ticker": "YGG/USDT",
-    "high": 0.915,
+    "high": 0.9331,
     "low": null,
     "close": 0.8163
   },
@@ -37,7 +37,7 @@
   },
   {
     "ticker": "PYR/USDT",
-    "high": 4.735,
+    "high": 4.841,
     "low": null,
     "close": 4.032
   },

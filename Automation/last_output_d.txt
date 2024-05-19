@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ONDO/USDT',
   newTrend: true,
-  'the high': 1.03,
+  'the high': 1.0414,
   'the low': null,
-  'the close': 0.69965,
+  'the close': 0.73378,
   'the start_date - 1 day': '2024-04-11T00:00:00',
-  'the extrems_date - 1 day': '2024-04-14T00:00:00'
+  'the extrems_date - 1 day': '2024-05-17T00:00:00'
 }
 [31m BINANCE_SPOT_SAND_USDT 1DAY SAND/USDT [0m
 The Original trend of SAND/USDT was : false
@@ -40,11 +40,11 @@ The Final trend is : true
 {
   ticker: 'YGG/USDT',
   newTrend: true,
-  'the high': 0.915,
+  'the high': 0.9331,
   'the low': null,
   'the close': 0.8163,
   'the start_date - 1 day': '2024-05-13T00:00:00',
-  'the extrems_date - 1 day': '2024-05-16T00:00:00'
+  'the extrems_date - 1 day': '2024-05-17T00:00:00'
 }
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
@@ -76,11 +76,11 @@ The Final trend is : true
 {
   ticker: 'PYR/USDT',
   newTrend: true,
-  'the high': 4.735,
+  'the high': 4.841,
   'the low': null,
   'the close': 4.032,
   'the start_date - 1 day': '2024-05-13T00:00:00',
-  'the extrems_date - 1 day': '2024-05-16T00:00:00'
+  'the extrems_date - 1 day': '2024-05-17T00:00:00'
 }
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
