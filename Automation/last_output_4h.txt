@@ -41,10 +41,10 @@ The Final trend is : false
   ticker: 'AURORA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.2066,
+  'the low': 0.206,
   'the close': 0.2105,
   'the start_date - 1 day': '2024-05-18T04:00:00',
-  'the extrems_date - 1 day': '2024-05-20T00:00:00'
+  'the extrems_date - 1 day': '2024-05-20T04:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
@@ -72,16 +72,18 @@ The Final trend is : true
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'RTF/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.18474,
-  'the close': 0.19097,
-  'the start_date - 1 day': '2024-05-18T12:00:00',
-  'the extrems_date - 1 day': '2024-05-19T16:00:00'
+  newTrend: true,
+  'the high': 0.19512,
+  'the low': null,
+  'the close': 0.18574,
+  'the start_date - 1 day': '2024-05-19T16:00:00',
+  'the extrems_date - 1 day': '2024-05-20T04:00:00'
 }
+Buying RTF/USDT on GATEIO
+Email about buying is sent
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : true
 The Final trend is : true
@@ -108,6 +110,8 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : true
+Error creating order: gateio {"message":"Request IP not in whitelist: 105.155.160.249","label":"FORBIDDEN"}
+
 The Final trend is : true
 {
   ticker: 'PHB/USDT',

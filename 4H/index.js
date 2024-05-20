@@ -30,6 +30,9 @@ const GATEIO = new ccxt.gateio({
 const MEXC = new ccxt.mexc({
   apiKey: process.env.MEXC_ApiKey,
   secret: process.env.MEXC_SecretKey,
+  options: {
+    createMarketBuyOrderRequiresPrice: false,
+  },
 })
 ////////////////////////////////////////////// FETCHING DATA USING COINAPI //////////////////////////////////////////////
 async function fetchOHLCV(
@@ -293,7 +296,7 @@ async function sell(ticker, broker) {
   try {
     console.log(`Selling ${ticker} on ${broker}`)
     // Extract the base currency from the trading pair (EX: BTC/USDT -> BTC)
-    const baseCurrency = ticker.split("/")[0]
+
     const selectedBroker =
       broker === "BINANCE"
         ? BINANCE
@@ -307,6 +310,7 @@ async function sell(ticker, broker) {
       console.error("Invalid broker specified.")
     }
     // Fetch your balance for the base currency
+    const baseCurrency = ticker.split("/")[0]
     const balance = await selectedBroker.fetchBalance()
     const coinBalance = balance[baseCurrency]["free"]
     console.log(`Balance: ${coinBalance} ${baseCurrency}`)
@@ -320,6 +324,7 @@ async function sell(ticker, broker) {
         "sell",
         coinBalance
       )
+
       console.log(`Sold: ${order.cost}$ of ${order.symbol}`)
     } else {
       console.log(`You have no balance of ${baseCurrency} to sell.`)
@@ -330,6 +335,7 @@ async function sell(ticker, broker) {
 }
 async function buy(amountToSpend, ticker, broker) {
   try {
+    let order
     console.log(`Buying ${ticker} on ${broker}`)
     const selectedBroker =
       broker === "BINANCE"
@@ -339,26 +345,33 @@ async function buy(amountToSpend, ticker, broker) {
         : broker === "MEXC"
         ? MEXC
         : null
+    if (!selectedBroker) {
+      console.error("Invalid broker specified.")
+    }
     if (selectedBroker === BINANCE) {
       const tickerData = await selectedBroker.fetchTicker(ticker)
       const Price = tickerData.last
       const Amount = amountToSpend / Price
-      const order = await selectedBroker.createOrder(
+      order = await selectedBroker.createOrder(ticker, "market", "buy", Amount)
+    }
+    if (selectedBroker === GATEIO) {
+      order = await selectedBroker.createOrder(
         ticker,
         "market",
         "buy",
-        Amount
+        amountToSpend,
+        undefined
       )
-      console.log(`bought: ${order.cost}$ of ${order.symbol}`)
-      return
     }
-    const order = await selectedBroker.createOrder(
-      ticker,
-      "market",
-      "buy",
-      amountToSpend,
-      undefined
-    )
+    if (selectedBroker === MEXC) {
+      order = await selectedBroker.createOrder(
+        ticker,
+        "market",
+        "buy",
+        amountToSpend,
+        undefined
+      )
+    }
     console.log(`bought: ${order.cost}$ of ${order.symbol}`)
     return
   } catch (error) {
