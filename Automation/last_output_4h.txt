@@ -29,10 +29,10 @@ The Final trend is : false
   ticker: 'THG/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.05697,
-  'the close': 0.06021,
+  'the low': 0.05645,
+  'the close': 0.05746,
   'the start_date - 1 day': '2024-05-15T00:00:00',
-  'the extrems_date - 1 day': '2024-05-19T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T00:00:00'
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : false
@@ -41,10 +41,10 @@ The Final trend is : false
   ticker: 'AURORA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.2079,
-  'the close': 0.2174,
+  'the low': 0.2066,
+  'the close': 0.2105,
   'the start_date - 1 day': '2024-05-18T04:00:00',
-  'the extrems_date - 1 day': '2024-05-19T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T00:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
