@@ -4,28 +4,24 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 18.8,
+  'the high': 21.8,
   'the low': null,
   'the close': 14.53,
   'the start_date - 1 day': '2024-05-19T20:00:00',
-  'the extrems_date - 1 day': '2024-05-20T20:00:00'
+  'the extrems_date - 1 day': '2024-05-21T00:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
-The Original trend of INSP/USDT was : false
+The Original trend of INSP/USDT was : true
 The Final trend is : true
-[33m we assume that close is the starting point [0m
 {
   ticker: 'INSP/USDT',
   newTrend: true,
-  'the high': 0.09036,
+  'the high': 0.11648,
   'the low': null,
-  'the close': 0.08512,
+  'the close': 0.1117,
   'the start_date - 1 day': '',
-  'the extrems_date - 1 day': '2024-05-09T16:00:00'
+  'the extrems_date - 1 day': '2024-05-05T00:00:00'
 }
-Buying INSP/USDT on MEXC
-Error creating order: mexc {"code":10072,"msg":"Api key info invalid"}
-Email about buying is sent
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
 The Final trend is : true
@@ -80,11 +76,11 @@ The Final trend is : true
 {
   ticker: 'KAS/USDT',
   newTrend: true,
-  'the high': 0.12995,
+  'the high': 0.13006,
   'the low': null,
-  'the close': 0.12147,
+  'the close': 0.1276,
   'the start_date - 1 day': '2024-05-16T08:00:00',
-  'the extrems_date - 1 day': '2024-05-20T12:00:00'
+  'the extrems_date - 1 day': '2024-05-21T00:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
@@ -93,10 +89,10 @@ The Final trend is : false
   ticker: 'RTF/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.17875,
+  'the low': 0.17694,
   'the close': 0.19639,
   'the start_date - 1 day': '2024-05-20T08:00:00',
-  'the extrems_date - 1 day': '2024-05-20T20:00:00'
+  'the extrems_date - 1 day': '2024-05-21T00:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : true
@@ -128,11 +124,11 @@ The Final trend is : true
 {
   ticker: 'PHB/USDT',
   newTrend: true,
-  'the high': 2.8749,
+  'the high': 2.8846,
   'the low': null,
-  'the close': 2.1843,
+  'the close': 2.6063,
   'the start_date - 1 day': '2024-05-14T12:00:00',
-  'the extrems_date - 1 day': '2024-05-15T16:00:00'
+  'the extrems_date - 1 day': '2024-05-21T00:00:00'
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : true
