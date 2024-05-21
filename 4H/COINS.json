@@ -5,6 +5,11 @@
     "timeframe": "4HRS"
   },
   {
+    "ticker": "INSP/USDT",
+    "exchange_id": "MEXC",
+    "timeframe": "4HRS"
+  },
+  {
     "ticker": "LOOKS/USDT",
     "exchange_id": "GATEIO",
     "timeframe": "4HRS"

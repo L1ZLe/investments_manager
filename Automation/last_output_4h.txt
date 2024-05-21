@@ -1,17 +1,30 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : false
+The Original trend of ENS/USDT was : true
 The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 18.21,
+  'the high': 18.8,
   'the low': null,
   'the close': 14.53,
   'the start_date - 1 day': '2024-05-19T20:00:00',
-  'the extrems_date - 1 day': '2024-05-20T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T20:00:00'
 }
-Buying ENS/USDT on BINANCE
-Error creating order: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
+[31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
+The Original trend of INSP/USDT was : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
+{
+  ticker: 'INSP/USDT',
+  newTrend: true,
+  'the high': 0.09036,
+  'the low': null,
+  'the close': 0.08512,
+  'the start_date - 1 day': '',
+  'the extrems_date - 1 day': '2024-05-09T16:00:00'
+}
+Buying INSP/USDT on MEXC
+Error creating order: mexc {"code":10072,"msg":"Api key info invalid"}
 Email about buying is sent
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
@@ -19,11 +32,11 @@ The Final trend is : true
 {
   ticker: 'LOOKS/USDT',
   newTrend: true,
-  'the high': 0.09575,
+  'the high': 0.09588,
   'the low': null,
   'the close': 0.08316,
   'the start_date - 1 day': '2024-05-14T16:00:00',
-  'the extrems_date - 1 day': '2024-05-20T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T20:00:00'
 }
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : true
@@ -31,41 +44,36 @@ The Final trend is : true
 {
   ticker: 'THG/USDT',
   newTrend: true,
-  'the high': 0.0599,
+  'the high': 0.06047,
   'the low': null,
   'the close': 0.05679,
   'the start_date - 1 day': '2024-05-20T00:00:00',
-  'the extrems_date - 1 day': '2024-05-20T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T20:00:00'
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
-The Original trend of AURORA/USDT was : false
+The Original trend of AURORA/USDT was : true
 The Final trend is : true
 {
   ticker: 'AURORA/USDT',
   newTrend: true,
-  'the high': 0.2201,
+  'the high': 0.2244,
   'the low': null,
   'the close': 0.2062,
   'the start_date - 1 day': '2024-05-20T08:00:00',
-  'the extrems_date - 1 day': '2024-05-20T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T20:00:00'
 }
-Buying AURORA/USDT on GATEIO
-Email about buying is sent
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
-The Original trend of ERN/USDT was : false
+The Original trend of ERN/USDT was : true
 The Final trend is : true
 {
   ticker: 'ERN/USDT',
   newTrend: true,
-  'the high': 4.744,
+  'the high': 4.749,
   'the low': null,
   'the close': 4.328,
   'the start_date - 1 day': '2024-05-19T20:00:00',
-  'the extrems_date - 1 day': '2024-05-20T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T20:00:00'
 }
-Buying ERN/USDT on BINANCE
-Error creating order: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
-Email about buying is sent
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
 The Final trend is : true
@@ -79,50 +87,41 @@ The Final trend is : true
   'the extrems_date - 1 day': '2024-05-20T12:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
-The Original trend of RTF/USDT was : true
-Error creating order: gateio {"message":"Request IP not in whitelist: 105.158.43.205","label":"FORBIDDEN"}
-
+The Original trend of RTF/USDT was : false
 The Final trend is : false
 {
   ticker: 'RTF/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.18157,
+  'the low': 0.17875,
   'the close': 0.19639,
   'the start_date - 1 day': '2024-05-20T08:00:00',
-  'the extrems_date - 1 day': '2024-05-20T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T20:00:00'
 }
-Selling RTF/USDT on GATEIO
-Error creating order: PermissionDenied: gateio {"message":"Request IP not in whitelist: 105.158.43.205","label":"FORBIDDEN"}
-
-Email about selling is sent
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : true
 The Final trend is : true
 {
   ticker: 'NAKA/USDT',
   newTrend: true,
-  'the high': 1.6267,
+  'the high': 1.6541,
   'the low': null,
   'the close': 1.4952,
   'the start_date - 1 day': '2024-05-16T12:00:00',
-  'the extrems_date - 1 day': '2024-05-20T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T20:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : false
+The Original trend of ANKR/USDT was : true
 The Final trend is : true
 {
   ticker: 'ANKR/USDT',
   newTrend: true,
-  'the high': 0.04741,
+  'the high': 0.04779,
   'the low': null,
   'the close': 0.04354,
   'the start_date - 1 day': '2024-05-19T20:00:00',
-  'the extrems_date - 1 day': '2024-05-20T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T20:00:00'
 }
-Buying ANKR/USDT on BINANCE
-Error creating order: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
-Email about buying is sent
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : true
 The Final trend is : true
@@ -136,17 +135,14 @@ The Final trend is : true
   'the extrems_date - 1 day': '2024-05-15T16:00:00'
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
-The Original trend of HOT/USDT was : false
+The Original trend of HOT/USDT was : true
 The Final trend is : true
 {
   ticker: 'HOT/USDT',
   newTrend: true,
-  'the high': 0.0024,
+  'the high': 0.002412,
   'the low': null,
   'the close': 0.002172,
   'the start_date - 1 day': '2024-05-19T20:00:00',
-  'the extrems_date - 1 day': '2024-05-20T16:00:00'
+  'the extrems_date - 1 day': '2024-05-20T20:00:00'
 }
-Buying HOT/USDT on BINANCE
-Error creating order: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."}
-Email about buying is sent
