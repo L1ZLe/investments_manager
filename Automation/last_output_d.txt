@@ -64,11 +64,11 @@ The Final trend is : true
 {
   ticker: 'BTC/USDT',
   newTrend: true,
-  'the high': 67700,
+  'the high': 71515.56,
   'the low': null,
-  'the close': 65235.21,
+  'the close': 66274.01,
   'the start_date - 1 day': '2024-04-30T00:00:00',
-  'the extrems_date - 1 day': '2024-05-18T00:00:00'
+  'the extrems_date - 1 day': '2024-05-19T00:00:00'
 }
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : true
@@ -76,11 +76,11 @@ The Final trend is : true
 {
   ticker: 'PYR/USDT',
   newTrend: true,
-  'the high': 4.841,
+  'the high': 5,
   'the low': null,
-  'the close': 4.032,
+  'the close': 4.535,
   'the start_date - 1 day': '2024-05-13T00:00:00',
-  'the extrems_date - 1 day': '2024-05-17T00:00:00'
+  'the extrems_date - 1 day': '2024-05-19T00:00:00'
 }
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false

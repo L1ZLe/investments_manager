@@ -31,15 +31,15 @@
   },
   {
     "ticker": "BTC/USDT",
-    "high": 67700,
+    "high": 71515.56,
     "low": null,
-    "close": 65235.21
+    "close": 66274.01
   },
   {
     "ticker": "PYR/USDT",
-    "high": 4.841,
+    "high": 5,
     "low": null,
-    "close": 4.032
+    "close": 4.535
   },
   {
     "ticker": "LINK/USDT",
