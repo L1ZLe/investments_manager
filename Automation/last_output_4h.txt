@@ -4,52 +4,51 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 21.99,
+  'the high': 22.11,
   'the low': null,
   'the close': 14.53,
   'the start_date - 1 day': '2024-05-19T20:00:00',
-  'the extrems_date - 1 day': '2024-05-21T08:00:00'
+  'the extrems_date - 1 day': '2024-05-21T16:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
-The Original trend of INSP/USDT was : true
+The Original trend of INSP/USDT was : false
 The Final trend is : false
 {
   ticker: 'INSP/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.07329,
+  'the low': 0.07324,
   'the close': 0.07502,
   'the start_date - 1 day': '2024-05-21T08:00:00',
-  'the extrems_date - 1 day': '2024-05-21T12:00:00'
+  'the extrems_date - 1 day': '2024-05-21T16:00:00'
 }
-Selling INSP/USDT on MEXC
-Email about selling is sent
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
 The Final trend is : true
 {
   ticker: 'LOOKS/USDT',
   newTrend: true,
-  'the high': 0.09819,
+  'the high': 0.09847,
   'the low': null,
-  'the close': 0.09363,
+  'the close': 0.0951,
   'the start_date - 1 day': '2024-05-14T16:00:00',
-  'the extrems_date - 1 day': '2024-05-21T12:00:00'
+  'the extrems_date - 1 day': '2024-05-21T16:00:00'
 }
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : true
-The Final trend is : true
+The Final trend is : false
+[33m we assume that close is the starting point [0m
 {
   ticker: 'THG/USDT',
-  newTrend: true,
-  'the high': 0.06217,
-  'the low': null,
-  'the close': 0.05906,
-  'the start_date - 1 day': '2024-05-20T00:00:00',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.05751,
+  'the close': 0.05926,
+  'the start_date - 1 day': '2024-05-21T12:00:00',
   'the extrems_date - 1 day': '2024-05-21T12:00:00'
 }
-Balance: 256.67 INSP
-Sold: undefined$ of INSP/USDT
+Selling THG/USDT on GATEIO
+Email about selling is sent
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : true
 The Final trend is : true
@@ -62,8 +61,10 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-20T08:00:00',
   'the extrems_date - 1 day': '2024-05-20T20:00:00'
 }
+Balance: 348.88631 THG
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : true
+Sold: 20.2106184$ of THG/USDT
 The Final trend is : true
 {
   ticker: 'ERN/USDT',
@@ -93,10 +94,10 @@ The Final trend is : false
   ticker: 'RTF/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.16416,
+  'the low': 0.16001,
   'the close': 0.19639,
   'the start_date - 1 day': '2024-05-20T08:00:00',
-  'the extrems_date - 1 day': '2024-05-21T12:00:00'
+  'the extrems_date - 1 day': '2024-05-21T16:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : false
@@ -111,9 +112,8 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-05-21T08:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : true
+The Original trend of ANKR/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'ANKR/USDT',
   newTrend: false,
@@ -123,8 +123,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-21T08:00:00',
   'the extrems_date - 1 day': '2024-05-21T12:00:00'
 }
-Selling ANKR/USDT on BINANCE
-Email about selling is sent
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : true
 The Final trend is : true
@@ -137,10 +135,8 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-14T12:00:00',
   'the extrems_date - 1 day': '2024-05-21T08:00:00'
 }
-Balance: 346.1650946 ANKR
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : true
-Sold: 15.944827$ of ANKR/USDT
 The Final trend is : true
 {
   ticker: 'HOT/USDT',
