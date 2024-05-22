@@ -13,15 +13,15 @@
   },
   {
     "ticker": "AMU/USDT",
-    "high": 0.04763,
+    "high": 0.05571,
     "low": null,
     "close": 0.03769
   },
   {
     "ticker": "YGG/USDT",
-    "high": 0.9331,
+    "high": 0.9576,
     "low": null,
-    "close": 0.8163
+    "close": 0.8504
   },
   {
     "ticker": "ARB/USDT",
@@ -31,7 +31,7 @@
   },
   {
     "ticker": "BTC/USDT",
-    "high": 71515.56,
+    "high": 71979,
     "low": null,
     "close": 66274.01
   },
