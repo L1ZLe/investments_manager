@@ -17,23 +17,25 @@ The Final trend is : false
   ticker: 'INSP/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.07105,
+  'the low': 0.0706,
   'the close': 0.0738,
   'the start_date - 1 day': '2024-05-21T08:00:00',
-  'the extrems_date - 1 day': '2024-05-22T00:00:00'
+  'the extrems_date - 1 day': '2024-05-22T04:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'LOOKS/USDT',
-  newTrend: true,
-  'the high': 0.09987,
-  'the low': null,
-  'the close': 0.0951,
-  'the start_date - 1 day': '2024-05-14T16:00:00',
-  'the extrems_date - 1 day': '2024-05-21T20:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.09417,
+  'the close': 0.09923,
+  'the start_date - 1 day': '2024-05-21T20:00:00',
+  'the extrems_date - 1 day': '2024-05-22T04:00:00'
 }
+Selling LOOKS/USDT on GATEIO
+Email about selling is sent
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
 The Final trend is : false
@@ -65,22 +67,24 @@ The Final trend is : false
   ticker: 'ERN/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 4.5,
+  'the low': 4.455,
   'the close': 4.745,
   'the start_date - 1 day': '2024-05-21T08:00:00',
-  'the extrems_date - 1 day': '2024-05-22T00:00:00'
+  'the extrems_date - 1 day': '2024-05-22T04:00:00'
 }
+Balance: 227.35461427 LOOKS
+Sold: 21.3137109$ of LOOKS/USDT
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
 The Final trend is : true
 {
   ticker: 'KAS/USDT',
   newTrend: true,
-  'the high': 0.136,
+  'the high': 0.1398,
   'the low': null,
-  'the close': 0.1276,
+  'the close': 0.13229,
   'the start_date - 1 day': '2024-05-16T08:00:00',
-  'the extrems_date - 1 day': '2024-05-21T04:00:00'
+  'the extrems_date - 1 day': '2024-05-22T04:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
@@ -89,10 +93,10 @@ The Final trend is : false
   ticker: 'RTF/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.15591,
+  'the low': 0.1459,
   'the close': 0.19639,
   'the start_date - 1 day': '2024-05-20T08:00:00',
-  'the extrems_date - 1 day': '2024-05-22T00:00:00'
+  'the extrems_date - 1 day': '2024-05-22T04:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : false
@@ -101,25 +105,29 @@ The Final trend is : false
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.5906,
-  'the close': 1.648,
+  'the low': 1.4285,
+  'the close': 1.6367,
   'the start_date - 1 day': '2024-05-21T04:00:00',
-  'the extrems_date - 1 day': '2024-05-21T08:00:00'
+  'the extrems_date - 1 day': '2024-05-22T04:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
-The Final trend is : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'ANKR/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.04531,
-  'the close': 0.04667,
-  'the start_date - 1 day': '2024-05-21T08:00:00',
-  'the extrems_date - 1 day': '2024-05-22T00:00:00'
+  newTrend: true,
+  'the high': 0.04748,
+  'the low': null,
+  'the close': 0.04618,
+  'the start_date - 1 day': '2024-05-22T00:00:00',
+  'the extrems_date - 1 day': '2024-05-22T04:00:00'
 }
+Buying ANKR/USDT on BINANCE
+Email about buying is sent
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : true
+bought: 19.99764$ of ANKR/USDT
 The Final trend is : true
 {
   ticker: 'PHB/USDT',
@@ -136,9 +144,9 @@ The Final trend is : true
 {
   ticker: 'HOT/USDT',
   newTrend: true,
-  'the high': 0.002558,
+  'the high': 0.00264,
   'the low': null,
   'the close': 0.002392,
   'the start_date - 1 day': '2024-05-19T20:00:00',
-  'the extrems_date - 1 day': '2024-05-22T00:00:00'
+  'the extrems_date - 1 day': '2024-05-22T04:00:00'
 }
