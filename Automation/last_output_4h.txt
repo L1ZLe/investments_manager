@@ -112,11 +112,11 @@ The Final trend is : true
 {
   ticker: 'ANKR/USDT',
   newTrend: true,
-  'the high': 0.04851,
+  'the high': 0.04852,
   'the low': null,
   'the close': 0.04618,
   'the start_date - 1 day': '2024-05-22T00:00:00',
-  'the extrems_date - 1 day': '2024-05-22T12:00:00'
+  'the extrems_date - 1 day': '2024-05-22T16:00:00'
 }
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : true
