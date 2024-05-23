@@ -1,9 +1,9 @@
 [
   {
     "ticker": "ENS/USDT",
-    "high": 23.3,
+    "high": 23.9,
     "low": null,
-    "close": 21.44
+    "close": 21.7
   },
   {
     "ticker": "INSP/USDT",
@@ -62,7 +62,7 @@
   {
     "ticker": "PHB/USDT",
     "high": null,
-    "low": 2.8813,
+    "low": 2.8202,
     "close": 2.9521
   },
   {
