@@ -28,11 +28,11 @@ The Final trend is : true
 {
   ticker: 'AMU/USDT',
   newTrend: true,
-  'the high': 0.05571,
+  'the high': 0.07873,
   'the low': null,
   'the close': 0.03769,
   'the start_date - 1 day': '2024-05-06T00:00:00',
-  'the extrems_date - 1 day': '2024-05-20T00:00:00'
+  'the extrems_date - 1 day': '2024-05-21T00:00:00'
 }
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : true
@@ -40,11 +40,11 @@ The Final trend is : true
 {
   ticker: 'YGG/USDT',
   newTrend: true,
-  'the high': 0.9576,
+  'the high': 0.9882,
   'the low': null,
   'the close': 0.8504,
   'the start_date - 1 day': '2024-05-13T00:00:00',
-  'the extrems_date - 1 day': '2024-05-20T00:00:00'
+  'the extrems_date - 1 day': '2024-05-21T00:00:00'
 }
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
