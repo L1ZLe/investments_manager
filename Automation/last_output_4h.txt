@@ -1,17 +1,15 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : true
+The Original trend of ENS/USDT was : false
 The Final trend is : false
 {
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 22.33,
+  'the low': 22.29,
   'the close': 25.67,
   'the start_date - 1 day': '2024-05-23T20:00:00',
-  'the extrems_date - 1 day': '2024-05-24T04:00:00'
+  'the extrems_date - 1 day': '2024-05-24T08:00:00'
 }
-Selling ENS/USDT on BINANCE
-Email about selling is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
 The Final trend is : false
@@ -24,8 +22,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-21T08:00:00',
   'the extrems_date - 1 day': '2024-05-22T12:00:00'
 }
-Balance: 5.6487596 ENS
-Sold: 128.1972$ of ENS/USDT
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
 The Final trend is : true
@@ -40,16 +36,18 @@ The Final trend is : true
 }
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'THG/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.05616,
-  'the close': 0.05769,
-  'the start_date - 1 day': '2024-05-21T12:00:00',
-  'the extrems_date - 1 day': '2024-05-23T12:00:00'
+  newTrend: true,
+  'the high': 0.05864,
+  'the low': null,
+  'the close': 0.05672,
+  'the start_date - 1 day': '2024-05-23T12:00:00',
+  'the extrems_date - 1 day': '2024-05-24T08:00:00'
 }
+Buying THG/USDT on GATEIO
+Email about buying is sent
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : false
 The Final trend is : false
@@ -74,6 +72,7 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-23T12:00:00',
   'the extrems_date - 1 day': '2024-05-23T20:00:00'
 }
+bought: 20$ of THG/USDT
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
 The Final trend is : false
