@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ONDO/USDT',
   newTrend: true,
-  'the high': 1.0414,
+  'the high': 1.0803,
   'the low': null,
-  'the close': 0.73378,
+  'the close': 0.9332,
   'the start_date - 1 day': '2024-04-11T00:00:00',
-  'the extrems_date - 1 day': '2024-05-17T00:00:00'
+  'the extrems_date - 1 day': '2024-05-22T00:00:00'
 }
 [31m BINANCE_SPOT_SAND_USDT 1DAY SAND/USDT [0m
 The Original trend of SAND/USDT was : false
