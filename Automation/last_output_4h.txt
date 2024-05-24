@@ -23,7 +23,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-05-22T12:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
-The Original trend of LOOKS/USDT was : false
+The Original trend of LOOKS/USDT was : true
 The Final trend is : true
 {
   ticker: 'LOOKS/USDT',
@@ -34,8 +34,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-23T08:00:00',
   'the extrems_date - 1 day': '2024-05-23T20:00:00'
 }
-Buying LOOKS/USDT on GATEIO
-Email about buying is sent
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
 The Final trend is : false
@@ -55,14 +53,13 @@ The Final trend is : false
   ticker: 'AURORA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.1956,
+  'the low': 0.1947,
   'the close': 0.2019,
   'the start_date - 1 day': '2024-05-20T20:00:00',
-  'the extrems_date - 1 day': '2024-05-23T20:00:00'
+  'the extrems_date - 1 day': '2024-05-24T00:00:00'
 }
-bought: 20$ of LOOKS/USDT
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
-The Original trend of ERN/USDT was : false
+The Original trend of ERN/USDT was : true
 The Final trend is : true
 {
   ticker: 'ERN/USDT',
@@ -73,8 +70,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-23T12:00:00',
   'the extrems_date - 1 day': '2024-05-23T20:00:00'
 }
-Buying ERN/USDT on BINANCE
-Email about buying is sent
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
 The Final trend is : false
@@ -82,14 +77,13 @@ The Final trend is : false
   ticker: 'KAS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.1301,
-  'the close': 0.14224,
+  'the low': 0.12987,
+  'the close': 0.13432,
   'the start_date - 1 day': '2024-05-23T00:00:00',
-  'the extrems_date - 1 day': '2024-05-23T16:00:00'
+  'the extrems_date - 1 day': '2024-05-24T00:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
-bought: 19.9584$ of ERN/USDT
 The Final trend is : false
 {
   ticker: 'RTF/USDT',
