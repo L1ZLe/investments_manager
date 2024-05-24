@@ -3,7 +3,7 @@
     "ticker": "ENS/USDT",
     "upTrend": false,
     "start_date": "2024-05-23T20:00:00",
-    "extrems_date": "2024-05-24T08:00:00"
+    "extrems_date": "2024-05-24T12:00:00"
   },
   {
     "ticker": "INSP/USDT",
@@ -15,7 +15,7 @@
     "ticker": "LOOKS/USDT",
     "upTrend": true,
     "start_date": "2024-05-23T08:00:00",
-    "extrems_date": "2024-05-23T20:00:00"
+    "extrems_date": "2024-05-24T12:00:00"
   },
   {
     "ticker": "THG/USDT",
@@ -25,9 +25,9 @@
   },
   {
     "ticker": "AURORA/USDT",
-    "upTrend": false,
-    "start_date": "2024-05-20T20:00:00",
-    "extrems_date": "2024-05-24T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-05-24T00:00:00",
+    "extrems_date": "2024-05-24T12:00:00"
   },
   {
     "ticker": "ERN/USDT",
