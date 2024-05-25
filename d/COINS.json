@@ -15,13 +15,33 @@
     "timeframe": "1DAY"
   },
   {
+    "ticker": "ATOR/USDT",
+    "exchange_id": "MEXC",
+    "timeframe": "1DAY"
+  },
+  {
+    "ticker": "NAI/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "1DAY"
+  },
+  {
     "ticker": "YGG/USDT",
     "exchange_id": "BINANCE",
     "timeframe": "1DAY"
   },
   {
+    "ticker": "MYRIA/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "1DAY"
+  },
+  {
     "ticker": "ARB/USDT",
     "exchange_id": "BINANCE",
+    "timeframe": "1DAY"
+  },
+  {
+    "ticker": "WAGMIGAMES/USDT",
+    "exchange_id": "GATEIO",
     "timeframe": "1DAY"
   },
   {

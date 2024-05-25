@@ -10,6 +10,26 @@
     "timeframe": "4HRS"
   },
   {
+    "ticker": "PAAL/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "SENATE/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "BEAMX/USDT",
+    "exchange_id": "BINANCE",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "SFUND/USDT",
+    "exchange_id": "GATEIO",
+    "timeframe": "4HRS"
+  },
+  {
     "ticker": "LOOKS/USDT",
     "exchange_id": "GATEIO",
     "timeframe": "4HRS"

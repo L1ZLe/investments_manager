@@ -1,17 +1,5 @@
 [
   {
-    "ticker": "ENS/USDT",
-    "high": null,
-    "low": 22.22,
-    "close": 25.67
-  },
-  {
-    "ticker": "INSP/USDT",
-    "high": 0.07775,
-    "low": null,
-    "close": 0.07161
-  },
-  {
     "ticker": "LOOKS/USDT",
     "high": null,
     "low": 0.09202,
@@ -70,5 +58,17 @@
     "high": null,
     "low": 0.002263,
     "close": 0.002518
+  },
+  {
+    "ticker": "ENS/USDT",
+    "high": null,
+    "low": 22.22,
+    "close": 25.67
+  },
+  {
+    "ticker": "INSP/USDT",
+    "high": 0.0836,
+    "low": null,
+    "close": 0.07161
   }
 ]

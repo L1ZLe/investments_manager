@@ -1,15 +1,27 @@
 [
   {
-    "ticker": "ENS/USDT",
-    "upTrend": false,
-    "start_date": "2024-05-23T20:00:00",
-    "extrems_date": "2024-05-24T12:00:00"
+    "ticker": "SFUND/USDT",
+    "upTrend": true,
+    "start_date": "2024-05-24T16:00:00",
+    "extrems_date": ""
   },
   {
-    "ticker": "INSP/USDT",
+    "ticker": "BEAMX/USDT",
     "upTrend": true,
-    "start_date": "2024-05-22T12:00:00",
-    "extrems_date": "2024-05-25T08:00:00"
+    "start_date": "2024-05-23T16:00:00",
+    "extrems_date": ""
+  },
+  {
+    "ticker": "SENATE/USDT",
+    "upTrend": false,
+    "start_date": "2024-05-21T16:00:00",
+    "extrems_date": ""
+  },
+  {
+    "ticker": "PAAL/USDT",
+    "upTrend": false,
+    "start_date": "2024-05-23T04:00:00",
+    "extrems_date": ""
   },
   {
     "ticker": "LOOKS/USDT",
@@ -70,5 +82,17 @@
     "upTrend": false,
     "start_date": "2024-05-22T04:00:00",
     "extrems_date": "2024-05-23T16:00:00"
+  },
+  {
+    "ticker": "ENS/USDT",
+    "upTrend": false,
+    "start_date": "2024-05-23T20:00:00",
+    "extrems_date": "2024-05-24T12:00:00"
+  },
+  {
+    "ticker": "INSP/USDT",
+    "upTrend": true,
+    "start_date": "2024-05-22T12:00:00",
+    "extrems_date": "2024-05-25T12:00:00"
   }
 ]
