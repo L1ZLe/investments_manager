@@ -11,19 +11,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-05-24T12:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
-The Original trend of INSP/USDT was : false
+The Original trend of INSP/USDT was : true
 The Final trend is : true
 {
   ticker: 'INSP/USDT',
   newTrend: true,
-  'the high': 0.07483,
+  'the high': 0.07775,
   'the low': null,
   'the close': 0.07161,
   'the start_date - 1 day': '2024-05-22T12:00:00',
-  'the extrems_date - 1 day': '2024-05-25T04:00:00'
+  'the extrems_date - 1 day': '2024-05-25T08:00:00'
 }
-Buying INSP/USDT on MEXC
-Email about buying is sent
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : false
 The Final trend is : false
@@ -31,10 +29,10 @@ The Final trend is : false
   ticker: 'LOOKS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.09304,
-  'the close': 0.09753,
+  'the low': 0.09202,
+  'the close': 0.09731,
   'the start_date - 1 day': '2024-05-24T12:00:00',
-  'the extrems_date - 1 day': '2024-05-24T20:00:00'
+  'the extrems_date - 1 day': '2024-05-25T08:00:00'
 }
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : true
@@ -60,7 +58,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-24T00:00:00',
   'the extrems_date - 1 day': '2024-05-24T20:00:00'
 }
-bought: undefined$ of INSP/USDT
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : true
 The Final trend is : true
