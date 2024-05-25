@@ -23,44 +23,40 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-05-22T12:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
-The Original trend of LOOKS/USDT was : true
+The Original trend of LOOKS/USDT was : false
 The Final trend is : false
 {
   ticker: 'LOOKS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.09364,
+  'the low': 0.09304,
   'the close': 0.09753,
   'the start_date - 1 day': '2024-05-24T12:00:00',
-  'the extrems_date - 1 day': '2024-05-24T16:00:00'
+  'the extrems_date - 1 day': '2024-05-24T20:00:00'
 }
-Selling LOOKS/USDT on GATEIO
-Email about selling is sent
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : true
 The Final trend is : true
 {
   ticker: 'THG/USDT',
   newTrend: true,
-  'the high': 0.05864,
+  'the high': 0.0588,
   'the low': null,
-  'the close': 0.05672,
+  'the close': 0.05814,
   'the start_date - 1 day': '2024-05-23T12:00:00',
-  'the extrems_date - 1 day': '2024-05-24T08:00:00'
+  'the extrems_date - 1 day': '2024-05-24T20:00:00'
 }
-Balance: 202.84157427 LOOKS
-Sold: 19.1399824$ of LOOKS/USDT
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : true
 The Final trend is : true
 {
   ticker: 'AURORA/USDT',
   newTrend: true,
-  'the high': 0.2069,
+  'the high': 0.2084,
   'the low': null,
   'the close': 0.1969,
   'the start_date - 1 day': '2024-05-24T00:00:00',
-  'the extrems_date - 1 day': '2024-05-24T16:00:00'
+  'the extrems_date - 1 day': '2024-05-24T20:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : true
@@ -68,11 +64,11 @@ The Final trend is : true
 {
   ticker: 'ERN/USDT',
   newTrend: true,
-  'the high': 4.559,
+  'the high': 4.568,
   'the low': null,
   'the close': 4.372,
   'the start_date - 1 day': '2024-05-23T12:00:00',
-  'the extrems_date - 1 day': '2024-05-24T16:00:00'
+  'the extrems_date - 1 day': '2024-05-24T20:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
