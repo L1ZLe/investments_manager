@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ONDO/USDT',
   newTrend: true,
-  'the high': 1.0803,
+  'the high': 1.1731,
   'the low': null,
   'the close': 0.9332,
   'the start_date - 1 day': '2024-04-11T00:00:00',
-  'the extrems_date - 1 day': '2024-05-22T00:00:00'
+  'the extrems_date - 1 day': '2024-05-23T00:00:00'
 }
 [31m BINANCE_SPOT_SAND_USDT 1DAY SAND/USDT [0m
 The Original trend of SAND/USDT was : false
@@ -72,16 +72,18 @@ The Final trend is : true
 }
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'PYR/USDT',
-  newTrend: true,
-  'the high': 5,
-  'the low': null,
-  'the close': 4.535,
-  'the start_date - 1 day': '2024-05-13T00:00:00',
-  'the extrems_date - 1 day': '2024-05-19T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 4.34,
+  'the close': 4.577,
+  'the start_date - 1 day': '2024-05-19T00:00:00',
+  'the extrems_date - 1 day': '2024-05-23T00:00:00'
 }
+Selling PYR/USDT on BINANCE
+Email about selling is sent
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
 The Final trend is : false
@@ -94,3 +96,5 @@ The Final trend is : false
   'the start_date - 1 day': '2024-03-25T00:00:00',
   'the extrems_date - 1 day': '2024-04-12T00:00:00'
 }
+Balance: 10.42529004 PYR
+Sold: 46.929028$ of PYR/USDT
