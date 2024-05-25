@@ -24,16 +24,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'LOOKS/USDT',
-  newTrend: true,
-  'the high': 0.1023,
-  'the low': null,
-  'the close': 0.09462,
-  'the start_date - 1 day': '2024-05-23T08:00:00',
-  'the extrems_date - 1 day': '2024-05-24T12:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.09364,
+  'the close': 0.09753,
+  'the start_date - 1 day': '2024-05-24T12:00:00',
+  'the extrems_date - 1 day': '2024-05-24T16:00:00'
 }
+Selling LOOKS/USDT on GATEIO
+Email about selling is sent
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : true
 The Final trend is : true
@@ -46,31 +48,31 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-23T12:00:00',
   'the extrems_date - 1 day': '2024-05-24T08:00:00'
 }
+Balance: 202.84157427 LOOKS
+Sold: 19.1399824$ of LOOKS/USDT
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
-The Original trend of AURORA/USDT was : false
+The Original trend of AURORA/USDT was : true
 The Final trend is : true
 {
   ticker: 'AURORA/USDT',
   newTrend: true,
-  'the high': 0.2045,
+  'the high': 0.2069,
   'the low': null,
   'the close': 0.1969,
   'the start_date - 1 day': '2024-05-24T00:00:00',
-  'the extrems_date - 1 day': '2024-05-24T12:00:00'
+  'the extrems_date - 1 day': '2024-05-24T16:00:00'
 }
-Buying AURORA/USDT on GATEIO
-Email about buying is sent
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : true
 The Final trend is : true
 {
   ticker: 'ERN/USDT',
   newTrend: true,
-  'the high': 4.556,
+  'the high': 4.559,
   'the low': null,
-  'the close': 4.349,
+  'the close': 4.372,
   'the start_date - 1 day': '2024-05-23T12:00:00',
-  'the extrems_date - 1 day': '2024-05-23T20:00:00'
+  'the extrems_date - 1 day': '2024-05-24T16:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
@@ -84,7 +86,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-23T00:00:00',
   'the extrems_date - 1 day': '2024-05-24T04:00:00'
 }
-bought: 20$ of AURORA/USDT
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
