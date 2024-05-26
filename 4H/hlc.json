@@ -25,9 +25,9 @@
   },
   {
     "ticker": "SFUND/USDT",
-    "high": 2.48,
-    "low": null,
-    "close": 2.441
+    "high": null,
+    "low": 2.426,
+    "close": 2.463
   },
   {
     "ticker": "LOOKS/USDT",
@@ -37,9 +37,9 @@
   },
   {
     "ticker": "THG/USDT",
-    "high": 0.06363,
+    "high": 0.10308,
     "low": null,
-    "close": 0.05814
+    "close": 0.06067
   },
   {
     "ticker": "AURORA/USDT",
@@ -80,7 +80,7 @@
   {
     "ticker": "PHB/USDT",
     "high": null,
-    "low": 2.5184,
+    "low": 2.5083,
     "close": 2.6257
   },
   {
