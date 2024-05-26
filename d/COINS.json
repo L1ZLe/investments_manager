@@ -15,11 +15,6 @@
     "timeframe": "1DAY"
   },
   {
-    "ticker": "ATOR/USDT",
-    "exchange_id": "MEXC",
-    "timeframe": "1DAY"
-  },
-  {
     "ticker": "NAI/USDT",
     "exchange_id": "GATEIO",
     "timeframe": "1DAY"

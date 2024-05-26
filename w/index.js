@@ -93,6 +93,7 @@ async function detectTrend(data, extrems_date, trend, close_readfiles) {
     return { newTrend: trend, data } // WHAT THIS DOES IS RETURN THE DATA AND THE TREND AS NEWTREND
   } catch (error) {
     console.log(error)
+    return null
   }
 }
 ////////////////////////////////////////////// READING FILES && CREATING NEW OBJECT IF IT DOES NOT EXIST //////////////////////////////////////////////
@@ -123,6 +124,7 @@ async function readJson(trend, ticker) {
     return { high, low, close }
   } catch (error) {
     console.error(`Error reading ${filePath}:`, error)
+    return null
   }
 }
 ////////////////////////////////////////////// GETTING CLOSE + (HIGH || LOW) //////////////////////////////////////////////
@@ -217,6 +219,7 @@ async function getLatestHighAndLow(
     return { high, low, close, start_date, extrems_date }
   } catch (err) {
     console.error(err)
+
     return {
       high: null,
       low: null,
@@ -378,6 +381,7 @@ async function buy(amountToSpend, ticker, broker) {
     console.error(`Error creating order: ${error.message}`)
   }
 }
+
 ////////////////////////////////////////////// MAIN TO KEEP THINGS STRUCTURED //////////////////////////////////////////////
 async function main() {
   const coinsData = JSON.parse(fs.readFileSync("./COINS.json"))
@@ -483,7 +487,7 @@ async function main() {
       })
     }
 
-    await new Promise((resolve) => setTimeout(resolve, 3000)) // Pause for 5 seconds
+    await new Promise((resolve) => setTimeout(resolve, 3000)) // Pause for 3 seconds
   }
 }
 
