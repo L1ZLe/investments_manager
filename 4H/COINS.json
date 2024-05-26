@@ -10,11 +10,6 @@
     "timeframe": "4HRS"
   },
   {
-    "ticker": "PAAL/USDT",
-    "exchange_id": "GATEIO",
-    "timeframe": "4HRS"
-  },
-  {
     "ticker": "SENATE/USDT",
     "exchange_id": "GATEIO",
     "timeframe": "4HRS"
@@ -78,6 +73,11 @@
   {
     "ticker": "HOT/USDT",
     "exchange_id": "BINANCE",
+    "timeframe": "4HRS"
+  },
+  {
+    "ticker": "PAAL/USDT",
+    "exchange_id": "GATEIO",
     "timeframe": "4HRS"
   }
 ]

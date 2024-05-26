@@ -71,6 +71,7 @@ async function fetchOHLCV(
     return response.data
   } catch (error) {
     console.error("Error fetching crypto OHLC data:", error)
+    sendEmailError(error)
     return null
   }
 }
@@ -93,6 +94,8 @@ async function detectTrend(data, extrems_date, trend, close_readfiles) {
     return { newTrend: trend, data } // WHAT THIS DOES IS RETURN THE DATA AND THE TREND AS NEWTREND
   } catch (error) {
     console.log(error)
+    sendEmailError(error)
+    return null
   }
 }
 ////////////////////////////////////////////// READING FILES && CREATING NEW OBJECT IF IT DOES NOT EXIST //////////////////////////////////////////////
@@ -123,6 +126,8 @@ async function readJson(trend, ticker) {
     return { high, low, close }
   } catch (error) {
     console.error(`Error reading ${filePath}:`, error)
+    sendEmailError(error)
+    return null
   }
 }
 ////////////////////////////////////////////// GETTING CLOSE + (HIGH || LOW) //////////////////////////////////////////////
@@ -217,6 +222,7 @@ async function getLatestHighAndLow(
     return { high, low, close, start_date, extrems_date }
   } catch (err) {
     console.error(err)
+    sendEmailError(err)
     return {
       high: null,
       low: null,
@@ -286,6 +292,7 @@ async function writeJsonFiles(
     fs.writeFileSync(hlcFilePath, JSON.stringify(hlcData, null, 2))
     fs.writeFileSync(trendFilePath, JSON.stringify(trendData, null, 2))
   } catch (err) {
+    sendEmailError(err)
     console.error(err)
   }
 }
@@ -330,6 +337,7 @@ async function sell(ticker, broker) {
       console.log(`You have no balance of ${baseCurrency} to sell.`)
     }
   } catch (error) {
+    sendEmailError(error)
     console.error(`Error creating order: ${error}`)
   }
 }
@@ -375,8 +383,28 @@ async function buy(amountToSpend, ticker, broker) {
     console.log(`bought: ${order.cost}$ of ${order.symbol}`)
     return
   } catch (error) {
+    sendEmailError(error)
     console.error(`Error creating order: ${error.message}`)
   }
+}
+
+////////////////////////////////////////////// SEND EMAIL IF AN ERROR //////////////////////////////////////////////
+
+async function sendEmailError(err) {
+  const mailOptions = {
+    from: process.env.MAIL_USERNAME,
+    to: "samielyaagoubius@gmail.com",
+    subject: "ERROR HAPPENED: " + timeEnd,
+    text: err,
+  }
+
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.error("Error sending email:", error)
+    } else {
+      console.log("Email about buying is sent")
+    }
+  })
 }
 ////////////////////////////////////////////// MAIN TO KEEP THINGS STRUCTURED //////////////////////////////////////////////
 async function main() {
@@ -483,7 +511,7 @@ async function main() {
       })
     }
 
-    await new Promise((resolve) => setTimeout(resolve, 3000)) // Pause for 5 seconds
+    await new Promise((resolve) => setTimeout(resolve, 3000)) // Pause for 3 seconds
   }
 }
 

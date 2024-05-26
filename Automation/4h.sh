@@ -14,5 +14,5 @@ cd /home/l1zle/Investment-manager/Automation
 # Now, git commands will execute after both Node.js scripts have finished
 cd /home/l1zle/Investment-manager/
 git add .
-git commit -m "saving 4 hours"
+git commit -m "added sending errors to email"
 git push origin main

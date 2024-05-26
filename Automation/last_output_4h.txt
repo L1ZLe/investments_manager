@@ -22,6 +22,162 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-22T12:00:00',
   'the extrems_date - 1 day': '2024-05-25T12:00:00'
 }
+[31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
+The Original trend of SENATE/USDT was : false
+The Final trend is : false
+{
+  ticker: 'SENATE/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.07389,
+  'the close': 0.08847,
+  'the start_date - 1 day': '2024-05-21T16:00:00',
+  'the extrems_date - 1 day': '2024-05-24T04:00:00'
+}
+[31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
+The Original trend of BEAMX/USDT was : true
+The Final trend is : true
+{
+  ticker: 'BEAMX/USDT',
+  newTrend: true,
+  'the high': 0.029378,
+  'the low': null,
+  'the close': 0.027043,
+  'the start_date - 1 day': '2024-05-23T16:00:00',
+  'the extrems_date - 1 day': '2024-05-25T04:00:00'
+}
+[31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
+The Original trend of SFUND/USDT was : true
+The Final trend is : true
+{
+  ticker: 'SFUND/USDT',
+  newTrend: true,
+  'the high': 2.474,
+  'the low': null,
+  'the close': 2.457,
+  'the start_date - 1 day': '2024-05-24T16:00:00',
+  'the extrems_date - 1 day': '2024-05-25T16:00:00'
+}
+[31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
+The Original trend of LOOKS/USDT was : false
+The Final trend is : false
+{
+  ticker: 'LOOKS/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.09202,
+  'the close': 0.09731,
+  'the start_date - 1 day': '2024-05-24T12:00:00',
+  'the extrems_date - 1 day': '2024-05-25T08:00:00'
+}
+[31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
+The Original trend of THG/USDT was : true
+The Final trend is : true
+{
+  ticker: 'THG/USDT',
+  newTrend: true,
+  'the high': 0.06337,
+  'the low': null,
+  'the close': 0.05814,
+  'the start_date - 1 day': '2024-05-23T12:00:00',
+  'the extrems_date - 1 day': '2024-05-25T12:00:00'
+}
+[31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
+The Original trend of AURORA/USDT was : true
+The Final trend is : true
+{
+  ticker: 'AURORA/USDT',
+  newTrend: true,
+  'the high': 0.2084,
+  'the low': null,
+  'the close': 0.1969,
+  'the start_date - 1 day': '2024-05-24T00:00:00',
+  'the extrems_date - 1 day': '2024-05-24T20:00:00'
+}
+[31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
+The Original trend of ERN/USDT was : true
+The Final trend is : true
+{
+  ticker: 'ERN/USDT',
+  newTrend: true,
+  'the high': 4.61,
+  'the low': null,
+  'the close': 4.539,
+  'the start_date - 1 day': '2024-05-23T12:00:00',
+  'the extrems_date - 1 day': '2024-05-25T16:00:00'
+}
+[31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
+The Original trend of KAS/USDT was : true
+The Final trend is : true
+{
+  ticker: 'KAS/USDT',
+  newTrend: true,
+  'the high': 0.14098,
+  'the low': null,
+  'the close': 0.13205,
+  'the start_date - 1 day': '2024-05-24T04:00:00',
+  'the extrems_date - 1 day': '2024-05-25T16:00:00'
+}
+[31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
+The Original trend of RTF/USDT was : false
+The Final trend is : false
+{
+  ticker: 'RTF/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.14511,
+  'the close': 0.19639,
+  'the start_date - 1 day': '2024-05-20T08:00:00',
+  'the extrems_date - 1 day': '2024-05-22T08:00:00'
+}
+[31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
+The Original trend of NAKA/USDT was : false
+The Final trend is : false
+{
+  ticker: 'NAKA/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 1.4017,
+  'the close': 1.6367,
+  'the start_date - 1 day': '2024-05-21T04:00:00',
+  'the extrems_date - 1 day': '2024-05-22T08:00:00'
+}
+[31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
+The Original trend of ANKR/USDT was : false
+The Final trend is : false
+{
+  ticker: 'ANKR/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.04296,
+  'the close': 0.04829,
+  'the start_date - 1 day': '2024-05-22T16:00:00',
+  'the extrems_date - 1 day': '2024-05-23T16:00:00'
+}
+[31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
+The Original trend of PHB/USDT was : false
+The Final trend is : false
+{
+  ticker: 'PHB/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 2.6064,
+  'the close': 2.9521,
+  'the start_date - 1 day': '2024-05-22T12:00:00',
+  'the extrems_date - 1 day': '2024-05-23T16:00:00'
+}
+[31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
+The Original trend of HOT/USDT was : false
+The Final trend is : false
+{
+  ticker: 'HOT/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.002263,
+  'the close': 0.002518,
+  'the start_date - 1 day': '2024-05-22T04:00:00',
+  'the extrems_date - 1 day': '2024-05-23T16:00:00'
+}
 [31m GATEIO_SPOT_PAAL_USDT 4HRS PAAL/USDT [0m
 The Original trend of PAAL/USDT was : false
 Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
@@ -33,7 +189,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
     at Axios.request (file:///home/l1zle/Investment-manager/node_modules/axios/lib/core/Axios.js:45:41)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchOHLCV (file:///home/l1zle/Investment-manager/4H/index.js:64:22)
-    at async main (file:///home/l1zle/Investment-manager/4H/index.js:410:19) {
+    at async main (file:///home/l1zle/Investment-manager/4H/index.js:438:19) {
   code: 'ERR_BAD_REQUEST',
   config: {
     transitional: {
@@ -62,8 +218,8 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
     url: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history',
     params: {
       period_id: '4HRS',
-      time_start: '2024-05-23T04:00:00',
-      time_end: '2024-05-25T20:00:00',
+      time_start: '2024-05-23T00:00:00',
+      time_end: '2024-05-26T00:00:00',
       limit: 100,
       include_empty_items: false
     },
@@ -148,15 +304,15 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 10830,
+        _idleStart: 73346,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 2139,
-        [Symbol(triggerId)]: 2137
+        [Symbol(asyncId)]: 2517,
+        [Symbol(triggerId)]: 2515
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -170,7 +326,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
       [Symbol(kBytesWritten)]: 0,
       [Symbol(connect-options)]: [Object]
     },
-    _header: 'GET /v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T04:00:00&time_end=2024-05-25T20:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+    _header: 'GET /v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
       'Accept: application/json\r\n' +
       'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
       'User-Agent: axios/1.6.8\r\n' +
@@ -207,7 +363,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
     maxHeaderSize: undefined,
     insecureHTTPParser: undefined,
     joinDuplicateHeaders: undefined,
-    path: '/v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T04:00:00&time_end=2024-05-25T20:00:00&limit=100&include_empty_items=false',
+    path: '/v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false',
     _ended: true,
     res: IncomingMessage {
       _events: [Object],
@@ -232,7 +388,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
       _dumped: false,
       req: [Circular *1],
       _eventsCount: 4,
-      responseUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T04:00:00&time_end=2024-05-25T20:00:00&limit=100&include_empty_items=false',
+      responseUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false',
       redirects: [],
       [Symbol(shapeMode)]: true,
       [Symbol(kCapture)]: false,
@@ -263,7 +419,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
       _eventsCount: 3,
       _onNativeResponse: [Function (anonymous)],
       _currentRequest: [Circular *1],
-      _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T04:00:00&time_end=2024-05-25T20:00:00&limit=100&include_empty_items=false',
+      _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false',
       [Symbol(shapeMode)]: true,
       [Symbol(kCapture)]: false
     },
@@ -289,7 +445,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
     statusText: 'Bad Request',
     headers: Object [AxiosHeaders] {
       'content-type': 'application/json',
-      date: 'Sat, 25 May 2024 20:00:29 GMT',
+      date: 'Sun, 26 May 2024 00:01:21 GMT',
       'transfer-encoding': 'chunked',
       'x-concurrencylimit-limit': '1',
       'x-concurrencylimit-remaining': '1'
@@ -338,7 +494,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
       _headerSent: true,
       _closed: true,
       socket: [TLSSocket],
-      _header: 'GET /v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T04:00:00&time_end=2024-05-25T20:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+      _header: 'GET /v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
         'Accept: application/json\r\n' +
         'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
         'User-Agent: axios/1.6.8\r\n' +
@@ -354,7 +510,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T04:00:00&time_end=2024-05-25T20:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/GATEIO_SPOT_PAAL_USDT/history?period_id=4HRS&time_start=2024-05-23T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false',
       _ended: true,
       res: [IncomingMessage],
       aborted: false,
@@ -380,14 +536,14 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
     data: { error: 'Requested symbol_id is invalid or does not exist.' }
   }
 }
-TypeError: Cannot read properties of null (reading 'length')
-    at detectTrend (file:///home/l1zle/Investment-manager/4H/index.js:80:35)
-    at main (file:///home/l1zle/Investment-manager/4H/index.js:418:36)
-file:///home/l1zle/Investment-manager/4H/index.js:418
-    let { newTrend, data } = await detectTrend(
-          ^
+file:///home/l1zle/Investment-manager/4H/index.js:397
+    subject: "ERROR HAPPENED: " + timeEnd,
+                                  ^
 
-TypeError: Cannot destructure property 'newTrend' of '(intermediate value)' as it is undefined.
-    at main (file:///home/l1zle/Investment-manager/4H/index.js:418:11)
+ReferenceError: timeEnd is not defined
+    at sendEmailError (file:///home/l1zle/Investment-manager/4H/index.js:397:35)
+    at fetchOHLCV (file:///home/l1zle/Investment-manager/4H/index.js:74:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async main (file:///home/l1zle/Investment-manager/4H/index.js:438:19)
 
 Node.js v20.12.1
