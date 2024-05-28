@@ -1,194 +1,187 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
 The Original trend of ENS/USDT was : true
-Error fetching crypto OHLC data: AxiosError: connect EHOSTUNREACH 185.204.224.149:443
-    at AxiosError.from (file:///home/l1zle/Investment-manager/node_modules/axios/lib/core/AxiosError.js:89:14)
-    at RedirectableRequest.handleRequestError (file:///home/l1zle/Investment-manager/node_modules/axios/lib/adapters/http.js:610:25)
-    at RedirectableRequest.emit (node:events:518:28)
-    at eventHandlers.<computed> (/home/l1zle/Investment-manager/node_modules/follow-redirects/index.js:38:24)
-    at ClientRequest.emit (node:events:518:28)
-    at TLSSocket.socketErrorListener (node:_http_client:500:9)
-    at TLSSocket.emit (node:events:518:28)
-    at emitErrorNT (node:internal/streams/destroy:169:8)
-    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/l1zle/Investment-manager/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async fetchOHLCV (file:///home/l1zle/Investment-manager/4H/index.js:64:22)
-    at async main (file:///home/l1zle/Investment-manager/4H/index.js:414:19) {
-  port: 443,
-  address: '185.204.224.149',
-  syscall: 'connect',
-  code: 'EHOSTUNREACH',
-  errno: -113,
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 0,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: Infinity,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json',
-      'Content-Type': undefined,
-      'X-CoinAPI-Key': '93D271D2-5CD3-4B59-BFA6-89DE80692521',
-      'User-Agent': 'axios/1.6.8',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    method: 'get',
-    url: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history',
-    params: {
-      period_id: '4HRS',
-      time_start: '2024-05-27T20:00:00',
-      time_end: '2024-05-28T16:00:00',
-      limit: 100,
-      include_empty_items: false
-    },
-    data: undefined
-  },
-  request: <ref *1> Writable {
-    _events: {
-      close: undefined,
-      error: [Function: handleRequestError],
-      prefinish: undefined,
-      finish: undefined,
-      drain: undefined,
-      response: [Function: handleResponse],
-      socket: [Function: handleRequestSocket]
-    },
-    _writableState: WritableState {
-      highWaterMark: 16384,
-      length: 0,
-      corked: 0,
-      onwrite: [Function: bound onwrite],
-      writelen: 0,
-      bufferedIndex: 0,
-      pendingcb: 0,
-      [Symbol(kState)]: 17580812,
-      [Symbol(kBufferedValue)]: null
-    },
-    _maxListeners: undefined,
-    _options: {
-      maxRedirects: 21,
-      maxBodyLength: Infinity,
-      protocol: 'https:',
-      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-05-27T20:00:00&time_end=2024-05-28T16:00:00&limit=100&include_empty_items=false',
-      method: 'GET',
-      headers: [Object: null prototype],
-      agents: [Object],
-      auth: undefined,
-      family: undefined,
-      beforeRedirect: [Function: dispatchBeforeRedirect],
-      beforeRedirects: [Object],
-      hostname: 'rest.coinapi.io',
-      port: '',
-      agent: undefined,
-      nativeProtocols: [Object],
-      pathname: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history',
-      search: '?period_id=4HRS&time_start=2024-05-27T20:00:00&time_end=2024-05-28T16:00:00&limit=100&include_empty_items=false'
-    },
-    _ended: true,
-    _ending: true,
-    _redirectCount: 0,
-    _redirects: [],
-    _requestBodyLength: 0,
-    _requestBodyBuffers: [],
-    _eventsCount: 3,
-    _onNativeResponse: [Function (anonymous)],
-    _currentRequest: ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: false,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: false,
-      socket: [TLSSocket],
-      _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-05-27T20:00:00&time_end=2024-05-28T16:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
-        'Accept: application/json\r\n' +
-        'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
-        'User-Agent: axios/1.6.8\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: rest.coinapi.io\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-05-27T20:00:00&time_end=2024-05-28T16:00:00&limit=100&include_empty_items=false',
-      _ended: false,
-      res: null,
-      aborted: false,
-      timeoutCb: [Function: emitRequestTimeout],
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: false,
-      host: 'rest.coinapi.io',
-      protocol: 'https:',
-      _redirectable: [Circular *1],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-05-27T20:00:00&time_end=2024-05-28T16:00:00&limit=100&include_empty_items=false',
-    [Symbol(shapeMode)]: true,
-    [Symbol(kCapture)]: false
-  },
-  cause: Error: connect EHOSTUNREACH 185.204.224.149:443
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1605:16) {
-    errno: -113,
-    code: 'EHOSTUNREACH',
-    syscall: 'connect',
-    address: '185.204.224.149',
-    port: 443
-  }
+The Final trend is : true
+{
+  ticker: 'ENS/USDT',
+  newTrend: true,
+  'the high': 28.5,
+  'the low': null,
+  'the close': 24.82,
+  'the start_date - 1 day': '2024-05-27T20:00:00',
+  'the extrems_date - 1 day': '2024-05-28T08:00:00'
 }
-TypeError: Cannot read properties of null (reading 'length')
-    at detectTrend (file:///home/l1zle/Investment-manager/4H/index.js:80:35)
-    at main (file:///home/l1zle/Investment-manager/4H/index.js:422:36)
-file:///home/l1zle/Investment-manager/4H/index.js:422
-    let { newTrend, data } = await detectTrend(
-          ^
-
-TypeError: Cannot destructure property 'newTrend' of '(intermediate value)' as it is null.
-    at main (file:///home/l1zle/Investment-manager/4H/index.js:422:11)
-
-Node.js v20.12.1
+[31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
+The Original trend of INSP/USDT was : false
+The Final trend is : true
+{
+  ticker: 'INSP/USDT',
+  newTrend: true,
+  'the high': 0.10184,
+  'the low': null,
+  'the close': 0.09293,
+  'the start_date - 1 day': '2024-05-28T04:00:00',
+  'the extrems_date - 1 day': '2024-05-28T12:00:00'
+}
+Buying INSP/USDT on MEXC
+Email about buying is sent
+[31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
+The Original trend of SENATE/USDT was : false
+The Final trend is : false
+{
+  ticker: 'SENATE/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.07389,
+  'the close': 0.08847,
+  'the start_date - 1 day': '2024-05-21T16:00:00',
+  'the extrems_date - 1 day': '2024-05-24T04:00:00'
+}
+[31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
+The Original trend of BEAMX/USDT was : false
+The Final trend is : false
+{
+  ticker: 'BEAMX/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.0278,
+  'the close': 0.02888,
+  'the start_date - 1 day': '2024-05-27T12:00:00',
+  'the extrems_date - 1 day': '2024-05-28T12:00:00'
+}
+[31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
+The Original trend of SFUND/USDT was : false
+The Final trend is : false
+{
+  ticker: 'SFUND/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 2.307,
+  'the close': 2.406,
+  'the start_date - 1 day': '2024-05-26T08:00:00',
+  'the extrems_date - 1 day': '2024-05-28T12:00:00'
+}
+[31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
+The Original trend of LOOKS/USDT was : true
+The Final trend is : true
+{
+  ticker: 'LOOKS/USDT',
+  newTrend: true,
+  'the high': 0.10625,
+  'the low': null,
+  'the close': 0.0932,
+  'the start_date - 1 day': '2024-05-25T08:00:00',
+  'the extrems_date - 1 day': '2024-05-26T08:00:00'
+}
+bought: undefined$ of INSP/USDT
+[31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
+The Original trend of THG/USDT was : true
+The Final trend is : true
+{
+  ticker: 'THG/USDT',
+  newTrend: true,
+  'the high': 0.10308,
+  'the low': null,
+  'the close': 0.06067,
+  'the start_date - 1 day': '2024-05-23T12:00:00',
+  'the extrems_date - 1 day': '2024-05-26T12:00:00'
+}
+[31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
+The Original trend of AURORA/USDT was : true
+The Final trend is : true
+{
+  ticker: 'AURORA/USDT',
+  newTrend: true,
+  'the high': 0.2084,
+  'the low': null,
+  'the close': 0.1969,
+  'the start_date - 1 day': '2024-05-24T00:00:00',
+  'the extrems_date - 1 day': '2024-05-24T20:00:00'
+}
+[31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
+The Original trend of ERN/USDT was : false
+The Final trend is : false
+{
+  ticker: 'ERN/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 4.188,
+  'the close': 4.484,
+  'the start_date - 1 day': '2024-05-26T12:00:00',
+  'the extrems_date - 1 day': '2024-05-28T12:00:00'
+}
+[31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
+The Original trend of KAS/USDT was : false
+The Final trend is : false
+{
+  ticker: 'KAS/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.13828,
+  'the close': 0.14087,
+  'the start_date - 1 day': '2024-05-27T16:00:00',
+  'the extrems_date - 1 day': '2024-05-28T12:00:00'
+}
+[31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
+The Original trend of RTF/USDT was : false
+The Final trend is : false
+{
+  ticker: 'RTF/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.14511,
+  'the close': 0.19639,
+  'the start_date - 1 day': '2024-05-20T08:00:00',
+  'the extrems_date - 1 day': '2024-05-22T08:00:00'
+}
+[31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
+The Original trend of NAKA/USDT was : false
+The Final trend is : false
+{
+  ticker: 'NAKA/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 1.39,
+  'the close': 1.4196,
+  'the start_date - 1 day': '2024-05-21T04:00:00',
+  'the extrems_date - 1 day': '2024-05-28T08:00:00'
+}
+[31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
+The Original trend of ANKR/USDT was : false
+The Final trend is : false
+{
+  ticker: 'ANKR/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.04296,
+  'the close': 0.04829,
+  'the start_date - 1 day': '2024-05-22T16:00:00',
+  'the extrems_date - 1 day': '2024-05-23T16:00:00'
+}
+[31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
+The Original trend of PHB/USDT was : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
+{
+  ticker: 'PHB/USDT',
+  newTrend: true,
+  'the high': 2.635,
+  'the low': null,
+  'the close': 2.5502,
+  'the start_date - 1 day': '2024-05-28T00:00:00',
+  'the extrems_date - 1 day': '2024-05-28T12:00:00'
+}
+Buying PHB/USDT on BINANCE
+Email about buying is sent
+[31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
+The Original trend of HOT/USDT was : false
+The Final trend is : false
+{
+  ticker: 'HOT/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.002263,
+  'the close': 0.002518,
+  'the start_date - 1 day': '2024-05-22T04:00:00',
+  'the extrems_date - 1 day': '2024-05-23T16:00:00'
+}
+bought: 18.4555$ of PHB/USDT
