@@ -3,13 +3,13 @@
     "ticker": "ENS/USDT",
     "upTrend": true,
     "start_date": "2024-05-24T12:00:00",
-    "extrems_date": "2024-05-26T08:00:00"
+    "extrems_date": "2024-05-26T20:00:00"
   },
   {
     "ticker": "INSP/USDT",
     "upTrend": true,
     "start_date": "2024-05-22T12:00:00",
-    "extrems_date": "2024-05-26T08:00:00"
+    "extrems_date": "2024-05-27T08:00:00"
   },
   {
     "ticker": "SENATE/USDT",
@@ -21,13 +21,13 @@
     "ticker": "BEAMX/USDT",
     "upTrend": true,
     "start_date": "2024-05-23T16:00:00",
-    "extrems_date": "2024-05-26T04:00:00"
+    "extrems_date": "2024-05-27T12:00:00"
   },
   {
     "ticker": "SFUND/USDT",
     "upTrend": false,
     "start_date": "2024-05-26T08:00:00",
-    "extrems_date": "2024-05-26T12:00:00"
+    "extrems_date": "2024-05-27T16:00:00"
   },
   {
     "ticker": "LOOKS/USDT",
@@ -49,15 +49,15 @@
   },
   {
     "ticker": "ERN/USDT",
-    "upTrend": true,
-    "start_date": "2024-05-23T12:00:00",
-    "extrems_date": "2024-05-26T12:00:00"
+    "upTrend": false,
+    "start_date": "2024-05-26T12:00:00",
+    "extrems_date": "2024-05-27T08:00:00"
   },
   {
     "ticker": "KAS/USDT",
     "upTrend": true,
     "start_date": "2024-05-24T04:00:00",
-    "extrems_date": "2024-05-25T20:00:00"
+    "extrems_date": "2024-05-27T16:00:00"
   },
   {
     "ticker": "RTF/USDT",
@@ -69,7 +69,7 @@
     "ticker": "NAKA/USDT",
     "upTrend": false,
     "start_date": "2024-05-21T04:00:00",
-    "extrems_date": "2024-05-22T08:00:00"
+    "extrems_date": "2024-05-27T04:00:00"
   },
   {
     "ticker": "ANKR/USDT",
@@ -81,7 +81,7 @@
     "ticker": "PHB/USDT",
     "upTrend": false,
     "start_date": "2024-05-22T12:00:00",
-    "extrems_date": "2024-05-26T12:00:00"
+    "extrems_date": "2024-05-26T16:00:00"
   },
   {
     "ticker": "HOT/USDT",
