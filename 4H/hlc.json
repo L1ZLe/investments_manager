@@ -7,9 +7,9 @@
   },
   {
     "ticker": "INSP/USDT",
-    "high": 0.10384,
-    "low": null,
-    "close": 0.09469
+    "high": null,
+    "low": 0.09291,
+    "close": 0.09995
   },
   {
     "ticker": "SENATE/USDT",
@@ -50,7 +50,7 @@
   {
     "ticker": "ERN/USDT",
     "high": null,
-    "low": 4.305,
+    "low": 4.272,
     "close": 4.484
   },
   {
