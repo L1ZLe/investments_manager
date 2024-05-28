@@ -3,7 +3,7 @@
     "ticker": "ONDO/USDT",
     "upTrend": true,
     "start_date": "2024-04-11T00:00:00",
-    "extrems_date": "2024-05-24T00:00:00"
+    "extrems_date": "2024-05-25T00:00:00"
   },
   {
     "ticker": "SAND/USDT",
@@ -33,7 +33,7 @@
     "ticker": "MYRIA/USDT",
     "upTrend": true,
     "start_date": "2024-05-13T00:00:00",
-    "extrems_date": "2024-05-19T00:00:00"
+    "extrems_date": "2024-05-26T00:00:00"
   },
   {
     "ticker": "ARB/USDT",
@@ -43,9 +43,9 @@
   },
   {
     "ticker": "WAGMIGAMES/USDT",
-    "upTrend": true,
-    "start_date": "2024-05-13T00:00:00",
-    "extrems_date": "2024-05-20T00:00:00"
+    "upTrend": false,
+    "start_date": "2024-05-20T00:00:00",
+    "extrems_date": "2024-05-26T00:00:00"
   },
   {
     "ticker": "BTC/USDT",
@@ -57,12 +57,12 @@
     "ticker": "PYR/USDT",
     "upTrend": false,
     "start_date": "2024-05-19T00:00:00",
-    "extrems_date": "2024-05-23T00:00:00"
+    "extrems_date": "2024-05-26T00:00:00"
   },
   {
     "ticker": "LINK/USDT",
-    "upTrend": false,
-    "start_date": "2024-03-25T00:00:00",
-    "extrems_date": "2024-04-12T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-04-12T00:00:00",
+    "extrems_date": "2024-05-26T00:00:00"
   }
 ]

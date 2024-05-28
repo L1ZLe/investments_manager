@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ONDO/USDT',
   newTrend: true,
-  'the high': 1.25,
+  'the high': 1.3294,
   'the low': null,
   'the close': 0.9332,
   'the start_date - 1 day': '2024-04-11T00:00:00',
-  'the extrems_date - 1 day': '2024-05-24T00:00:00'
+  'the extrems_date - 1 day': '2024-05-25T00:00:00'
 }
 [31m BINANCE_SPOT_SAND_USDT 1DAY SAND/USDT [0m
 The Original trend of SAND/USDT was : false
@@ -34,372 +34,106 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-06T00:00:00',
   'the extrems_date - 1 day': '2024-05-21T00:00:00'
 }
-[31m MEXC_SPOT_ATOR_USDT 1DAY ATOR/USDT [0m
-The Original trend of ATOR/USDT was : true
-Error fetching crypto OHLC data: AxiosError: Request failed with status code 400
-    at settle (file:///home/l1zle/Investment-manager/node_modules/axios/lib/core/settle.js:19:12)
-    at IncomingMessage.handleStreamEnd (file:///home/l1zle/Investment-manager/node_modules/axios/lib/adapters/http.js:589:11)
-    at IncomingMessage.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1696:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///home/l1zle/Investment-manager/node_modules/axios/lib/core/Axios.js:45:41)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async fetchOHLCV (file:///home/l1zle/Investment-manager/d/index.js:64:22)
-    at async main (file:///home/l1zle/Investment-manager/d/index.js:410:19) {
-  code: 'ERR_BAD_REQUEST',
-  config: {
-    transitional: {
-      silentJSONParsing: true,
-      forcedJSONParsing: true,
-      clarifyTimeoutError: false
-    },
-    adapter: [ 'xhr', 'http' ],
-    transformRequest: [ [Function: transformRequest] ],
-    transformResponse: [ [Function: transformResponse] ],
-    timeout: 0,
-    xsrfCookieName: 'XSRF-TOKEN',
-    xsrfHeaderName: 'X-XSRF-TOKEN',
-    maxContentLength: -1,
-    maxBodyLength: Infinity,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json',
-      'Content-Type': undefined,
-      'X-CoinAPI-Key': '93D271D2-5CD3-4B59-BFA6-89DE80692521',
-      'User-Agent': 'axios/1.6.8',
-      'Accept-Encoding': 'gzip, compress, deflate, br'
-    },
-    method: 'get',
-    url: 'https://rest.coinapi.io/v1/ohlcv/MEXC_SPOT_ATOR_USDT/history',
-    params: {
-      period_id: '1DAY',
-      time_start: '2024-05-13T00:00:00',
-      time_end: '2024-05-26T00:00:00',
-      limit: 100,
-      include_empty_items: false
-    },
-    data: undefined
-  },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
-    },
-    _eventsCount: 7,
-    _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    socket: TLSSocket {
-      _tlsOptions: [Object],
-      _secureEstablished: true,
-      _securePending: false,
-      _newSessionPending: false,
-      _controlReleased: true,
-      secureConnecting: false,
-      _SNICallback: null,
-      servername: 'rest.coinapi.io',
-      alpnProtocol: false,
-      authorized: true,
-      authorizationError: null,
-      encrypted: true,
-      _events: [Object: null prototype],
-      _eventsCount: 9,
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'rest.coinapi.io',
-      _closeAfterHandlingError: false,
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: undefined,
-      _server: null,
-      ssl: [TLSWrap],
-      _requestCert: true,
-      _rejectUnauthorized: true,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      [Symbol(alpncallback)]: null,
-      [Symbol(res)]: [TLSWrap],
-      [Symbol(verified)]: true,
-      [Symbol(pendingSession)]: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TLSWrap],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 11956,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 2169,
-        [Symbol(triggerId)]: 2167
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: false,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(connect-options)]: [Object]
-    },
-    _header: 'GET /v1/ohlcv/MEXC_SPOT_ATOR_USDT/history?period_id=1DAY&time_start=2024-05-13T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
-      'Accept: application/json\r\n' +
-      'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
-      'User-Agent: axios/1.6.8\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: rest.coinapi.io\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 443,
-      protocol: 'https:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 1,
-      maxCachedSessions: 100,
-      _sessionCache: [Object],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/v1/ohlcv/MEXC_SPOT_ATOR_USDT/history?period_id=1DAY&time_start=2024-05-13T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 400,
-      statusMessage: 'Bad Request',
-      client: [TLSSocket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'https://rest.coinapi.io/v1/ohlcv/MEXC_SPOT_ATOR_USDT/history?period_id=1DAY&time_start=2024-05-13T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 10,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'rest.coinapi.io',
-    protocol: 'https:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 0,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/MEXC_SPOT_ATOR_USDT/history?period_id=1DAY&time_start=2024-05-13T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false',
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'x-coinapi-key': [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 16384,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 400,
-    statusText: 'Bad Request',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'application/json',
-      date: 'Sun, 26 May 2024 00:02:10 GMT',
-      'transfer-encoding': 'chunked',
-      'x-concurrencylimit-limit': '1',
-      'x-concurrencylimit-remaining': '1'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 0,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
-      maxBodyLength: Infinity,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      method: 'get',
-      url: 'https://rest.coinapi.io/v1/ohlcv/MEXC_SPOT_ATOR_USDT/history',
-      params: [Object],
-      data: undefined
-    },
-    request: <ref *1> ClientRequest {
-      _events: [Object: null prototype],
-      _eventsCount: 7,
-      _maxListeners: undefined,
-      outputData: [],
-      outputSize: 0,
-      writable: true,
-      destroyed: true,
-      _last: true,
-      chunkedEncoding: false,
-      shouldKeepAlive: true,
-      maxRequestsOnConnectionReached: false,
-      _defaultKeepAlive: true,
-      useChunkedEncodingByDefault: false,
-      sendDate: false,
-      _removedConnection: false,
-      _removedContLen: false,
-      _removedTE: false,
-      strictContentLength: false,
-      _contentLength: 0,
-      _hasBody: true,
-      _trailer: '',
-      finished: true,
-      _headerSent: true,
-      _closed: true,
-      socket: [TLSSocket],
-      _header: 'GET /v1/ohlcv/MEXC_SPOT_ATOR_USDT/history?period_id=1DAY&time_start=2024-05-13T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
-        'Accept: application/json\r\n' +
-        'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
-        'User-Agent: axios/1.6.8\r\n' +
-        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-        'Host: rest.coinapi.io\r\n' +
-        'Connection: keep-alive\r\n' +
-        '\r\n',
-      _keepAliveTimeout: 0,
-      _onPendingData: [Function: nop],
-      agent: [Agent],
-      socketPath: undefined,
-      method: 'GET',
-      maxHeaderSize: undefined,
-      insecureHTTPParser: undefined,
-      joinDuplicateHeaders: undefined,
-      path: '/v1/ohlcv/MEXC_SPOT_ATOR_USDT/history?period_id=1DAY&time_start=2024-05-13T00:00:00&time_end=2024-05-26T00:00:00&limit=100&include_empty_items=false',
-      _ended: true,
-      res: [IncomingMessage],
-      aborted: false,
-      timeoutCb: null,
-      upgradeOrConnect: false,
-      parser: null,
-      maxHeadersCount: null,
-      reusedSocket: true,
-      host: 'rest.coinapi.io',
-      protocol: 'https:',
-      _redirectable: [Writable],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(kNeedDrain)]: false,
-      [Symbol(corked)]: 0,
-      [Symbol(kOutHeaders)]: [Object: null prototype],
-      [Symbol(errored)]: null,
-      [Symbol(kHighWaterMark)]: 16384,
-      [Symbol(kRejectNonStandardBodyWrites)]: false,
-      [Symbol(kUniqueHeaders)]: null
-    },
-    data: { error: 'Requested symbol_id is invalid or does not exist.' }
-  }
+[31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
+The Original trend of NAI/USDT was : true
+The Final trend is : true
+{
+  ticker: 'NAI/USDT',
+  newTrend: true,
+  'the high': 0.0243,
+  'the low': null,
+  'the close': 0.0161,
+  'the start_date - 1 day': '2024-05-19T00:00:00',
+  'the extrems_date - 1 day': '2024-05-23T00:00:00'
 }
-TypeError: Cannot read properties of null (reading 'length')
-    at detectTrend (file:///home/l1zle/Investment-manager/d/index.js:80:35)
-    at main (file:///home/l1zle/Investment-manager/d/index.js:418:36)
-file:///home/l1zle/Investment-manager/d/index.js:418
-    let { newTrend, data } = await detectTrend(
-          ^
-
-TypeError: Cannot destructure property 'newTrend' of '(intermediate value)' as it is undefined.
-    at main (file:///home/l1zle/Investment-manager/d/index.js:418:11)
-
-Node.js v20.12.1
+[31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
+The Original trend of YGG/USDT was : true
+The Final trend is : true
+{
+  ticker: 'YGG/USDT',
+  newTrend: true,
+  'the high': 1.081,
+  'the low': null,
+  'the close': 0.8985,
+  'the start_date - 1 day': '2024-05-13T00:00:00',
+  'the extrems_date - 1 day': '2024-05-24T00:00:00'
+}
+[31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
+The Original trend of MYRIA/USDT was : true
+The Final trend is : true
+{
+  ticker: 'MYRIA/USDT',
+  newTrend: true,
+  'the high': 0.007699,
+  'the low': null,
+  'the close': 0.006017,
+  'the start_date - 1 day': '2024-05-13T00:00:00',
+  'the extrems_date - 1 day': '2024-05-26T00:00:00'
+}
+[31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
+The Original trend of ARB/USDT was : false
+The Final trend is : false
+{
+  ticker: 'ARB/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.8659,
+  'the close': 1.5694,
+  'the start_date - 1 day': '2024-04-08T00:00:00',
+  'the extrems_date - 1 day': '2024-04-12T00:00:00'
+}
+[31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
+The Original trend of WAGMIGAMES/USDT was : true
+The Final trend is : false
+{
+  ticker: 'WAGMIGAMES/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.000010351,
+  'the close': 0.000012754,
+  'the start_date - 1 day': '2024-05-20T00:00:00',
+  'the extrems_date - 1 day': '2024-05-26T00:00:00'
+}
+Selling WAGMIGAMES/USDT on GATEIO
+Email about selling is sent
+[31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
+The Original trend of BTC/USDT was : true
+The Final trend is : true
+{
+  ticker: 'BTC/USDT',
+  newTrend: true,
+  'the high': 71979,
+  'the low': null,
+  'the close': 66274.01,
+  'the start_date - 1 day': '2024-04-30T00:00:00',
+  'the extrems_date - 1 day': '2024-05-20T00:00:00'
+}
+[31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
+The Original trend of PYR/USDT was : false
+The Final trend is : false
+{
+  ticker: 'PYR/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 4.215,
+  'the close': 4.523,
+  'the start_date - 1 day': '2024-05-19T00:00:00',
+  'the extrems_date - 1 day': '2024-05-26T00:00:00'
+}
+[31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
+The Original trend of LINK/USDT was : false
+The Final trend is : true
+{
+  ticker: 'LINK/USDT',
+  newTrend: true,
+  'the high': 18.867,
+  'the low': null,
+  'the close': 17.042,
+  'the start_date - 1 day': '2024-04-12T00:00:00',
+  'the extrems_date - 1 day': '2024-05-26T00:00:00'
+}
+Buying LINK/USDT on BINANCE
+Balance: 1569263.9379792 WAGMIGAMES
+Sold: 17.96806135$ of WAGMIGAMES/USDT
+Email about buying is sent
+bought: 19.8962$ of LINK/USDT
