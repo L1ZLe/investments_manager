@@ -23,7 +23,7 @@ The Final trend is : true
   'the extrems_date - 1 day': '2024-05-28T16:00:00'
 }
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
-The Original trend of SENATE/USDT was : false
+The Original trend of SENATE/USDT was : true
 The Final trend is : true
 {
   ticker: 'SENATE/USDT',
@@ -34,8 +34,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-28T20:00:00',
   'the extrems_date - 1 day': '2024-05-29T04:00:00'
 }
-Buying SENATE/USDT on GATEIO
-Email about buying is sent
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : false
 The Final trend is : false
@@ -43,10 +41,10 @@ The Final trend is : false
   ticker: 'BEAMX/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.0275,
-  'the close': 0.02888,
+  'the low': 0.027319,
+  'the close': 0.028566,
   'the start_date - 1 day': '2024-05-27T12:00:00',
-  'the extrems_date - 1 day': '2024-05-28T20:00:00'
+  'the extrems_date - 1 day': '2024-05-29T12:00:00'
 }
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
 The Original trend of SFUND/USDT was : false
@@ -55,14 +53,13 @@ The Final trend is : false
   ticker: 'SFUND/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 2.28,
-  'the close': 2.319,
+  'the low': 2.268,
+  'the close': 2.298,
   'the start_date - 1 day': '2024-05-26T08:00:00',
-  'the extrems_date - 1 day': '2024-05-29T04:00:00'
+  'the extrems_date - 1 day': '2024-05-29T12:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
-bought: 20$ of SENATE/USDT
 The Final trend is : true
 {
   ticker: 'LOOKS/USDT',
@@ -116,10 +113,10 @@ The Final trend is : false
   ticker: 'KAS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.1371,
+  'the low': 0.137,
   'the close': 0.14059,
   'the start_date - 1 day': '2024-05-27T16:00:00',
-  'the extrems_date - 1 day': '2024-05-29T08:00:00'
+  'the extrems_date - 1 day': '2024-05-29T12:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
@@ -163,11 +160,11 @@ The Final trend is : true
 {
   ticker: 'PHB/USDT',
   newTrend: true,
-  'the high': 2.8559,
+  'the high': 2.9067,
   'the low': null,
-  'the close': 2.6049,
+  'the close': 2.7524,
   'the start_date - 1 day': '2024-05-28T00:00:00',
-  'the extrems_date - 1 day': '2024-05-29T04:00:00'
+  'the extrems_date - 1 day': '2024-05-29T12:00:00'
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : true

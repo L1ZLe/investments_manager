@@ -21,13 +21,13 @@
     "ticker": "BEAMX/USDT",
     "upTrend": false,
     "start_date": "2024-05-27T12:00:00",
-    "extrems_date": "2024-05-28T20:00:00"
+    "extrems_date": "2024-05-29T12:00:00"
   },
   {
     "ticker": "SFUND/USDT",
     "upTrend": false,
     "start_date": "2024-05-26T08:00:00",
-    "extrems_date": "2024-05-29T04:00:00"
+    "extrems_date": "2024-05-29T12:00:00"
   },
   {
     "ticker": "LOOKS/USDT",
@@ -57,7 +57,7 @@
     "ticker": "KAS/USDT",
     "upTrend": false,
     "start_date": "2024-05-27T16:00:00",
-    "extrems_date": "2024-05-29T08:00:00"
+    "extrems_date": "2024-05-29T12:00:00"
   },
   {
     "ticker": "RTF/USDT",
@@ -81,7 +81,7 @@
     "ticker": "PHB/USDT",
     "upTrend": true,
     "start_date": "2024-05-28T00:00:00",
-    "extrems_date": "2024-05-29T04:00:00"
+    "extrems_date": "2024-05-29T12:00:00"
   },
   {
     "ticker": "HOT/USDT",
