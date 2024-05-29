@@ -83,7 +83,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-04-12T00:00:00'
 }
 [31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
-The Original trend of WAGMIGAMES/USDT was : true
+The Original trend of WAGMIGAMES/USDT was : false
 The Final trend is : false
 {
   ticker: 'WAGMIGAMES/USDT',
@@ -94,8 +94,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-20T00:00:00',
   'the extrems_date - 1 day': '2024-05-26T00:00:00'
 }
-Selling WAGMIGAMES/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : true
 The Final trend is : true
@@ -121,7 +119,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-05-26T00:00:00'
 }
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
-The Original trend of LINK/USDT was : false
+The Original trend of LINK/USDT was : true
 The Final trend is : true
 {
   ticker: 'LINK/USDT',
@@ -132,8 +130,3 @@ The Final trend is : true
   'the start_date - 1 day': '2024-04-12T00:00:00',
   'the extrems_date - 1 day': '2024-05-26T00:00:00'
 }
-Buying LINK/USDT on BINANCE
-Balance: 1569263.9379792 WAGMIGAMES
-Sold: 17.96806135$ of WAGMIGAMES/USDT
-Email about buying is sent
-bought: 19.8962$ of LINK/USDT
