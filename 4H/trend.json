@@ -81,12 +81,12 @@
     "ticker": "PHB/USDT",
     "upTrend": true,
     "start_date": "2024-05-28T00:00:00",
-    "extrems_date": "2024-05-28T16:00:00"
+    "extrems_date": "2024-05-29T00:00:00"
   },
   {
     "ticker": "HOT/USDT",
     "upTrend": true,
     "start_date": "2024-05-23T16:00:00",
-    "extrems_date": "2024-05-28T16:00:00"
+    "extrems_date": "2024-05-29T00:00:00"
   }
 ]
