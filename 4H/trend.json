@@ -1,9 +1,9 @@
 [
   {
     "ticker": "ENS/USDT",
-    "upTrend": true,
-    "start_date": "2024-05-27T20:00:00",
-    "extrems_date": "2024-05-28T08:00:00"
+    "upTrend": false,
+    "start_date": "2024-05-28T08:00:00",
+    "extrems_date": "2024-05-30T00:00:00"
   },
   {
     "ticker": "INSP/USDT",
@@ -21,7 +21,7 @@
     "ticker": "BEAMX/USDT",
     "upTrend": false,
     "start_date": "2024-05-27T12:00:00",
-    "extrems_date": "2024-05-29T16:00:00"
+    "extrems_date": "2024-05-30T00:00:00"
   },
   {
     "ticker": "SFUND/USDT",
@@ -75,18 +75,18 @@
     "ticker": "ANKR/USDT",
     "upTrend": false,
     "start_date": "2024-05-22T16:00:00",
-    "extrems_date": "2024-05-23T16:00:00"
+    "extrems_date": "2024-05-30T00:00:00"
   },
   {
     "ticker": "PHB/USDT",
     "upTrend": true,
     "start_date": "2024-05-28T00:00:00",
-    "extrems_date": "2024-05-29T20:00:00"
+    "extrems_date": "2024-05-30T00:00:00"
   },
   {
     "ticker": "HOT/USDT",
-    "upTrend": true,
-    "start_date": "2024-05-23T16:00:00",
-    "extrems_date": "2024-05-29T00:00:00"
+    "upTrend": false,
+    "start_date": "2024-05-29T00:00:00",
+    "extrems_date": "2024-05-30T00:00:00"
   }
 ]
