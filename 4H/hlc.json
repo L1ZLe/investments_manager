@@ -1,9 +1,9 @@
 [
   {
     "ticker": "ENS/USDT",
-    "high": null,
-    "low": 24.3,
-    "close": 25.31
+    "high": 26.12,
+    "low": null,
+    "close": 24.59
   },
   {
     "ticker": "INSP/USDT",
@@ -26,8 +26,8 @@
   {
     "ticker": "SFUND/USDT",
     "high": null,
-    "low": 2.2,
-    "close": 2.298
+    "low": 2.19,
+    "close": 2.202
   },
   {
     "ticker": "LOOKS/USDT",
@@ -37,14 +37,14 @@
   },
   {
     "ticker": "THG/USDT",
-    "high": 0.10308,
-    "low": null,
-    "close": 0.06067
+    "high": null,
+    "low": 0.06,
+    "close": 0.06199
   },
   {
     "ticker": "AURORA/USDT",
     "high": null,
-    "low": 0.1885,
+    "low": 0.1876,
     "close": 0.2003
   },
   {
