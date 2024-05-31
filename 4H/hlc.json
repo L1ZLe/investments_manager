@@ -13,9 +13,9 @@
   },
   {
     "ticker": "SENATE/USDT",
-    "high": null,
-    "low": 0.07224,
-    "close": 0.074
+    "high": 0.076,
+    "low": null,
+    "close": 0.07327
   },
   {
     "ticker": "BEAMX/USDT",
@@ -49,7 +49,7 @@
   },
   {
     "ticker": "ERN/USDT",
-    "high": 4.344,
+    "high": 4.379,
     "low": null,
     "close": 4.239
   },
@@ -86,7 +86,7 @@
   {
     "ticker": "HOT/USDT",
     "high": null,
-    "low": 0.00239,
-    "close": 0.002434
+    "low": 0.002379,
+    "close": 0.002426
   }
 ]

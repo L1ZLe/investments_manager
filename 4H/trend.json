@@ -13,9 +13,9 @@
   },
   {
     "ticker": "SENATE/USDT",
-    "upTrend": false,
-    "start_date": "2024-05-29T04:00:00",
-    "extrems_date": "2024-05-31T04:00:00"
+    "upTrend": true,
+    "start_date": "2024-05-31T04:00:00",
+    "extrems_date": "2024-05-31T08:00:00"
   },
   {
     "ticker": "BEAMX/USDT",
@@ -51,7 +51,7 @@
     "ticker": "ERN/USDT",
     "upTrend": true,
     "start_date": "2024-05-30T08:00:00",
-    "extrems_date": "2024-05-31T04:00:00"
+    "extrems_date": "2024-05-31T08:00:00"
   },
   {
     "ticker": "KAS/USDT",
@@ -87,6 +87,6 @@
     "ticker": "HOT/USDT",
     "upTrend": false,
     "start_date": "2024-05-29T00:00:00",
-    "extrems_date": "2024-05-31T00:00:00"
+    "extrems_date": "2024-05-31T08:00:00"
   }
 ]

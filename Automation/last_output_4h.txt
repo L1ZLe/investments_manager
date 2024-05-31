@@ -24,16 +24,18 @@ The Final trend is : true
 }
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'SENATE/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.07224,
-  'the close': 0.074,
-  'the start_date - 1 day': '2024-05-29T04:00:00',
-  'the extrems_date - 1 day': '2024-05-31T04:00:00'
+  newTrend: true,
+  'the high': 0.076,
+  'the low': null,
+  'the close': 0.07327,
+  'the start_date - 1 day': '2024-05-31T04:00:00',
+  'the extrems_date - 1 day': '2024-05-31T08:00:00'
 }
+Buying SENATE/USDT on GATEIO
+Email about buying is sent
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : true
 The Final trend is : true
@@ -70,6 +72,7 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-25T08:00:00',
   'the extrems_date - 1 day': '2024-05-26T08:00:00'
 }
+bought: 20$ of SENATE/USDT
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
 The Final trend is : false
@@ -95,19 +98,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-05-30T16:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
-The Original trend of ERN/USDT was : false
+The Original trend of ERN/USDT was : true
 The Final trend is : true
 {
   ticker: 'ERN/USDT',
   newTrend: true,
-  'the high': 4.344,
+  'the high': 4.379,
   'the low': null,
   'the close': 4.239,
   'the start_date - 1 day': '2024-05-30T08:00:00',
-  'the extrems_date - 1 day': '2024-05-31T04:00:00'
+  'the extrems_date - 1 day': '2024-05-31T08:00:00'
 }
-Buying ERN/USDT on BINANCE
-Email about buying is sent
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
 The Final trend is : false
@@ -120,7 +121,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-27T16:00:00',
   'the extrems_date - 1 day': '2024-05-30T16:00:00'
 }
-bought: 19.8766$ of ERN/USDT
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -176,8 +176,8 @@ The Final trend is : false
   ticker: 'HOT/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.00239,
-  'the close': 0.002434,
+  'the low': 0.002379,
+  'the close': 0.002426,
   'the start_date - 1 day': '2024-05-29T00:00:00',
-  'the extrems_date - 1 day': '2024-05-31T00:00:00'
+  'the extrems_date - 1 day': '2024-05-31T08:00:00'
 }
