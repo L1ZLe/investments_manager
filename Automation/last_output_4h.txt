@@ -1,7 +1,6 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : false
+The Original trend of ENS/USDT was : true
 The Final trend is : true
-[33m we assume that close is the starting point [0m
 {
   ticker: 'ENS/USDT',
   newTrend: true,
@@ -11,37 +10,30 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-31T12:00:00',
   'the extrems_date - 1 day': '2024-05-31T20:00:00'
 }
-Buying ENS/USDT on BINANCE
-Email about buying is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
-The Original trend of INSP/USDT was : true
+The Original trend of INSP/USDT was : false
 The Final trend is : false
 {
   ticker: 'INSP/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.09502,
+  'the low': 0.09346,
   'the close': 0.10401,
   'the start_date - 1 day': '2024-05-31T00:00:00',
-  'the extrems_date - 1 day': '2024-05-31T20:00:00'
+  'the extrems_date - 1 day': '2024-06-01T00:00:00'
 }
-Selling INSP/USDT on MEXC
-Email about selling is sent
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
-The Original trend of SENATE/USDT was : true
-bought: 19.9872$ of ENS/USDT
+The Original trend of SENATE/USDT was : false
 The Final trend is : false
 {
   ticker: 'SENATE/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.07225,
+  'the low': 0.07177,
   'the close': 0.07421,
   'the start_date - 1 day': '2024-05-31T08:00:00',
-  'the extrems_date - 1 day': '2024-05-31T20:00:00'
+  'the extrems_date - 1 day': '2024-06-01T00:00:00'
 }
-Selling SENATE/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : true
 The Final trend is : true
@@ -54,8 +46,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-30T20:00:00',
   'the extrems_date - 1 day': '2024-05-31T00:00:00'
 }
-Balance: 187.42 INSP
-Sold: undefined$ of INSP/USDT
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
 The Original trend of SFUND/USDT was : false
 The Final trend is : false
@@ -68,10 +58,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-26T08:00:00',
   'the extrems_date - 1 day': '2024-05-31T16:00:00'
 }
-Balance: 267.70146 SENATE
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
-Sold: 19.4199243$ of SENATE/USDT
 The Final trend is : true
 {
   ticker: 'LOOKS/USDT',
@@ -95,33 +83,32 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-05-31T20:00:00'
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
-The Original trend of AURORA/USDT was : false
+The Original trend of AURORA/USDT was : true
 The Final trend is : true
-[33m we assume that close is the starting point [0m
 {
   ticker: 'AURORA/USDT',
   newTrend: true,
-  'the high': 0.1911,
+  'the high': 0.1961,
   'the low': null,
   'the close': 0.1878,
   'the start_date - 1 day': '2024-05-31T12:00:00',
-  'the extrems_date - 1 day': '2024-05-31T20:00:00'
+  'the extrems_date - 1 day': '2024-06-01T00:00:00'
 }
-Buying AURORA/USDT on GATEIO
-bought: 20$ of AURORA/USDT
-Email about buying is sent
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : true
-The Final trend is : true
+The Final trend is : false
+[33m we assume that close is the starting point [0m
 {
   ticker: 'ERN/USDT',
-  newTrend: true,
-  'the high': 4.428,
-  'the low': null,
+  newTrend: false,
+  'the high': null,
+  'the low': 4.216,
   'the close': 4.255,
-  'the start_date - 1 day': '2024-05-30T08:00:00',
+  'the start_date - 1 day': '2024-05-31T12:00:00',
   'the extrems_date - 1 day': '2024-05-31T12:00:00'
 }
+Selling ERN/USDT on BINANCE
+Email about selling is sent
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
 The Final trend is : false
@@ -134,6 +121,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-27T16:00:00',
   'the extrems_date - 1 day': '2024-05-31T12:00:00'
 }
+Balance: 4.65915803 ERN
+Sold: 19.5132$ of ERN/USDT
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -159,9 +148,8 @@ The Final trend is : true
   'the extrems_date - 1 day': '2024-05-31T16:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : false
+The Original trend of ANKR/USDT was : true
 The Final trend is : true
-[33m we assume that close is the starting point [0m
 {
   ticker: 'ANKR/USDT',
   newTrend: true,
@@ -171,9 +159,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-31T12:00:00',
   'the extrems_date - 1 day': '2024-05-31T16:00:00'
 }
-Buying ANKR/USDT on BINANCE
-bought: 20.002892$ of ANKR/USDT
-Email about buying is sent
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : false
 The Final trend is : false
@@ -181,10 +166,10 @@ The Final trend is : false
   ticker: 'PHB/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 2.6419,
+  'the low': 2.6094,
   'the close': 2.7311,
   'the start_date - 1 day': '2024-05-30T00:00:00',
-  'the extrems_date - 1 day': '2024-05-31T20:00:00'
+  'the extrems_date - 1 day': '2024-06-01T00:00:00'
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false

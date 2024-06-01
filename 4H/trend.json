@@ -9,13 +9,13 @@
     "ticker": "INSP/USDT",
     "upTrend": false,
     "start_date": "2024-05-31T00:00:00",
-    "extrems_date": "2024-05-31T20:00:00"
+    "extrems_date": "2024-06-01T00:00:00"
   },
   {
     "ticker": "SENATE/USDT",
     "upTrend": false,
     "start_date": "2024-05-31T08:00:00",
-    "extrems_date": "2024-05-31T20:00:00"
+    "extrems_date": "2024-06-01T00:00:00"
   },
   {
     "ticker": "BEAMX/USDT",
@@ -45,12 +45,12 @@
     "ticker": "AURORA/USDT",
     "upTrend": true,
     "start_date": "2024-05-31T12:00:00",
-    "extrems_date": "2024-05-31T20:00:00"
+    "extrems_date": "2024-06-01T00:00:00"
   },
   {
     "ticker": "ERN/USDT",
-    "upTrend": true,
-    "start_date": "2024-05-30T08:00:00",
+    "upTrend": false,
+    "start_date": "2024-05-31T12:00:00",
     "extrems_date": "2024-05-31T12:00:00"
   },
   {
@@ -81,7 +81,7 @@
     "ticker": "PHB/USDT",
     "upTrend": false,
     "start_date": "2024-05-30T00:00:00",
-    "extrems_date": "2024-05-31T20:00:00"
+    "extrems_date": "2024-06-01T00:00:00"
   },
   {
     "ticker": "HOT/USDT",
