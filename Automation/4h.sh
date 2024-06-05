@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change directory to where your Node.js script is located
-cd /investment-manager/4H
+cd ~/investment-manager/4H
 
 # Run your Node.js script and store its output in last_output.tx
 node index.js &> /data/data/com.termux/files/home/investment-manager/Automation/last_output_4h.txt && wait
