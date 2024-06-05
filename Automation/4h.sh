@@ -4,7 +4,7 @@
 cd /data/data/com.termux/files/home/Investment-manager/4H
 
 # Run your Node.js script and store its output in last_output.tx
-/data/data/com.termux/files/usr/bin/node index.js &> /data/data/com.termux/files/home/Investment-manager/Automation/last_output_4h.txt && wait
+node index.js &> /data/data/com.termux/files/home/Investment-manager/Automation/last_output_4h.txt && wait
 
 cd /data/data/com.termux/files/home/Investment-manager/Automation
 
