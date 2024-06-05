@@ -95,7 +95,7 @@ The Final trend is : true
   'the extrems_date - 1 day': '2024-06-05T08:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
-The Original trend of ERN/USDT was : false
+The Original trend of ERN/USDT was : true
 The Final trend is : true
 {
   ticker: 'ERN/USDT',
@@ -106,8 +106,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-02T12:00:00',
   'the extrems_date - 1 day': '2024-06-05T04:00:00'
 }
-Buying ERN/USDT on BINANCE
-Email about buying is sent
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
 The Final trend is : true
@@ -120,7 +118,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-31T12:00:00',
   'the extrems_date - 1 day': '2024-06-05T04:00:00'
 }
-bought: 19.845$ of ERN/USDT
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -134,7 +131,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
-The Original trend of NAKA/USDT was : true
+The Original trend of NAKA/USDT was : false
 The Final trend is : false
 {
   ticker: 'NAKA/USDT',
@@ -145,8 +142,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-04T20:00:00',
   'the extrems_date - 1 day': '2024-06-05T08:00:00'
 }
-Selling NAKA/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : true
 The Final trend is : true
@@ -183,5 +178,3 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-31T12:00:00',
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
-Balance: 13.93498042 NAKA
-Sold: 22.384117$ of NAKA/USDT
