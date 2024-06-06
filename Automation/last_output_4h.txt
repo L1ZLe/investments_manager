@@ -17,10 +17,10 @@ The Final trend is : false
   ticker: 'INSP/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.0732,
+  'the low': 0.07054,
   'the close': 0.08405,
   'the start_date - 1 day': '2024-05-31T04:00:00',
-  'the extrems_date - 1 day': '2024-06-05T16:00:00'
+  'the extrems_date - 1 day': '2024-06-05T20:00:00'
 }
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : true
@@ -52,11 +52,11 @@ The Final trend is : true
 {
   ticker: 'SFUND/USDT',
   newTrend: true,
-  'the high': 2.474,
+  'the high': 2.477,
   'the low': null,
-  'the close': 2.403,
+  'the close': 2.438,
   'the start_date - 1 day': '2024-05-31T16:00:00',
-  'the extrems_date - 1 day': '2024-06-05T08:00:00'
+  'the extrems_date - 1 day': '2024-06-05T20:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true

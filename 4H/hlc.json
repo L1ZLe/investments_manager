@@ -8,7 +8,7 @@
   {
     "ticker": "INSP/USDT",
     "high": null,
-    "low": 0.0732,
+    "low": 0.07054,
     "close": 0.08405
   },
   {
@@ -25,9 +25,9 @@
   },
   {
     "ticker": "SFUND/USDT",
-    "high": 2.474,
+    "high": 2.477,
     "low": null,
-    "close": 2.403
+    "close": 2.438
   },
   {
     "ticker": "LOOKS/USDT",
