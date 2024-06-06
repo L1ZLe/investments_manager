@@ -1,15 +1,18 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
 The Original trend of ENS/USDT was : true
-The Final trend is : true
+The Final trend is : false
+[33m we assume that close is the starting point [0m
 {
   ticker: 'ENS/USDT',
-  newTrend: true,
-  'the high': 25.81,
-  'the low': null,
+  newTrend: false,
+  'the high': null,
+  'the low': 23.72,
   'the close': 24.84,
   'the start_date - 1 day': '2024-06-05T08:00:00',
   'the extrems_date - 1 day': '2024-06-05T08:00:00'
 }
+Selling ENS/USDT on BINANCE
+Email about selling is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
 The Final trend is : false
@@ -22,6 +25,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-31T04:00:00',
   'the extrems_date - 1 day': '2024-06-05T20:00:00'
 }
+Balance: 1.5741596 ENS
+Sold: 38.8261$ of ENS/USDT
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : true
 The Final trend is : true
@@ -52,11 +57,11 @@ The Final trend is : true
 {
   ticker: 'SFUND/USDT',
   newTrend: true,
-  'the high': 2.477,
+  'the high': 2.483,
   'the low': null,
-  'the close': 2.438,
+  'the close': 2.45,
   'the start_date - 1 day': '2024-05-31T16:00:00',
-  'the extrems_date - 1 day': '2024-06-05T20:00:00'
+  'the extrems_date - 1 day': '2024-06-06T00:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : true
@@ -88,24 +93,28 @@ The Final trend is : true
 {
   ticker: 'AURORA/USDT',
   newTrend: true,
-  'the high': 0.2389,
+  'the high': 0.2473,
   'the low': null,
-  'the close': 0.1966,
+  'the close': 0.222,
   'the start_date - 1 day': '2024-05-31T12:00:00',
-  'the extrems_date - 1 day': '2024-06-05T08:00:00'
+  'the extrems_date - 1 day': '2024-06-06T00:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'ERN/USDT',
-  newTrend: true,
-  'the high': 4.095,
-  'the low': null,
-  'the close': 4.037,
-  'the start_date - 1 day': '2024-06-02T12:00:00',
-  'the extrems_date - 1 day': '2024-06-05T16:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 3.97,
+  'the close': 4.038,
+  'the start_date - 1 day': '2024-06-05T16:00:00',
+  'the extrems_date - 1 day': '2024-06-06T00:00:00'
 }
+Selling ERN/USDT on BINANCE
+Balance: 9.84935803 ERN
+Sold: 39.1706$ of ERN/USDT
+Email about selling is sent
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
 The Final trend is : true
@@ -137,10 +146,10 @@ The Final trend is : false
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.5624,
-  'the close': 1.7075,
+  'the low': 1.5263,
+  'the close': 1.633,
   'the start_date - 1 day': '2024-06-04T00:00:00',
-  'the extrems_date - 1 day': '2024-06-04T04:00:00'
+  'the extrems_date - 1 day': '2024-06-06T00:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : true
