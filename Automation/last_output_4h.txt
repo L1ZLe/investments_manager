@@ -228,7 +228,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 2392,
+        _idleStart: 2290,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
@@ -267,7 +267,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
     statusText: 'Too Many Requests',
     headers: Object [AxiosHeaders] {
       'content-type': 'application/json',
-      date: 'Thu, 06 Jun 2024 12:02:52 GMT',
+      date: 'Thu, 06 Jun 2024 12:03:21 GMT',
       'transfer-encoding': 'chunked',
       'x-concurrencylimit-limit': '1',
       'x-concurrencylimit-remaining': '1',
