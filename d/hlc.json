@@ -1,9 +1,9 @@
 [
   {
     "ticker": "ONDO/USDT",
-    "high": 1.3294,
+    "high": 1.4854,
     "low": null,
-    "close": 0.9332
+    "close": 1.1656
   },
   {
     "ticker": "SAND/USDT",
@@ -14,8 +14,8 @@
   {
     "ticker": "AMU/USDT",
     "high": null,
-    "low": 0.035,
-    "close": 0.047
+    "low": 0.03,
+    "close": 0.03778
   },
   {
     "ticker": "NAI/USDT",
@@ -25,15 +25,15 @@
   },
   {
     "ticker": "YGG/USDT",
-    "high": 1.081,
+    "high": 1.165,
     "low": null,
-    "close": 0.8985
+    "close": 0.954
   },
   {
     "ticker": "MYRIA/USDT",
     "high": null,
-    "low": 0.005795,
-    "close": 0.006724
+    "low": 0.005662,
+    "close": 0.005999
   },
   {
     "ticker": "ARB/USDT",
@@ -44,7 +44,7 @@
   {
     "ticker": "WAGMIGAMES/USDT",
     "high": null,
-    "low": 0.000010172,
+    "low": 0.000009568,
     "close": 0.000011483
   },
   {
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "PYR/USDT",
-    "high": null,
-    "low": 4.215,
-    "close": 4.523
+    "high": 7,
+    "low": null,
+    "close": 4.332
   },
   {
     "ticker": "LINK/USDT",
