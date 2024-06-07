@@ -29,10 +29,10 @@ The Final trend is : false
   ticker: 'SENATE/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.06908,
+  'the low': 0.06826,
   'the close': 0.07396,
   'the start_date - 1 day': '2024-06-05T12:00:00',
-  'the extrems_date - 1 day': '2024-06-06T20:00:00'
+  'the extrems_date - 1 day': '2024-06-07T00:00:00'
 }
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : false
@@ -47,9 +47,8 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-06T12:00:00'
 }
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
-The Original trend of SFUND/USDT was : true
+The Original trend of SFUND/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'SFUND/USDT',
   newTrend: false,
@@ -59,8 +58,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-06T08:00:00',
   'the extrems_date - 1 day': '2024-06-06T20:00:00'
 }
-Selling SFUND/USDT on GATEIO
-Email about selling is sent
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : false
 The Final trend is : false
@@ -97,8 +94,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-05-31T12:00:00',
   'the extrems_date - 1 day': '2024-06-06T16:00:00'
 }
-Balance: 17.26703796 SFUND
-Sold: 41.69264$ of SFUND/USDT
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
 The Final trend is : false
@@ -118,10 +113,10 @@ The Final trend is : false
   ticker: 'KAS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.17113,
+  'the low': 0.17033,
   'the close': 0.18285,
   'the start_date - 1 day': '2024-06-05T04:00:00',
-  'the extrems_date - 1 day': '2024-06-06T16:00:00'
+  'the extrems_date - 1 day': '2024-06-07T00:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
@@ -148,7 +143,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-06T00:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : true
+The Original trend of ANKR/USDT was : false
 The Final trend is : false
 {
   ticker: 'ANKR/USDT',
@@ -159,7 +154,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-06T08:00:00',
   'the extrems_date - 1 day': '2024-06-06T20:00:00'
 }
-Selling ANKR/USDT on BINANCE
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : true
 The Final trend is : true
@@ -172,7 +166,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-01T00:00:00',
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
-Email about selling is sent
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : true
 The Final trend is : true
@@ -185,5 +178,3 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-04T04:00:00',
   'the extrems_date - 1 day': '2024-06-05T16:00:00'
 }
-Balance: 884.9865946 ANKR
-Sold: 38.953298$ of ANKR/USDT
