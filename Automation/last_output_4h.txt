@@ -29,10 +29,10 @@ The Final trend is : false
   ticker: 'SENATE/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.06607,
+  'the low': 0.0635,
   'the close': 0.07396,
   'the start_date - 1 day': '2024-06-05T12:00:00',
-  'the extrems_date - 1 day': '2024-06-07T16:00:00'
+  'the extrems_date - 1 day': '2024-06-07T20:00:00'
 }
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : false
@@ -53,10 +53,10 @@ The Final trend is : false
   ticker: 'SFUND/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 2.265,
-  'the close': 2.452,
+  'the low': 2.264,
+  'the close': 2.314,
   'the start_date - 1 day': '2024-06-06T08:00:00',
-  'the extrems_date - 1 day': '2024-06-07T12:00:00'
+  'the extrems_date - 1 day': '2024-06-08T04:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : false
