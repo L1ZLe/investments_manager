@@ -8,13 +8,13 @@
   {
     "ticker": "INSP/USDT",
     "high": null,
-    "low": 0.06724,
+    "low": 0.06593,
     "close": 0.07459
   },
   {
     "ticker": "SENATE/USDT",
     "high": null,
-    "low": 0.06166,
+    "low": 0.0611,
     "close": 0.06484
   },
   {
@@ -26,25 +26,25 @@
   {
     "ticker": "SFUND/USDT",
     "high": null,
-    "low": 2.062,
+    "low": 1.976,
     "close": 2.17
   },
   {
     "ticker": "LOOKS/USDT",
     "high": null,
-    "low": 0.07195,
+    "low": 0.07189,
     "close": 0.07509
   },
   {
     "ticker": "THG/USDT",
     "high": null,
-    "low": 0.0503,
+    "low": 0.04835,
     "close": 0.0533
   },
   {
     "ticker": "AURORA/USDT",
     "high": null,
-    "low": 0.2151,
+    "low": 0.208,
     "close": 0.2268
   },
   {
@@ -68,7 +68,7 @@
   {
     "ticker": "NAKA/USDT",
     "high": null,
-    "low": 1.3476,
+    "low": 1.3284,
     "close": 1.3808
   },
   {
