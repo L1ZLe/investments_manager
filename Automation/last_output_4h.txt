@@ -5,10 +5,10 @@ The Final trend is : false
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 19.36,
-  'the close': 20.82,
+  'the low': 18.94,
+  'the close': 20.18,
   'the start_date - 1 day': '2024-06-05T08:00:00',
-  'the extrems_date - 1 day': '2024-06-10T20:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -17,10 +17,10 @@ The Final trend is : false
   ticker: 'INSP/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.06593,
-  'the close': 0.07459,
+  'the low': 0.06576,
+  'the close': 0.06739,
   'the start_date - 1 day': '2024-05-31T04:00:00',
-  'the extrems_date - 1 day': '2024-06-11T00:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
@@ -29,10 +29,10 @@ The Final trend is : false
   ticker: 'SENATE/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.0611,
-  'the close': 0.06484,
+  'the low': 0.05996,
+  'the close': 0.06191,
   'the start_date - 1 day': '2024-06-05T12:00:00',
-  'the extrems_date - 1 day': '2024-06-11T00:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : false
@@ -41,10 +41,10 @@ The Final trend is : false
   ticker: 'BEAMX/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.02125,
-  'the close': 0.025734,
+  'the low': 0.021,
+  'the close': 0.021899,
   'the start_date - 1 day': '2024-05-31T00:00:00',
-  'the extrems_date - 1 day': '2024-06-07T12:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
 The Original trend of SFUND/USDT was : false
@@ -53,10 +53,10 @@ The Final trend is : false
   ticker: 'SFUND/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.976,
+  'the low': 1.942,
   'the close': 2.17,
   'the start_date - 1 day': '2024-06-06T08:00:00',
-  'the extrems_date - 1 day': '2024-06-11T04:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : false
@@ -65,10 +65,10 @@ The Final trend is : false
   ticker: 'LOOKS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.07189,
-  'the close': 0.07509,
+  'the low': 0.07032,
+  'the close': 0.07394,
   'the start_date - 1 day': '2024-06-05T08:00:00',
-  'the extrems_date - 1 day': '2024-06-11T00:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
@@ -77,10 +77,10 @@ The Final trend is : false
   ticker: 'THG/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.04835,
+  'the low': 0.04754,
   'the close': 0.0533,
   'the start_date - 1 day': '2024-06-10T00:00:00',
-  'the extrems_date - 1 day': '2024-06-11T04:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : false
@@ -89,23 +89,25 @@ The Final trend is : false
   ticker: 'AURORA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.208,
+  'the low': 0.1968,
   'the close': 0.2268,
   'the start_date - 1 day': '2024-06-09T16:00:00',
-  'the extrems_date - 1 day': '2024-06-11T04:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'ERN/USDT',
-  newTrend: true,
-  'the high': 3.859,
-  'the low': null,
-  'the close': 3.608,
-  'the start_date - 1 day': '2024-06-08T08:00:00',
-  'the extrems_date - 1 day': '2024-06-09T20:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 3.43,
+  'the close': 3.622,
+  'the start_date - 1 day': '2024-06-09T20:00:00',
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
+Selling ERN/USDT on BINANCE
+Email about selling is sent
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
 The Final trend is : false
@@ -118,6 +120,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-05T04:00:00',
   'the extrems_date - 1 day': '2024-06-07T12:00:00'
 }
+Balance: 5.24415803 ERN
+Sold: 17.9608$ of ERN/USDT
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -137,10 +141,10 @@ The Final trend is : false
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.3284,
+  'the low': 1.2994,
   'the close': 1.3808,
   'the start_date - 1 day': '2024-06-04T00:00:00',
-  'the extrems_date - 1 day': '2024-06-11T04:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
@@ -149,10 +153,10 @@ The Final trend is : false
   ticker: 'ANKR/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.03724,
-  'the close': 0.04514,
+  'the low': 0.03602,
+  'the close': 0.03793,
   'the start_date - 1 day': '2024-06-06T08:00:00',
-  'the extrems_date - 1 day': '2024-06-07T12:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : false
@@ -161,10 +165,10 @@ The Final trend is : false
   ticker: 'PHB/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 2.1418,
-  'the close': 2.7591,
+  'the low': 2.0854,
+  'the close': 2.2183,
   'the start_date - 1 day': '2024-06-05T12:00:00',
-  'the extrems_date - 1 day': '2024-06-07T12:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
@@ -173,8 +177,8 @@ The Final trend is : false
   ticker: 'HOT/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.002135,
-  'the close': 0.002284,
+  'the low': 0.00205,
+  'the close': 0.002159,
   'the start_date - 1 day': '2024-06-05T16:00:00',
-  'the extrems_date - 1 day': '2024-06-10T20:00:00'
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
