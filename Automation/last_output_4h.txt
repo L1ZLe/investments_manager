@@ -1,8 +1,16 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
 The Original trend of ENS/USDT was : false
-Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
-    at settle (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/settle.js:19:12)
-    at IncomingMessage.handleStreamEnd (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:589:11)
+The Final trend is : false
+{
+  ticker: 'ENS/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 18.94,
+  'the close': 20.18,
+  'the start_date - 1 day': '2024-06-05T08:00:00',
+  'the extrems_date - 1 day': '2024-06-11T08:00:00'
+}
+nd (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:589:11)
     at IncomingMessage.emit (node:events:532:35)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
@@ -92,17 +100,14 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
       _events: [Object: null prototype],
       _eventsCount: 2,
       _maxListeners: undefined,
-      defaultPortThe Final trend is : false
-{
-  ticker: 'NAKA/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 1.2994,
-  'the close': 1.3808,
-  'the start_date - 1 day': '2024-06-04T00:00:00',
-  'the extrems_date - 1 day': '2024-06-11T08:00:00'
-}
-  keepAlive: true,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
       maxSockets: Infinity,
       maxFreeSockets: 256,
       scheduling: 'lifo',
@@ -231,7 +236,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 3069,
+        _idleStart: 2551,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
@@ -270,7 +275,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
     statusText: 'Too Many Requests',
     headers: Object [AxiosHeaders] {
       'content-type': 'application/json',
-      date: 'Wed, 12 Jun 2024 00:41:35 GMT',
+      date: 'Wed, 12 Jun 2024 00:41:41 GMT',
       'transfer-encoding': 'chunked',
       'x-concurrencylimit-limit': '1',
       'x-concurrencylimit-remaining': '0'
