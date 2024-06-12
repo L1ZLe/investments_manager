@@ -48,12 +48,6 @@
     "extrems_date": "2024-06-11T08:00:00"
   },
   {
-    "ticker": "SENATE/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-05T12:00:00",
-    "extrems_date": "2024-06-11T12:00:00"
-  },
-  {
     "ticker": "PHB/USDT",
     "upTrend": false,
     "start_date": "2024-06-05T12:00:00",
@@ -87,6 +81,12 @@
     "ticker": "SFUND/USDT",
     "upTrend": false,
     "start_date": "2024-06-06T08:00:00",
+    "extrems_date": "2024-06-11T12:00:00"
+  },
+  {
+    "ticker": "SENATE/USDT",
+    "upTrend": false,
+    "start_date": "2024-06-05T12:00:00",
     "extrems_date": "2024-06-11T12:00:00"
   }
 ]

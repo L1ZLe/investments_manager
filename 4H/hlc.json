@@ -48,12 +48,6 @@
     "close": 0.03793
   },
   {
-    "ticker": "SENATE/USDT",
-    "high": null,
-    "low": 0.057,
-    "close": 0.06191
-  },
-  {
     "ticker": "PHB/USDT",
     "high": null,
     "low": 2.0854,
@@ -88,5 +82,11 @@
     "high": null,
     "low": 1.93,
     "close": 2.17
+  },
+  {
+    "ticker": "SENATE/USDT",
+    "high": null,
+    "low": 0.057,
+    "close": 0.06191
   }
 ]

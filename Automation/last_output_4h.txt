@@ -16,11 +16,17 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
     at settle (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/settle.js:19:12)
     at IncomingMessage.handleStreamEnd (f[31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
-:589:11)
-    at IncomingMessage.emit (node:events:532:35)
-    at endReadableNT (node:internal/streams/readable:1696:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/Axios.js:45:41)
+The Final trend is : false
+{
+  ticker: 'SENATE/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.057,
+  'the close': 0.06191,
+  'the start_date - 1 day': '2024-06-05T12:00:00',
+  'the extrems_date - 1 day': '2024-06-11T12:00:00'
+}
+/com.termux/files/home/investments_manager/node_modules/axios/lib/core/Axios.js:45:41)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchOHLCV (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:64:22)
     at async main (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:414:19) {
