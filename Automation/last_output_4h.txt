@@ -1,18 +1,15 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : false
+The Original trend of ENS/USDT was : true
 The Final trend is : true
-[33m we assume that close is the starting point [0m
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 21.5,
+  'the high': 21.64,
   'the low': null,
   'the close': 19.36,
   'the start_date - 1 day': '2024-06-11T20:00:00',
-  'the extrems_date - 1 day': '2024-06-12T08:00:00'
+  'the extrems_date - 1 day': '2024-06-12T12:00:00'
 }
-Buying ENS/USDT on BINANCE
-Email about buying is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
 The Final trend is : false
@@ -20,14 +17,13 @@ The Final trend is : false
   ticker: 'INSP/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.0575,
+  'the low': 0.05137,
   'the close': 0.06721,
   'the start_date - 1 day': '2024-05-31T04:00:00',
-  'the extrems_date - 1 day': '2024-06-12T08:00:00'
+  'the extrems_date - 1 day': '2024-06-12T12:00:00'
 }
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
-bought: 19.9938$ of ENS/USDT
 The Final trend is : false
 {
   ticker: 'SENATE/USDT',
@@ -39,9 +35,8 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-11T12:00:00'
 }
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
-The Original trend of BEAMX/USDT was : false
+The Original trend of BEAMX/USDT was : true
 The Final trend is : true
-[33m we assume that close is the starting point [0m
 {
   ticker: 'BEAMX/USDT',
   newTrend: true,
@@ -51,11 +46,8 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-11T20:00:00',
   'the extrems_date - 1 day': '2024-06-12T08:00:00'
 }
-Buying BEAMX/USDT on BINANCE
-bought: 19.999404$ of BEAMX/USDT
-Email about buying is sent
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
-The Original trend of SFUND/USDT was : false
+The Original trend of SFUND/USDT was : true
 The Final trend is : true
 {
   ticker: 'SFUND/USDT',
@@ -66,22 +58,19 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-11T20:00:00',
   'the extrems_date - 1 day': '2024-06-12T08:00:00'
 }
-Buying SFUND/USDT on GATEIO
-Email about buying is sent
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
-The Original trend of LOOKS/USDT was : false
-The Final trend is : true
+The Original trend of LOOKS/USDT was : true
+The Final trend is : false
 {
   ticker: 'LOOKS/USDT',
-  newTrend: true,
-  'the high': 0.07676,
-  'the low': null,
-  'the close': 0.07258,
-  'the start_date - 1 day': '2024-06-11T20:00:00',
-  'the extrems_date - 1 day': '2024-06-12T08:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.07172,
+  'the close': 0.0765,
+  'the start_date - 1 day': '2024-06-12T08:00:00',
+  'the extrems_date - 1 day': '2024-06-12T12:00:00'
 }
-Buying LOOKS/USDT on GATEIO
-Email about buying is sent
+Selling LOOKS/USDT on GATEIO
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
 The Final trend is : false
@@ -94,10 +83,9 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-10T00:00:00',
   'the extrems_date - 1 day': '2024-06-11T20:00:00'
 }
+Email about selling is sent
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : false
-bought: 20$ of SFUND/USDT
-bought: 20$ of LOOKS/USDT
 The Final trend is : false
 {
   ticker: 'AURORA/USDT',
@@ -109,7 +97,8 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-11T12:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
-The Original trend of ERN/USDT was : false
+The Original trend of ERN/USDT was : true
+Balance: 260.80136427 LOOKS
 The Final trend is : true
 {
   ticker: 'ERN/USDT',
@@ -120,11 +109,9 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-11T12:00:00',
   'the extrems_date - 1 day': '2024-06-12T08:00:00'
 }
-Buying ERN/USDT on BINANCE
-bought: 19.9163$ of ERN/USDT
-Email about buying is sent
+Sold: 18.79064$ of LOOKS/USDT
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
-The Original trend of KAS/USDT was : false
+The Original trend of KAS/USDT was : true
 The Final trend is : true
 {
   ticker: 'KAS/USDT',
@@ -135,9 +122,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-07T12:00:00',
   'the extrems_date - 1 day': '2024-06-12T08:00:00'
 }
-Buying KAS/USDT on GATEIO
-bought: 20$ of KAS/USDT
-Email about buying is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -163,7 +147,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-11T08:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : false
+The Original trend of ANKR/USDT was : true
 The Final trend is : true
 {
   ticker: 'ANKR/USDT',
@@ -174,27 +158,20 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-11T08:00:00',
   'the extrems_date - 1 day': '2024-06-12T08:00:00'
 }
-Buying ANKR/USDT on BINANCE
-bought: 20.008028$ of ANKR/USDT
-Email about buying is sent
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
-The Original trend of PHB/USDT was : false
+The Original trend of PHB/USDT was : true
 The Final trend is : true
-[33m we assume that close is the starting point [0m
 {
   ticker: 'PHB/USDT',
   newTrend: true,
-  'the high': 2.3848,
+  'the high': 2.4238,
   'the low': null,
   'the close': 2.1449,
   'the start_date - 1 day': '2024-06-11T20:00:00',
-  'the extrems_date - 1 day': '2024-06-12T08:00:00'
+  'the extrems_date - 1 day': '2024-06-12T12:00:00'
 }
-Buying PHB/USDT on BINANCE
-bought: 18.9584$ of PHB/USDT
-Email about buying is sent
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
-The Original trend of HOT/USDT was : false
+The Original trend of HOT/USDT was : true
 The Final trend is : true
 {
   ticker: 'HOT/USDT',
@@ -205,6 +182,3 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-11T08:00:00',
   'the extrems_date - 1 day': '2024-06-12T08:00:00'
 }
-Buying HOT/USDT on BINANCE
-bought: 19.997884$ of HOT/USDT
-Email about buying is sent
