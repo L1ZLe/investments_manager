@@ -1,17 +1,5 @@
 [
   {
-    "ticker": "LOOKS/USDT",
-    "high": null,
-    "low": 0.07032,
-    "close": 0.07394
-  },
-  {
-    "ticker": "THG/USDT",
-    "high": null,
-    "low": 0.04678,
-    "close": 0.0533
-  },
-  {
     "ticker": "AURORA/USDT",
     "high": null,
     "low": 0.1952,
@@ -54,12 +42,6 @@
     "close": 2.2183
   },
   {
-    "ticker": "BEAMX/USDT",
-    "high": null,
-    "low": 0.021,
-    "close": 0.021899
-  },
-  {
     "ticker": "ENS/USDT",
     "high": null,
     "low": 18.94,
@@ -88,5 +70,23 @@
     "high": null,
     "low": 0.057,
     "close": 0.06191
+  },
+  {
+    "ticker": "LOOKS/USDT",
+    "high": null,
+    "low": 0.07032,
+    "close": 0.07394
+  },
+  {
+    "ticker": "BEAMX/USDT",
+    "high": null,
+    "low": 0.021,
+    "close": 0.021899
+  },
+  {
+    "ticker": "THG/USDT",
+    "high": null,
+    "low": 0.04678,
+    "close": 0.0533
   }
 ]
