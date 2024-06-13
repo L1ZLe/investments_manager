@@ -56,7 +56,7 @@ The Final trend is : false
   'the low': 1.931,
   'the close': 2.008,
   'the start_date - 1 day': '2024-06-12T08:00:00',
-  'the extrems_date - 1 day': '2024-06-13T04:00:00'
+  'the extrems_date - 1 day': '2024-06-13T08:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : false
@@ -65,10 +65,10 @@ The Final trend is : false
   ticker: 'LOOKS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.067,
+  'the low': 0.06691,
   'the close': 0.07318,
   'the start_date - 1 day': '2024-06-12T08:00:00',
-  'the extrems_date - 1 day': '2024-06-13T04:00:00'
+  'the extrems_date - 1 day': '2024-06-13T08:00:00'
 }
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
@@ -96,16 +96,17 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'ERN/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 3.401,
-  'the close': 3.455,
-  'the start_date - 1 day': '2024-06-12T08:00:00',
-  'the extrems_date - 1 day': '2024-06-13T04:00:00'
+  newTrend: true,
+  'the high': 3.539,
+  'the low': null,
+  'the close': 3.453,
+  'the start_date - 1 day': '2024-06-13T04:00:00',
+  'the extrems_date - 1 day': '2024-06-13T08:00:00'
 }
+Buying ERN/USDT on BINANCE
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
 The Final trend is : true
@@ -130,6 +131,7 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-20T08:00:00',
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
+Email about buying is sent
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : false
 The Final trend is : false
@@ -137,11 +139,12 @@ The Final trend is : false
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.2994,
-  'the close': 1.3808,
+  'the low': 1.2967,
+  'the close': 1.3296,
   'the start_date - 1 day': '2024-06-04T00:00:00',
-  'the extrems_date - 1 day': '2024-06-11T08:00:00'
+  'the extrems_date - 1 day': '2024-06-13T08:00:00'
 }
+bought: 19.7619$ of ERN/USDT
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : true
 The Final trend is : true
