@@ -1,20 +1,24 @@
 [31m GATEIO_SPOT_ONDO_USDT 1DAY ONDO/USDT [0m
 The Original trend of ONDO/USDT was : true
-Error fetching crypto OHLC data: AxiosError: socket hang up
+Error fetching crypto OHLC data: AxiosError: getaddrinfo ENOTFOUND rest.coinapi.io
     at AxiosError.from (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/AxiosError.js:89:14)
     at RedirectableRequest.handleRequestError (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:610:25)
     at RedirectableRequest.emit (node:events:520:28)
     at eventHandlers.<computed> (/data/data/com.termux/files/home/investments_manager/node_modules/follow-redirects/index.js:38:24)
     at ClientRequest.emit (node:events:520:28)
-    at TLSSocket.socketOnEnd (node:_http_client:526:9)
-    at TLSSocket.emit (node:events:532:35)
-    at endReadableNT (node:internal/streams/readable:1696:12)
+    at TLSSocket.socketErrorListener (node:_http_client:502:9)
+    at TLSSocket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
     at Axios.request (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/Axios.js:45:41)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchOHLCV (file:///data/data/com.termux/files/home/investments_manager/d/index.js:64:22)
     at async main (file:///data/data/com.termux/files/home/investments_manager/d/index.js:414:19) {
-  code: 'ECONNRESET',
+  hostname: 'rest.coinapi.io',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3007,
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -43,7 +47,7 @@ Error fetching crypto OHLC data: AxiosError: socket hang up
     params: {
       period_id: '1DAY',
       time_start: '2024-04-11T00:00:00',
-      time_end: '2024-06-11T00:00:00',
+      time_end: '2024-06-13T00:00:00',
       limit: 100,
       include_empty_items: false
     },
@@ -75,7 +79,7 @@ Error fetching crypto OHLC data: AxiosError: socket hang up
       maxRedirects: 21,
       maxBodyLength: Infinity,
       protocol: 'https:',
-      path: '/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-11T00:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-13T00:00:00&limit=100&include_empty_items=false',
       method: 'GET',
       headers: [Object: null prototype],
       agents: [Object],
@@ -88,7 +92,7 @@ Error fetching crypto OHLC data: AxiosError: socket hang up
       agent: undefined,
       nativeProtocols: [Object],
       pathname: '/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history',
-      search: '?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-11T00:00:00&limit=100&include_empty_items=false'
+      search: '?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-13T00:00:00&limit=100&include_empty_items=false'
     },
     _ended: true,
     _ending: true,
@@ -123,7 +127,7 @@ Error fetching crypto OHLC data: AxiosError: socket hang up
       finished: true,
       _headerSent: true,
       _closed: false,
-      _header: 'GET /v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-11T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+      _header: 'GET /v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-13T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
         'Accept: application/json\r\n' +
         'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
         'User-Agent: axios/1.6.8\r\n' +
@@ -139,7 +143,7 @@ Error fetching crypto OHLC data: AxiosError: socket hang up
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-11T00:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-13T00:00:00&limit=100&include_empty_items=false',
       _ended: false,
       res: null,
       aborted: false,
@@ -165,16 +169,16 @@ Error fetching crypto OHLC data: AxiosError: socket hang up
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-11T00:00:00&limit=100&include_empty_items=false',
+    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-13T00:00:00&limit=100&include_empty_items=false',
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
   },
-  cause: Error: socket hang up
-      at TLSSocket.socketOnEnd (node:_http_client:526:23)
-      at TLSSocket.emit (node:events:532:35)
-      at endReadableNT (node:internal/streams/readable:1696:12)
-      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
-    code: 'ECONNRESET'
+  cause: Error: getaddrinfo ENOTFOUND rest.coinapi.io
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3007,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'rest.coinapi.io'
   }
 }
 TypeError: Cannot read properties of null (reading 'length')
