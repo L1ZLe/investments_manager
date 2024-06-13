@@ -1,59 +1,5 @@
 [
   {
-    "ticker": "ENS/USDT",
-    "high": 21.64,
-    "low": null,
-    "close": 19.36
-  },
-  {
-    "ticker": "INSP/USDT",
-    "high": null,
-    "low": 0.05137,
-    "close": 0.06721
-  },
-  {
-    "ticker": "SENATE/USDT",
-    "high": null,
-    "low": 0.05667,
-    "close": 0.06036
-  },
-  {
-    "ticker": "BEAMX/USDT",
-    "high": 0.02354,
-    "low": null,
-    "close": 0.021396
-  },
-  {
-    "ticker": "SFUND/USDT",
-    "high": null,
-    "low": 1.958,
-    "close": 2.008
-  },
-  {
-    "ticker": "LOOKS/USDT",
-    "high": null,
-    "low": 0.069,
-    "close": 0.07318
-  },
-  {
-    "ticker": "THG/USDT",
-    "high": null,
-    "low": 0.0463,
-    "close": 0.0533
-  },
-  {
-    "ticker": "AURORA/USDT",
-    "high": null,
-    "low": 0.1952,
-    "close": 0.2268
-  },
-  {
-    "ticker": "ERN/USDT",
-    "high": null,
-    "low": 3.408,
-    "close": 3.566
-  },
-  {
     "ticker": "KAS/USDT",
     "high": 0.18033,
     "low": null,
@@ -88,5 +34,59 @@
     "high": 0.00239,
     "low": null,
     "close": 0.002111
+  },
+  {
+    "ticker": "ENS/USDT",
+    "high": 21.64,
+    "low": null,
+    "close": 19.36
+  },
+  {
+    "ticker": "INSP/USDT",
+    "high": null,
+    "low": 0.05137,
+    "close": 0.06721
+  },
+  {
+    "ticker": "SENATE/USDT",
+    "high": null,
+    "low": 0.05667,
+    "close": 0.06036
+  },
+  {
+    "ticker": "BEAMX/USDT",
+    "high": 0.02354,
+    "low": null,
+    "close": 0.021396
+  },
+  {
+    "ticker": "SFUND/USDT",
+    "high": null,
+    "low": 1.931,
+    "close": 2.008
+  },
+  {
+    "ticker": "LOOKS/USDT",
+    "high": null,
+    "low": 0.067,
+    "close": 0.07318
+  },
+  {
+    "ticker": "THG/USDT",
+    "high": null,
+    "low": 0.0463,
+    "close": 0.0533
+  },
+  {
+    "ticker": "AURORA/USDT",
+    "high": null,
+    "low": 0.1952,
+    "close": 0.2268
+  },
+  {
+    "ticker": "ERN/USDT",
+    "high": null,
+    "low": 3.401,
+    "close": 3.455
   }
 ]
