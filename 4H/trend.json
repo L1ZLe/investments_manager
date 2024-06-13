@@ -19,21 +19,21 @@
   },
   {
     "ticker": "BEAMX/USDT",
-    "upTrend": true,
-    "start_date": "2024-06-11T20:00:00",
-    "extrems_date": "2024-06-12T08:00:00"
+    "upTrend": false,
+    "start_date": "2024-06-12T08:00:00",
+    "extrems_date": "2024-06-13T12:00:00"
   },
   {
     "ticker": "SFUND/USDT",
     "upTrend": false,
     "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-13T08:00:00"
+    "extrems_date": "2024-06-13T12:00:00"
   },
   {
     "ticker": "LOOKS/USDT",
     "upTrend": false,
     "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-13T08:00:00"
+    "extrems_date": "2024-06-13T12:00:00"
   },
   {
     "ticker": "THG/USDT",
@@ -49,9 +49,9 @@
   },
   {
     "ticker": "ERN/USDT",
-    "upTrend": true,
-    "start_date": "2024-06-13T04:00:00",
-    "extrems_date": "2024-06-13T08:00:00"
+    "upTrend": false,
+    "start_date": "2024-06-13T08:00:00",
+    "extrems_date": "2024-06-13T12:00:00"
   },
   {
     "ticker": "KAS/USDT",
@@ -69,7 +69,7 @@
     "ticker": "NAKA/USDT",
     "upTrend": false,
     "start_date": "2024-06-04T00:00:00",
-    "extrems_date": "2024-06-13T08:00:00"
+    "extrems_date": "2024-06-13T12:00:00"
   },
   {
     "ticker": "ANKR/USDT",
@@ -79,14 +79,14 @@
   },
   {
     "ticker": "PHB/USDT",
-    "upTrend": true,
-    "start_date": "2024-06-11T20:00:00",
-    "extrems_date": "2024-06-12T12:00:00"
+    "upTrend": false,
+    "start_date": "2024-06-12T12:00:00",
+    "extrems_date": "2024-06-13T12:00:00"
   },
   {
     "ticker": "HOT/USDT",
-    "upTrend": true,
-    "start_date": "2024-06-11T08:00:00",
-    "extrems_date": "2024-06-12T08:00:00"
+    "upTrend": false,
+    "start_date": "2024-06-12T08:00:00",
+    "extrems_date": "2024-06-13T12:00:00"
   }
 ]
