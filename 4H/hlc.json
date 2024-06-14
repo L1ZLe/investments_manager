@@ -1,9 +1,9 @@
 [
   {
     "ticker": "ENS/USDT",
-    "high": 21.64,
+    "high": 21.86,
     "low": null,
-    "close": 19.36
+    "close": 19.67
   },
   {
     "ticker": "INSP/USDT",
@@ -13,9 +13,9 @@
   },
   {
     "ticker": "SENATE/USDT",
-    "high": null,
-    "low": 0.05667,
-    "close": 0.05696
+    "high": 0.05934,
+    "low": null,
+    "close": 0.05679
   },
   {
     "ticker": "BEAMX/USDT",
@@ -50,8 +50,8 @@
   {
     "ticker": "ERN/USDT",
     "high": null,
-    "low": 3.292,
-    "close": 3.453
+    "low": 3.252,
+    "close": 3.386
   },
   {
     "ticker": "KAS/USDT",
@@ -79,9 +79,9 @@
   },
   {
     "ticker": "PHB/USDT",
-    "high": null,
-    "low": 2.073,
-    "close": 2.1432
+    "high": 2.18,
+    "low": null,
+    "close": 2.1083
   },
   {
     "ticker": "HOT/USDT",

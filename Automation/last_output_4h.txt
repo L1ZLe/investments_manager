@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 21.64,
+  'the high': 21.86,
   'the low': null,
-  'the close': 19.36,
+  'the close': 19.67,
   'the start_date - 1 day': '2024-06-11T20:00:00',
-  'the extrems_date - 1 day': '2024-06-12T12:00:00'
+  'the extrems_date - 1 day': '2024-06-14T04:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -24,16 +24,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'SENATE/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.05667,
-  'the close': 0.05696,
-  'the start_date - 1 day': '2024-06-05T12:00:00',
-  'the extrems_date - 1 day': '2024-06-13T20:00:00'
+  newTrend: true,
+  'the high': 0.05934,
+  'the low': null,
+  'the close': 0.05679,
+  'the start_date - 1 day': '2024-06-13T20:00:00',
+  'the extrems_date - 1 day': '2024-06-14T04:00:00'
 }
+Buying SENATE/USDT on GATEIO
+Email about buying is sent
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : false
 The Final trend is : false
@@ -70,6 +72,7 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-12T08:00:00',
   'the extrems_date - 1 day': '2024-06-13T16:00:00'
 }
+bought: 20$ of SENATE/USDT
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
 The Final trend is : false
@@ -101,10 +104,10 @@ The Final trend is : false
   ticker: 'ERN/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 3.292,
-  'the close': 3.453,
+  'the low': 3.252,
+  'the close': 3.386,
   'the start_date - 1 day': '2024-06-13T08:00:00',
-  'the extrems_date - 1 day': '2024-06-13T20:00:00'
+  'the extrems_date - 1 day': '2024-06-14T04:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
@@ -156,16 +159,20 @@ The Final trend is : true
 }
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : false
-The Final trend is : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'PHB/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 2.073,
-  'the close': 2.1432,
-  'the start_date - 1 day': '2024-06-12T12:00:00',
-  'the extrems_date - 1 day': '2024-06-13T20:00:00'
+  newTrend: true,
+  'the high': 2.18,
+  'the low': null,
+  'the close': 2.1083,
+  'the start_date - 1 day': '2024-06-13T20:00:00',
+  'the extrems_date - 1 day': '2024-06-14T00:00:00'
 }
+Buying PHB/USDT on BINANCE
+Error creating order: binance {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+Email about buying is sent
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
 The Final trend is : false
