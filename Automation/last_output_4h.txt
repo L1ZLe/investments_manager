@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 22.68,
+  'the high': 22.8,
   'the low': null,
   'the close': 20.2,
   'the start_date - 1 day': '2024-06-11T20:00:00',
-  'the extrems_date - 1 day': '2024-06-14T20:00:00'
+  'the extrems_date - 1 day': '2024-06-15T00:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -24,16 +24,19 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
-The Final trend is : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'SENATE/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.05444,
-  'the close': 0.05719,
-  'the start_date - 1 day': '2024-06-14T04:00:00',
+  newTrend: true,
+  'the high': 0.05857,
+  'the low': null,
+  'the close': 0.05581,
+  'the start_date - 1 day': '2024-06-14T16:00:00',
   'the extrems_date - 1 day': '2024-06-14T16:00:00'
 }
+Buying SENATE/USDT on GATEIO
+Email about buying is sent
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : false
 The Final trend is : false
@@ -70,6 +73,7 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-12T08:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
+bought: 20$ of SENATE/USDT
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
 The Final trend is : false
@@ -77,10 +81,10 @@ The Final trend is : false
   ticker: 'THG/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.0463,
-  'the close': 0.0533,
+  'the low': 0.04575,
+  'the close': 0.04763,
   'the start_date - 1 day': '2024-06-10T00:00:00',
-  'the extrems_date - 1 day': '2024-06-11T20:00:00'
+  'the extrems_date - 1 day': '2024-06-15T00:00:00'
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : false
@@ -113,10 +117,10 @@ The Final trend is : false
   ticker: 'KAS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.15873,
-  'the close': 0.16694,
+  'the low': 0.15463,
+  'the close': 0.16648,
   'the start_date - 1 day': '2024-06-12T08:00:00',
-  'the extrems_date - 1 day': '2024-06-14T12:00:00'
+  'the extrems_date - 1 day': '2024-06-15T00:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
