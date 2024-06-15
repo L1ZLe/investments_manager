@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 22.92,
+  'the high': 23.35,
   'the low': null,
   'the close': 20.2,
   'the start_date - 1 day': '2024-06-11T20:00:00',
-  'the extrems_date - 1 day': '2024-06-15T04:00:00'
+  'the extrems_date - 1 day': '2024-06-15T08:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -28,11 +28,11 @@ The Final trend is : true
 {
   ticker: 'SENATE/USDT',
   newTrend: true,
-  'the high': 0.05857,
+  'the high': 0.05877,
   'the low': null,
-  'the close': 0.05581,
+  'the close': 0.05709,
   'the start_date - 1 day': '2024-06-14T16:00:00',
-  'the extrems_date - 1 day': '2024-06-14T16:00:00'
+  'the extrems_date - 1 day': '2024-06-15T08:00:00'
 }
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : false
