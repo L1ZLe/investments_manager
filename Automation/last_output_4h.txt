@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 22.12,
+  'the high': 22.31,
   'the low': null,
-  'the close': 19.67,
+  'the close': 20.2,
   'the start_date - 1 day': '2024-06-11T20:00:00',
-  'the extrems_date - 1 day': '2024-06-14T08:00:00'
+  'the extrems_date - 1 day': '2024-06-14T16:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -23,18 +23,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
-The Original trend of SENATE/USDT was : true
+The Original trend of SENATE/USDT was : false
 The Final trend is : false
 {
   ticker: 'SENATE/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.055,
+  'the low': 0.05444,
   'the close': 0.05719,
   'the start_date - 1 day': '2024-06-14T04:00:00',
-  'the extrems_date - 1 day': '2024-06-14T12:00:00'
+  'the extrems_date - 1 day': '2024-06-14T16:00:00'
 }
-Selling SENATE/USDT on GATEIO
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : false
 The Final trend is : false
@@ -47,7 +46,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-12T08:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
-Email about selling is sent
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
 The Original trend of SFUND/USDT was : false
 The Final trend is : false
@@ -72,8 +70,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-12T08:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
-Balance: 349.39258 SENATE
-Sold: 19.426084$ of SENATE/USDT
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
 The Final trend is : false
@@ -111,7 +107,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
-The Original trend of KAS/USDT was : true
+The Original trend of KAS/USDT was : false
 The Final trend is : false
 {
   ticker: 'KAS/USDT',
@@ -122,10 +118,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-12T08:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
-Selling KAS/USDT on GATEIO
-Balance: 112.53785367 KAS
-Sold: 18.0126771$ of KAS/USDT
-Email about selling is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -151,7 +143,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : true
+The Original trend of ANKR/USDT was : false
 The Final trend is : false
 {
   ticker: 'ANKR/USDT',
@@ -162,11 +154,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-12T08:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
-Selling ANKR/USDT on BINANCE
-Error creating order: InvalidNonce: binance {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
-Email about selling is sent
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
-The Original trend of PHB/USDT was : true
+The Original trend of PHB/USDT was : false
 The Final trend is : false
 {
   ticker: 'PHB/USDT',
@@ -177,9 +166,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-14T00:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
-Selling PHB/USDT on BINANCE
-Error creating order: InvalidNonce: binance {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
-Email about selling is sent
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
 The Final trend is : false
