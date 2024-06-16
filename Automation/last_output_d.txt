@@ -1,6 +1,6 @@
 [31m GATEIO_SPOT_ONDO_USDT 1DAY ONDO/USDT [0m
 The Original trend of ONDO/USDT was : true
-Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
+Error fetching crypto OHLC data: AxiosError: getaddrinfo ENOTFOUND rest.coinapi.io
     at AxiosError.from (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/AxiosError.js:89:14)
     at RedirectableRequest.handleRequestError (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:610:25)
     at RedirectableRequest.emit (node:events:520:28)
@@ -15,9 +15,10 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchOHLCV (file:///data/data/com.termux/files/home/investments_manager/d/index.js:64:22)
     at async main (file:///data/data/com.termux/files/home/investments_manager/d/index.js:414:19) {
-  syscall: 'read',
-  code: 'ECONNABORTED',
-  errno: -103,
+  hostname: 'rest.coinapi.io',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3007,
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -46,7 +47,7 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
     params: {
       period_id: '1DAY',
       time_start: '2024-04-11T00:00:00',
-      time_end: '2024-06-15T00:00:00',
+      time_end: '2024-06-16T00:00:00',
       limit: 100,
       include_empty_items: false
     },
@@ -78,7 +79,7 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       maxRedirects: 21,
       maxBodyLength: Infinity,
       protocol: 'https:',
-      path: '/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-15T00:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-16T00:00:00&limit=100&include_empty_items=false',
       method: 'GET',
       headers: [Object: null prototype],
       agents: [Object],
@@ -91,7 +92,7 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       agent: undefined,
       nativeProtocols: [Object],
       pathname: '/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history',
-      search: '?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-15T00:00:00&limit=100&include_empty_items=false'
+      search: '?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-16T00:00:00&limit=100&include_empty_items=false'
     },
     _ended: true,
     _ending: true,
@@ -126,7 +127,7 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       finished: true,
       _headerSent: true,
       _closed: false,
-      _header: 'GET /v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-15T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+      _header: 'GET /v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-16T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
         'Accept: application/json\r\n' +
         'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
         'User-Agent: axios/1.6.8\r\n' +
@@ -142,7 +143,7 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-15T00:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-16T00:00:00&limit=100&include_empty_items=false',
       _ended: false,
       res: null,
       aborted: false,
@@ -168,15 +169,16 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-15T00:00:00&limit=100&include_empty_items=false',
+    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_ONDO_USDT/history?period_id=1DAY&time_start=2024-04-11T00:00:00&time_end=2024-06-16T00:00:00&limit=100&include_empty_items=false',
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
   },
-  cause: Error: read ECONNABORTED
-      at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20) {
-    errno: -103,
-    code: 'ECONNABORTED',
-    syscall: 'read'
+  cause: Error: getaddrinfo ENOTFOUND rest.coinapi.io
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3007,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'rest.coinapi.io'
   }
 }
 TypeError: Cannot read properties of null (reading 'length')
