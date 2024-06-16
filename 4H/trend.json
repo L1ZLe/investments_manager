@@ -3,7 +3,7 @@
     "ticker": "ENS/USDT",
     "upTrend": true,
     "start_date": "2024-06-11T20:00:00",
-    "extrems_date": "2024-06-15T16:00:00"
+    "extrems_date": "2024-06-16T12:00:00"
   },
   {
     "ticker": "INSP/USDT",
@@ -15,7 +15,7 @@
     "ticker": "SENATE/USDT",
     "upTrend": true,
     "start_date": "2024-06-14T16:00:00",
-    "extrems_date": "2024-06-16T04:00:00"
+    "extrems_date": "2024-06-16T08:00:00"
   },
   {
     "ticker": "BEAMX/USDT",
