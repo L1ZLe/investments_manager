@@ -3,7 +3,7 @@
     "ticker": "ENS/USDT",
     "upTrend": false,
     "start_date": "2024-06-16T16:00:00",
-    "extrems_date": "2024-06-17T12:00:00"
+    "extrems_date": "2024-06-17T20:00:00"
   },
   {
     "ticker": "INSP/USDT",
@@ -21,43 +21,43 @@
     "ticker": "BEAMX/USDT",
     "upTrend": false,
     "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-17T12:00:00"
+    "extrems_date": "2024-06-17T20:00:00"
   },
   {
     "ticker": "SFUND/USDT",
     "upTrend": false,
     "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-17T12:00:00"
+    "extrems_date": "2024-06-17T20:00:00"
   },
   {
     "ticker": "LOOKS/USDT",
     "upTrend": false,
     "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-17T12:00:00"
+    "extrems_date": "2024-06-17T20:00:00"
   },
   {
     "ticker": "THG/USDT",
     "upTrend": false,
     "start_date": "2024-06-10T00:00:00",
-    "extrems_date": "2024-06-17T16:00:00"
+    "extrems_date": "2024-06-18T00:00:00"
   },
   {
     "ticker": "AURORA/USDT",
     "upTrend": false,
     "start_date": "2024-06-09T16:00:00",
-    "extrems_date": "2024-06-17T16:00:00"
+    "extrems_date": "2024-06-17T20:00:00"
   },
   {
     "ticker": "ERN/USDT",
     "upTrend": false,
     "start_date": "2024-06-13T08:00:00",
-    "extrems_date": "2024-06-17T12:00:00"
+    "extrems_date": "2024-06-17T20:00:00"
   },
   {
     "ticker": "KAS/USDT",
     "upTrend": false,
     "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-17T12:00:00"
+    "extrems_date": "2024-06-17T20:00:00"
   },
   {
     "ticker": "RTF/USDT",
@@ -69,24 +69,24 @@
     "ticker": "NAKA/USDT",
     "upTrend": false,
     "start_date": "2024-06-04T00:00:00",
-    "extrems_date": "2024-06-17T12:00:00"
+    "extrems_date": "2024-06-18T00:00:00"
   },
   {
     "ticker": "ANKR/USDT",
     "upTrend": false,
     "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-17T12:00:00"
+    "extrems_date": "2024-06-17T20:00:00"
   },
   {
     "ticker": "PHB/USDT",
     "upTrend": false,
     "start_date": "2024-06-14T00:00:00",
-    "extrems_date": "2024-06-17T12:00:00"
+    "extrems_date": "2024-06-17T20:00:00"
   },
   {
     "ticker": "HOT/USDT",
     "upTrend": false,
     "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-17T12:00:00"
+    "extrems_date": "2024-06-17T20:00:00"
   }
 ]
