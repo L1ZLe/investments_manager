@@ -1,17 +1,5 @@
 [
   {
-    "ticker": "ENS/USDT",
-    "high": null,
-    "low": 20.11,
-    "close": 23.38
-  },
-  {
-    "ticker": "INSP/USDT",
-    "high": null,
-    "low": 0.0397,
-    "close": 0.05558
-  },
-  {
     "ticker": "SENATE/USDT",
     "high": null,
     "low": 0.05838,
@@ -88,5 +76,17 @@
     "high": null,
     "low": 0.001671,
     "close": 0.00197
+  },
+  {
+    "ticker": "ENS/USDT",
+    "high": null,
+    "low": 20.11,
+    "close": 23.38
+  },
+  {
+    "ticker": "INSP/USDT",
+    "high": null,
+    "low": 0.0397,
+    "close": 0.05558
   }
 ]
