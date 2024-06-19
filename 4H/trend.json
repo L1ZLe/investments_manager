@@ -1,21 +1,33 @@
 [
   {
+    "ticker": "ENS/USDT",
+    "upTrend": true,
+    "start_date": "2024-06-17T20:00:00",
+    "extrems_date": "2024-06-18T20:00:00"
+  },
+  {
+    "ticker": "INSP/USDT",
+    "upTrend": false,
+    "start_date": "2024-05-31T04:00:00",
+    "extrems_date": "2024-06-14T12:00:00"
+  },
+  {
     "ticker": "SENATE/USDT",
     "upTrend": false,
     "start_date": "2024-06-16T08:00:00",
-    "extrems_date": "2024-06-18T04:00:00"
+    "extrems_date": "2024-06-18T12:00:00"
   },
   {
     "ticker": "BEAMX/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-17T20:00:00"
+    "upTrend": true,
+    "start_date": "2024-06-17T20:00:00",
+    "extrems_date": "2024-06-18T20:00:00"
   },
   {
     "ticker": "SFUND/USDT",
     "upTrend": false,
     "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-18T04:00:00"
+    "extrems_date": "2024-06-18T08:00:00"
   },
   {
     "ticker": "LOOKS/USDT",
@@ -27,19 +39,19 @@
     "ticker": "THG/USDT",
     "upTrend": false,
     "start_date": "2024-06-10T00:00:00",
-    "extrems_date": "2024-06-18T04:00:00"
+    "extrems_date": "2024-06-18T16:00:00"
   },
   {
     "ticker": "AURORA/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-09T16:00:00",
-    "extrems_date": "2024-06-18T04:00:00"
+    "upTrend": true,
+    "start_date": "2024-06-18T04:00:00",
+    "extrems_date": "2024-06-19T00:00:00"
   },
   {
     "ticker": "ERN/USDT",
     "upTrend": false,
     "start_date": "2024-06-13T08:00:00",
-    "extrems_date": "2024-06-17T20:00:00"
+    "extrems_date": "2024-06-18T12:00:00"
   },
   {
     "ticker": "KAS/USDT",
@@ -55,9 +67,9 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-04T00:00:00",
-    "extrems_date": "2024-06-18T04:00:00"
+    "upTrend": true,
+    "start_date": "2024-06-18T04:00:00",
+    "extrems_date": "2024-06-18T20:00:00"
   },
   {
     "ticker": "ANKR/USDT",
@@ -75,18 +87,6 @@
     "ticker": "HOT/USDT",
     "upTrend": false,
     "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-17T20:00:00"
-  },
-  {
-    "ticker": "ENS/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-16T16:00:00",
-    "extrems_date": "2024-06-17T20:00:00"
-  },
-  {
-    "ticker": "INSP/USDT",
-    "upTrend": false,
-    "start_date": "2024-05-31T04:00:00",
-    "extrems_date": "2024-06-14T12:00:00"
+    "extrems_date": "2024-06-18T12:00:00"
   }
 ]
