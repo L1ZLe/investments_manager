@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 27.23,
+  'the high': 27.38,
   'the low': null,
-  'the close': 22.4,
+  'the close': 26.5,
   'the start_date - 1 day': '2024-06-17T20:00:00',
-  'the extrems_date - 1 day': '2024-06-18T20:00:00'
+  'the extrems_date - 1 day': '2024-06-19T12:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -84,16 +84,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'AURORA/USDT',
-  newTrend: true,
-  'the high': 0.1739,
-  'the low': null,
-  'the close': 0.1609,
-  'the start_date - 1 day': '2024-06-18T04:00:00',
-  'the extrems_date - 1 day': '2024-06-19T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.1586,
+  'the close': 0.1726,
+  'the start_date - 1 day': '2024-06-19T00:00:00',
+  'the extrems_date - 1 day': '2024-06-19T12:00:00'
 }
+Selling AURORA/USDT on GATEIO
+Email about selling is sent
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
 The Final trend is : false
@@ -118,6 +120,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-12T08:00:00',
   'the extrems_date - 1 day': '2024-06-17T20:00:00'
 }
+Balance: 115.42774268 AURORA
+Sold: 18.328696$ of AURORA/USDT
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -136,11 +140,11 @@ The Final trend is : true
 {
   ticker: 'NAKA/USDT',
   newTrend: true,
-  'the high': 1.0527,
+  'the high': 1.1238,
   'the low': null,
-  'the close': 0.9475,
+  'the close': 1.0043,
   'the start_date - 1 day': '2024-06-18T04:00:00',
-  'the extrems_date - 1 day': '2024-06-18T20:00:00'
+  'the extrems_date - 1 day': '2024-06-19T12:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
