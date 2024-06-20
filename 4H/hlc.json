@@ -49,9 +49,9 @@
   },
   {
     "ticker": "ERN/USDT",
-    "high": null,
-    "low": 2.404,
-    "close": 2.565
+    "high": 2.601,
+    "low": null,
+    "close": 2.437
   },
   {
     "ticker": "KAS/USDT",
@@ -79,14 +79,14 @@
   },
   {
     "ticker": "PHB/USDT",
-    "high": 1.9144,
+    "high": 1.94,
     "low": null,
     "close": 1.7177
   },
   {
     "ticker": "HOT/USDT",
-    "high": 0.001836,
+    "high": 0.001852,
     "low": null,
-    "close": 0.001704
+    "close": 0.001773
   }
 ]

@@ -49,9 +49,9 @@
   },
   {
     "ticker": "ERN/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-13T08:00:00",
-    "extrems_date": "2024-06-18T12:00:00"
+    "upTrend": true,
+    "start_date": "2024-06-18T12:00:00",
+    "extrems_date": "2024-06-19T00:00:00"
   },
   {
     "ticker": "KAS/USDT",
@@ -81,12 +81,12 @@
     "ticker": "PHB/USDT",
     "upTrend": true,
     "start_date": "2024-06-17T20:00:00",
-    "extrems_date": "2024-06-19T16:00:00"
+    "extrems_date": "2024-06-19T20:00:00"
   },
   {
     "ticker": "HOT/USDT",
     "upTrend": true,
     "start_date": "2024-06-18T12:00:00",
-    "extrems_date": "2024-06-19T00:00:00"
+    "extrems_date": "2024-06-19T20:00:00"
   }
 ]
