@@ -1,7 +1,7 @@
 [
   {
     "ticker": "ENS/USDT",
-    "high": 27.38,
+    "high": 27.5,
     "low": null,
     "close": 26.5
   },
@@ -44,7 +44,7 @@
   {
     "ticker": "AURORA/USDT",
     "high": null,
-    "low": 0.1586,
+    "low": 0.1561,
     "close": 0.1726
   },
   {
@@ -79,9 +79,9 @@
   },
   {
     "ticker": "PHB/USDT",
-    "high": null,
-    "low": 1.58,
-    "close": 1.8628
+    "high": 1.9144,
+    "low": null,
+    "close": 1.7177
   },
   {
     "ticker": "HOT/USDT",
