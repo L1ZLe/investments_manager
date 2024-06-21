@@ -24,16 +24,19 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
 The Original trend of AMU/USDT was : false
-The Final trend is : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'AMU/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.01755,
-  'the close': 0.02246,
-  'the start_date - 1 day': '2024-05-21T00:00:00',
-  'the extrems_date - 1 day': '2024-06-16T00:00:00'
+  newTrend: true,
+  'the high': 0.04449,
+  'the low': null,
+  'the close': 0.01862,
+  'the start_date - 1 day': '2024-06-16T00:00:00',
+  'the extrems_date - 1 day': '2024-06-17T00:00:00'
 }
+Buying AMU/USDT on GATEIO
+Email about buying is sent
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
 The Final trend is : false
@@ -47,7 +50,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-19T00:00:00'
 }
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
-The Original trend of YGG/USDT was : true
+The Original trend of YGG/USDT was : false
 The Final trend is : false
 {
   ticker: 'YGG/USDT',
@@ -58,10 +61,9 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-02T00:00:00',
   'the extrems_date - 1 day': '2024-06-17T00:00:00'
 }
-Selling YGG/USDT on BINANCE
-Email about selling is sent
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
 The Original trend of MYRIA/USDT was : false
+bought: 20$ of AMU/USDT
 The Final trend is : false
 {
   ticker: 'MYRIA/USDT',
@@ -72,10 +74,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-26T00:00:00',
   'the extrems_date - 1 day': '2024-06-17T00:00:00'
 }
-Balance: 43.76308076 YGG
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
-Sold: 28.09036$ of YGG/USDT
 The Final trend is : false
 {
   ticker: 'ARB/USDT',
@@ -99,7 +99,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-17T00:00:00'
 }
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
-The Original trend of BTC/USDT was : true
+The Original trend of BTC/USDT was : false
 The Final trend is : false
 {
   ticker: 'BTC/USDT',
@@ -110,12 +110,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-20T00:00:00',
   'the extrems_date - 1 day': '2024-06-17T00:00:00'
 }
-Selling BTC/USDT on BINANCE
-Balance: 0 BTC
-You have no balance of BTC to sell.
-Email about selling is sent
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
-The Original trend of PYR/USDT was : true
+The Original trend of PYR/USDT was : false
 The Final trend is : false
 {
   ticker: 'PYR/USDT',
@@ -126,12 +122,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-02T00:00:00',
   'the extrems_date - 1 day': '2024-06-17T00:00:00'
 }
-Selling PYR/USDT on BINANCE
-Balance: 6.94733604 PYR
-Sold: 25.238451$ of PYR/USDT
-Email about selling is sent
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
-The Original trend of LINK/USDT was : true
+The Original trend of LINK/USDT was : false
 The Final trend is : false
 {
   ticker: 'LINK/USDT',
@@ -142,7 +134,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-28T00:00:00',
   'the extrems_date - 1 day': '2024-06-17T00:00:00'
 }
-Selling LINK/USDT on BINANCE
-Balance: 1.0589665 LINK
-Sold: 14.9499$ of LINK/USDT
-Email about selling is sent
