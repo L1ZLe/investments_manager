@@ -1,11 +1,5 @@
 [
   {
-    "ticker": "ONDO/USDT",
-    "high": 1.4854,
-    "low": null,
-    "close": 1.1656
-  },
-  {
     "ticker": "SAND/USDT",
     "high": null,
     "low": 0.2958,
@@ -64,5 +58,11 @@
     "high": null,
     "low": 12.931,
     "close": 15.144
+  },
+  {
+    "ticker": "ONDO/USDT",
+    "high": 1.4854,
+    "low": null,
+    "close": 1.1656
   }
 ]
