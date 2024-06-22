@@ -1,8 +1,8 @@
 [
   {
     "ticker": "ENS/USDT",
-    "high": 27.46,
-    "low": null,
+    "high": null,
+    "low": 25.17,
     "close": 25.74
   },
   {
@@ -20,8 +20,8 @@
   {
     "ticker": "BEAMX/USDT",
     "high": null,
-    "low": 0.017075,
-    "close": 0.01828
+    "low": 0.016857,
+    "close": 0.017372
   },
   {
     "ticker": "SFUND/USDT",
@@ -38,8 +38,8 @@
   {
     "ticker": "THG/USDT",
     "high": null,
-    "low": 0.03852,
-    "close": 0.04035
+    "low": 0.0385,
+    "close": 0.03881
   },
   {
     "ticker": "AURORA/USDT",
