@@ -1,7 +1,6 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : true
+The Original trend of ENS/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'ENS/USDT',
   newTrend: false,
@@ -11,8 +10,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-21T04:00:00',
   'the extrems_date - 1 day': '2024-06-21T04:00:00'
 }
-Selling ENS/USDT on BINANCE
-Email about selling is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
 The Final trend is : false
@@ -25,8 +22,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-31T04:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
-Balance: 0.7517296 ENS
-Sold: 19.02$ of ENS/USDT
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
 The Final trend is : false
@@ -77,18 +72,21 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'THG/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.0385,
-  'the close': 0.03881,
-  'the start_date - 1 day': '2024-06-10T00:00:00',
-  'the extrems_date - 1 day': '2024-06-22T04:00:00'
+  newTrend: true,
+  'the high': 0.03918,
+  'the low': null,
+  'the close': 0.03857,
+  'the start_date - 1 day': '2024-06-22T04:00:00',
+  'the extrems_date - 1 day': '2024-06-22T08:00:00'
 }
+Buying THG/USDT on GATEIO
+Email about buying is sent
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : false
+bought: 20$ of THG/USDT
 The Final trend is : false
 {
   ticker: 'AURORA/USDT',
