@@ -2,7 +2,7 @@
   {
     "ticker": "ENS/USDT",
     "high": null,
-    "low": 25.1,
+    "low": 25,
     "close": 26.86
   },
   {
@@ -37,7 +37,7 @@
   },
   {
     "ticker": "THG/USDT",
-    "high": 0.03938,
+    "high": 0.03971,
     "low": null,
     "close": 0.03857
   },

@@ -5,10 +5,10 @@ The Final trend is : false
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 25.1,
+  'the low': 25,
   'the close': 26.86,
   'the start_date - 1 day': '2024-06-21T04:00:00',
-  'the extrems_date - 1 day': '2024-06-22T12:00:00'
+  'the extrems_date - 1 day': '2024-06-22T16:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -76,11 +76,11 @@ The Final trend is : true
 {
   ticker: 'THG/USDT',
   newTrend: true,
-  'the high': 0.03938,
+  'the high': 0.03971,
   'the low': null,
   'the close': 0.03857,
   'the start_date - 1 day': '2024-06-22T04:00:00',
-  'the extrems_date - 1 day': '2024-06-22T12:00:00'
+  'the extrems_date - 1 day': '2024-06-22T16:00:00'
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : false
