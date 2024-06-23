@@ -5,10 +5,10 @@ The Final trend is : false
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 24.83,
-  'the close': 26.86,
+  'the low': 24.33,
+  'the close': 25.59,
   'the start_date - 1 day': '2024-06-21T04:00:00',
-  'the extrems_date - 1 day': '2024-06-22T20:00:00'
+  'the extrems_date - 1 day': '2024-06-23T04:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -76,11 +76,11 @@ The Final trend is : true
 {
   ticker: 'THG/USDT',
   newTrend: true,
-  'the high': 0.03992,
+  'the high': 0.04133,
   'the low': null,
-  'the close': 0.03857,
+  'the close': 0.03962,
   'the start_date - 1 day': '2024-06-22T04:00:00',
-  'the extrems_date - 1 day': '2024-06-22T20:00:00'
+  'the extrems_date - 1 day': '2024-06-23T04:00:00'
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : false
@@ -107,7 +107,7 @@ The Final trend is : true
   'the extrems_date - 1 day': '2024-06-20T04:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
-The Original trend of KAS/USDT was : false
+The Original trend of KAS/USDT was : true
 The Final trend is : true
 {
   ticker: 'KAS/USDT',
@@ -118,8 +118,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-17T20:00:00',
   'the extrems_date - 1 day': '2024-06-22T20:00:00'
 }
-Buying KAS/USDT on GATEIO
-Email about buying is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -146,7 +144,6 @@ The Final trend is : true
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : true
-bought: 20$ of KAS/USDT
 The Final trend is : true
 {
   ticker: 'ANKR/USDT',
