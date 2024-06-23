@@ -5,10 +5,10 @@ The Final trend is : false
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 23.7,
+  'the low': 23.06,
   'the close': 25.59,
   'the start_date - 1 day': '2024-06-21T04:00:00',
-  'the extrems_date - 1 day': '2024-06-23T08:00:00'
+  'the extrems_date - 1 day': '2024-06-23T12:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -41,10 +41,10 @@ The Final trend is : false
   ticker: 'BEAMX/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.016511,
+  'the low': 0.016449,
   'the close': 0.017073,
   'the start_date - 1 day': '2024-06-18T20:00:00',
-  'the extrems_date - 1 day': '2024-06-23T08:00:00'
+  'the extrems_date - 1 day': '2024-06-23T12:00:00'
 }
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
 The Original trend of SFUND/USDT was : false
@@ -132,50 +132,46 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'NAKA/USDT',
-  newTrend: true,
-  'the high': 1.2722,
-  'the low': null,
-  'the close': 1.1009,
-  'the start_date - 1 day': '2024-06-18T04:00:00',
-  'the extrems_date - 1 day': '2024-06-20T04:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 1.0961,
+  'the close': 1.1304,
+  'the start_date - 1 day': '2024-06-20T04:00:00',
+  'the extrems_date - 1 day': '2024-06-22T12:00:00'
 }
+Selling NAKA/USDT on GATEIO
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : true
+The Original trend of ANKR/USDT was : false
+Email about selling is sent
 The Final trend is : false
 {
   ticker: 'ANKR/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.02977,
+  'the low': 0.02933,
   'the close': 0.03082,
   'the start_date - 1 day': '2024-06-20T04:00:00',
-  'the extrems_date - 1 day': '2024-06-23T08:00:00'
+  'the extrems_date - 1 day': '2024-06-23T12:00:00'
 }
-Selling ANKR/USDT on BINANCE
-Email about selling is sent
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
-The Original trend of PHB/USDT was : true
+The Original trend of PHB/USDT was : false
 The Final trend is : false
 {
   ticker: 'PHB/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.6964,
+  'the low': 1.6676,
   'the close': 1.7744,
   'the start_date - 1 day': '2024-06-20T00:00:00',
-  'the extrems_date - 1 day': '2024-06-23T08:00:00'
+  'the extrems_date - 1 day': '2024-06-23T12:00:00'
 }
-Selling PHB/USDT on BINANCE
-Email about selling is sent
-Balance: 604.6947 ANKR
-Balance: 10.5894 PHB
-Sold: 18.041264$ of ANKR/USDT
+Balance: 19.32564042 NAKA
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : true
-Sold: 17.9193$ of PHB/USDT
+Sold: 21.199836$ of NAKA/USDT
 The Final trend is : true
 {
   ticker: 'HOT/USDT',
