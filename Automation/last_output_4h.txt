@@ -5,10 +5,10 @@ The Final trend is : false
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 22.62,
+  'the low': 22.16,
   'the close': 25.59,
   'the start_date - 1 day': '2024-06-21T04:00:00',
-  'the extrems_date - 1 day': '2024-06-23T20:00:00'
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -29,10 +29,10 @@ The Final trend is : false
   ticker: 'SENATE/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.05412,
-  'the close': 0.06493,
+  'the low': 0.05407,
+  'the close': 0.05726,
   'the start_date - 1 day': '2024-06-16T08:00:00',
-  'the extrems_date - 1 day': '2024-06-18T12:00:00'
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : false
@@ -41,10 +41,10 @@ The Final trend is : false
   ticker: 'BEAMX/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.016,
-  'the close': 0.017073,
+  'the low': 0.015749,
+  'the close': 0.016293,
   'the start_date - 1 day': '2024-06-18T20:00:00',
-  'the extrems_date - 1 day': '2024-06-23T20:00:00'
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
 The Original trend of SFUND/USDT was : false
@@ -53,10 +53,10 @@ The Final trend is : false
   ticker: 'SFUND/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.654,
+  'the low': 1.621,
   'the close': 1.702,
   'the start_date - 1 day': '2024-06-12T08:00:00',
-  'the extrems_date - 1 day': '2024-06-23T20:00:00'
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : false
@@ -72,56 +72,60 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
 The Original trend of THG/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'THG/USDT',
-  newTrend: true,
-  'the high': 0.04133,
-  'the low': null,
-  'the close': 0.03962,
-  'the start_date - 1 day': '2024-06-22T04:00:00',
-  'the extrems_date - 1 day': '2024-06-23T04:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.03914,
+  'the close': 0.04083,
+  'the start_date - 1 day': '2024-06-23T04:00:00',
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
+Selling THG/USDT on GATEIO
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : false
+Email about selling is sent
 The Final trend is : false
 {
   ticker: 'AURORA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.1387,
-  'the close': 0.1578,
+  'the low': 0.1381,
+  'the close': 0.15,
   'the start_date - 1 day': '2024-06-19T00:00:00',
-  'the extrems_date - 1 day': '2024-06-21T12:00:00'
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
-The Original trend of ERN/USDT was : true
+The Original trend of ERN/USDT was : false
 The Final trend is : false
 {
   ticker: 'ERN/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 2.454,
+  'the low': 2.382,
   'the close': 2.587,
   'the start_date - 1 day': '2024-06-20T04:00:00',
-  'the extrems_date - 1 day': '2024-06-23T20:00:00'
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
-Selling ERN/USDT on BINANCE
-Email about selling is sent
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
-The Final trend is : true
+Balance: 509.57458 THG
+The Final trend is : false
 {
   ticker: 'KAS/USDT',
-  newTrend: true,
-  'the high': 0.15911,
-  'the low': null,
-  'the close': 0.14943,
-  'the start_date - 1 day': '2024-06-17T20:00:00',
-  'the extrems_date - 1 day': '2024-06-22T20:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.14651,
+  'the close': 0.15589,
+  'the start_date - 1 day': '2024-06-22T20:00:00',
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
-Balance: 7.72535803 ERN
-Sold: 19.0498$ of ERN/USDT
+Selling KAS/USDT on GATEIO
+Sold: 20.0311967$ of THG/USDT
+Balance: 126.39134367 KAS
+Sold: 18.655164$ of KAS/USDT
+Email about selling is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -141,10 +145,10 @@ The Final trend is : false
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.0176,
-  'the close': 1.1223,
+  'the low': 0.9869,
+  'the close': 1.0323,
   'the start_date - 1 day': '2024-06-20T04:00:00',
-  'the extrems_date - 1 day': '2024-06-23T20:00:00'
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
@@ -153,10 +157,10 @@ The Final trend is : false
   ticker: 'ANKR/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.02918,
+  'the low': 0.02843,
   'the close': 0.03082,
   'the start_date - 1 day': '2024-06-20T04:00:00',
-  'the extrems_date - 1 day': '2024-06-23T20:00:00'
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : false
@@ -165,24 +169,20 @@ The Final trend is : false
   ticker: 'PHB/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.6539,
-  'the close': 1.7744,
+  'the low': 1.629,
+  'the close': 1.7071,
   'the start_date - 1 day': '2024-06-20T00:00:00',
-  'the extrems_date - 1 day': '2024-06-23T16:00:00'
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
-The Original trend of HOT/USDT was : true
+The Original trend of HOT/USDT was : false
 The Final trend is : false
 {
   ticker: 'HOT/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.001737,
+  'the low': 0.001684,
   'the close': 0.001871,
   'the start_date - 1 day': '2024-06-20T04:00:00',
-  'the extrems_date - 1 day': '2024-06-23T20:00:00'
+  'the extrems_date - 1 day': '2024-06-24T00:00:00'
 }
-Selling HOT/USDT on BINANCE
-Balance: 11081.4725995 HOT
-Sold: 19.436074$ of HOT/USDT
-Email about selling is sent
