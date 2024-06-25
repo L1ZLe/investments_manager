@@ -40,11 +40,11 @@ The Final trend is : true
 {
   ticker: 'BEAMX/USDT',
   newTrend: true,
-  'the high': 0.016777,
+  'the high': 0.016944,
   'the low': null,
-  'the close': 0.015432,
+  'the close': 0.0162,
   'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-25T00:00:00'
+  'the extrems_date - 1 day': '2024-06-25T08:00:00'
 }
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
 The Original trend of SFUND/USDT was : false
@@ -88,11 +88,11 @@ The Final trend is : true
 {
   ticker: 'AURORA/USDT',
   newTrend: true,
-  'the high': 0.1468,
+  'the high': 0.1491,
   'the low': null,
   'the close': 0.1378,
   'the start_date - 1 day': '2024-06-24T12:00:00',
-  'the extrems_date - 1 day': '2024-06-25T04:00:00'
+  'the extrems_date - 1 day': '2024-06-25T08:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : true
@@ -100,11 +100,11 @@ The Final trend is : true
 {
   ticker: 'ERN/USDT',
   newTrend: true,
-  'the high': 2.614,
+  'the high': 2.628,
   'the low': null,
-  'the close': 2.474,
+  'the close': 2.549,
   'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-25T00:00:00'
+  'the extrems_date - 1 day': '2024-06-25T08:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
@@ -112,11 +112,11 @@ The Final trend is : true
 {
   ticker: 'KAS/USDT',
   newTrend: true,
-  'the high': 0.1577,
+  'the high': 0.16,
   'the low': null,
-  'the close': 0.14752,
+  'the close': 0.15436,
   'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-24T20:00:00'
+  'the extrems_date - 1 day': '2024-06-25T08:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
@@ -148,11 +148,11 @@ The Final trend is : true
 {
   ticker: 'ANKR/USDT',
   newTrend: true,
-  'the high': 0.03197,
+  'the high': 0.03237,
   'the low': null,
   'the close': 0.02946,
   'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-25T04:00:00'
+  'the extrems_date - 1 day': '2024-06-25T08:00:00'
 }
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : true
@@ -160,11 +160,11 @@ The Final trend is : true
 {
   ticker: 'PHB/USDT',
   newTrend: true,
-  'the high': 1.9534,
+  'the high': 1.9774,
   'the low': null,
   'the close': 1.9074,
   'the start_date - 1 day': '2024-06-24T00:00:00',
-  'the extrems_date - 1 day': '2024-06-25T04:00:00'
+  'the extrems_date - 1 day': '2024-06-25T08:00:00'
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false

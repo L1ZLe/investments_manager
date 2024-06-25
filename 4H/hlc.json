@@ -19,9 +19,9 @@
   },
   {
     "ticker": "BEAMX/USDT",
-    "high": 0.016777,
+    "high": 0.016944,
     "low": null,
-    "close": 0.015432
+    "close": 0.0162
   },
   {
     "ticker": "SFUND/USDT",
@@ -43,21 +43,21 @@
   },
   {
     "ticker": "AURORA/USDT",
-    "high": 0.1468,
+    "high": 0.1491,
     "low": null,
     "close": 0.1378
   },
   {
     "ticker": "ERN/USDT",
-    "high": 2.614,
+    "high": 2.628,
     "low": null,
-    "close": 2.474
+    "close": 2.549
   },
   {
     "ticker": "KAS/USDT",
-    "high": 0.1577,
+    "high": 0.16,
     "low": null,
-    "close": 0.14752
+    "close": 0.15436
   },
   {
     "ticker": "RTF/USDT",
@@ -73,13 +73,13 @@
   },
   {
     "ticker": "ANKR/USDT",
-    "high": 0.03197,
+    "high": 0.03237,
     "low": null,
     "close": 0.02946
   },
   {
     "ticker": "PHB/USDT",
-    "high": 1.9534,
+    "high": 1.9774,
     "low": null,
     "close": 1.9074
   },
