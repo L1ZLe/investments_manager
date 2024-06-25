@@ -26,7 +26,7 @@
   {
     "ticker": "SFUND/USDT",
     "high": null,
-    "low": 1.562,
+    "low": 1.553,
     "close": 1.702
   },
   {
@@ -38,14 +38,14 @@
   {
     "ticker": "THG/USDT",
     "high": null,
-    "low": 0.03718,
+    "low": 0.0368,
     "close": 0.04083
   },
   {
     "ticker": "AURORA/USDT",
-    "high": null,
-    "low": 0.1348,
-    "close": 0.1409
+    "high": 0.1419,
+    "low": null,
+    "close": 0.1378
   },
   {
     "ticker": "ERN/USDT",
@@ -67,7 +67,7 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "high": 1.0765,
+    "high": 1.0891,
     "low": null,
     "close": 1.0022
   },
@@ -79,7 +79,7 @@
   },
   {
     "ticker": "PHB/USDT",
-    "high": 1.8228,
+    "high": 1.8972,
     "low": null,
     "close": 1.6789
   },
