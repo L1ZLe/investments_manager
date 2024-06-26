@@ -55,7 +55,7 @@
   },
   {
     "ticker": "KAS/USDT",
-    "high": 0.16233,
+    "high": 0.16329,
     "low": null,
     "close": 0.15436
   },
@@ -73,15 +73,15 @@
   },
   {
     "ticker": "ANKR/USDT",
-    "high": 0.03237,
+    "high": 0.03261,
     "low": null,
-    "close": 0.02946
+    "close": 0.03191
   },
   {
     "ticker": "PHB/USDT",
     "high": null,
-    "low": 1.9006,
-    "close": 1.9457
+    "low": 1.8886,
+    "close": 1.9548
   },
   {
     "ticker": "HOT/USDT",

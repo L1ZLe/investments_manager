@@ -112,11 +112,11 @@ The Final trend is : true
 {
   ticker: 'KAS/USDT',
   newTrend: true,
-  'the high': 0.16233,
+  'the high': 0.16329,
   'the low': null,
   'the close': 0.15436,
   'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-25T12:00:00'
+  'the extrems_date - 1 day': '2024-06-25T20:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
@@ -148,27 +148,24 @@ The Final trend is : true
 {
   ticker: 'ANKR/USDT',
   newTrend: true,
-  'the high': 0.03237,
+  'the high': 0.03261,
   'the low': null,
-  'the close': 0.02946,
+  'the close': 0.03191,
   'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-25T12:00:00'
+  'the extrems_date - 1 day': '2024-06-25T20:00:00'
 }
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
-The Original trend of PHB/USDT was : true
+The Original trend of PHB/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'PHB/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.9006,
-  'the close': 1.9457,
+  'the low': 1.8886,
+  'the close': 1.9548,
   'the start_date - 1 day': '2024-06-25T08:00:00',
-  'the extrems_date - 1 day': '2024-06-25T08:00:00'
+  'the extrems_date - 1 day': '2024-06-25T20:00:00'
 }
-Selling PHB/USDT on BINANCE
-Email about selling is sent
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
 The Final trend is : false
@@ -181,5 +178,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-20T04:00:00',
   'the extrems_date - 1 day': '2024-06-24T04:00:00'
 }
-Balance: 11.3781 PHB
-Sold: 21.55249$ of PHB/USDT
