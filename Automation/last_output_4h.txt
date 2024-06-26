@@ -136,24 +136,26 @@ The Final trend is : true
 {
   ticker: 'NAKA/USDT',
   newTrend: true,
-  'the high': 1.1332,
+  'the high': 1.1483,
   'the low': null,
-  'the close': 1.1156,
+  'the close': 1.1201,
   'the start_date - 1 day': '2024-06-24T00:00:00',
-  'the extrems_date - 1 day': '2024-06-25T16:00:00'
+  'the extrems_date - 1 day': '2024-06-26T00:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'ANKR/USDT',
-  newTrend: true,
-  'the high': 0.03261,
-  'the low': null,
-  'the close': 0.03191,
-  'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-25T20:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.03157,
+  'the close': 0.03233,
+  'the start_date - 1 day': '2024-06-25T20:00:00',
+  'the extrems_date - 1 day': '2024-06-26T00:00:00'
 }
+Selling ANKR/USDT on BINANCE
+Email about selling is sent
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : false
 The Final trend is : false
@@ -168,6 +170,7 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
+Balance: 642.0521 ANKR
 The Final trend is : false
 {
   ticker: 'HOT/USDT',
@@ -178,3 +181,4 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-20T04:00:00',
   'the extrems_date - 1 day': '2024-06-24T04:00:00'
 }
+Sold: 20.36424$ of ANKR/USDT
