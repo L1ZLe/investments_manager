@@ -1,59 +1,5 @@
 [
   {
-    "ticker": "ENS/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-21T04:00:00",
-    "extrems_date": "2024-06-24T04:00:00"
-  },
-  {
-    "ticker": "INSP/USDT",
-    "upTrend": false,
-    "start_date": "2024-05-31T04:00:00",
-    "extrems_date": "2024-06-14T12:00:00"
-  },
-  {
-    "ticker": "SENATE/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-16T08:00:00",
-    "extrems_date": "2024-06-24T12:00:00"
-  },
-  {
-    "ticker": "BEAMX/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-25T12:00:00",
-    "extrems_date": "2024-06-26T16:00:00"
-  },
-  {
-    "ticker": "SFUND/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-24T16:00:00"
-  },
-  {
-    "ticker": "LOOKS/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-12T08:00:00",
-    "extrems_date": "2024-06-17T20:00:00"
-  },
-  {
-    "ticker": "THG/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-23T04:00:00",
-    "extrems_date": "2024-06-24T16:00:00"
-  },
-  {
-    "ticker": "AURORA/USDT",
-    "upTrend": true,
-    "start_date": "2024-06-24T12:00:00",
-    "extrems_date": "2024-06-25T12:00:00"
-  },
-  {
-    "ticker": "ERN/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-25T12:00:00",
-    "extrems_date": "2024-06-26T12:00:00"
-  },
-  {
     "ticker": "KAS/USDT",
     "upTrend": true,
     "start_date": "2024-06-24T04:00:00",
@@ -88,5 +34,59 @@
     "upTrend": false,
     "start_date": "2024-06-20T04:00:00",
     "extrems_date": "2024-06-24T04:00:00"
+  },
+  {
+    "ticker": "ENS/USDT",
+    "upTrend": false,
+    "start_date": "2024-06-21T04:00:00",
+    "extrems_date": "2024-06-24T04:00:00"
+  },
+  {
+    "ticker": "INSP/USDT",
+    "upTrend": false,
+    "start_date": "2024-05-31T04:00:00",
+    "extrems_date": "2024-06-14T12:00:00"
+  },
+  {
+    "ticker": "SENATE/USDT",
+    "upTrend": false,
+    "start_date": "2024-06-16T08:00:00",
+    "extrems_date": "2024-06-24T12:00:00"
+  },
+  {
+    "ticker": "BEAMX/USDT",
+    "upTrend": false,
+    "start_date": "2024-06-25T12:00:00",
+    "extrems_date": "2024-06-27T00:00:00"
+  },
+  {
+    "ticker": "SFUND/USDT",
+    "upTrend": false,
+    "start_date": "2024-06-12T08:00:00",
+    "extrems_date": "2024-06-24T16:00:00"
+  },
+  {
+    "ticker": "LOOKS/USDT",
+    "upTrend": false,
+    "start_date": "2024-06-12T08:00:00",
+    "extrems_date": "2024-06-17T20:00:00"
+  },
+  {
+    "ticker": "AURORA/USDT",
+    "upTrend": true,
+    "start_date": "2024-06-24T12:00:00",
+    "extrems_date": "2024-06-25T12:00:00"
+  },
+  {
+    "ticker": "THG/USDT",
+    "upTrend": false,
+    "start_date": "2024-06-23T04:00:00",
+    "extrems_date": "2024-06-24T16:00:00"
+  },
+  {
+    "ticker": "ERN/USDT",
+    "upTrend": false,
+    "start_date": "2024-06-25T12:00:00",
+    "extrems_date": "2024-06-27T00:00:00"
   }
 ]
