@@ -1,41 +1,5 @@
 [
   {
-    "ticker": "KAS/USDT",
-    "high": 0.1786,
-    "low": null,
-    "close": 0.1608
-  },
-  {
-    "ticker": "RTF/USDT",
-    "high": null,
-    "low": 0.1405,
-    "close": 0.14626
-  },
-  {
-    "ticker": "NAKA/USDT",
-    "high": null,
-    "low": 1.1021,
-    "close": 1.1413
-  },
-  {
-    "ticker": "ANKR/USDT",
-    "high": null,
-    "low": 0.03041,
-    "close": 0.03233
-  },
-  {
-    "ticker": "PHB/USDT",
-    "high": 2.012,
-    "low": null,
-    "close": 1.8863
-  },
-  {
-    "ticker": "HOT/USDT",
-    "high": null,
-    "low": 0.00166,
-    "close": 0.001871
-  },
-  {
     "ticker": "ENS/USDT",
     "high": null,
     "low": 21.22,
@@ -72,21 +36,57 @@
     "close": 0.05842
   },
   {
-    "ticker": "AURORA/USDT",
-    "high": 0.1504,
-    "low": null,
-    "close": 0.1378
-  },
-  {
     "ticker": "THG/USDT",
     "high": null,
     "low": 0.0368,
     "close": 0.04083
   },
   {
+    "ticker": "AURORA/USDT",
+    "high": 0.1504,
+    "low": null,
+    "close": 0.1378
+  },
+  {
     "ticker": "ERN/USDT",
     "high": null,
     "low": 2.413,
     "close": 2.513
+  },
+  {
+    "ticker": "KAS/USDT",
+    "high": 0.18326,
+    "low": null,
+    "close": 0.1608
+  },
+  {
+    "ticker": "RTF/USDT",
+    "high": null,
+    "low": 0.1405,
+    "close": 0.14626
+  },
+  {
+    "ticker": "NAKA/USDT",
+    "high": null,
+    "low": 1.086,
+    "close": 1.1188
+  },
+  {
+    "ticker": "ANKR/USDT",
+    "high": null,
+    "low": 0.02995,
+    "close": 0.03089
+  },
+  {
+    "ticker": "PHB/USDT",
+    "high": null,
+    "low": 1.8762,
+    "close": 1.9594
+  },
+  {
+    "ticker": "HOT/USDT",
+    "high": null,
+    "low": 0.00166,
+    "close": 0.001871
   }
 ]
