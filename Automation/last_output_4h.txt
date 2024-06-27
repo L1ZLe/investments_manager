@@ -36,16 +36,18 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'BEAMX/USDT',
-  newTrend: true,
-  'the high': 0.017448,
-  'the low': null,
-  'the close': 0.0162,
-  'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-25T12:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.016047,
+  'the close': 0.017328,
+  'the start_date - 1 day': '2024-06-25T12:00:00',
+  'the extrems_date - 1 day': '2024-06-26T16:00:00'
 }
+Selling BEAMX/USDT on BINANCE
+Email about selling is sent
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
 The Original trend of SFUND/USDT was : false
 The Final trend is : false
@@ -58,6 +60,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-12T08:00:00',
   'the extrems_date - 1 day': '2024-06-24T16:00:00'
 }
+Balance: 1208.72006242 BEAMX
+Sold: 19.494704$ of BEAMX/USDT
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : false
 The Final trend is : false
@@ -112,11 +116,11 @@ The Final trend is : true
 {
   ticker: 'KAS/USDT',
   newTrend: true,
-  'the high': 0.168,
+  'the high': 0.1786,
   'the low': null,
   'the close': 0.1608,
   'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-26T12:00:00'
+  'the extrems_date - 1 day': '2024-06-26T16:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
@@ -155,19 +159,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-26T12:00:00'
 }
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
-The Original trend of PHB/USDT was : false
+The Original trend of PHB/USDT was : true
 The Final trend is : true
 {
   ticker: 'PHB/USDT',
   newTrend: true,
-  'the high': 1.9575,
+  'the high': 2.012,
   'the low': null,
   'the close': 1.8863,
   'the start_date - 1 day': '2024-06-26T04:00:00',
-  'the extrems_date - 1 day': '2024-06-26T12:00:00'
+  'the extrems_date - 1 day': '2024-06-26T16:00:00'
 }
-Buying PHB/USDT on BINANCE
-Email about buying is sent
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
 The Final trend is : false
@@ -180,4 +182,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-20T04:00:00',
   'the extrems_date - 1 day': '2024-06-24T04:00:00'
 }
-bought: 19.99608$ of PHB/USDT

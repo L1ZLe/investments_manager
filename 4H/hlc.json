@@ -19,9 +19,9 @@
   },
   {
     "ticker": "BEAMX/USDT",
-    "high": 0.017448,
-    "low": null,
-    "close": 0.0162
+    "high": null,
+    "low": 0.016047,
+    "close": 0.017328
   },
   {
     "ticker": "SFUND/USDT",
@@ -55,7 +55,7 @@
   },
   {
     "ticker": "KAS/USDT",
-    "high": 0.168,
+    "high": 0.1786,
     "low": null,
     "close": 0.1608
   },
@@ -79,7 +79,7 @@
   },
   {
     "ticker": "PHB/USDT",
-    "high": 1.9575,
+    "high": 2.012,
     "low": null,
     "close": 1.8863
   },
