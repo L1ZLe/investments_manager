@@ -1,183 +1,379 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : false
-The Final trend is : true
-{
-  ticker: 'ENS/USDT',
-  newTrend: true,
-  'the high': 26.47,
-  'the low': null,
-  'the close': 25.07,
-  'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-27T04:00:00'
+The Original trend of ENS/USDT was : true
+Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
+    at settle (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async fetchOHLCV (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:64:22)
+    at async main (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:414:19) {
+  code: 'ERR_BAD_REQUEST',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: Infinity,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json',
+      'Content-Type': undefined,
+      'X-CoinAPI-Key': '93D271D2-5CD3-4B59-BFA6-89DE80692521',
+      'User-Agent': 'axios/1.6.8',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history',
+    params: {
+      period_id: '4HRS',
+      time_start: '2024-06-24T04:00:00',
+      time_end: '2024-06-27T16:00:00',
+      limit: 100,
+      include_empty_items: false
+    },
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-06-24T04:00:00&time_end=2024-06-27T16:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+      'Accept: application/json\r\n' +
+      'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
+      'User-Agent: axios/1.6.8\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: rest.coinapi.io\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-06-24T04:00:00&time_end=2024-06-27T16:00:00&limit=100&include_empty_items=false',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 429,
+      statusMessage: 'Too Many Requests',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-06-24T04:00:00&time_end=2024-06-27T16:00:00&limit=100&include_empty_items=false',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'rest.coinapi.io',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-06-24T04:00:00&time_end=2024-06-27T16:00:00&limit=100&include_empty_items=false',
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kChunkedBuffer)]: [],
+    [Symbol(kChunkedLength)]: 0,
+    [Symbol(kSocket)]: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'rest.coinapi.io',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'rest.coinapi.io',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 2451,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 2080,
+        [Symbol(triggerId)]: 2078
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'x-coinapi-key': [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 65536,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 429,
+    statusText: 'Too Many Requests',
+    headers: Object [AxiosHeaders] {
+      'content-type': 'application/json',
+      date: 'Thu, 27 Jun 2024 16:01:03 GMT',
+      'transfer-encoding': 'chunked',
+      'x-concurrencylimit-limit': '1',
+      'x-concurrencylimit-remaining': '1',
+      'x-ratelimit-quota-overage': 'disabled',
+      'x-ratelimit-quota-allocated': '100',
+      'x-ratelimit-quota-used': '100',
+      'x-ratelimit-quota-remaining': '0'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: Infinity,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history',
+      params: [Object],
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-06-24T04:00:00&time_end=2024-06-27T16:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+        'Accept: application/json\r\n' +
+        'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
+        'User-Agent: axios/1.6.8\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: rest.coinapi.io\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-06-24T04:00:00&time_end=2024-06-27T16:00:00&limit=100&include_empty_items=false',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'rest.coinapi.io',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: {
+      error: 'Too many requests - You have exceeded your request limit for your Subscription over last 24 hours and you do not have overage above limit enabled for this API Key. You can upgrade subscription or allow this API Key to use more requests than allocated quota for this subscription from the Customer Portal.'
+    }
+  }
 }
-Buying ENS/USDT on BINANCE
-Email about buying is sent
-[31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
-The Original trend of INSP/USDT was : false
-The Final trend is : false
-{
-  ticker: 'INSP/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.0397,
-  'the close': 0.05558,
-  'the start_date - 1 day': '2024-05-31T04:00:00',
-  'the extrems_date - 1 day': '2024-06-14T12:00:00'
-}
-bought: 19.9652$ of ENS/USDT
-[31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
-The Original trend of SENATE/USDT was : false
-The Final trend is : false
-{
-  ticker: 'SENATE/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.04798,
-  'the close': 0.05726,
-  'the start_date - 1 day': '2024-06-16T08:00:00',
-  'the extrems_date - 1 day': '2024-06-24T12:00:00'
-}
-[31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
-The Original trend of BEAMX/USDT was : false
-The Final trend is : false
-{
-  ticker: 'BEAMX/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.0157,
-  'the close': 0.017328,
-  'the start_date - 1 day': '2024-06-25T12:00:00',
-  'the extrems_date - 1 day': '2024-06-27T00:00:00'
-}
-[31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
-The Original trend of SFUND/USDT was : false
-The Final trend is : false
-{
-  ticker: 'SFUND/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 1.553,
-  'the close': 1.702,
-  'the start_date - 1 day': '2024-06-12T08:00:00',
-  'the extrems_date - 1 day': '2024-06-24T16:00:00'
-}
-[31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
-The Original trend of LOOKS/USDT was : false
-The Final trend is : false
-{
-  ticker: 'LOOKS/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.04756,
-  'the close': 0.05842,
-  'the start_date - 1 day': '2024-06-12T08:00:00',
-  'the extrems_date - 1 day': '2024-06-17T20:00:00'
-}
-[31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
-The Original trend of THG/USDT was : false
-The Final trend is : false
-{
-  ticker: 'THG/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.0368,
-  'the close': 0.04083,
-  'the start_date - 1 day': '2024-06-23T04:00:00',
-  'the extrems_date - 1 day': '2024-06-24T16:00:00'
-}
-[31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
-The Original trend of AURORA/USDT was : true
-The Final trend is : true
-{
-  ticker: 'AURORA/USDT',
-  newTrend: true,
-  'the high': 0.1504,
-  'the low': null,
-  'the close': 0.1378,
-  'the start_date - 1 day': '2024-06-24T12:00:00',
-  'the extrems_date - 1 day': '2024-06-25T12:00:00'
-}
-[31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
-The Original trend of ERN/USDT was : false
-The Final trend is : false
-{
-  ticker: 'ERN/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 2.413,
-  'the close': 2.513,
-  'the start_date - 1 day': '2024-06-25T12:00:00',
-  'the extrems_date - 1 day': '2024-06-27T00:00:00'
-}
-[31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
-The Original trend of KAS/USDT was : true
-The Final trend is : true
-{
-  ticker: 'KAS/USDT',
-  newTrend: true,
-  'the high': 0.18326,
-  'the low': null,
-  'the close': 0.1608,
-  'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-26T20:00:00'
-}
-[31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
-The Original trend of RTF/USDT was : false
-The Final trend is : false
-{
-  ticker: 'RTF/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.1405,
-  'the close': 0.14626,
-  'the start_date - 1 day': '2024-05-20T08:00:00',
-  'the extrems_date - 1 day': '2024-06-05T12:00:00'
-}
-[31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
-The Original trend of NAKA/USDT was : false
-The Final trend is : false
-{
-  ticker: 'NAKA/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 1.0846,
-  'the close': 1.1188,
-  'the start_date - 1 day': '2024-06-26T00:00:00',
-  'the extrems_date - 1 day': '2024-06-27T04:00:00'
-}
-[31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : false
-The Final trend is : false
-{
-  ticker: 'ANKR/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.02995,
-  'the close': 0.03089,
-  'the start_date - 1 day': '2024-06-25T20:00:00',
-  'the extrems_date - 1 day': '2024-06-27T00:00:00'
-}
-[31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
-The Original trend of PHB/USDT was : false
-The Final trend is : false
-{
-  ticker: 'PHB/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 1.875,
-  'the close': 1.9594,
-  'the start_date - 1 day': '2024-06-26T16:00:00',
-  'the extrems_date - 1 day': '2024-06-27T04:00:00'
-}
-[31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
-The Original trend of HOT/USDT was : false
-The Final trend is : false
-{
-  ticker: 'HOT/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.00166,
-  'the close': 0.001871,
-  'the start_date - 1 day': '2024-06-20T04:00:00',
-  'the extrems_date - 1 day': '2024-06-24T04:00:00'
-}
+TypeError: Cannot read properties of null (reading 'length')
+    at detectTrend (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:80:35)
+    at main (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:422:36)
+file:///data/data/com.termux/files/home/investments_manager/4H/index.js:422
+    let { newTrend, data } = await detectTrend(
+          ^
+
+TypeError: Cannot destructure property 'newTrend' of '(intermediate value)' as it is null.
+    at main (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:422:11)
+
+Node.js v22.2.0
