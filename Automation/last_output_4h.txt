@@ -147,13 +147,9 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-20T04:00:00',
   'the extrems_date - 1 day': '2024-06-24T04:00:00'
 }
-Balance: 10.2679 PHB
-Sold: 19.27188$ of PHB/USDT
-ts',
-      client: [TLSSocket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
+Balance: 0.0679 PHB
+Error creating order: InvalidOrder: binance amount of PHB/USDT must be greater than minimum amount precision of 1
+req: [Circular *1],
       _eventsCount: 4,
       responseUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-06-21T04:00:00&time_end=2024-06-27T08:00:00&limit=100&include_empty_items=false',
       redirects: [],
