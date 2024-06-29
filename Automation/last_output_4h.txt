@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 28.93,
+  'the high': 28.96,
   'the low': null,
-  'the close': 26.08,
+  'the close': 26.89,
   'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-28T08:00:00'
+  'the extrems_date - 1 day': '2024-06-29T00:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -137,10 +137,10 @@ The Final trend is : false
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.0325,
+  'the low': 1.0304,
   'the close': 1.1061,
   'the start_date - 1 day': '2024-06-26T00:00:00',
-  'the extrems_date - 1 day': '2024-06-28T20:00:00'
+  'the extrems_date - 1 day': '2024-06-29T00:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
