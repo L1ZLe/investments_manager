@@ -1,9 +1,9 @@
 [
   {
     "ticker": "ENS/USDT",
-    "high": 26.47,
+    "high": 28.93,
     "low": null,
-    "close": 25.07
+    "close": 26.08
   },
   {
     "ticker": "INSP/USDT",
@@ -14,8 +14,8 @@
   {
     "ticker": "SENATE/USDT",
     "high": null,
-    "low": 0.04798,
-    "close": 0.05726
+    "low": 0.04794,
+    "close": 0.05346
   },
   {
     "ticker": "BEAMX/USDT",
@@ -26,8 +26,8 @@
   {
     "ticker": "SFUND/USDT",
     "high": null,
-    "low": 1.553,
-    "close": 1.702
+    "low": 1.527,
+    "close": 1.611
   },
   {
     "ticker": "LOOKS/USDT",
@@ -38,14 +38,14 @@
   {
     "ticker": "THG/USDT",
     "high": null,
-    "low": 0.0368,
-    "close": 0.04083
+    "low": 0.03676,
+    "close": 0.03845
   },
   {
     "ticker": "AURORA/USDT",
-    "high": 0.1504,
+    "high": 0.1548,
     "low": null,
-    "close": 0.1378
+    "close": 0.15
   },
   {
     "ticker": "ERN/USDT",
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "KAS/USDT",
-    "high": 0.18326,
+    "high": 0.185,
     "low": null,
-    "close": 0.1608
+    "close": 0.17737
   },
   {
     "ticker": "RTF/USDT",
@@ -68,8 +68,8 @@
   {
     "ticker": "NAKA/USDT",
     "high": null,
-    "low": 1.0846,
-    "close": 1.1188
+    "low": 1.0325,
+    "close": 1.1061
   },
   {
     "ticker": "ANKR/USDT",
@@ -80,8 +80,8 @@
   {
     "ticker": "PHB/USDT",
     "high": null,
-    "low": 1.875,
-    "close": 1.9594
+    "low": 1.7627,
+    "close": 1.9232
   },
   {
     "ticker": "HOT/USDT",
