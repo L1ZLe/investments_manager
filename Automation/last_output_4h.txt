@@ -112,11 +112,11 @@ The Final trend is : true
 {
   ticker: 'KAS/USDT',
   newTrend: true,
-  'the high': 0.1938,
+  'the high': 0.19588,
   'the low': null,
-  'the close': 0.17816,
+  'the close': 0.18954,
   'the start_date - 1 day': '2024-06-24T04:00:00',
-  'the extrems_date - 1 day': '2024-06-29T16:00:00'
+  'the extrems_date - 1 day': '2024-06-30T04:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
@@ -156,16 +156,19 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : false
-The Final trend is : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'PHB/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 1.7118,
-  'the close': 1.7866,
-  'the start_date - 1 day': '2024-06-26T16:00:00',
-  'the extrems_date - 1 day': '2024-06-30T00:00:00'
+  newTrend: true,
+  'the high': 1.8739,
+  'the low': null,
+  'the close': 1.7232,
+  'the start_date - 1 day': '2024-06-30T00:00:00',
+  'the extrems_date - 1 day': '2024-06-30T04:00:00'
 }
+Buying PHB/USDT on BINANCE
+Email about buying is sent
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
 The Final trend is : false
@@ -178,3 +181,4 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-20T04:00:00',
   'the extrems_date - 1 day': '2024-06-24T04:00:00'
 }
+bought: 19.87982$ of PHB/USDT
