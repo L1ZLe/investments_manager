@@ -409,7 +409,7 @@ async function main() {
     let timeEnd = new Date().toISOString()
     const [date, time] = timeEnd.split("T")
     const [hours, minutes, seconds, _] = time.split(":")
-    timeEnd = `${date}T${String(Number(hours)).padStart(2, "0")}:00:00`
+    timeEnd = `${date}T00:00:00`
 
     const data1 = await fetchOHLCV(symbolId, periodId, timeStart, timeEnd) // Fetching the data from CoinAPI
 
