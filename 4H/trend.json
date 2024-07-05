@@ -67,9 +67,9 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "upTrend": false,
-    "start_date": "2024-07-02T08:00:00",
-    "extrems_date": "2024-07-05T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-07-05T00:00:00",
+    "extrems_date": "2024-07-05T08:00:00"
   },
   {
     "ticker": "ANKR/USDT",
