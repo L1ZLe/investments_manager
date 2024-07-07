@@ -84,16 +84,19 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : true
-The Final trend is : true
+The Final trend is : false
+[33m we assume that close is the starting point [0m
 {
   ticker: 'AURORA/USDT',
-  newTrend: true,
-  'the high': 0.1507,
-  'the low': null,
-  'the close': 0.1446,
-  'the start_date - 1 day': '2024-07-05T04:00:00',
-  'the extrems_date - 1 day': '2024-07-07T08:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.1438,
+  'the close': 0.1502,
+  'the start_date - 1 day': '2024-07-07T08:00:00',
+  'the extrems_date - 1 day': '2024-07-07T12:00:00'
 }
+Selling AURORA/USDT on GATEIO
+Email about selling is sent
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
 The Final trend is : false
@@ -120,6 +123,8 @@ The Final trend is : true
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
+Balance: 132.61406268 AURORA
+Sold: 19.135623$ of AURORA/USDT
 The Final trend is : false
 {
   ticker: 'RTF/USDT',
@@ -131,20 +136,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
-The Original trend of NAKA/USDT was : true
+The Original trend of NAKA/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.1304,
-  'the close': 1.1345,
+  'the low': 1.1246,
+  'the close': 1.158,
   'the start_date - 1 day': '2024-07-07T04:00:00',
-  'the extrems_date - 1 day': '2024-07-07T04:00:00'
+  'the extrems_date - 1 day': '2024-07-07T12:00:00'
 }
-Selling NAKA/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
 The Final trend is : false
@@ -181,5 +183,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-20T04:00:00',
   'the extrems_date - 1 day': '2024-07-04T20:00:00'
 }
-Balance: 17.62049042 NAKA
-Sold: 19.962089$ of NAKA/USDT
