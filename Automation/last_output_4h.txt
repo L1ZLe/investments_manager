@@ -89,10 +89,10 @@ The Final trend is : false
   ticker: 'AURORA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.1364,
+  'the low': 0.1343,
   'the close': 0.1502,
   'the start_date - 1 day': '2024-07-07T08:00:00',
-  'the extrems_date - 1 day': '2024-07-07T16:00:00'
+  'the extrems_date - 1 day': '2024-07-07T20:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
@@ -101,25 +101,23 @@ The Final trend is : false
   ticker: 'ERN/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.932,
+  'the low': 1.89,
   'the close': 2.249,
   'the start_date - 1 day': '2024-07-01T00:00:00',
-  'the extrems_date - 1 day': '2024-07-07T16:00:00'
+  'the extrems_date - 1 day': '2024-07-07T20:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
-The Original trend of KAS/USDT was : true
+The Original trend of KAS/USDT was : false
 The Final trend is : false
 {
   ticker: 'KAS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.15851,
+  'the low': 0.15395,
   'the close': 0.16902,
   'the start_date - 1 day': '2024-07-06T12:00:00',
-  'the extrems_date - 1 day': '2024-07-07T16:00:00'
+  'the extrems_date - 1 day': '2024-07-07T20:00:00'
 }
-Selling KAS/USDT on GATEIO
-Email about selling is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -139,14 +137,13 @@ The Final trend is : false
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.1048,
+  'the low': 1.058,
   'the close': 1.158,
   'the start_date - 1 day': '2024-07-07T04:00:00',
-  'the extrems_date - 1 day': '2024-07-07T16:00:00'
+  'the extrems_date - 1 day': '2024-07-07T20:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
-Balance: 115.90810367 KAS
 The Final trend is : false
 {
   ticker: 'ANKR/USDT',
@@ -157,7 +154,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-30T20:00:00',
   'the extrems_date - 1 day': '2024-07-05T00:00:00'
 }
-Sold: 18.435054$ of KAS/USDT
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : false
 The Final trend is : false
