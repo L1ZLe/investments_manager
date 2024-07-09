@@ -464,7 +464,7 @@ async function main() {
     }
     if (!initialTrend && newTrend) {
       // if we shifted the trend from down to up, then we need to buy
-      const amountToSpend = 20 // the $ amount we want to spend on buying the coin. This can be changed based on how many coins we want to buy (from the coins.json file)
+      const amountToSpend = 30 // the $ amount we want to spend on buying the coin. This can be changed based on how many coins we want to buy (from the coins.json file)
       buy(amountToSpend, ticker, coinData.exchange_id)
       // Send email
       const mailOptions = {
