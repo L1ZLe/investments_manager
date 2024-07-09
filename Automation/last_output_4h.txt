@@ -46,11 +46,19 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-30T20:00:00',
   'the extrems_date - 1 day': '2024-07-04T20:00:00'
 }
-le:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:589:11)
-    at IncomingMessage.emit (node:events:532:35)
-    at endReadableNT (node:internal/streams/readable:1696:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-    at Axios.request (file:///data[31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
+[31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
+The Original trend of SFUND/USDT was : false
+The Final trend is : false
+{
+  ticker: 'SFUND/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 1.527,
+  'the close': 1.611,
+  'the start_date - 1 day': '2024-06-12T08:00:00',
+  'the extrems_date - 1 day': '2024-06-28T16:00:00'
+}
+[31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : false
 The Final trend is : false
 {
@@ -62,7 +70,19 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-12T08:00:00',
   'the extrems_date - 1 day': '2024-06-17T20:00:00'
 }
-nvestments_manager/4H/index.js:414:19) {
+[31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
+The Original trend of THG/USDT was : false
+Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
+    at settle (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.proce[31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
+The Original trend of ERN/USDT was : false
+e:///data/data/com.termux/files/home/investments_manager/4H/index.js:64:22)
+    at async main (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:414:19) {
   code: 'ERR_BAD_REQUEST',
   config: {
     transitional: {
@@ -78,20 +98,24 @@ nvestments_manager/4H/index.js:414:19) {
     xsrfHeaderName: 'X-XSRF-TOKEN',
     maxContentLength: -1,
     maxBodyLength: Infinity,
-    env: { FormData: [Function], Blob: [class Blob] },
-    validateStatus: [Function: validateStatus],
-    headers: Object [AxiosHeaders] {
-      Accept: 'application/json',
-      'Content-Type': undefined,
-      'X-CoinAPI-Key': '93D271D2-5CD3-4B59-BFA6-89DE80692521',
-      'User-Agent': 'axios/1.6.8',
+    env: { FormData: [Function], Blob: [class Blob] },The Final trend is : false
+{
+  ticker: 'RTF/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.1405,
+  'the close': 0.14626,
+  'the start_date - 1 day': '2024-05-20T08:00:00',
+  'the extrems_date - 1 day': '2024-06-05T12:00:00'
+}
+os/1.6.8',
       'Accept-Encoding': 'gzip, compress, deflate, br'
     },
     method: 'get',
-    url: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_BEAMX_USDT/history',
+    url: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_THG_USDT/history',
     params: {
       period_id: '4HRS',
-      time_start: '2024-06-30T20:00:00',
+      time_start: '2024-06-23T04:00:00',
       time_end: '2024-07-09T20:00:00',
       limit: 100,
       include_empty_items: false
@@ -131,7 +155,7 @@ nvestments_manager/4H/index.js:414:19) {
     finished: true,
     _headerSent: true,
     _closed: true,
-    _header: 'GET /v1/ohlcv/BINANCE_SPOT_BEAMX_USDT/history?period_id=4HRS&time_start=2024-06-30T20:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+    _header: 'GET /v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
       'Accept: application/json\r\n' +
       'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
       'User-Agent: axios/1.6.8\r\n' +
@@ -168,7 +192,7 @@ nvestments_manager/4H/index.js:414:19) {
     maxHeaderSize: undefined,
     insecureHTTPParser: undefined,
     joinDuplicateHeaders: undefined,
-    path: '/v1/ohlcv/BINANCE_SPOT_BEAMX_USDT/history?period_id=4HRS&time_start=2024-06-30T20:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false',
+    path: '/v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false',
     _ended: true,
     res: IncomingMessage {
       _events: [Object],
@@ -193,7 +217,7 @@ nvestments_manager/4H/index.js:414:19) {
       _dumped: false,
       req: [Circular *1],
       _eventsCount: 4,
-      responseUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_BEAMX_USDT/history?period_id=4HRS&time_start=2024-06-30T20:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false',
+      responseUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false',
       redirects: [],
       [Symbol(shapeMode)]: true,
       [Symbol(kCapture)]: false,
@@ -224,7 +248,7 @@ nvestments_manager/4H/index.js:414:19) {
       _eventsCount: 3,
       _onNativeResponse: [Function (anonymous)],
       _currentRequest: [Circular *1],
-      _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_BEAMX_USDT/history?period_id=4HRS&time_start=2024-06-30T20:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false',
+      _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false',
       [Symbol(shapeMode)]: true,
       [Symbol(kCapture)]: false
     },
@@ -281,15 +305,15 @@ nvestments_manager/4H/index.js:414:19) {
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 13025,
+        _idleStart: 23472,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 2177,
-        [Symbol(triggerId)]: 2175
+        [Symbol(asyncId)]: 2273,
+        [Symbol(triggerId)]: 2271
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -320,7 +344,7 @@ nvestments_manager/4H/index.js:414:19) {
     statusText: 'Too Many Requests',
     headers: Object [AxiosHeaders] {
       'content-type': 'application/json',
-      date: 'Tue, 09 Jul 2024 20:59:17 GMT',
+      date: 'Tue, 09 Jul 2024 20:59:27 GMT',
       'transfer-encoding': 'chunked',
       'x-concurrencylimit-limit': '1',
       'x-concurrencylimit-remaining': '0'
@@ -339,7 +363,7 @@ nvestments_manager/4H/index.js:414:19) {
       validateStatus: [Function: validateStatus],
       headers: [Object [AxiosHeaders]],
       method: 'get',
-      url: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_BEAMX_USDT/history',
+      url: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_THG_USDT/history',
       params: [Object],
       data: undefined
     },
@@ -368,7 +392,7 @@ nvestments_manager/4H/index.js:414:19) {
       finished: true,
       _headerSent: true,
       _closed: true,
-      _header: 'GET /v1/ohlcv/BINANCE_SPOT_BEAMX_USDT/history?period_id=4HRS&time_start=2024-06-30T20:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+      _header: 'GET /v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
         'Accept: application/json\r\n' +
         'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
         'User-Agent: axios/1.6.8\r\n' +
@@ -384,7 +408,7 @@ nvestments_manager/4H/index.js:414:19) {
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/v1/ohlcv/BINANCE_SPOT_BEAMX_USDT/history?period_id=4HRS&time_start=2024-06-30T20:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-07-09T20:00:00&limit=100&include_empty_items=false',
       _ended: true,
       res: [IncomingMessage],
       aborted: false,
