@@ -108,16 +108,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'KAS/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.15395,
-  'the close': 0.16902,
-  'the start_date - 1 day': '2024-07-06T12:00:00',
-  'the extrems_date - 1 day': '2024-07-07T20:00:00'
+  newTrend: true,
+  'the high': 0.17286,
+  'the low': null,
+  'the close': 0.15957,
+  'the start_date - 1 day': '2024-07-07T20:00:00',
+  'the extrems_date - 1 day': '2024-07-09T00:00:00'
 }
+Buying KAS/USDT on GATEIO
+Email about buying is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -154,6 +156,7 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-30T20:00:00',
   'the extrems_date - 1 day': '2024-07-05T00:00:00'
 }
+bought: 30$ of KAS/USDT
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : false
 The Final trend is : false
