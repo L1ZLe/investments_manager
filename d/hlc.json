@@ -1,17 +1,5 @@
 [
   {
-    "ticker": "ONDO/USDT",
-    "high": null,
-    "low": 1.02,
-    "close": 1.201
-  },
-  {
-    "ticker": "SAND/USDT",
-    "high": null,
-    "low": 0.2794,
-    "close": 0.3302
-  },
-  {
     "ticker": "AMU/USDT",
     "high": 0.04449,
     "low": null,
@@ -64,5 +52,17 @@
     "high": null,
     "low": 12.512,
     "close": 14.415
+  },
+  {
+    "ticker": "ONDO/USDT",
+    "high": null,
+    "low": 0.843,
+    "close": 1.0379
+  },
+  {
+    "ticker": "SAND/USDT",
+    "high": null,
+    "low": 0.2468,
+    "close": 0.3302
   }
 ]
