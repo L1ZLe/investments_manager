@@ -36,18 +36,6 @@
     "close": 0.001702
   },
   {
-    "ticker": "BEAMX/USDT",
-    "high": null,
-    "low": 0.01256,
-    "close": 0.01788
-  },
-  {
-    "ticker": "SFUND/USDT",
-    "high": null,
-    "low": 1.527,
-    "close": 1.611
-  },
-  {
     "ticker": "LOOKS/USDT",
     "high": null,
     "low": 0.04756,
@@ -60,22 +48,10 @@
     "close": 0.03296
   },
   {
-    "ticker": "ENS/USDT",
-    "high": 31.98,
-    "low": null,
-    "close": 26.43
-  },
-  {
     "ticker": "AURORA/USDT",
     "high": null,
     "low": 0.1333,
     "close": 0.1376
-  },
-  {
-    "ticker": "INSP/USDT",
-    "high": null,
-    "low": 0.0397,
-    "close": 0.05558
   },
   {
     "ticker": "ERN/USDT",
@@ -88,5 +64,29 @@
     "high": null,
     "low": 0.04794,
     "close": 0.05346
+  },
+  {
+    "ticker": "BEAMX/USDT",
+    "high": null,
+    "low": 0.01256,
+    "close": 0.01788
+  },
+  {
+    "ticker": "INSP/USDT",
+    "high": null,
+    "low": 0.0397,
+    "close": 0.05558
+  },
+  {
+    "ticker": "SFUND/USDT",
+    "high": null,
+    "low": 1.527,
+    "close": 1.611
+  },
+  {
+    "ticker": "ENS/USDT",
+    "high": 31.98,
+    "low": null,
+    "close": 26.43
   }
 ]
