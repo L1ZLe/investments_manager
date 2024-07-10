@@ -1,11 +1,5 @@
 [
   {
-    "ticker": "HOT/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-20T04:00:00",
-    "extrems_date": "2024-07-04T20:00:00"
-  },
-  {
     "ticker": "ENS/USDT",
     "upTrend": true,
     "start_date": "2024-07-04T20:00:00",
@@ -48,27 +42,33 @@
     "extrems_date": "2024-07-05T00:00:00"
   },
   {
+    "ticker": "AURORA/USDT",
+    "upTrend": true,
+    "start_date": "2024-07-09T08:00:00",
+    "extrems_date": "2024-07-10T00:00:00"
+  },
+  {
+    "ticker": "ERN/USDT",
+    "upTrend": false,
+    "start_date": "2024-07-01T00:00:00",
+    "extrems_date": "2024-07-07T20:00:00"
+  },
+  {
+    "ticker": "KAS/USDT",
+    "upTrend": true,
+    "start_date": "2024-07-07T20:00:00",
+    "extrems_date": "2024-07-10T00:00:00"
+  },
+  {
     "ticker": "RTF/USDT",
     "upTrend": false,
     "start_date": "2024-05-20T08:00:00",
     "extrems_date": "2024-06-05T12:00:00"
   },
   {
-    "ticker": "AURORA/USDT",
-    "upTrend": true,
-    "start_date": "2024-07-09T08:00:00",
-    "extrems_date": "2024-07-09T12:00:00"
-  },
-  {
     "ticker": "NAKA/USDT",
     "upTrend": false,
     "start_date": "2024-07-07T04:00:00",
-    "extrems_date": "2024-07-07T20:00:00"
-  },
-  {
-    "ticker": "ERN/USDT",
-    "upTrend": false,
-    "start_date": "2024-07-01T00:00:00",
     "extrems_date": "2024-07-07T20:00:00"
   },
   {
@@ -78,15 +78,15 @@
     "extrems_date": "2024-07-05T00:00:00"
   },
   {
-    "ticker": "KAS/USDT",
-    "upTrend": true,
-    "start_date": "2024-07-07T20:00:00",
-    "extrems_date": "2024-07-09T04:00:00"
-  },
-  {
     "ticker": "PHB/USDT",
     "upTrend": false,
     "start_date": "2024-07-01T04:00:00",
+    "extrems_date": "2024-07-04T20:00:00"
+  },
+  {
+    "ticker": "HOT/USDT",
+    "upTrend": false,
+    "start_date": "2024-06-20T04:00:00",
     "extrems_date": "2024-07-04T20:00:00"
   }
 ]
