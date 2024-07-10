@@ -88,11 +88,11 @@ The Final trend is : true
 {
   ticker: 'AURORA/USDT',
   newTrend: true,
-  'the high': 0.1437,
+  'the high': 0.1444,
   'the low': null,
   'the close': 0.1389,
   'the start_date - 1 day': '2024-07-09T08:00:00',
-  'the extrems_date - 1 day': '2024-07-10T00:00:00'
+  'the extrems_date - 1 day': '2024-07-10T04:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
