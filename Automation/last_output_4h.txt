@@ -39,7 +39,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
     params: {
       period_id: '4HRS',
       time_start: '2024-07-04T20:00:00',
-      time_end: '2024-07-10T16:00:00',
+      time_end: '2024-07-10T20:00:00',
       limit: 100,
       include_empty_items: false
     },
@@ -78,7 +78,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
     finished: true,
     _headerSent: true,
     _closed: true,
-    _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T16:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+    _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T20:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
       'Accept: application/json\r\n' +
       'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
       'User-Agent: axios/1.6.8\r\n' +
@@ -115,7 +115,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
     maxHeaderSize: undefined,
     insecureHTTPParser: undefined,
     joinDuplicateHeaders: undefined,
-    path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T16:00:00&limit=100&include_empty_items=false',
+    path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T20:00:00&limit=100&include_empty_items=false',
     _ended: true,
     res: IncomingMessage {
       _events: [Object],
@@ -136,11 +136,11 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
       statusCode: 429,
       statusMessage: 'Too Many Requests',
       client: [TLSSocket],
-      _consuming: false,
+      _consuming: true,
       _dumped: false,
       req: [Circular *1],
       _eventsCount: 4,
-      responseUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T16:00:00&limit=100&include_empty_items=false',
+      responseUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T20:00:00&limit=100&include_empty_items=false',
       redirects: [],
       [Symbol(shapeMode)]: true,
       [Symbol(kCapture)]: false,
@@ -171,7 +171,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
       _eventsCount: 3,
       _onNativeResponse: [Function (anonymous)],
       _currentRequest: [Circular *1],
-      _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T16:00:00&limit=100&include_empty_items=false',
+      _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T20:00:00&limit=100&include_empty_items=false',
       [Symbol(shapeMode)]: true,
       [Symbol(kCapture)]: false
     },
@@ -228,15 +228,15 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
         _idleTimeout: 5000,
         _idlePrev: [TimersList],
         _idleNext: [TimersList],
-        _idleStart: 2708,
+        _idleStart: 1779,
         _onTimeout: [Function: bound ],
         _timerArgs: undefined,
         _repeat: null,
         _destroyed: false,
         [Symbol(refed)]: false,
         [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 2080,
-        [Symbol(triggerId)]: 2078
+        [Symbol(asyncId)]: 2077,
+        [Symbol(triggerId)]: 2075
       },
       [Symbol(kBuffer)]: null,
       [Symbol(kBufferCb)]: null,
@@ -267,7 +267,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
     statusText: 'Too Many Requests',
     headers: Object [AxiosHeaders] {
       'content-type': 'application/json',
-      date: 'Wed, 10 Jul 2024 16:02:05 GMT',
+      date: 'Wed, 10 Jul 2024 20:02:04 GMT',
       'transfer-encoding': 'chunked',
       'x-concurrencylimit-limit': '1',
       'x-concurrencylimit-remaining': '1',
@@ -318,7 +318,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
       finished: true,
       _headerSent: true,
       _closed: true,
-      _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T16:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+      _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T20:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
         'Accept: application/json\r\n' +
         'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
         'User-Agent: axios/1.6.8\r\n' +
@@ -334,7 +334,7 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T16:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-04T20:00:00&time_end=2024-07-10T20:00:00&limit=100&include_empty_items=false',
       _ended: true,
       res: [IncomingMessage],
       aborted: false,
