@@ -1,59 +1,5 @@
 [
   {
-    "ticker": "AMU/USDT",
-    "high": 0.04449,
-    "low": null,
-    "close": 0.01862
-  },
-  {
-    "ticker": "NAI/USDT",
-    "high": null,
-    "low": 0.00501,
-    "close": 0.00732
-  },
-  {
-    "ticker": "YGG/USDT",
-    "high": null,
-    "low": 0.4419,
-    "close": 0.5955
-  },
-  {
-    "ticker": "MYRIA/USDT",
-    "high": null,
-    "low": 0.002914,
-    "close": 0.003644
-  },
-  {
-    "ticker": "ARB/USDT",
-    "high": null,
-    "low": 0.674,
-    "close": 0.7832
-  },
-  {
-    "ticker": "WAGMIGAMES/USDT",
-    "high": null,
-    "low": 0.000007001,
-    "close": 0.00000837
-  },
-  {
-    "ticker": "BTC/USDT",
-    "high": null,
-    "low": 56774,
-    "close": 62899.99
-  },
-  {
-    "ticker": "PYR/USDT",
-    "high": null,
-    "low": 2.954,
-    "close": 3.672
-  },
-  {
-    "ticker": "LINK/USDT",
-    "high": null,
-    "low": 12.512,
-    "close": 14.415
-  },
-  {
     "ticker": "ONDO/USDT",
     "high": null,
     "low": 0.843,
@@ -64,5 +10,59 @@
     "high": null,
     "low": 0.2468,
     "close": 0.3302
+  },
+  {
+    "ticker": "AMU/USDT",
+    "high": 0.04449,
+    "low": null,
+    "close": 0.01862
+  },
+  {
+    "ticker": "NAI/USDT",
+    "high": 0.00974,
+    "low": null,
+    "close": 0.00627
+  },
+  {
+    "ticker": "YGG/USDT",
+    "high": null,
+    "low": 0.3739,
+    "close": 0.5955
+  },
+  {
+    "ticker": "MYRIA/USDT",
+    "high": null,
+    "low": 0.00256,
+    "close": 0.003644
+  },
+  {
+    "ticker": "ARB/USDT",
+    "high": null,
+    "low": 0.5737,
+    "close": 0.7832
+  },
+  {
+    "ticker": "WAGMIGAMES/USDT",
+    "high": null,
+    "low": 0.000006505,
+    "close": 0.00000837
+  },
+  {
+    "ticker": "BTC/USDT",
+    "high": null,
+    "low": 53743.32,
+    "close": 62899.99
+  },
+  {
+    "ticker": "PYR/USDT",
+    "high": null,
+    "low": 2.605,
+    "close": 3.672
+  },
+  {
+    "ticker": "LINK/USDT",
+    "high": null,
+    "low": 11.135,
+    "close": 14.415
   }
 ]
