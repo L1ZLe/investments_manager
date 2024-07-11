@@ -1,17 +1,15 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : true
+The Original trend of ENS/USDT was : false
 The Final trend is : false
 {
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 25.68,
-  'the close': 27.13,
+  'the low': 25.5,
+  'the close': 26.49,
   'the start_date - 1 day': '2024-07-09T04:00:00',
-  'the extrems_date - 1 day': '2024-07-10T20:00:00'
+  'the extrems_date - 1 day': '2024-07-11T08:00:00'
 }
-Selling ENS/USDT on BINANCE
-Email about selling is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
 The Final trend is : false
@@ -24,8 +22,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-31T04:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
-Balance: 0.7495896 ENS
-Sold: 19.4102$ of ENS/USDT
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
 The Final trend is : false
@@ -112,16 +108,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
-The Final trend is : true
+The Final trend is : false
+[33m we assume that close is the starting point [0m
 {
   ticker: 'KAS/USDT',
-  newTrend: true,
-  'the high': 0.17376,
-  'the low': null,
-  'the close': 0.16948,
-  'the start_date - 1 day': '2024-07-07T20:00:00',
-  'the extrems_date - 1 day': '2024-07-10T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.16671,
+  'the close': 0.17238,
+  'the start_date - 1 day': '2024-07-10T00:00:00',
+  'the extrems_date - 1 day': '2024-07-10T08:00:00'
 }
+Selling KAS/USDT on GATEIO
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -134,6 +132,7 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-20T08:00:00',
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
+Email about selling is sent
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : false
 The Final trend is : false
@@ -170,6 +169,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-01T04:00:00',
   'the extrems_date - 1 day': '2024-07-04T20:00:00'
 }
+Balance: 174.37356367 KAS
+Sold: 29.3850778$ of KAS/USDT
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
 The Final trend is : false
