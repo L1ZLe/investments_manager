@@ -1,11 +1,5 @@
 [
   {
-    "ticker": "ONDO/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-19T00:00:00",
-    "extrems_date": "2024-07-07T00:00:00"
-  },
-  {
     "ticker": "SAND/USDT",
     "upTrend": false,
     "start_date": "2024-04-07T00:00:00",
@@ -64,5 +58,11 @@
     "upTrend": false,
     "start_date": "2024-05-28T00:00:00",
     "extrems_date": "2024-07-04T00:00:00"
+  },
+  {
+    "ticker": "ONDO/USDT",
+    "upTrend": false,
+    "start_date": "2024-06-19T00:00:00",
+    "extrems_date": "2024-07-07T00:00:00"
   }
 ]
