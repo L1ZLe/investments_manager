@@ -136,11 +136,11 @@ The Final trend is : true
 {
   ticker: 'NAKA/USDT',
   newTrend: true,
-  'the high': 1.1929,
+  'the high': 1.2054,
   'the low': null,
-  'the close': 1.1219,
+  'the close': 1.1546,
   'the start_date - 1 day': '2024-07-07T20:00:00',
-  'the extrems_date - 1 day': '2024-07-09T08:00:00'
+  'the extrems_date - 1 day': '2024-07-13T00:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
