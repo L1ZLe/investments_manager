@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 26.41,
+  'the high': 26.63,
   'the low': null,
   'the close': 25.57,
   'the start_date - 1 day': '2024-07-13T16:00:00',
-  'the extrems_date - 1 day': '2024-07-14T08:00:00'
+  'the extrems_date - 1 day': '2024-07-14T12:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -131,19 +131,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
-The Original trend of NAKA/USDT was : true
+The Original trend of NAKA/USDT was : false
 The Final trend is : false
 {
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.1777,
+  'the low': 1.1593,
   'the close': 1.2058,
   'the start_date - 1 day': '2024-07-14T04:00:00',
-  'the extrems_date - 1 day': '2024-07-14T08:00:00'
+  'the extrems_date - 1 day': '2024-07-14T12:00:00'
 }
-Selling NAKA/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
 The Final trend is : false
@@ -170,7 +168,6 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
-Balance: 25.81465042 NAKA
 The Final trend is : false
 {
   ticker: 'HOT/USDT',
@@ -181,4 +178,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-20T04:00:00',
   'the extrems_date - 1 day': '2024-07-04T20:00:00'
 }
-Sold: 30.515163$ of NAKA/USDT
