@@ -3,7 +3,7 @@
     "ticker": "ENS/USDT",
     "upTrend": true,
     "start_date": "2024-07-13T16:00:00",
-    "extrems_date": "2024-07-14T04:00:00"
+    "extrems_date": "2024-07-14T08:00:00"
   },
   {
     "ticker": "INSP/USDT",
@@ -67,9 +67,9 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "upTrend": true,
-    "start_date": "2024-07-07T20:00:00",
-    "extrems_date": "2024-07-14T04:00:00"
+    "upTrend": false,
+    "start_date": "2024-07-14T04:00:00",
+    "extrems_date": "2024-07-14T08:00:00"
   },
   {
     "ticker": "ANKR/USDT",
