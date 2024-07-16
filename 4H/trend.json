@@ -3,7 +3,7 @@
     "ticker": "ENS/USDT",
     "upTrend": true,
     "start_date": "2024-07-13T16:00:00",
-    "extrems_date": "2024-07-15T12:00:00"
+    "extrems_date": "2024-07-15T16:00:00"
   },
   {
     "ticker": "INSP/USDT",
@@ -45,19 +45,19 @@
     "ticker": "AURORA/USDT",
     "upTrend": true,
     "start_date": "2024-07-09T08:00:00",
-    "extrems_date": "2024-07-15T12:00:00"
+    "extrems_date": "2024-07-15T16:00:00"
   },
   {
     "ticker": "ERN/USDT",
     "upTrend": true,
     "start_date": "2024-07-07T20:00:00",
-    "extrems_date": "2024-07-15T12:00:00"
+    "extrems_date": "2024-07-15T16:00:00"
   },
   {
     "ticker": "KAS/USDT",
     "upTrend": true,
     "start_date": "2024-07-12T04:00:00",
-    "extrems_date": "2024-07-15T00:00:00"
+    "extrems_date": "2024-07-15T16:00:00"
   },
   {
     "ticker": "RTF/USDT",
@@ -69,13 +69,13 @@
     "ticker": "NAKA/USDT",
     "upTrend": true,
     "start_date": "2024-07-14T12:00:00",
-    "extrems_date": "2024-07-15T12:00:00"
+    "extrems_date": "2024-07-15T16:00:00"
   },
   {
     "ticker": "ANKR/USDT",
     "upTrend": true,
     "start_date": "2024-07-05T00:00:00",
-    "extrems_date": "2024-07-15T12:00:00"
+    "extrems_date": "2024-07-15T16:00:00"
   },
   {
     "ticker": "PHB/USDT",
