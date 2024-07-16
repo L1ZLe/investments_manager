@@ -44,13 +44,13 @@
   {
     "ticker": "AURORA/USDT",
     "high": null,
-    "low": 0.1592,
+    "low": 0.157,
     "close": 0.1726
   },
   {
     "ticker": "ERN/USDT",
     "high": null,
-    "low": 2.28,
+    "low": 2.27,
     "close": 2.398
   },
   {
@@ -73,15 +73,15 @@
   },
   {
     "ticker": "ANKR/USDT",
-    "high": 0.0303,
+    "high": 0.03078,
     "low": null,
-    "close": 0.02864
+    "close": 0.02896
   },
   {
     "ticker": "PHB/USDT",
-    "high": null,
-    "low": 1.2683,
-    "close": 1.8035
+    "high": 1.8596,
+    "low": null,
+    "close": 1.7087
   },
   {
     "ticker": "HOT/USDT",
