@@ -36,16 +36,18 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'BEAMX/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.01256,
-  'the close': 0.01788,
-  'the start_date - 1 day': '2024-06-30T20:00:00',
-  'the extrems_date - 1 day': '2024-07-04T20:00:00'
+  newTrend: true,
+  'the high': 0.01831,
+  'the low': null,
+  'the close': 0.01669,
+  'the start_date - 1 day': '2024-07-04T20:00:00',
+  'the extrems_date - 1 day': '2024-07-16T12:00:00'
 }
+Buying BEAMX/USDT on BINANCE
+Email about buying is sent
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
 The Original trend of SFUND/USDT was : false
 The Final trend is : false
@@ -58,6 +60,7 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-12T08:00:00',
   'the extrems_date - 1 day': '2024-06-28T16:00:00'
 }
+bought: 29.99766$ of BEAMX/USDT
 [31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
 The Original trend of LOOKS/USDT was : false
 The Final trend is : false
@@ -148,14 +151,14 @@ The Final trend is : true
 {
   ticker: 'ANKR/USDT',
   newTrend: true,
-  'the high': 0.03078,
+  'the high': 0.03112,
   'the low': null,
   'the close': 0.02896,
   'the start_date - 1 day': '2024-07-05T00:00:00',
-  'the extrems_date - 1 day': '2024-07-16T12:00:00'
+  'the extrems_date - 1 day': '2024-07-16T16:00:00'
 }
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
-The Original trend of PHB/USDT was : false
+The Original trend of PHB/USDT was : true
 The Final trend is : true
 {
   ticker: 'PHB/USDT',
@@ -166,8 +169,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-07-04T20:00:00',
   'the extrems_date - 1 day': '2024-07-16T12:00:00'
 }
-Buying PHB/USDT on BINANCE
-Email about buying is sent
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
 The Final trend is : false
@@ -180,4 +181,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-20T04:00:00',
   'the extrems_date - 1 day': '2024-07-04T20:00:00'
 }
-bought: 29.95132$ of PHB/USDT
