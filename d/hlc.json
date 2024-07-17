@@ -1,13 +1,13 @@
 [
   {
     "ticker": "ONDO/USDT",
-    "high": 1.1199,
+    "high": 1.1298,
     "low": null,
     "close": 0.9832
   },
   {
     "ticker": "SAND/USDT",
-    "high": 0.3424,
+    "high": 0.3437,
     "low": null,
     "close": 0.299
   },
@@ -43,13 +43,13 @@
   },
   {
     "ticker": "WAGMIGAMES/USDT",
-    "high": null,
-    "low": 0.000006361,
-    "close": 0.000006932
+    "high": 0.000007314,
+    "low": null,
+    "close": 0.000006882
   },
   {
     "ticker": "BTC/USDT",
-    "high": 64900,
+    "high": 65388.97,
     "low": null,
     "close": 57339.89
   },
