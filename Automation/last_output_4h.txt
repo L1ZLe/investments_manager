@@ -1,17 +1,15 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : true
+The Original trend of ENS/USDT was : false
 The Final trend is : false
 {
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 26.33,
+  'the low': 26.25,
   'the close': 27.22,
   'the start_date - 1 day': '2024-07-15T16:00:00',
-  'the extrems_date - 1 day': '2024-07-17T04:00:00'
+  'the extrems_date - 1 day': '2024-07-17T08:00:00'
 }
-Selling ENS/USDT on BINANCE
-Email about selling is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
 The Final trend is : false
@@ -36,8 +34,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-16T08:00:00',
   'the extrems_date - 1 day': '2024-06-28T12:00:00'
 }
-Balance: 1.1684296 ENS
-Sold: 30.5544$ of ENS/USDT
 [31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
 The Original trend of BEAMX/USDT was : true
 The Final trend is : true
@@ -112,16 +108,19 @@ The Final trend is : true
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
-The Final trend is : true
+The Final trend is : false
+[33m we assume that close is the starting point [0m
 {
   ticker: 'KAS/USDT',
-  newTrend: true,
-  'the high': 0.1833,
-  'the low': null,
-  'the close': 0.17837,
-  'the start_date - 1 day': '2024-07-12T04:00:00',
-  'the extrems_date - 1 day': '2024-07-15T20:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.174,
+  'the close': 0.18224,
+  'the start_date - 1 day': '2024-07-15T20:00:00',
+  'the extrems_date - 1 day': '2024-07-16T04:00:00'
 }
+Selling KAS/USDT on GATEIO
+Email about selling is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -148,6 +147,7 @@ The Final trend is : true
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : true
+Balance: 177.99539367 KAS
 The Final trend is : true
 {
   ticker: 'ANKR/USDT',
@@ -158,6 +158,7 @@ The Final trend is : true
   'the start_date - 1 day': '2024-07-05T00:00:00',
   'the extrems_date - 1 day': '2024-07-17T04:00:00'
 }
+Sold: 31.4348139$ of KAS/USDT
 [31m BINANCE_SPOT_PHB_USDT 4HRS PHB/USDT [0m
 The Original trend of PHB/USDT was : true
 The Final trend is : true
