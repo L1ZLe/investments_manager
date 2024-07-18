@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ONDO/USDT',
   newTrend: true,
-  'the high': 1.1298,
+  'the high': 1.1382,
   'the low': null,
   'the close': 0.9832,
   'the start_date - 1 day': '2024-07-07T00:00:00',
-  'the extrems_date - 1 day': '2024-07-15T00:00:00'
+  'the extrems_date - 1 day': '2024-07-16T00:00:00'
 }
 [31m BINANCE_SPOT_SAND_USDT 1DAY SAND/USDT [0m
 The Original trend of SAND/USDT was : true
@@ -16,11 +16,11 @@ The Final trend is : true
 {
   ticker: 'SAND/USDT',
   newTrend: true,
-  'the high': 0.3437,
+  'the high': 0.3455,
   'the low': null,
   'the close': 0.299,
   'the start_date - 1 day': '2024-07-04T00:00:00',
-  'the extrems_date - 1 day': '2024-07-15T00:00:00'
+  'the extrems_date - 1 day': '2024-07-16T00:00:00'
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
 The Original trend of AMU/USDT was : true
@@ -83,7 +83,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-07-04T00:00:00'
 }
 [31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
-The Original trend of WAGMIGAMES/USDT was : false
+The Original trend of WAGMIGAMES/USDT was : true
 The Final trend is : true
 {
   ticker: 'WAGMIGAMES/USDT',
@@ -94,19 +94,17 @@ The Final trend is : true
   'the start_date - 1 day': '2024-07-11T00:00:00',
   'the extrems_date - 1 day': '2024-07-15T00:00:00'
 }
-Buying WAGMIGAMES/USDT on GATEIO
-Email about buying is sent
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : true
 The Final trend is : true
 {
   ticker: 'BTC/USDT',
   newTrend: true,
-  'the high': 65388.97,
+  'the high': 66128.63,
   'the low': null,
   'the close': 57339.89,
   'the start_date - 1 day': '2024-07-04T00:00:00',
-  'the extrems_date - 1 day': '2024-07-15T00:00:00'
+  'the extrems_date - 1 day': '2024-07-16T00:00:00'
 }
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : false
@@ -122,7 +120,6 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
-bought: 30$ of WAGMIGAMES/USDT
 The Final trend is : false
 {
   ticker: 'LINK/USDT',
