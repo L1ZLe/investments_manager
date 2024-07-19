@@ -3,7 +3,7 @@
     "ticker": "ENS/USDT",
     "upTrend": false,
     "start_date": "2024-07-15T16:00:00",
-    "extrems_date": "2024-07-18T12:00:00"
+    "extrems_date": "2024-07-18T20:00:00"
   },
   {
     "ticker": "INSP/USDT",
@@ -69,7 +69,7 @@
     "ticker": "NAKA/USDT",
     "upTrend": false,
     "start_date": "2024-07-15T16:00:00",
-    "extrems_date": "2024-07-18T12:00:00"
+    "extrems_date": "2024-07-18T20:00:00"
   },
   {
     "ticker": "ANKR/USDT",
@@ -81,7 +81,7 @@
     "ticker": "PHB/USDT",
     "upTrend": false,
     "start_date": "2024-07-17T04:00:00",
-    "extrems_date": "2024-07-18T12:00:00"
+    "extrems_date": "2024-07-18T20:00:00"
   },
   {
     "ticker": "HOT/USDT",
