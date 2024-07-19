@@ -16,11 +16,11 @@ The Final trend is : true
 {
   ticker: 'SAND/USDT',
   newTrend: true,
-  'the high': 0.3455,
+  'the high': 0.3484,
   'the low': null,
   'the close': 0.299,
   'the start_date - 1 day': '2024-07-04T00:00:00',
-  'the extrems_date - 1 day': '2024-07-16T00:00:00'
+  'the extrems_date - 1 day': '2024-07-17T00:00:00'
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
 The Original trend of AMU/USDT was : true
@@ -88,11 +88,11 @@ The Final trend is : true
 {
   ticker: 'WAGMIGAMES/USDT',
   newTrend: true,
-  'the high': 0.000007314,
+  'the high': 0.000007858,
   'the low': null,
-  'the close': 0.000006882,
+  'the close': 0.000006916,
   'the start_date - 1 day': '2024-07-11T00:00:00',
-  'the extrems_date - 1 day': '2024-07-15T00:00:00'
+  'the extrems_date - 1 day': '2024-07-17T00:00:00'
 }
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : true
