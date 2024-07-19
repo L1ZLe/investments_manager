@@ -161,10 +161,10 @@ The Final trend is : false
   ticker: 'PHB/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 1.7,
-  'the close': 1.842,
+  'the low': 1.6992,
+  'the close': 1.7793,
   'the start_date - 1 day': '2024-07-17T04:00:00',
-  'the extrems_date - 1 day': '2024-07-18T20:00:00'
+  'the extrems_date - 1 day': '2024-07-19T00:00:00'
 }
 [31m BINANCE_SPOT_HOT_USDT 4HRS HOT/USDT [0m
 The Original trend of HOT/USDT was : false
