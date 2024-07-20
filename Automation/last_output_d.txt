@@ -88,11 +88,11 @@ The Final trend is : true
 {
   ticker: 'WAGMIGAMES/USDT',
   newTrend: true,
-  'the high': 0.000007858,
+  'the high': 0.000008757,
   'the low': null,
   'the close': 0.000006916,
   'the start_date - 1 day': '2024-07-11T00:00:00',
-  'the extrems_date - 1 day': '2024-07-17T00:00:00'
+  'the extrems_date - 1 day': '2024-07-18T00:00:00'
 }
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : true
@@ -100,11 +100,11 @@ The Final trend is : true
 {
   ticker: 'BTC/USDT',
   newTrend: true,
-  'the high': 66128.63,
+  'the high': 67386,
   'the low': null,
-  'the close': 57339.89,
+  'the close': 63987.92,
   'the start_date - 1 day': '2024-07-04T00:00:00',
-  'the extrems_date - 1 day': '2024-07-16T00:00:00'
+  'the extrems_date - 1 day': '2024-07-18T00:00:00'
 }
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : false
