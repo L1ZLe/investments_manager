@@ -64,16 +64,6 @@
     "ticker": "ANKR/USDT",
     "exchange_id": "BINANCE",
     "timeframe": "4HRS"
-  },
-  {
-    "ticker": "PHB/USDT",
-    "exchange_id": "BINANCE",
-    "timeframe": "4HRS"
-  },
-  {
-    "ticker": "HOT/USDT",
-    "exchange_id": "BINANCE",
-    "timeframe": "4HRS"
   }
 ]
 
