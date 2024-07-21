@@ -40,11 +40,11 @@ The Final trend is : true
 {
   ticker: 'BEAMX/USDT',
   newTrend: true,
-  'the high': 0.0191,
+  'the high': 0.01932,
   'the low': null,
-  'the close': 0.01738,
+  'the close': 0.01836,
   'the start_date - 1 day': '2024-07-04T20:00:00',
-  'the extrems_date - 1 day': '2024-07-18T04:00:00'
+  'the extrems_date - 1 day': '2024-07-20T16:00:00'
 }
 [31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
 The Original trend of SFUND/USDT was : false
