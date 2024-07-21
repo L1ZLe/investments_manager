@@ -19,7 +19,7 @@
   },
   {
     "ticker": "BEAMX/USDT",
-    "high": 0.01932,
+    "high": 0.01939,
     "low": null,
     "close": 0.01836
   },
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "KAS/USDT",
-    "high": 0.183,
+    "high": 0.18443,
     "low": null,
-    "close": 0.17761
+    "close": 0.18012
   },
   {
     "ticker": "RTF/USDT",
@@ -73,9 +73,9 @@
   },
   {
     "ticker": "ANKR/USDT",
-    "high": 0.03342,
+    "high": 0.03362,
     "low": null,
-    "close": 0.03057
+    "close": 0.03221
   },
   {
     "ticker": "PHB/USDT",
