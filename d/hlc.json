@@ -7,9 +7,9 @@
   },
   {
     "ticker": "SAND/USDT",
-    "high": 0.3484,
+    "high": 0.35,
     "low": null,
-    "close": 0.299
+    "close": 0.3217
   },
   {
     "ticker": "AMU/USDT",
@@ -49,7 +49,7 @@
   },
   {
     "ticker": "BTC/USDT",
-    "high": 67386,
+    "high": 67598,
     "low": null,
     "close": 63987.92
   },
