@@ -13,9 +13,9 @@
   },
   {
     "ticker": "ENS/USDT",
-    "high": null,
-    "low": 25.4,
-    "close": 26.56
+    "high": 27.56,
+    "low": null,
+    "close": 26.1
   },
   {
     "ticker": "INSP/USDT",
@@ -61,9 +61,9 @@
   },
   {
     "ticker": "ERN/USDT",
-    "high": null,
-    "low": 2.296,
-    "close": 2.47
+    "high": 2.506,
+    "low": null,
+    "close": 2.432
   },
   {
     "ticker": "KAS/USDT",

@@ -13,9 +13,9 @@
   },
   {
     "ticker": "ENS/USDT",
-    "upTrend": false,
-    "start_date": "2024-07-20T12:00:00",
-    "extrems_date": "2024-07-21T12:00:00"
+    "upTrend": true,
+    "start_date": "2024-07-21T12:00:00",
+    "extrems_date": "2024-07-21T16:00:00"
   },
   {
     "ticker": "INSP/USDT",
@@ -61,9 +61,9 @@
   },
   {
     "ticker": "ERN/USDT",
-    "upTrend": false,
-    "start_date": "2024-07-18T04:00:00",
-    "extrems_date": "2024-07-18T12:00:00"
+    "upTrend": true,
+    "start_date": "2024-07-18T12:00:00",
+    "extrems_date": "2024-07-21T16:00:00"
   },
   {
     "ticker": "KAS/USDT",
