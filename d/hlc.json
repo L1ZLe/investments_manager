@@ -7,7 +7,7 @@
   },
   {
     "ticker": "SAND/USDT",
-    "high": 0.35,
+    "high": 0.3505,
     "low": null,
     "close": 0.3217
   },
@@ -19,9 +19,9 @@
   },
   {
     "ticker": "NAI/USDT",
-    "high": 0.00974,
-    "low": null,
-    "close": 0.00627
+    "high": null,
+    "low": 0.00586,
+    "close": 0.00737
   },
   {
     "ticker": "YGG/USDT",
@@ -43,13 +43,13 @@
   },
   {
     "ticker": "WAGMIGAMES/USDT",
-    "high": 0.000008757,
+    "high": 0.000009107,
     "low": null,
     "close": 0.000006916
   },
   {
     "ticker": "BTC/USDT",
-    "high": 67598,
+    "high": 68366.66,
     "low": null,
     "close": 63987.92
   },
@@ -61,8 +61,8 @@
   },
   {
     "ticker": "LINK/USDT",
-    "high": null,
-    "low": 11.135,
-    "close": 14.415
+    "high": 15.196,
+    "low": null,
+    "close": 13.593
   }
 ]
