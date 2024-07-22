@@ -1,15 +1,18 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
 The Original trend of ENS/USDT was : true
-The Final trend is : true
+The Final trend is : false
+[33m we assume that close is the starting point [0m
 {
   ticker: 'ENS/USDT',
-  newTrend: true,
-  'the high': 27.77,
-  'the low': null,
-  'the close': 26.1,
-  'the start_date - 1 day': '2024-07-21T12:00:00',
-  'the extrems_date - 1 day': '2024-07-21T20:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 25.82,
+  'the close': 27.3,
+  'the start_date - 1 day': '2024-07-21T20:00:00',
+  'the extrems_date - 1 day': '2024-07-22T00:00:00'
 }
+Selling ENS/USDT on BINANCE
+Email about selling is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
 The Final trend is : false
@@ -22,6 +25,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-31T04:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
+Balance: 1.1073296 ENS
+Sold: 28.677$ of ENS/USDT
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
 The Final trend is : false
@@ -113,10 +118,10 @@ The Final trend is : false
   ticker: 'KAS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.17256,
-  'the close': 0.18059,
+  'the low': 0.172,
+  'the close': 0.17522,
   'the start_date - 1 day': '2024-07-20T20:00:00',
-  'the extrems_date - 1 day': '2024-07-21T12:00:00'
+  'the extrems_date - 1 day': '2024-07-22T08:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
@@ -149,8 +154,8 @@ The Final trend is : false
   ticker: 'ANKR/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.03101,
-  'the close': 0.03247,
+  'the low': 0.03097,
+  'the close': 0.03178,
   'the start_date - 1 day': '2024-07-21T00:00:00',
-  'the extrems_date - 1 day': '2024-07-22T04:00:00'
+  'the extrems_date - 1 day': '2024-07-22T08:00:00'
 }
