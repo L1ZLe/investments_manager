@@ -61,9 +61,9 @@
   },
   {
     "ticker": "ERN/USDT",
-    "upTrend": true,
-    "start_date": "2024-07-18T12:00:00",
-    "extrems_date": "2024-07-21T16:00:00"
+    "upTrend": false,
+    "start_date": "2024-07-21T16:00:00",
+    "extrems_date": "2024-07-22T00:00:00"
   },
   {
     "ticker": "KAS/USDT",
@@ -87,6 +87,6 @@
     "ticker": "ANKR/USDT",
     "upTrend": false,
     "start_date": "2024-07-21T00:00:00",
-    "extrems_date": "2024-07-21T12:00:00"
+    "extrems_date": "2024-07-22T00:00:00"
   }
 ]

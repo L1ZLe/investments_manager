@@ -61,9 +61,9 @@
   },
   {
     "ticker": "ERN/USDT",
-    "high": 2.506,
-    "low": null,
-    "close": 2.432
+    "high": null,
+    "low": 2.378,
+    "close": 2.48
   },
   {
     "ticker": "KAS/USDT",
@@ -86,7 +86,7 @@
   {
     "ticker": "ANKR/USDT",
     "high": null,
-    "low": 0.03103,
-    "close": 0.03326
+    "low": 0.03101,
+    "close": 0.03247
   }
 ]
