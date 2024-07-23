@@ -101,23 +101,24 @@ The Final trend is : false
   ticker: 'ERN/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 2.334,
-  'the close': 2.389,
+  'the low': 2.3,
+  'the close': 2.368,
   'the start_date - 1 day': '2024-07-21T16:00:00',
-  'the extrems_date - 1 day': '2024-07-23T00:00:00'
+  'the extrems_date - 1 day': '2024-07-23T08:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'KAS/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.17131,
-  'the close': 0.17683,
-  'the start_date - 1 day': '2024-07-22T16:00:00',
-  'the extrems_date - 1 day': '2024-07-23T00:00:00'
+  newTrend: true,
+  'the high': 0.1774,
+  'the low': null,
+  'the close': 0.17199,
+  'the start_date - 1 day': '2024-07-23T00:00:00',
+  'the extrems_date - 1 day': '2024-07-23T08:00:00'
 }
+Buying KAS/USDT on GATEIO
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -142,6 +143,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-15T16:00:00',
   'the extrems_date - 1 day': '2024-07-23T00:00:00'
 }
+Error creating order: gateio GET https://api.gateio.ws/api/v4/spot/currencies request timed out (10000 ms)
+Email about buying is sent
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
 The Final trend is : false
