@@ -1,17 +1,15 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : false
+The Original trend of ENS/USDT was : true
 The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 28.27,
+  'the high': 30.42,
   'the low': null,
-  'the close': 25.67,
+  'the close': 27.41,
   'the start_date - 1 day': '2024-07-22T16:00:00',
-  'the extrems_date - 1 day': '2024-07-22T20:00:00'
+  'the extrems_date - 1 day': '2024-07-23T04:00:00'
 }
-Buying ENS/USDT on BINANCE
-Email about buying is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
 The Final trend is : false
@@ -24,7 +22,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-31T04:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
-bought: 29.8224$ of ENS/USDT
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
 The Final trend is : false
@@ -110,9 +107,8 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-07-23T00:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
-The Original trend of KAS/USDT was : true
+The Original trend of KAS/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'KAS/USDT',
   newTrend: false,
@@ -122,8 +118,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-22T16:00:00',
   'the extrems_date - 1 day': '2024-07-23T00:00:00'
 }
-Selling KAS/USDT on GATEIO
-Email about selling is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -149,8 +143,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-07-23T00:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : true
-Balance: 169.46083367 KAS
+The Original trend of ANKR/USDT was : false
 The Final trend is : false
 {
   ticker: 'ANKR/USDT',
@@ -161,8 +154,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-22T12:00:00',
   'the extrems_date - 1 day': '2024-07-23T00:00:00'
 }
-Selling ANKR/USDT on BINANCE
-Sold: 29.206431$ of KAS/USDT
-Balance: 930.1053 ANKR
-Sold: 28.814498$ of ANKR/USDT
-Email about selling is sent
