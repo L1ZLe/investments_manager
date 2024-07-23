@@ -20,8 +20,8 @@
   {
     "ticker": "NAI/USDT",
     "high": null,
-    "low": 0.00586,
-    "close": 0.00737
+    "low": 0.00528,
+    "close": 0.00735
   },
   {
     "ticker": "YGG/USDT",
@@ -49,7 +49,7 @@
   },
   {
     "ticker": "BTC/USDT",
-    "high": 68366.66,
+    "high": 68474.55,
     "low": null,
     "close": 63987.92
   },
