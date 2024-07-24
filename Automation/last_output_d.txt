@@ -1,27 +1,31 @@
 [31m GATEIO_SPOT_ONDO_USDT 1DAY ONDO/USDT [0m
 The Original trend of ONDO/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'ONDO/USDT',
-  newTrend: true,
-  'the high': 1.1382,
-  'the low': null,
-  'the close': 0.9832,
-  'the start_date - 1 day': '2024-07-07T00:00:00',
-  'the extrems_date - 1 day': '2024-07-16T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.9562,
+  'the close': 1.0912,
+  'the start_date - 1 day': '2024-07-16T00:00:00',
+  'the extrems_date - 1 day': '2024-07-22T00:00:00'
 }
+Selling ONDO/USDT on GATEIO
+Email about selling is sent
 [31m BINANCE_SPOT_SAND_USDT 1DAY SAND/USDT [0m
 The Original trend of SAND/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'SAND/USDT',
-  newTrend: true,
-  'the high': 0.3505,
-  'the low': null,
-  'the close': 0.3217,
-  'the start_date - 1 day': '2024-07-04T00:00:00',
-  'the extrems_date - 1 day': '2024-07-20T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.316,
+  'the close': 0.3481,
+  'the start_date - 1 day': '2024-07-20T00:00:00',
+  'the extrems_date - 1 day': '2024-07-22T00:00:00'
 }
+Selling SAND/USDT on BINANCE
+Email about selling is sent
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
 The Original trend of AMU/USDT was : true
 The Final trend is : true
@@ -34,18 +38,22 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-16T00:00:00',
   'the extrems_date - 1 day': '2024-06-17T00:00:00'
 }
+Balance: 274.05802666 SAND
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
+Sold: 88.228$ of SAND/USDT
 The Final trend is : false
 {
   ticker: 'NAI/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.00528,
+  'the low': 0.00524,
   'the close': 0.00735,
   'the start_date - 1 day': '2024-07-06T00:00:00',
-  'the extrems_date - 1 day': '2024-07-21T00:00:00'
+  'the extrems_date - 1 day': '2024-07-22T00:00:00'
 }
+Balance: 26.7246803 ONDO
+Sold: 26.150864$ of ONDO/USDT
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
 The Final trend is : false

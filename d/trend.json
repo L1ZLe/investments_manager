@@ -1,15 +1,15 @@
 [
   {
     "ticker": "ONDO/USDT",
-    "upTrend": true,
-    "start_date": "2024-07-07T00:00:00",
-    "extrems_date": "2024-07-16T00:00:00"
+    "upTrend": false,
+    "start_date": "2024-07-16T00:00:00",
+    "extrems_date": "2024-07-22T00:00:00"
   },
   {
     "ticker": "SAND/USDT",
-    "upTrend": true,
-    "start_date": "2024-07-04T00:00:00",
-    "extrems_date": "2024-07-20T00:00:00"
+    "upTrend": false,
+    "start_date": "2024-07-20T00:00:00",
+    "extrems_date": "2024-07-22T00:00:00"
   },
   {
     "ticker": "AMU/USDT",
@@ -21,7 +21,7 @@
     "ticker": "NAI/USDT",
     "upTrend": false,
     "start_date": "2024-07-06T00:00:00",
-    "extrems_date": "2024-07-21T00:00:00"
+    "extrems_date": "2024-07-22T00:00:00"
   },
   {
     "ticker": "YGG/USDT",
