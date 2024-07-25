@@ -5,10 +5,10 @@ The Final trend is : false
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 25.82,
+  'the low': 25.56,
   'the close': 27.37,
   'the start_date - 1 day': '2024-07-23T04:00:00',
-  'the extrems_date - 1 day': '2024-07-24T20:00:00'
+  'the extrems_date - 1 day': '2024-07-25T04:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -101,15 +101,14 @@ The Final trend is : false
   ticker: 'ERN/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 2.047,
+  'the low': 2.043,
   'the close': 2.368,
   'the start_date - 1 day': '2024-07-21T16:00:00',
-  'the extrems_date - 1 day': '2024-07-24T20:00:00'
+  'the extrems_date - 1 day': '2024-07-25T00:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
-The Original trend of KAS/USDT was : true
+The Original trend of KAS/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'KAS/USDT',
   newTrend: false,
@@ -119,8 +118,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-24T12:00:00',
   'the extrems_date - 1 day': '2024-07-24T20:00:00'
 }
-Selling KAS/USDT on GATEIO
-Email about selling is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -157,5 +154,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-22T12:00:00',
   'the extrems_date - 1 day': '2024-07-24T20:00:00'
 }
-Balance: 0.00083367 KAS
-Error creating order: InvalidOrder: gateio amount of KAS/USDT must be greater than minimum amount precision of 0.01
