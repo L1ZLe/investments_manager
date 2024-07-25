@@ -14,8 +14,8 @@
   {
     "ticker": "ENS/USDT",
     "high": null,
-    "low": 25.56,
-    "close": 27.37
+    "low": 25.46,
+    "close": 26.24
   },
   {
     "ticker": "INSP/USDT",
@@ -56,7 +56,7 @@
   {
     "ticker": "AURORA/USDT",
     "high": null,
-    "low": 0.1578,
+    "low": 0.1501,
     "close": 0.1612
   },
   {
@@ -86,7 +86,7 @@
   {
     "ticker": "ANKR/USDT",
     "high": null,
-    "low": 0.02817,
-    "close": 0.02888
+    "low": 0.02801,
+    "close": 0.02882
   }
 ]
