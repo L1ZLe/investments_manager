@@ -1,31 +1,27 @@
 [31m GATEIO_SPOT_ONDO_USDT 1DAY ONDO/USDT [0m
-The Original trend of ONDO/USDT was : true
+The Original trend of ONDO/USDT was : false
 The Final trend is : false
 {
   ticker: 'ONDO/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.9562,
+  'the low': 0.9438,
   'the close': 1.0912,
   'the start_date - 1 day': '2024-07-16T00:00:00',
-  'the extrems_date - 1 day': '2024-07-22T00:00:00'
+  'the extrems_date - 1 day': '2024-07-23T00:00:00'
 }
-Selling ONDO/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_SAND_USDT 1DAY SAND/USDT [0m
-The Original trend of SAND/USDT was : true
+The Original trend of SAND/USDT was : false
 The Final trend is : false
 {
   ticker: 'SAND/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.316,
+  'the low': 0.3159,
   'the close': 0.3481,
   'the start_date - 1 day': '2024-07-20T00:00:00',
-  'the extrems_date - 1 day': '2024-07-22T00:00:00'
+  'the extrems_date - 1 day': '2024-07-23T00:00:00'
 }
-Selling SAND/USDT on BINANCE
-Email about selling is sent
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
 The Original trend of AMU/USDT was : true
 The Final trend is : true
@@ -38,10 +34,8 @@ The Final trend is : true
   'the start_date - 1 day': '2024-06-16T00:00:00',
   'the extrems_date - 1 day': '2024-06-17T00:00:00'
 }
-Balance: 274.05802666 SAND
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
-Sold: 88.228$ of SAND/USDT
 The Final trend is : false
 {
   ticker: 'NAI/USDT',
@@ -52,8 +46,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-06T00:00:00',
   'the extrems_date - 1 day': '2024-07-22T00:00:00'
 }
-Balance: 26.7246803 ONDO
-Sold: 26.150864$ of ONDO/USDT
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
 The Final trend is : false
@@ -128,13 +120,17 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'LINK/USDT',
-  newTrend: true,
-  'the high': 15.196,
-  'the low': null,
-  'the close': 13.593,
-  'the start_date - 1 day': '2024-07-04T00:00:00',
-  'the extrems_date - 1 day': '2024-07-20T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 13.25,
+  'the close': 14.816,
+  'the start_date - 1 day': '2024-07-20T00:00:00',
+  'the extrems_date - 1 day': '2024-07-23T00:00:00'
 }
+Selling LINK/USDT on BINANCE
+Email about selling is sent
+Balance: 2.0269465 LINK
+Sold: 26.4216$ of LINK/USDT
