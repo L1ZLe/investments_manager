@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 26.97,
+  'the high': 27.5,
   'the low': null,
   'the close': 26.12,
   'the start_date - 1 day': '2024-07-25T12:00:00',
-  'the extrems_date - 1 day': '2024-07-25T20:00:00'
+  'the extrems_date - 1 day': '2024-07-26T00:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -84,16 +84,19 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
 The Original trend of AURORA/USDT was : false
-The Final trend is : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'AURORA/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.1501,
-  'the close': 0.1612,
-  'the start_date - 1 day': '2024-07-17T00:00:00',
-  'the extrems_date - 1 day': '2024-07-25T16:00:00'
+  newTrend: true,
+  'the high': 0.162,
+  'the low': null,
+  'the close': 0.1511,
+  'the start_date - 1 day': '2024-07-25T16:00:00',
+  'the extrems_date - 1 day': '2024-07-26T00:00:00'
 }
+Buying AURORA/USDT on GATEIO
+Email about buying is sent
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
 The Final trend is : false
@@ -120,6 +123,7 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
+bought: 30$ of AURORA/USDT
 The Final trend is : false
 {
   ticker: 'RTF/USDT',
@@ -148,9 +152,9 @@ The Final trend is : true
 {
   ticker: 'ANKR/USDT',
   newTrend: true,
-  'the high': 0.02984,
+  'the high': 0.03037,
   'the low': null,
   'the close': 0.02851,
   'the start_date - 1 day': '2024-07-25T12:00:00',
-  'the extrems_date - 1 day': '2024-07-25T20:00:00'
+  'the extrems_date - 1 day': '2024-07-26T00:00:00'
 }
