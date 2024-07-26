@@ -1,17 +1,15 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : false
+The Original trend of ENS/USDT was : true
 The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 26.58,
+  'the high': 26.97,
   'the low': null,
   'the close': 26.12,
   'the start_date - 1 day': '2024-07-25T12:00:00',
-  'the extrems_date - 1 day': '2024-07-25T16:00:00'
+  'the extrems_date - 1 day': '2024-07-25T20:00:00'
 }
-Buying ENS/USDT on BINANCE
-Email about buying is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
 The Final trend is : false
@@ -24,7 +22,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-31T04:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
-bought: 29.7868$ of ENS/USDT
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
 The Final trend is : false
@@ -146,17 +143,14 @@ The Final trend is : true
   'the extrems_date - 1 day': '2024-07-24T12:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : false
+The Original trend of ANKR/USDT was : true
 The Final trend is : true
 {
   ticker: 'ANKR/USDT',
   newTrend: true,
-  'the high': 0.02934,
+  'the high': 0.02984,
   'the low': null,
   'the close': 0.02851,
   'the start_date - 1 day': '2024-07-25T12:00:00',
-  'the extrems_date - 1 day': '2024-07-25T16:00:00'
+  'the extrems_date - 1 day': '2024-07-25T20:00:00'
 }
-Buying ANKR/USDT on BINANCE
-bought: 30.018996$ of ANKR/USDT
-Email about buying is sent
