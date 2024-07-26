@@ -1,21 +1,45 @@
 [
   {
+    "ticker": "WAGMIGAMES/USDT",
+    "high": 0.000009107,
+    "low": null,
+    "close": 0.000006916
+  },
+  {
+    "ticker": "BTC/USDT",
+    "high": 68474.55,
+    "low": null,
+    "close": 63987.92
+  },
+  {
+    "ticker": "PYR/USDT",
+    "high": null,
+    "low": 2.605,
+    "close": 3.672
+  },
+  {
+    "ticker": "LINK/USDT",
+    "high": null,
+    "low": 13.25,
+    "close": 14.816
+  },
+  {
     "ticker": "ONDO/USDT",
     "high": null,
-    "low": 0.9438,
+    "low": 0.9134,
     "close": 1.0912
   },
   {
     "ticker": "SAND/USDT",
     "high": null,
-    "low": 0.3159,
+    "low": 0.2966,
     "close": 0.3481
   },
   {
     "ticker": "AMU/USDT",
-    "high": 0.04449,
-    "low": null,
-    "close": 0.01862
+    "high": null,
+    "low": 0.01779,
+    "close": 0.02112
   },
   {
     "ticker": "NAI/USDT",
@@ -40,29 +64,5 @@
     "high": null,
     "low": 0.5737,
     "close": 0.7832
-  },
-  {
-    "ticker": "WAGMIGAMES/USDT",
-    "high": 0.000009107,
-    "low": null,
-    "close": 0.000006916
-  },
-  {
-    "ticker": "BTC/USDT",
-    "high": 68474.55,
-    "low": null,
-    "close": 63987.92
-  },
-  {
-    "ticker": "PYR/USDT",
-    "high": null,
-    "low": 2.605,
-    "close": 3.672
-  },
-  {
-    "ticker": "LINK/USDT",
-    "high": null,
-    "low": 13.25,
-    "close": 14.816
   }
 ]
