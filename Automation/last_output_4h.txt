@@ -83,20 +83,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-07-05T00:00:00'
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
-The Original trend of AURORA/USDT was : false
+The Original trend of AURORA/USDT was : true
 The Final trend is : true
-[33m we assume that close is the starting point [0m
 {
   ticker: 'AURORA/USDT',
   newTrend: true,
-  'the high': 0.162,
+  'the high': 0.1624,
   'the low': null,
   'the close': 0.1511,
   'the start_date - 1 day': '2024-07-25T16:00:00',
-  'the extrems_date - 1 day': '2024-07-26T00:00:00'
+  'the extrems_date - 1 day': '2024-07-26T04:00:00'
 }
-Buying AURORA/USDT on GATEIO
-Email about buying is sent
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
 The Final trend is : false
@@ -111,19 +108,20 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'KAS/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.17327,
-  'the close': 0.17914,
-  'the start_date - 1 day': '2024-07-24T12:00:00',
-  'the extrems_date - 1 day': '2024-07-24T20:00:00'
+  newTrend: true,
+  'the high': 0.17998,
+  'the low': null,
+  'the close': 0.17802,
+  'the start_date - 1 day': '2024-07-24T20:00:00',
+  'the extrems_date - 1 day': '2024-07-26T04:00:00'
 }
+Buying KAS/USDT on GATEIO
+Email about buying is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
-bought: 30$ of AURORA/USDT
 The Final trend is : false
 {
   ticker: 'RTF/USDT',
@@ -148,13 +146,14 @@ The Final trend is : true
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : true
+bought: 30$ of KAS/USDT
 The Final trend is : true
 {
   ticker: 'ANKR/USDT',
   newTrend: true,
-  'the high': 0.03037,
+  'the high': 0.03075,
   'the low': null,
   'the close': 0.02851,
   'the start_date - 1 day': '2024-07-25T12:00:00',
-  'the extrems_date - 1 day': '2024-07-26T00:00:00'
+  'the extrems_date - 1 day': '2024-07-26T04:00:00'
 }
