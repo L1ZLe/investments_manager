@@ -55,7 +55,7 @@
   },
   {
     "ticker": "AURORA/USDT",
-    "high": 0.1651,
+    "high": 0.1705,
     "low": null,
     "close": 0.1511
   },
@@ -67,9 +67,9 @@
   },
   {
     "ticker": "KAS/USDT",
-    "high": 0.18179,
+    "high": 0.19548,
     "low": null,
-    "close": 0.17802
+    "close": 0.18146
   },
   {
     "ticker": "RTF/USDT",
@@ -85,8 +85,8 @@
   },
   {
     "ticker": "ANKR/USDT",
-    "high": 0.03078,
+    "high": 0.0318,
     "low": null,
-    "close": 0.02851
+    "close": 0.03066
   }
 ]
