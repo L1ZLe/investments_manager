@@ -4,11 +4,11 @@ The Final trend is : true
 {
   ticker: 'ENS/USDT',
   newTrend: true,
-  'the high': 27.5,
+  'the high': 28.51,
   'the low': null,
-  'the close': 26.12,
+  'the close': 26.57,
   'the start_date - 1 day': '2024-07-25T12:00:00',
-  'the extrems_date - 1 day': '2024-07-26T00:00:00'
+  'the extrems_date - 1 day': '2024-07-29T04:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
