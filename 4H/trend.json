@@ -57,7 +57,7 @@
     "ticker": "AURORA/USDT",
     "upTrend": true,
     "start_date": "2024-07-25T16:00:00",
-    "extrems_date": "2024-07-26T20:00:00"
+    "extrems_date": "2024-07-29T12:00:00"
   },
   {
     "ticker": "ERN/USDT",
@@ -87,6 +87,6 @@
     "ticker": "ANKR/USDT",
     "upTrend": false,
     "start_date": "2024-07-27T08:00:00",
-    "extrems_date": "2024-07-27T16:00:00"
+    "extrems_date": "2024-07-29T12:00:00"
   }
 ]
