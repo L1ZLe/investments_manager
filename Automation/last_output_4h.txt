@@ -83,20 +83,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-07-05T00:00:00'
 }
 [31m GATEIO_SPOT_AURORA_USDT 4HRS AURORA/USDT [0m
-The Original trend of AURORA/USDT was : true
+The Original trend of AURORA/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'AURORA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.1678,
+  'the low': 0.166,
   'the close': 0.1708,
   'the start_date - 1 day': '2024-07-29T16:00:00',
-  'the extrems_date - 1 day': '2024-07-30T00:00:00'
+  'the extrems_date - 1 day': '2024-07-30T04:00:00'
 }
-Selling AURORA/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : true
 The Final trend is : true
@@ -133,8 +130,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-20T08:00:00',
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
-Balance: 184.99554268 AURORA
-Sold: 31.133817$ of AURORA/USDT
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : true
 The Final trend is : true
