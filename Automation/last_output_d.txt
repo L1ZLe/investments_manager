@@ -100,11 +100,11 @@ The Final trend is : true
 {
   ticker: 'BTC/USDT',
   newTrend: true,
-  'the high': 69399.99,
+  'the high': 70079.99,
   'the low': null,
-  'the close': 65376,
+  'the close': 67896.5,
   'the start_date - 1 day': '2024-07-04T00:00:00',
-  'the extrems_date - 1 day': '2024-07-26T00:00:00'
+  'the extrems_date - 1 day': '2024-07-28T00:00:00'
 }
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : false
