@@ -1,17 +1,15 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
-The Original trend of ENS/USDT was : true
+The Original trend of ENS/USDT was : false
 The Final trend is : false
 {
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 26,
-  'the close': 27.68,
+  'the low': 25.67,
+  'the close': 26.61,
   'the start_date - 1 day': '2024-07-29T04:00:00',
-  'the extrems_date - 1 day': '2024-07-30T20:00:00'
+  'the extrems_date - 1 day': '2024-07-31T12:00:00'
 }
-Selling ENS/USDT on BINANCE
-Email about selling is sent
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
 The Final trend is : false
@@ -24,8 +22,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-31T04:00:00',
   'the extrems_date - 1 day': '2024-06-14T12:00:00'
 }
-Balance: 1.1351096 ENS
-Sold: 29.5721$ of ENS/USDT
 [31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
 The Original trend of SENATE/USDT was : false
 The Final trend is : false
@@ -93,10 +89,10 @@ The Final trend is : false
   ticker: 'AURORA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.1619,
+  'the low': 0.1603,
   'the close': 0.1647,
   'the start_date - 1 day': '2024-07-29T16:00:00',
-  'the extrems_date - 1 day': '2024-07-31T04:00:00'
+  'the extrems_date - 1 day': '2024-07-31T12:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
@@ -105,10 +101,10 @@ The Final trend is : false
   ticker: 'ERN/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 2.214,
-  'the close': 2.373,
+  'the low': 2.195,
+  'the close': 2.277,
   'the start_date - 1 day': '2024-07-28T12:00:00',
-  'the extrems_date - 1 day': '2024-07-31T00:00:00'
+  'the extrems_date - 1 day': '2024-07-31T12:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
@@ -116,11 +112,11 @@ The Final trend is : true
 {
   ticker: 'KAS/USDT',
   newTrend: true,
-  'the high': 0.20699,
+  'the high': 0.2078,
   'the low': null,
   'the close': 0.20003,
   'the start_date - 1 day': '2024-07-24T20:00:00',
-  'the extrems_date - 1 day': '2024-07-31T08:00:00'
+  'the extrems_date - 1 day': '2024-07-31T12:00:00'
 }
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
@@ -141,10 +137,10 @@ The Final trend is : false
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.8899,
-  'the close': 0.9768,
+  'the low': 0.8622,
+  'the close': 0.9189,
   'the start_date - 1 day': '2024-07-24T12:00:00',
-  'the extrems_date - 1 day': '2024-07-30T16:00:00'
+  'the extrems_date - 1 day': '2024-07-31T12:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
