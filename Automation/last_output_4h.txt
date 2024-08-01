@@ -5,10 +5,10 @@ The Final trend is : false
   ticker: 'ENS/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 25.67,
+  'the low': 25.16,
   'the close': 26.61,
   'the start_date - 1 day': '2024-07-29T04:00:00',
-  'the extrems_date - 1 day': '2024-07-31T12:00:00'
+  'the extrems_date - 1 day': '2024-07-31T16:00:00'
 }
 [31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
 The Original trend of INSP/USDT was : false
@@ -89,10 +89,10 @@ The Final trend is : false
   ticker: 'AURORA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.1603,
+  'the low': 0.154,
   'the close': 0.1647,
   'the start_date - 1 day': '2024-07-29T16:00:00',
-  'the extrems_date - 1 day': '2024-07-31T12:00:00'
+  'the extrems_date - 1 day': '2024-07-31T16:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
@@ -101,10 +101,10 @@ The Final trend is : false
   ticker: 'ERN/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 2.195,
+  'the low': 2.161,
   'the close': 2.277,
   'the start_date - 1 day': '2024-07-28T12:00:00',
-  'the extrems_date - 1 day': '2024-07-31T12:00:00'
+  'the extrems_date - 1 day': '2024-07-31T16:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : true
@@ -137,10 +137,10 @@ The Final trend is : false
   ticker: 'NAKA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.8622,
+  'the low': 0.8381,
   'the close': 0.9189,
   'the start_date - 1 day': '2024-07-24T12:00:00',
-  'the extrems_date - 1 day': '2024-07-31T12:00:00'
+  'the extrems_date - 1 day': '2024-07-31T16:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
@@ -149,8 +149,8 @@ The Final trend is : false
   ticker: 'ANKR/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.02905,
-  'the close': 0.03018,
+  'the low': 0.02866,
+  'the close': 0.03022,
   'the start_date - 1 day': '2024-07-27T08:00:00',
-  'the extrems_date - 1 day': '2024-07-30T16:00:00'
+  'the extrems_date - 1 day': '2024-07-31T16:00:00'
 }
