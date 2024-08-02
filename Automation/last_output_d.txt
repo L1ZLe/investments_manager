@@ -5,10 +5,10 @@ The Final trend is : false
   ticker: 'ONDO/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.9134,
-  'the close': 1.0912,
+  'the low': 0.8645,
+  'the close': 0.9921,
   'the start_date - 1 day': '2024-07-16T00:00:00',
-  'the extrems_date - 1 day': '2024-07-24T00:00:00'
+  'the extrems_date - 1 day': '2024-07-31T00:00:00'
 }
 [31m BINANCE_SPOT_SAND_USDT 1DAY SAND/USDT [0m
 The Original trend of SAND/USDT was : false
@@ -17,10 +17,10 @@ The Final trend is : false
   ticker: 'SAND/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.2966,
-  'the close': 0.3481,
+  'the low': 0.2845,
+  'the close': 0.3372,
   'the start_date - 1 day': '2024-07-20T00:00:00',
-  'the extrems_date - 1 day': '2024-07-24T00:00:00'
+  'the extrems_date - 1 day': '2024-07-31T00:00:00'
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
 The Original trend of AMU/USDT was : false
@@ -29,10 +29,10 @@ The Final trend is : false
   ticker: 'AMU/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.0175,
+  'the low': 0.01629,
   'the close': 0.01871,
   'the start_date - 1 day': '2024-06-17T00:00:00',
-  'the extrems_date - 1 day': '2024-07-30T00:00:00'
+  'the extrems_date - 1 day': '2024-07-31T00:00:00'
 }
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
@@ -41,10 +41,10 @@ The Final trend is : false
   ticker: 'NAI/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.00495,
+  'the low': 0.00477,
   'the close': 0.00554,
   'the start_date - 1 day': '2024-07-06T00:00:00',
-  'the extrems_date - 1 day': '2024-07-30T00:00:00'
+  'the extrems_date - 1 day': '2024-07-31T00:00:00'
 }
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
@@ -65,10 +65,10 @@ The Final trend is : false
   ticker: 'MYRIA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.002548,
+  'the low': 0.002376,
   'the close': 0.003179,
   'the start_date - 1 day': '2024-05-26T00:00:00',
-  'the extrems_date - 1 day': '2024-07-30T00:00:00'
+  'the extrems_date - 1 day': '2024-07-31T00:00:00'
 }
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
@@ -95,20 +95,17 @@ The Final trend is : true
   'the extrems_date - 1 day': '2024-07-20T00:00:00'
 }
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
-The Original trend of BTC/USDT was : true
+The Original trend of BTC/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'BTC/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 64530,
+  'the low': 62302,
   'the close': 68249.88,
   'the start_date - 1 day': '2024-07-28T00:00:00',
-  'the extrems_date - 1 day': '2024-07-30T00:00:00'
+  'the extrems_date - 1 day': '2024-07-31T00:00:00'
 }
-Selling BTC/USDT on BINANCE
-Email about selling is sent
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : false
 The Final trend is : false
@@ -121,17 +118,15 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-02T00:00:00',
   'the extrems_date - 1 day': '2024-07-04T00:00:00'
 }
-Balance: 0.00045954 BTC
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
-Sold: 29.1372165$ of BTC/USDT
 The Final trend is : false
 {
   ticker: 'LINK/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 12.47,
-  'the close': 14.816,
+  'the low': 12.14,
+  'the close': 13.53,
   'the start_date - 1 day': '2024-07-20T00:00:00',
-  'the extrems_date - 1 day': '2024-07-24T00:00:00'
+  'the extrems_date - 1 day': '2024-07-31T00:00:00'
 }
