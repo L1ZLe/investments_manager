@@ -61,8 +61,8 @@
   },
   {
     "ticker": "ERN/USDT",
-    "high": 2.174,
-    "low": null,
+    "high": null,
+    "low": 2,
     "close": 2.144
   },
   {
@@ -79,7 +79,7 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "high": 1.016,
+    "high": 1.0162,
     "low": null,
     "close": 0.8958
   },

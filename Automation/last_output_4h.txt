@@ -95,20 +95,20 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-01T12:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
-The Original trend of ERN/USDT was : false
-The Final trend is : true
+The Original trend of ERN/USDT was : true
+The Final trend is : false
 [33m we assume that close is the starting point [0m
 {
   ticker: 'ERN/USDT',
-  newTrend: true,
-  'the high': 2.174,
-  'the low': null,
+  newTrend: false,
+  'the high': null,
+  'the low': 2,
   'the close': 2.144,
   'the start_date - 1 day': '2024-08-01T08:00:00',
-  'the extrems_date - 1 day': '2024-08-01T08:00:00'
+  'the extrems_date - 1 day': '2024-08-01T12:00:00'
 }
-Buying ERN/USDT on BINANCE
-Email about buying is sent
+Selling ERN/USDT on BINANCE
+Email about selling is sent
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
 The Final trend is : false
@@ -121,9 +121,10 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-31T20:00:00',
   'the extrems_date - 1 day': '2024-08-01T12:00:00'
 }
-bought: 29.8494$ of ERN/USDT
+Balance: 13.84665803 ERN
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
+Sold: 29.2074$ of ERN/USDT
 The Final trend is : false
 {
   ticker: 'RTF/USDT',
@@ -135,21 +136,19 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
-The Original trend of NAKA/USDT was : false
+The Original trend of NAKA/USDT was : true
 The Final trend is : true
 {
   ticker: 'NAKA/USDT',
   newTrend: true,
-  'the high': 1.016,
+  'the high': 1.0162,
   'the low': null,
   'the close': 0.8958,
   'the start_date - 1 day': '2024-08-01T00:00:00',
-  'the extrems_date - 1 day': '2024-08-01T16:00:00'
+  'the extrems_date - 1 day': '2024-08-01T20:00:00'
 }
-Buying NAKA/USDT on GATEIO
-Email about buying is sent
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : false
+The Original trend of ANKR/USDT was : true
 The Final trend is : true
 {
   ticker: 'ANKR/USDT',
@@ -160,7 +159,3 @@ The Final trend is : true
   'the start_date - 1 day': '2024-08-01T08:00:00',
   'the extrems_date - 1 day': '2024-08-01T16:00:00'
 }
-Buying ANKR/USDT on BINANCE
-bought: 29.988669$ of ANKR/USDT
-Email about buying is sent
-bought: 30$ of NAKA/USDT
