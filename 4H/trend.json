@@ -15,7 +15,7 @@
     "ticker": "ENS/USDT",
     "upTrend": false,
     "start_date": "2024-07-29T04:00:00",
-    "extrems_date": "2024-08-02T20:00:00"
+    "extrems_date": "2024-08-03T08:00:00"
   },
   {
     "ticker": "INSP/USDT",
@@ -57,7 +57,7 @@
     "ticker": "AURORA/USDT",
     "upTrend": false,
     "start_date": "2024-07-29T16:00:00",
-    "extrems_date": "2024-08-03T04:00:00"
+    "extrems_date": "2024-08-03T08:00:00"
   },
   {
     "ticker": "ERN/USDT",
@@ -67,8 +67,8 @@
   },
   {
     "ticker": "KAS/USDT",
-    "upTrend": true,
-    "start_date": "2024-08-02T20:00:00",
+    "upTrend": false,
+    "start_date": "2024-08-03T00:00:00",
     "extrems_date": "2024-08-03T00:00:00"
   },
   {
@@ -79,7 +79,7 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "upTrend": true,
+    "upTrend": false,
     "start_date": "2024-08-02T20:00:00",
     "extrems_date": "2024-08-02T20:00:00"
   },
