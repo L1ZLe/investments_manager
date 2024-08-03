@@ -92,7 +92,7 @@ The Final trend is : false
   'the low': 0.1383,
   'the close': 0.1474,
   'the start_date - 1 day': '2024-07-29T16:00:00',
-  'the extrems_date - 1 day': '2024-08-02T20:00:00'
+  'the extrems_date - 1 day': '2024-08-03T00:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
@@ -108,16 +108,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'KAS/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.18256,
-  'the close': 0.18699,
-  'the start_date - 1 day': '2024-07-31T20:00:00',
-  'the extrems_date - 1 day': '2024-08-02T20:00:00'
+  newTrend: true,
+  'the high': 0.19106,
+  'the low': null,
+  'the close': 0.18658,
+  'the start_date - 1 day': '2024-08-02T20:00:00',
+  'the extrems_date - 1 day': '2024-08-03T00:00:00'
 }
+Buying KAS/USDT on GATEIO
+Email about buying is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -131,7 +133,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
-The Original trend of NAKA/USDT was : true
+The Original trend of NAKA/USDT was : false
 The Final trend is : false
 {
   ticker: 'NAKA/USDT',
@@ -142,10 +144,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-08-01T20:00:00',
   'the extrems_date - 1 day': '2024-08-02T20:00:00'
 }
-Selling NAKA/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : true
+The Original trend of ANKR/USDT was : false
 The Final trend is : false
 {
   ticker: 'ANKR/USDT',
@@ -156,9 +156,4 @@ The Final trend is : false
   'the start_date - 1 day': '2024-08-01T16:00:00',
   'the extrems_date - 1 day': '2024-08-02T20:00:00'
 }
-Selling ANKR/USDT on BINANCE
-Email about selling is sent
-Balance: 1048.6273 ANKR
-Sold: 27.777414$ of ANKR/USDT
-Balance: 29.91986042 NAKA
-Sold: 26.6199$ of NAKA/USDT
+bought: 30$ of KAS/USDT
