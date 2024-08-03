@@ -90,9 +90,9 @@ The Final trend is : false
   newTrend: false,
   'the high': null,
   'the low': 0.1383,
-  'the close': 0.1474,
+  'the close': 0.139,
   'the start_date - 1 day': '2024-07-29T16:00:00',
-  'the extrems_date - 1 day': '2024-08-03T00:00:00'
+  'the extrems_date - 1 day': '2024-08-03T04:00:00'
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
@@ -107,7 +107,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-02T20:00:00'
 }
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
-The Original trend of KAS/USDT was : false
+The Original trend of KAS/USDT was : true
 The Final trend is : true
 {
   ticker: 'KAS/USDT',
@@ -118,8 +118,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-08-02T20:00:00',
   'the extrems_date - 1 day': '2024-08-03T00:00:00'
 }
-Buying KAS/USDT on GATEIO
-Email about buying is sent
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
@@ -134,16 +132,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
 The Original trend of NAKA/USDT was : false
-The Final trend is : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'NAKA/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.8785,
+  newTrend: true,
+  'the high': 0.9088,
+  'the low': null,
   'the close': 0.9048,
-  'the start_date - 1 day': '2024-08-01T20:00:00',
+  'the start_date - 1 day': '2024-08-02T20:00:00',
   'the extrems_date - 1 day': '2024-08-02T20:00:00'
 }
+Buying NAKA/USDT on GATEIO
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
 The Final trend is : false
@@ -156,4 +156,5 @@ The Final trend is : false
   'the start_date - 1 day': '2024-08-01T16:00:00',
   'the extrems_date - 1 day': '2024-08-02T20:00:00'
 }
-bought: 30$ of KAS/USDT
+bought: 30$ of NAKA/USDT
+Email about buying is sent
