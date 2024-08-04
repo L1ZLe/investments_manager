@@ -14,7 +14,7 @@
   {
     "ticker": "ENS/USDT",
     "high": null,
-    "low": 19.29,
+    "low": 18.06,
     "close": 20.32
   },
   {
@@ -56,19 +56,19 @@
   {
     "ticker": "AURORA/USDT",
     "high": null,
-    "low": 0.1308,
+    "low": 0.1284,
     "close": 0.1361
   },
   {
     "ticker": "ERN/USDT",
     "high": null,
-    "low": 1.729,
+    "low": 1.653,
     "close": 1.819
   },
   {
     "ticker": "KAS/USDT",
     "high": null,
-    "low": 0.171,
+    "low": 0.16512,
     "close": 0.18111
   },
   {
@@ -80,13 +80,13 @@
   {
     "ticker": "NAKA/USDT",
     "high": null,
-    "low": 0.7745,
+    "low": 0.75,
     "close": 0.8272
   },
   {
     "ticker": "ANKR/USDT",
     "high": null,
-    "low": 0.02416,
+    "low": 0.0231,
     "close": 0.02552
   }
 ]
