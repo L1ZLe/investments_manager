@@ -96,16 +96,19 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_ERN_USDT 4HRS ERN/USDT [0m
 The Original trend of ERN/USDT was : false
-The Final trend is : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'ERN/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 1.483,
-  'the close': 1.75,
-  'the start_date - 1 day': '2024-08-01T08:00:00',
+  newTrend: true,
+  'the high': 2.142,
+  'the low': null,
+  'the close': 1.531,
+  'the start_date - 1 day': '2024-08-05T00:00:00',
   'the extrems_date - 1 day': '2024-08-05T00:00:00'
 }
+Buying ERN/USDT on BINANCE
+Email about buying is sent
 [31m GATEIO_SPOT_KAS_USDT 4HRS KAS/USDT [0m
 The Original trend of KAS/USDT was : false
 The Final trend is : false
@@ -118,6 +121,7 @@ The Final trend is : false
   'the start_date - 1 day': '2024-08-03T00:00:00',
   'the extrems_date - 1 day': '2024-08-05T08:00:00'
 }
+bought: 29.8429$ of ERN/USDT
 [31m GATEIO_SPOT_RTF_USDT 4HRS RTF/USDT [0m
 The Original trend of RTF/USDT was : false
 The Final trend is : false
