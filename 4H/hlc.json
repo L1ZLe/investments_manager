@@ -79,14 +79,14 @@
   },
   {
     "ticker": "NAKA/USDT",
-    "high": null,
-    "low": 0.6063,
-    "close": 0.8222
+    "high": 0.9104,
+    "low": null,
+    "close": 0.859
   },
   {
     "ticker": "ANKR/USDT",
-    "high": null,
-    "low": 0.024,
-    "close": 0.0253
+    "high": 0.02661,
+    "low": null,
+    "close": 0.02458
   }
 ]
