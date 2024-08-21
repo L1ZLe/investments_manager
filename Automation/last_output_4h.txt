@@ -131,21 +131,19 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-06-05T12:00:00'
 }
 [31m GATEIO_SPOT_NAKA_USDT 4HRS NAKA/USDT [0m
-The Original trend of NAKA/USDT was : false
+The Original trend of NAKA/USDT was : true
 The Final trend is : true
 {
   ticker: 'NAKA/USDT',
   newTrend: true,
-  'the high': 0.9104,
+  'the high': 0.9239,
   'the low': null,
-  'the close': 0.859,
+  'the close': 0.8712,
   'the start_date - 1 day': '2024-08-05T08:00:00',
-  'the extrems_date - 1 day': '2024-08-14T20:00:00'
+  'the extrems_date - 1 day': '2024-08-20T08:00:00'
 }
-Buying NAKA/USDT on GATEIO
-Email about buying is sent
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : false
+The Original trend of ANKR/USDT was : true
 The Final trend is : true
 {
   ticker: 'ANKR/USDT',
@@ -156,7 +154,3 @@ The Final trend is : true
   'the start_date - 1 day': '2024-08-15T16:00:00',
   'the extrems_date - 1 day': '2024-08-20T00:00:00'
 }
-Buying ANKR/USDT on BINANCE
-Email about buying is sent
-bought: 30$ of NAKA/USDT
-bought: 29.998925$ of ANKR/USDT
