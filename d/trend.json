@@ -13,9 +13,9 @@
   },
   {
     "ticker": "AMU/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-17T00:00:00",
-    "extrems_date": "2024-08-18T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-08-18T00:00:00",
+    "extrems_date": "2024-08-20T00:00:00"
   },
   {
     "ticker": "NAI/USDT",
@@ -43,9 +43,9 @@
   },
   {
     "ticker": "WAGMIGAMES/USDT",
-    "upTrend": false,
-    "start_date": "2024-07-20T00:00:00",
-    "extrems_date": "2024-08-15T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-08-15T00:00:00",
+    "extrems_date": "2024-08-20T00:00:00"
   },
   {
     "ticker": "BTC/USDT",

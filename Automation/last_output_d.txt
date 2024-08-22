@@ -24,16 +24,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
 The Original trend of AMU/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'AMU/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.0101,
-  'the close': 0.01175,
-  'the start_date - 1 day': '2024-06-17T00:00:00',
-  'the extrems_date - 1 day': '2024-08-18T00:00:00'
+  newTrend: true,
+  'the high': 0.022,
+  'the low': null,
+  'the close': 0.01031,
+  'the start_date - 1 day': '2024-08-18T00:00:00',
+  'the extrems_date - 1 day': '2024-08-20T00:00:00'
 }
+Buying AMU/USDT on GATEIO
+Email about buying is sent
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
 The Final trend is : false
@@ -70,6 +72,7 @@ The Final trend is : false
   'the start_date - 1 day': '2024-05-26T00:00:00',
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
+bought: 30$ of AMU/USDT
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false
@@ -84,16 +87,20 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
 The Original trend of WAGMIGAMES/USDT was : false
-The Final trend is : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'WAGMIGAMES/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.000004509,
-  'the close': 0.000005288,
-  'the start_date - 1 day': '2024-07-20T00:00:00',
-  'the extrems_date - 1 day': '2024-08-15T00:00:00'
+  newTrend: true,
+  'the high': 0.000008346,
+  'the low': null,
+  'the close': 0.000004673,
+  'the start_date - 1 day': '2024-08-15T00:00:00',
+  'the extrems_date - 1 day': '2024-08-20T00:00:00'
 }
+Buying WAGMIGAMES/USDT on GATEIO
+bought: 30$ of WAGMIGAMES/USDT
+Email about buying is sent
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : false
 The Final trend is : false
