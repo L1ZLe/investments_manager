@@ -144,13 +144,16 @@ The Final trend is : true
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
 The Original trend of ANKR/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'ANKR/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.0265,
-  'the close': 0.02718,
-  'the start_date - 1 day': '2024-08-22T08:00:00',
-  'the extrems_date - 1 day': '2024-08-22T12:00:00'
+  newTrend: true,
+  'the high': 0.02757,
+  'the low': null,
+  'the close': 0.02652,
+  'the start_date - 1 day': '2024-08-22T12:00:00',
+  'the extrems_date - 1 day': '2024-08-23T00:00:00'
 }
+Buying ANKR/USDT on BINANCE
+Email about buying is sent
+bought: 29.999195$ of ANKR/USDT
