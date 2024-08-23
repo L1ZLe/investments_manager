@@ -31,9 +31,9 @@
   },
   {
     "ticker": "MYRIA/USDT",
-    "upTrend": false,
-    "start_date": "2024-05-26T00:00:00",
-    "extrems_date": "2024-08-04T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-08-04T00:00:00",
+    "extrems_date": "2024-08-21T00:00:00"
   },
   {
     "ticker": "ARB/USDT",
@@ -45,7 +45,7 @@
     "ticker": "WAGMIGAMES/USDT",
     "upTrend": true,
     "start_date": "2024-08-15T00:00:00",
-    "extrems_date": "2024-08-20T00:00:00"
+    "extrems_date": "2024-08-21T00:00:00"
   },
   {
     "ticker": "BTC/USDT",
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "PYR/USDT",
-    "upTrend": false,
-    "start_date": "2024-06-02T00:00:00",
-    "extrems_date": "2024-08-04T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-08-04T00:00:00",
+    "extrems_date": "2024-08-21T00:00:00"
   },
   {
     "ticker": "LINK/USDT",

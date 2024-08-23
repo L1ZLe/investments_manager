@@ -31,9 +31,9 @@
   },
   {
     "ticker": "MYRIA/USDT",
-    "high": null,
-    "low": 0.001496,
-    "close": 0.002585
+    "high": 0.002776,
+    "low": null,
+    "close": 0.00207
   },
   {
     "ticker": "ARB/USDT",
@@ -43,7 +43,7 @@
   },
   {
     "ticker": "WAGMIGAMES/USDT",
-    "high": 0.000008346,
+    "high": 0.000009607,
     "low": null,
     "close": 0.000004673
   },
@@ -55,9 +55,9 @@
   },
   {
     "ticker": "PYR/USDT",
-    "high": null,
-    "low": 2.059,
-    "close": 2.967
+    "high": 3.2,
+    "low": null,
+    "close": 2.422
   },
   {
     "ticker": "LINK/USDT",
