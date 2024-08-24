@@ -28,11 +28,11 @@ The Final trend is : true
 {
   ticker: 'AMU/USDT',
   newTrend: true,
-  'the high': 0.022,
+  'the high': 0.02214,
   'the low': null,
-  'the close': 0.01031,
+  'the close': 0.01659,
   'the start_date - 1 day': '2024-08-18T00:00:00',
-  'the extrems_date - 1 day': '2024-08-20T00:00:00'
+  'the extrems_date - 1 day': '2024-08-22T00:00:00'
 }
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
@@ -59,19 +59,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
-The Original trend of MYRIA/USDT was : false
+The Original trend of MYRIA/USDT was : true
 The Final trend is : true
 {
   ticker: 'MYRIA/USDT',
   newTrend: true,
-  'the high': 0.002776,
+  'the high': 0.002966,
   'the low': null,
   'the close': 0.00207,
   'the start_date - 1 day': '2024-08-04T00:00:00',
-  'the extrems_date - 1 day': '2024-08-21T00:00:00'
+  'the extrems_date - 1 day': '2024-08-22T00:00:00'
 }
-Buying MYRIA/USDT on GATEIO
-Email about buying is sent
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false
@@ -108,21 +106,18 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-28T00:00:00',
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
-bought: 30$ of MYRIA/USDT
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
-The Original trend of PYR/USDT was : false
+The Original trend of PYR/USDT was : true
 The Final trend is : true
 {
   ticker: 'PYR/USDT',
   newTrend: true,
-  'the high': 3.2,
+  'the high': 3.21,
   'the low': null,
   'the close': 2.422,
   'the start_date - 1 day': '2024-08-04T00:00:00',
-  'the extrems_date - 1 day': '2024-08-21T00:00:00'
+  'the extrems_date - 1 day': '2024-08-22T00:00:00'
 }
-Buying PYR/USDT on BINANCE
-Email about buying is sent
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
 The Final trend is : false
@@ -135,4 +130,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-20T00:00:00',
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
-bought: 30.04992$ of PYR/USDT
