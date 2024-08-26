@@ -28,11 +28,11 @@ Error fetching crypto OHLC data: AxiosError [AggregateError]
       address: '185.204.224.150',
       port: 443
     },
-    Error: connect EHOSTUNREACH 185.204.224.149:443
+    Error: connect ECONNABORTED 185.204.224.149:443
         at createConnectionError (node:net:1647:14)
         at afterConnectMultiple (node:net:1677:16) {
-      errno: -113,
-      code: 'EHOSTUNREACH',
+      errno: -103,
+      code: 'ECONNABORTED',
       syscall: 'connect',
       address: '185.204.224.149',
       port: 443
@@ -66,7 +66,7 @@ Error fetching crypto OHLC data: AxiosError [AggregateError]
     params: {
       period_id: '4HRS',
       time_start: '2024-07-29T04:00:00',
-      time_end: '2024-08-25T08:00:00',
+      time_end: '2024-08-26T04:00:00',
       limit: 100,
       include_empty_items: false
     },
@@ -98,7 +98,7 @@ Error fetching crypto OHLC data: AxiosError [AggregateError]
       maxRedirects: 21,
       maxBodyLength: Infinity,
       protocol: 'https:',
-      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-08-25T08:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-08-26T04:00:00&limit=100&include_empty_items=false',
       method: 'GET',
       headers: [Object: null prototype],
       agents: [Object],
@@ -111,7 +111,7 @@ Error fetching crypto OHLC data: AxiosError [AggregateError]
       agent: undefined,
       nativeProtocols: [Object],
       pathname: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history',
-      search: '?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-08-25T08:00:00&limit=100&include_empty_items=false'
+      search: '?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-08-26T04:00:00&limit=100&include_empty_items=false'
     },
     _ended: true,
     _ending: true,
@@ -146,7 +146,7 @@ Error fetching crypto OHLC data: AxiosError [AggregateError]
       finished: true,
       _headerSent: true,
       _closed: false,
-      _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-08-25T08:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+      _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-08-26T04:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
         'Accept: application/json\r\n' +
         'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
         'User-Agent: axios/1.6.8\r\n' +
@@ -162,7 +162,7 @@ Error fetching crypto OHLC data: AxiosError [AggregateError]
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-08-25T08:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-08-26T04:00:00&limit=100&include_empty_items=false',
       _ended: false,
       res: null,
       aborted: false,
@@ -188,7 +188,7 @@ Error fetching crypto OHLC data: AxiosError [AggregateError]
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-08-25T08:00:00&limit=100&include_empty_items=false',
+    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-08-26T04:00:00&limit=100&include_empty_items=false',
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
   },
