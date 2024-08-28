@@ -143,7 +143,7 @@ The Final trend is : true
   'the extrems_date - 1 day': '2024-08-21T16:00:00'
 }
 [31m BINANCE_SPOT_ANKR_USDT 4HRS ANKR/USDT [0m
-The Original trend of ANKR/USDT was : true
+The Original trend of ANKR/USDT was : false
 The Final trend is : false
 {
   ticker: 'ANKR/USDT',
@@ -154,6 +154,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-08-24T12:00:00',
   'the extrems_date - 1 day': '2024-08-27T16:00:00'
 }
-Selling ANKR/USDT on BINANCE
-Email about selling is sent
-Error creating order: InvalidNonce: binance {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
