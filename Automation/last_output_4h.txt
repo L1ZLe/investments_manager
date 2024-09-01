@@ -149,8 +149,8 @@ The Final trend is : false
   ticker: 'ANKR/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.02332,
-  'the close': 0.02454,
+  'the low': 0.02308,
+  'the close': 0.02383,
   'the start_date - 1 day': '2024-08-24T12:00:00',
-  'the extrems_date - 1 day': '2024-08-30T12:00:00'
+  'the extrems_date - 1 day': '2024-09-01T08:00:00'
 }
