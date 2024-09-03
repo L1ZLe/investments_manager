@@ -23,19 +23,20 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
-The Original trend of AMU/USDT was : true
-The Final trend is : false
+The Original trend of AMU/USDT was : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'AMU/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.01407,
-  'the close': 0.01527,
-  'the start_date - 1 day': '2024-08-22T00:00:00',
+  newTrend: true,
+  'the high': 0.01609,
+  'the low': null,
+  'the close': 0.01475,
+  'the start_date - 1 day': '2024-08-31T00:00:00',
   'the extrems_date - 1 day': '2024-08-31T00:00:00'
 }
-Selling AMU/USDT on GATEIO
-Email about selling is sent
+Buying AMU/USDT on GATEIO
+Email about buying is sent
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
 The Final trend is : false
@@ -43,10 +44,10 @@ The Final trend is : false
   ticker: 'NAI/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.0027,
-  'the close': 0.00398,
+  'the low': 0.00268,
+  'the close': 0.00311,
   'the start_date - 1 day': '2024-07-06T00:00:00',
-  'the extrems_date - 1 day': '2024-08-11T00:00:00'
+  'the extrems_date - 1 day': '2024-09-01T00:00:00'
 }
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
@@ -61,7 +62,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
-The Original trend of MYRIA/USDT was : true
+The Original trend of MYRIA/USDT was : false
 The Final trend is : false
 {
   ticker: 'MYRIA/USDT',
@@ -72,12 +73,7 @@ The Final trend is : false
   'the start_date - 1 day': '2024-08-22T00:00:00',
   'the extrems_date - 1 day': '2024-08-31T00:00:00'
 }
-Selling MYRIA/USDT on GATEIO
-Balance: 1630.59777 AMU
-Balance: 14625.73697979 MYRIA
-Sold: 25.2029287$ of AMU/USDT
-Sold: 29.6755453$ of MYRIA/USDT
-Email about selling is sent
+bought: 30$ of AMU/USDT
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false
