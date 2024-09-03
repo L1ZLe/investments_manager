@@ -85,8 +85,8 @@
   },
   {
     "ticker": "ANKR/USDT",
-    "high": null,
-    "low": 0.02272,
-    "close": 0.02365
+    "high": 0.02425,
+    "low": null,
+    "close": 0.02291
   }
 ]
