@@ -23,9 +23,8 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
-The Original trend of AMU/USDT was : false
+The Original trend of AMU/USDT was : true
 The Final trend is : true
-[33m we assume that close is the starting point [0m
 {
   ticker: 'AMU/USDT',
   newTrend: true,
@@ -35,8 +34,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-08-31T00:00:00',
   'the extrems_date - 1 day': '2024-08-31T00:00:00'
 }
-Buying AMU/USDT on GATEIO
-Email about buying is sent
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
 The Final trend is : false
@@ -68,12 +65,11 @@ The Final trend is : false
   ticker: 'MYRIA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.002021,
-  'the close': 0.003023,
+  'the low': 0.001991,
+  'the close': 0.00216,
   'the start_date - 1 day': '2024-08-22T00:00:00',
-  'the extrems_date - 1 day': '2024-08-31T00:00:00'
+  'the extrems_date - 1 day': '2024-09-02T00:00:00'
 }
-bought: 30$ of AMU/USDT
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false
