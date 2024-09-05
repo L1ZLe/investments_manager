@@ -13,9 +13,9 @@
   },
   {
     "ticker": "AMU/USDT",
-    "high": 0.01609,
+    "high": 0.01955,
     "low": null,
-    "close": 0.01475
+    "close": 0.01493
   },
   {
     "ticker": "NAI/USDT",
@@ -32,7 +32,7 @@
   {
     "ticker": "MYRIA/USDT",
     "high": null,
-    "low": 0.001991,
+    "low": 0.001895,
     "close": 0.00216
   },
   {

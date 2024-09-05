@@ -28,11 +28,11 @@ The Final trend is : true
 {
   ticker: 'AMU/USDT',
   newTrend: true,
-  'the high': 0.01609,
+  'the high': 0.01955,
   'the low': null,
-  'the close': 0.01475,
+  'the close': 0.01493,
   'the start_date - 1 day': '2024-08-31T00:00:00',
-  'the extrems_date - 1 day': '2024-08-31T00:00:00'
+  'the extrems_date - 1 day': '2024-09-03T00:00:00'
 }
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
@@ -65,10 +65,10 @@ The Final trend is : false
   ticker: 'MYRIA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.001991,
+  'the low': 0.001895,
   'the close': 0.00216,
   'the start_date - 1 day': '2024-08-22T00:00:00',
-  'the extrems_date - 1 day': '2024-09-02T00:00:00'
+  'the extrems_date - 1 day': '2024-09-03T00:00:00'
 }
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
