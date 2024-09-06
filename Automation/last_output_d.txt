@@ -24,16 +24,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
 The Original trend of AMU/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'AMU/USDT',
-  newTrend: true,
-  'the high': 0.01955,
-  'the low': null,
-  'the close': 0.01493,
-  'the start_date - 1 day': '2024-08-31T00:00:00',
-  'the extrems_date - 1 day': '2024-09-03T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.01351,
+  'the close': 0.01572,
+  'the start_date - 1 day': '2024-09-03T00:00:00',
+  'the extrems_date - 1 day': '2024-09-04T00:00:00'
 }
+Selling AMU/USDT on GATEIO
+Email about selling is sent
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
 The Final trend is : false
@@ -41,10 +43,10 @@ The Final trend is : false
   ticker: 'NAI/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.00268,
-  'the close': 0.00311,
+  'the low': 0.00246,
+  'the close': 0.00296,
   'the start_date - 1 day': '2024-07-06T00:00:00',
-  'the extrems_date - 1 day': '2024-09-01T00:00:00'
+  'the extrems_date - 1 day': '2024-09-04T00:00:00'
 }
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
@@ -70,6 +72,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-08-22T00:00:00',
   'the extrems_date - 1 day': '2024-09-03T00:00:00'
 }
+Balance: 1904.54133 AMU
+Sold: 27.0635134$ of AMU/USDT
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false

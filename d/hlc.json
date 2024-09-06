@@ -13,15 +13,15 @@
   },
   {
     "ticker": "AMU/USDT",
-    "high": 0.01955,
-    "low": null,
-    "close": 0.01493
+    "high": null,
+    "low": 0.01351,
+    "close": 0.01572
   },
   {
     "ticker": "NAI/USDT",
     "high": null,
-    "low": 0.00268,
-    "close": 0.00311
+    "low": 0.00246,
+    "close": 0.00296
   },
   {
     "ticker": "YGG/USDT",
