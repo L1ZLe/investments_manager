@@ -23,19 +23,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
-The Original trend of AMU/USDT was : false
+The Original trend of AMU/USDT was : true
 The Final trend is : true
 {
   ticker: 'AMU/USDT',
   newTrend: true,
-  'the high': 0.019,
+  'the high': 0.01953,
   'the low': null,
   'the close': 0.0142,
   'the start_date - 1 day': '2024-09-04T00:00:00',
-  'the extrems_date - 1 day': '2024-09-06T00:00:00'
+  'the extrems_date - 1 day': '2024-09-07T00:00:00'
 }
-Buying AMU/USDT on GATEIO
-Email about buying is sent
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
 The Final trend is : false
@@ -132,4 +130,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-20T00:00:00',
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
-bought: 30$ of AMU/USDT
