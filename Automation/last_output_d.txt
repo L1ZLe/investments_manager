@@ -60,16 +60,17 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
 The Original trend of MYRIA/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'MYRIA/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.001895,
-  'the close': 0.00216,
-  'the start_date - 1 day': '2024-08-22T00:00:00',
-  'the extrems_date - 1 day': '2024-09-03T00:00:00'
+  newTrend: true,
+  'the high': 0.002667,
+  'the low': null,
+  'the close': 0.001998,
+  'the start_date - 1 day': '2024-09-03T00:00:00',
+  'the extrems_date - 1 day': '2024-09-08T00:00:00'
 }
+Buying MYRIA/USDT on GATEIO
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false
@@ -106,18 +107,21 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-28T00:00:00',
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
+bought: 30$ of MYRIA/USDT
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'PYR/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 2.294,
-  'the close': 2.526,
-  'the start_date - 1 day': '2024-08-23T00:00:00',
-  'the extrems_date - 1 day': '2024-09-05T00:00:00'
+  newTrend: true,
+  'the high': 2.627,
+  'the low': null,
+  'the close': 2.362,
+  'the start_date - 1 day': '2024-09-05T00:00:00',
+  'the extrems_date - 1 day': '2024-09-08T00:00:00'
 }
+Buying PYR/USDT on BINANCE
+Error creating order: binance {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
 The Final trend is : false
@@ -130,3 +134,5 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-20T00:00:00',
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
+Email about buying is sent
+Email about buying is sent
