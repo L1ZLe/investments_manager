@@ -59,7 +59,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
-The Original trend of MYRIA/USDT was : false
+The Original trend of MYRIA/USDT was : true
 The Final trend is : true
 {
   ticker: 'MYRIA/USDT',
@@ -70,7 +70,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-09-03T00:00:00',
   'the extrems_date - 1 day': '2024-09-08T00:00:00'
 }
-Buying MYRIA/USDT on GATEIO
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false
@@ -83,56 +82,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-04-08T00:00:00',
   'the extrems_date - 1 day': '2024-07-04T00:00:00'
 }
-[31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
-The Original trend of WAGMIGAMES/USDT was : false
-The Final trend is : false
-{
-  ticker: 'WAGMIGAMES/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.00000446,
-  'the close': 0.000005377,
-  'the start_date - 1 day': '2024-08-21T00:00:00',
-  'the extrems_date - 1 day': '2024-09-05T00:00:00'
-}
-[31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
-The Original trend of BTC/USDT was : false
-The Final trend is : false
-{
-  ticker: 'BTC/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 49000,
-  'the close': 65362,
-  'the start_date - 1 day': '2024-07-28T00:00:00',
-  'the extrems_date - 1 day': '2024-08-04T00:00:00'
-}
-bought: 30$ of MYRIA/USDT
-[31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
-The Original trend of PYR/USDT was : false
-The Final trend is : true
-{
-  ticker: 'PYR/USDT',
-  newTrend: true,
-  'the high': 2.627,
-  'the low': null,
-  'the close': 2.362,
-  'the start_date - 1 day': '2024-09-05T00:00:00',
-  'the extrems_date - 1 day': '2024-09-08T00:00:00'
-}
-Buying PYR/USDT on BINANCE
-Error creating order: binance {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
-[31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
-The Original trend of LINK/USDT was : false
-The Final trend is : false
-{
-  ticker: 'LINK/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 8.08,
-  'the close': 12.89,
-  'the start_date - 1 day': '2024-07-20T00:00:00',
-  'the extrems_date - 1 day': '2024-08-04T00:00:00'
-}
-Email about buying is sent
-Email about buying is sent
