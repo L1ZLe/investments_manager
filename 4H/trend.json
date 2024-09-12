@@ -85,8 +85,8 @@
   },
   {
     "ticker": "ANKR/USDT",
-    "upTrend": false,
-    "start_date": "2024-09-10T12:00:00",
-    "extrems_date": "2024-09-11T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-09-11T00:00:00",
+    "extrems_date": "2024-09-11T20:00:00"
   }
 ]
