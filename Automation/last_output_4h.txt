@@ -152,5 +152,5 @@ The Final trend is : true
   'the low': null,
   'the close': 0.02468,
   'the start_date - 1 day': '2024-09-11T00:00:00',
-  'the extrems_date - 1 day': '2024-09-19T08:00:00'
+  'the extrems_date - 1 day': '2024-09-20T00:00:00'
 }
