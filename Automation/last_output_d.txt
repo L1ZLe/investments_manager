@@ -29,23 +29,25 @@ The Final trend is : false
   ticker: 'AMU/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.0126,
-  'the close': 0.01444,
+  'the low': 0.01064,
+  'the close': 0.01357,
   'the start_date - 1 day': '2024-09-07T00:00:00',
-  'the extrems_date - 1 day': '2024-09-15T00:00:00'
+  'the extrems_date - 1 day': '2024-09-19T00:00:00'
 }
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'NAI/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.00239,
-  'the close': 0.00286,
-  'the start_date - 1 day': '2024-07-06T00:00:00',
-  'the extrems_date - 1 day': '2024-09-13T00:00:00'
+  newTrend: true,
+  'the high': 0.0061,
+  'the low': null,
+  'the close': 0.0026,
+  'the start_date - 1 day': '2024-09-13T00:00:00',
+  'the extrems_date - 1 day': '2024-09-19T00:00:00'
 }
+Buying NAI/USDT on GATEIO
+Email about buying is sent
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
 The Final trend is : false
@@ -88,12 +90,13 @@ The Final trend is : true
 {
   ticker: 'WAGMIGAMES/USDT',
   newTrend: true,
-  'the high': 0.000009374,
+  'the high': 0.000010235,
   'the low': null,
   'the close': 0.000007535,
   'the start_date - 1 day': '2024-09-05T00:00:00',
-  'the extrems_date - 1 day': '2024-09-18T00:00:00'
+  'the extrems_date - 1 day': '2024-09-19T00:00:00'
 }
+bought: 30$ of NAI/USDT
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : false
 The Final trend is : false
@@ -112,11 +115,11 @@ The Final trend is : true
 {
   ticker: 'PYR/USDT',
   newTrend: true,
-  'the high': 2.792,
+  'the high': 2.855,
   'the low': null,
   'the close': 2.467,
   'the start_date - 1 day': '2024-09-05T00:00:00',
-  'the extrems_date - 1 day': '2024-09-18T00:00:00'
+  'the extrems_date - 1 day': '2024-09-19T00:00:00'
 }
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
