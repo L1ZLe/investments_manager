@@ -29,10 +29,10 @@ The Final trend is : false
   ticker: 'AMU/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.01021,
+  'the low': 0.01,
   'the close': 0.01357,
   'the start_date - 1 day': '2024-09-07T00:00:00',
-  'the extrems_date - 1 day': '2024-09-20T00:00:00'
+  'the extrems_date - 1 day': '2024-09-21T00:00:00'
 }
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : true
