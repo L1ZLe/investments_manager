@@ -1,5 +1,35 @@
 [
   {
+    "ticker": "ARB/USDT",
+    "high": null,
+    "low": 0.5737,
+    "close": 0.7832
+  },
+  {
+    "ticker": "WAGMIGAMES/USDT",
+    "high": 0.000010235,
+    "low": null,
+    "close": 0.000007535
+  },
+  {
+    "ticker": "BTC/USDT",
+    "high": null,
+    "low": 49000,
+    "close": 65362
+  },
+  {
+    "ticker": "PYR/USDT",
+    "high": 2.89,
+    "low": null,
+    "close": 2.467
+  },
+  {
+    "ticker": "LINK/USDT",
+    "high": null,
+    "low": 8.08,
+    "close": 12.89
+  },
+  {
     "ticker": "ONDO/USDT",
     "high": null,
     "low": 0.5016,
@@ -31,38 +61,8 @@
   },
   {
     "ticker": "MYRIA/USDT",
-    "high": 0.002667,
+    "high": 0.002944,
     "low": null,
-    "close": 0.001998
-  },
-  {
-    "ticker": "ARB/USDT",
-    "high": null,
-    "low": 0.5737,
-    "close": 0.7832
-  },
-  {
-    "ticker": "WAGMIGAMES/USDT",
-    "high": 0.000010235,
-    "low": null,
-    "close": 0.000007535
-  },
-  {
-    "ticker": "BTC/USDT",
-    "high": null,
-    "low": 49000,
-    "close": 65362
-  },
-  {
-    "ticker": "PYR/USDT",
-    "high": 2.89,
-    "low": null,
-    "close": 2.467
-  },
-  {
-    "ticker": "LINK/USDT",
-    "high": null,
-    "low": 8.08,
-    "close": 12.89
+    "close": 0.002485
   }
 ]
