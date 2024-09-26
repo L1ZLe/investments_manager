@@ -64,11 +64,11 @@ The Final trend is : true
 {
   ticker: 'MYRIA/USDT',
   newTrend: true,
-  'the high': 0.003439,
+  'the high': 0.003573,
   'the low': null,
   'the close': 0.002485,
   'the start_date - 1 day': '2024-09-03T00:00:00',
-  'the extrems_date - 1 day': '2024-09-23T00:00:00'
+  'the extrems_date - 1 day': '2024-09-24T00:00:00'
 }
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
@@ -88,11 +88,11 @@ The Final trend is : true
 {
   ticker: 'WAGMIGAMES/USDT',
   newTrend: true,
-  'the high': 0.00001161,
+  'the high': 0.000013571,
   'the low': null,
   'the close': 0.000009351,
   'the start_date - 1 day': '2024-09-05T00:00:00',
-  'the extrems_date - 1 day': '2024-09-23T00:00:00'
+  'the extrems_date - 1 day': '2024-09-24T00:00:00'
 }
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : false
@@ -112,11 +112,11 @@ The Final trend is : true
 {
   ticker: 'PYR/USDT',
   newTrend: true,
-  'the high': 3.144,
+  'the high': 3.15,
   'the low': null,
   'the close': 2.718,
   'the start_date - 1 day': '2024-09-05T00:00:00',
-  'the extrems_date - 1 day': '2024-09-23T00:00:00'
+  'the extrems_date - 1 day': '2024-09-24T00:00:00'
 }
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
