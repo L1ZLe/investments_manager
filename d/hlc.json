@@ -32,7 +32,7 @@
   {
     "ticker": "MYRIA/USDT",
     "high": null,
-    "low": 0.00324,
+    "low": 0.0029,
     "close": 0.004268
   },
   {
@@ -49,14 +49,14 @@
   },
   {
     "ticker": "BTC/USDT",
-    "high": 66445.78,
-    "low": null,
-    "close": 63159.83
+    "high": null,
+    "low": 60164,
+    "close": 65858
   },
   {
     "ticker": "PYR/USDT",
     "high": null,
-    "low": 2.8,
+    "low": 2.522,
     "close": 3.089
   },
   {

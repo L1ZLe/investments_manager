@@ -59,20 +59,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
-The Original trend of MYRIA/USDT was : true
+The Original trend of MYRIA/USDT was : false
 The Final trend is : false
-[33m we assume that close is the starting point [0m
 {
   ticker: 'MYRIA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.00324,
+  'the low': 0.0029,
   'the close': 0.004268,
   'the start_date - 1 day': '2024-09-26T00:00:00',
-  'the extrems_date - 1 day': '2024-09-29T00:00:00'
+  'the extrems_date - 1 day': '2024-09-30T00:00:00'
 }
-Selling MYRIA/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false
@@ -99,31 +96,34 @@ The Final trend is : true
 }
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'BTC/USDT',
-  newTrend: true,
-  'the high': 66445.78,
-  'the low': null,
-  'the close': 63159.83,
-  'the start_date - 1 day': '2024-08-04T00:00:00',
-  'the extrems_date - 1 day': '2024-09-26T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 60164,
+  'the close': 65858,
+  'the start_date - 1 day': '2024-09-26T00:00:00',
+  'the extrems_date - 1 day': '2024-09-30T00:00:00'
 }
+Selling BTC/USDT on BINANCE
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
-The Original trend of PYR/USDT was : true
+The Original trend of PYR/USDT was : false
+Email about selling is sent
 The Final trend is : false
 {
   ticker: 'PYR/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 2.8,
+  'the low': 2.522,
   'the close': 3.089,
   'the start_date - 1 day': '2024-09-26T00:00:00',
-  'the extrems_date - 1 day': '2024-09-29T00:00:00'
+  'the extrems_date - 1 day': '2024-09-30T00:00:00'
 }
-Selling PYR/USDT on BINANCE
+Balance: 0.00045909 BTC
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
+Sold: 27.4132485$ of BTC/USDT
 The Final trend is : false
 {
   ticker: 'LINK/USDT',
@@ -134,8 +134,3 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-20T00:00:00',
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
-Email about selling is sent
-Balance: 0.00034604 PYR
-Error creating order: InvalidOrder: binance amount of PYR/USDT must be greater than minimum amount precision of 3
-Balance: 11869.25587979 MYRIA
-Sold: 38.5986384$ of MYRIA/USDT
