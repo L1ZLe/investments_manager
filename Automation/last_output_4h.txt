@@ -1,54 +1,6 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
 The Original trend of ENS/USDT was : false
-The Final trend is : false
-{
-  ticker: 'ENS/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 14.18,
-  'the close': 20.32,
-  'the start_date - 1 day': '2024-07-29T04:00:00',
-  'the extrems_date - 1 day': '2024-08-05T00:00:00'
-}
-[31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
-The Original trend of INSP/USDT was : false
-The Final trend is : false
-{
-  ticker: 'INSP/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.0397,
-  'the close': 0.05558,
-  'the start_date - 1 day': '2024-05-31T04:00:00',
-  'the extrems_date - 1 day': '2024-06-14T12:00:00'
-}
-[31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
-The Original trend of SENATE/USDT was : false
-The Final trend is : false
-{
-  ticker: 'SENATE/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.04794,
-  'the close': 0.05346,
-  'the start_date - 1 day': '2024-06-16T08:00:00',
-  'the extrems_date - 1 day': '2024-06-28T12:00:00'
-}
-[31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
-The Original trend of BEAMX/USDT was : true
-The Final trend is : true
-{
-  ticker: 'BEAMX/USDT',
-  newTrend: true,
-  'the high': 0.01939,
-  'the low': null,
-  'the close': 0.01836,
-  'the start_date - 1 day': '2024-07-04T20:00:00',
-  'the extrems_date - 1 day': '2024-07-20T20:00:00'
-}
-[31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
-The Original trend of SFUND/USDT was : false
-Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
+Error fetching crypto OHLC data: AxiosError: read ECONNRESET
     at AxiosError.from (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/AxiosError.js:89:14)
     at RedirectableRequest.handleRequestError (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:610:25)
     at RedirectableRequest.emit (node:events:520:28)
@@ -64,8 +16,8 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
     at async fetchOHLCV (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:64:22)
     at async main (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:414:19) {
   syscall: 'read',
-  code: 'ECONNABORTED',
-  errno: -103,
+  code: 'ECONNRESET',
+  errno: -104,
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -90,11 +42,11 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       'Accept-Encoding': 'gzip, compress, deflate, br'
     },
     method: 'get',
-    url: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_SFUND_USDT/history',
+    url: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history',
     params: {
       period_id: '4HRS',
-      time_start: '2024-06-12T08:00:00',
-      time_end: '2024-10-14T04:00:00',
+      time_start: '2024-07-29T04:00:00',
+      time_end: '2024-10-14T08:00:00',
       limit: 100,
       include_empty_items: false
     },
@@ -126,7 +78,7 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       maxRedirects: 21,
       maxBodyLength: Infinity,
       protocol: 'https:',
-      path: '/v1/ohlcv/GATEIO_SPOT_SFUND_USDT/history?period_id=4HRS&time_start=2024-06-12T08:00:00&time_end=2024-10-14T04:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-10-14T08:00:00&limit=100&include_empty_items=false',
       method: 'GET',
       headers: [Object: null prototype],
       agents: [Object],
@@ -138,8 +90,8 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       port: '',
       agent: undefined,
       nativeProtocols: [Object],
-      pathname: '/v1/ohlcv/GATEIO_SPOT_SFUND_USDT/history',
-      search: '?period_id=4HRS&time_start=2024-06-12T08:00:00&time_end=2024-10-14T04:00:00&limit=100&include_empty_items=false'
+      pathname: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history',
+      search: '?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-10-14T08:00:00&limit=100&include_empty_items=false'
     },
     _ended: true,
     _ending: true,
@@ -174,7 +126,7 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       finished: true,
       _headerSent: true,
       _closed: false,
-      _header: 'GET /v1/ohlcv/GATEIO_SPOT_SFUND_USDT/history?period_id=4HRS&time_start=2024-06-12T08:00:00&time_end=2024-10-14T04:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+      _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-10-14T08:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
         'Accept: application/json\r\n' +
         'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
         'User-Agent: axios/1.6.8\r\n' +
@@ -190,7 +142,7 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/v1/ohlcv/GATEIO_SPOT_SFUND_USDT/history?period_id=4HRS&time_start=2024-06-12T08:00:00&time_end=2024-10-14T04:00:00&limit=100&include_empty_items=false',
+      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-10-14T08:00:00&limit=100&include_empty_items=false',
       _ended: false,
       res: null,
       aborted: false,
@@ -198,7 +150,7 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       upgradeOrConnect: false,
       parser: null,
       maxHeadersCount: null,
-      reusedSocket: true,
+      reusedSocket: false,
       host: 'rest.coinapi.io',
       protocol: 'https:',
       _redirectable: [Circular *1],
@@ -216,14 +168,14 @@ Error fetching crypto OHLC data: AxiosError: read ECONNABORTED
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_SFUND_USDT/history?period_id=4HRS&time_start=2024-06-12T08:00:00&time_end=2024-10-14T04:00:00&limit=100&include_empty_items=false',
+    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-10-14T08:00:00&limit=100&include_empty_items=false',
     [Symbol(shapeMode)]: true,
     [Symbol(kCapture)]: false
   },
-  cause: Error: read ECONNABORTED
+  cause: Error: read ECONNRESET
       at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20) {
-    errno: -103,
-    code: 'ECONNABORTED',
+    errno: -104,
+    code: 'ECONNRESET',
     syscall: 'read'
   }
 }
