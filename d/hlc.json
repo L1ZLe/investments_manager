@@ -43,15 +43,15 @@
   },
   {
     "ticker": "WAGMIGAMES/USDT",
-    "high": null,
-    "low": 0.000008897,
-    "close": 0.000009727
+    "high": 0.000009842,
+    "low": null,
+    "close": 0.000009099
   },
   {
     "ticker": "BTC/USDT",
-    "high": 69519.52,
-    "low": null,
-    "close": 68378
+    "high": null,
+    "low": 65260,
+    "close": 67426
   },
   {
     "ticker": "PYR/USDT",

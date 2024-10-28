@@ -59,7 +59,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
-The Original trend of MYRIA/USDT was : true
+The Original trend of MYRIA/USDT was : false
 The Final trend is : false
 {
   ticker: 'MYRIA/USDT',
@@ -70,8 +70,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-10-11T00:00:00',
   'the extrems_date - 1 day': '2024-10-24T00:00:00'
 }
-Selling MYRIA/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false
@@ -85,37 +83,35 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-07-04T00:00:00'
 }
 [31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
-The Original trend of WAGMIGAMES/USDT was : true
-The Final trend is : false
-{
-  ticker: 'WAGMIGAMES/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.000008897,
-  'the close': 0.000009727,
-  'the start_date - 1 day': '2024-09-26T00:00:00',
-  'the extrems_date - 1 day': '2024-10-25T00:00:00'
-}
-Selling WAGMIGAMES/USDT on GATEIO
-Email about selling is sent
-[31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
-The Original trend of BTC/USDT was : true
-Balance: 0.05587979 MYRIA
-Error creating order: InvalidOrder: gateio amount of MYRIA/USDT must be greater than minimum amount precision of 0.1
-Balance: 3547586.213146435 WAGMIGAMES
+The Original trend of WAGMIGAMES/USDT was : false
 The Final trend is : true
 {
-  ticker: 'BTC/USDT',
+  ticker: 'WAGMIGAMES/USDT',
   newTrend: true,
-  'the high': 69519.52,
+  'the high': 0.000009842,
   'the low': null,
-  'the close': 68378,
-  'the start_date - 1 day': '2024-10-09T00:00:00',
-  'the extrems_date - 1 day': '2024-10-20T00:00:00'
+  'the close': 0.000009099,
+  'the start_date - 1 day': '2024-10-25T00:00:00',
+  'the extrems_date - 1 day': '2024-10-26T00:00:00'
 }
-Sold: 32.254651912$ of WAGMIGAMES/USDT
+Buying WAGMIGAMES/USDT on GATEIO
+[31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
+The Original trend of BTC/USDT was : true
+The Final trend is : false
+{
+  ticker: 'BTC/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 65260,
+  'the close': 67426,
+  'the start_date - 1 day': '2024-10-20T00:00:00',
+  'the extrems_date - 1 day': '2024-10-22T00:00:00'
+}
+Selling BTC/USDT on BINANCE
+Email about buying is sent
+Email about selling is sent
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
-The Original trend of PYR/USDT was : true
+The Original trend of PYR/USDT was : false
 The Final trend is : false
 {
   ticker: 'PYR/USDT',
@@ -126,10 +122,9 @@ The Final trend is : false
   'the start_date - 1 day': '2024-10-11T00:00:00',
   'the extrems_date - 1 day': '2024-10-24T00:00:00'
 }
-Selling PYR/USDT on BINANCE
-Email about selling is sent
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
+Error creating order: gateio GET https://api.gateio.ws/api/v4/spot/currencies request timed out (10000 ms)
 The Final trend is : false
 {
   ticker: 'LINK/USDT',
@@ -140,5 +135,4 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-20T00:00:00',
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
-Balance: 0.00034604 PYR
-Error creating order: InvalidOrder: binance amount of PYR/USDT must be greater than minimum amount precision of 3
+Error creating order: RequestTimeout: binance GET https://fapi.binance.com/fapi/v1/exchangeInfo request timed out (10000 ms)
