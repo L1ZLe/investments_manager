@@ -12,3 +12,85 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_SAND_USDT 1DAY SAND/USDT [0m
 The Original trend of SAND/USDT was : false
+The Final trend is : false
+{
+  ticker: 'SAND/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.2082,
+  'the close': 0.3372,
+  'the start_date - 1 day': '2024-07-20T00:00:00',
+  'the extrems_date - 1 day': '2024-08-04T00:00:00'
+}
+[31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
+The Original trend of AMU/USDT was : true
+The Final trend is : true
+{
+  ticker: 'AMU/USDT',
+  newTrend: true,
+  'the high': 0.0053,
+  'the low': null,
+  'the close': 0.0036,
+  'the start_date - 1 day': '2024-11-03T00:00:00',
+  'the extrems_date - 1 day': '2024-11-03T00:00:00'
+}
+[31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
+The Original trend of NAI/USDT was : true
+The Final trend is : true
+{
+  ticker: 'NAI/USDT',
+  newTrend: true,
+  'the high': 0.0077,
+  'the low': null,
+  'the close': 0.00319,
+  'the start_date - 1 day': '2024-09-13T00:00:00',
+  'the extrems_date - 1 day': '2024-11-05T00:00:00'
+}
+[31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
+The Original trend of YGG/USDT was : false
+The Final trend is : false
+{
+  ticker: 'YGG/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.252,
+  'the close': 0.4922,
+  'the start_date - 1 day': '2024-06-02T00:00:00',
+  'the extrems_date - 1 day': '2024-08-04T00:00:00'
+}
+[31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
+The Original trend of MYRIA/USDT was : false
+The Final trend is : false
+{
+  ticker: 'MYRIA/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.001723,
+  'the close': 0.002409,
+  'the start_date - 1 day': '2024-10-11T00:00:00',
+  'the extrems_date - 1 day': '2024-11-02T00:00:00'
+}
+[31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
+The Original trend of ARB/USDT was : false
+The Final trend is : false
+{
+  ticker: 'ARB/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 0.5737,
+  'the close': 0.7832,
+  'the start_date - 1 day': '2024-04-08T00:00:00',
+  'the extrems_date - 1 day': '2024-07-04T00:00:00'
+}
+[31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
+The Original trend of WAGMIGAMES/USDT was : true
+The Final trend is : true
+{
+  ticker: 'WAGMIGAMES/USDT',
+  newTrend: true,
+  'the high': 0.000015414,
+  'the low': null,
+  'the close': 0.000009488,
+  'the start_date - 1 day': '2024-10-25T00:00:00',
+  'the extrems_date - 1 day': '2024-11-06T00:00:00'
+}
