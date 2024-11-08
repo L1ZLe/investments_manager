@@ -94,3 +94,42 @@ The Final trend is : true
   'the start_date - 1 day': '2024-10-25T00:00:00',
   'the extrems_date - 1 day': '2024-11-06T00:00:00'
 }
+[31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
+The Original trend of BTC/USDT was : true
+The Final trend is : true
+{
+  ticker: 'BTC/USDT',
+  newTrend: true,
+  'the high': 76849.99,
+  'the low': null,
+  'the close': 67850.01,
+  'the start_date - 1 day': '2024-10-22T00:00:00',
+  'the extrems_date - 1 day': '2024-11-06T00:00:00'
+}
+[31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
+The Original trend of PYR/USDT was : false
+The Final trend is : true
+{
+  ticker: 'PYR/USDT',
+  newTrend: true,
+  'the high': 2.578,
+  'the low': null,
+  'the close': 2.174,
+  'the start_date - 1 day': '2024-11-03T00:00:00',
+  'the extrems_date - 1 day': '2024-11-06T00:00:00'
+}
+Buying PYR/USDT on BINANCE
+Email about buying is sent
+[31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
+The Original trend of LINK/USDT was : false
+bought: 30.033472$ of PYR/USDT
+The Final trend is : false
+{
+  ticker: 'LINK/USDT',
+  newTrend: false,
+  'the high': null,
+  'the low': 8.08,
+  'the close': 12.89,
+  'the start_date - 1 day': '2024-07-20T00:00:00',
+  'the extrems_date - 1 day': '2024-08-04T00:00:00'
+}
