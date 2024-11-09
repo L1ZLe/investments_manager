@@ -13,9 +13,9 @@
   },
   {
     "ticker": "AMU/USDT",
-    "high": 0.0053,
+    "high": 0.00711,
     "low": null,
-    "close": 0.0036
+    "close": 0.00402
   },
   {
     "ticker": "NAI/USDT",
@@ -32,8 +32,8 @@
   {
     "ticker": "MYRIA/USDT",
     "high": null,
-    "low": 0.001723,
-    "close": 0.002409
+    "low": 0.0016,
+    "close": 0.00211
   },
   {
     "ticker": "ARB/USDT",
@@ -43,19 +43,19 @@
   },
   {
     "ticker": "WAGMIGAMES/USDT",
-    "high": 0.000015414,
+    "high": 0.000015758,
     "low": null,
     "close": 0.000009488
   },
   {
     "ticker": "BTC/USDT",
-    "high": 76849.99,
+    "high": 77199.99,
     "low": null,
     "close": 67850.01
   },
   {
     "ticker": "PYR/USDT",
-    "high": 2.578,
+    "high": 2.633,
     "low": null,
     "close": 2.174
   },
