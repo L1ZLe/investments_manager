@@ -28,11 +28,11 @@ The Final trend is : true
 {
   ticker: 'AMU/USDT',
   newTrend: true,
-  'the high': 0.00849,
+  'the high': 0.00901,
   'the low': null,
   'the close': 0.00523,
   'the start_date - 1 day': '2024-11-03T00:00:00',
-  'the extrems_date - 1 day': '2024-11-11T00:00:00'
+  'the extrems_date - 1 day': '2024-11-12T00:00:00'
 }
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : true
@@ -40,11 +40,11 @@ The Final trend is : true
 {
   ticker: 'NAI/USDT',
   newTrend: true,
-  'the high': 0.0077,
+  'the high': 0.00885,
   'the low': null,
-  'the close': 0.00589,
+  'the close': 0.00749,
   'the start_date - 1 day': '2024-09-13T00:00:00',
-  'the extrems_date - 1 day': '2024-11-11T00:00:00'
+  'the extrems_date - 1 day': '2024-11-12T00:00:00'
 }
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
@@ -88,11 +88,11 @@ The Final trend is : true
 {
   ticker: 'WAGMIGAMES/USDT',
   newTrend: true,
-  'the high': 0.000016781,
+  'the high': 0.000019815,
   'the low': null,
   'the close': 0.000014205,
   'the start_date - 1 day': '2024-10-25T00:00:00',
-  'the extrems_date - 1 day': '2024-11-11T00:00:00'
+  'the extrems_date - 1 day': '2024-11-12T00:00:00'
 }
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : true
@@ -100,11 +100,11 @@ The Final trend is : true
 {
   ticker: 'BTC/USDT',
   newTrend: true,
-  'the high': 89940,
+  'the high': 93265.64,
   'the low': null,
-  'the close': 67850.01,
+  'the close': 87952.01,
   'the start_date - 1 day': '2024-10-22T00:00:00',
-  'the extrems_date - 1 day': '2024-11-11T00:00:00'
+  'the extrems_date - 1 day': '2024-11-12T00:00:00'
 }
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : true
