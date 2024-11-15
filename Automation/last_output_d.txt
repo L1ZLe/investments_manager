@@ -96,16 +96,19 @@ The Final trend is : true
 }
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : true
-The Final trend is : true
+The Final trend is : false
+[33m we assume that close is the starting point [0m
 {
   ticker: 'BTC/USDT',
-  newTrend: true,
-  'the high': 93265.64,
-  'the low': null,
+  newTrend: false,
+  'the high': null,
+  'the low': 86127.99,
   'the close': 87952.01,
-  'the start_date - 1 day': '2024-10-22T00:00:00',
+  'the start_date - 1 day': '2024-11-12T00:00:00',
   'the extrems_date - 1 day': '2024-11-12T00:00:00'
 }
+Selling BTC/USDT on BINANCE
+Email about selling is sent
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : true
 The Final trend is : true
@@ -118,6 +121,7 @@ The Final trend is : true
   'the start_date - 1 day': '2024-11-03T00:00:00',
   'the extrems_date - 1 day': '2024-11-11T00:00:00'
 }
+Error creating order: InvalidNonce: binance {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
 The Final trend is : false
