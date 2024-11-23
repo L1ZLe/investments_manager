@@ -23,21 +23,19 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
-The Original trend of AMU/USDT was : true
+The Original trend of AMU/USDT was : false
 The Final trend is : false
 {
   ticker: 'AMU/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.00478,
+  'the low': 0.00461,
   'the close': 0.00545,
   'the start_date - 1 day': '2024-11-12T00:00:00',
-  'the extrems_date - 1 day': '2024-11-20T00:00:00'
+  'the extrems_date - 1 day': '2024-11-21T00:00:00'
 }
-Selling AMU/USDT on GATEIO
-Email about selling is sent
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
-The Original trend of NAI/USDT was : true
+The Original trend of NAI/USDT was : false
 The Final trend is : false
 {
   ticker: 'NAI/USDT',
@@ -48,8 +46,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-11-12T00:00:00',
   'the extrems_date - 1 day': '2024-11-19T00:00:00'
 }
-Selling NAI/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
 The Final trend is : false
@@ -63,7 +59,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
-The Original trend of MYRIA/USDT was : false
+The Original trend of MYRIA/USDT was : true
 The Final trend is : true
 {
   ticker: 'MYRIA/USDT',
@@ -74,13 +70,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-11-07T00:00:00',
   'the extrems_date - 1 day': '2024-11-18T00:00:00'
 }
-Buying MYRIA/USDT on GATEIO
-Balance: 7911.081 NAI
-Balance: 6881.13198 AMU
-bought: 30$ of MYRIA/USDT
-Sold: 33.3046692$ of AMU/USDT
-Sold: 49.990587$ of NAI/USDT
-Email about buying is sent
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false
@@ -95,31 +84,30 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
 The Original trend of WAGMIGAMES/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'WAGMIGAMES/USDT',
-  newTrend: true,
-  'the high': 0.000021087,
-  'the low': null,
-  'the close': 0.00001762,
-  'the start_date - 1 day': '2024-10-25T00:00:00',
-  'the extrems_date - 1 day': '2024-11-15T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.000016249,
+  'the close': 0.000018925,
+  'the start_date - 1 day': '2024-11-15T00:00:00',
+  'the extrems_date - 1 day': '2024-11-21T00:00:00'
 }
+Selling WAGMIGAMES/USDT on GATEIO
+Email about selling is sent
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
-The Original trend of BTC/USDT was : false
+The Original trend of BTC/USDT was : true
 The Final trend is : true
 {
   ticker: 'BTC/USDT',
   newTrend: true,
-  'the high': 98988,
+  'the high': 99588.01,
   'the low': null,
   'the close': 89855.99,
   'the start_date - 1 day': '2024-11-12T00:00:00',
-  'the extrems_date - 1 day': '2024-11-20T00:00:00'
+  'the extrems_date - 1 day': '2024-11-21T00:00:00'
 }
-Buying BTC/USDT on BINANCE
-Error creating order: binance {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
-Email about buying is sent
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : true
 The Final trend is : true
@@ -144,3 +132,4 @@ The Final trend is : false
   'the start_date - 1 day': '2024-07-20T00:00:00',
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
+Error creating order: TypeError: Cannot read properties of undefined (reading 'free')
