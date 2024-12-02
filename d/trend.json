@@ -13,15 +13,15 @@
   },
   {
     "ticker": "AMU/USDT",
-    "upTrend": false,
-    "start_date": "2024-11-12T00:00:00",
-    "extrems_date": "2024-11-21T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-11-21T00:00:00",
+    "extrems_date": "2024-11-30T00:00:00"
   },
   {
     "ticker": "NAI/USDT",
-    "upTrend": false,
-    "start_date": "2024-11-12T00:00:00",
-    "extrems_date": "2024-11-19T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-11-19T00:00:00",
+    "extrems_date": "2024-11-30T00:00:00"
   },
   {
     "ticker": "YGG/USDT",
@@ -33,7 +33,7 @@
     "ticker": "MYRIA/USDT",
     "upTrend": true,
     "start_date": "2024-11-07T00:00:00",
-    "extrems_date": "2024-11-18T00:00:00"
+    "extrems_date": "2024-11-30T00:00:00"
   },
   {
     "ticker": "ARB/USDT",
@@ -43,9 +43,9 @@
   },
   {
     "ticker": "WAGMIGAMES/USDT",
-    "upTrend": false,
-    "start_date": "2024-11-15T00:00:00",
-    "extrems_date": "2024-11-21T00:00:00"
+    "upTrend": true,
+    "start_date": "2024-11-21T00:00:00",
+    "extrems_date": "2024-11-30T00:00:00"
   },
   {
     "ticker": "BTC/USDT",
@@ -57,7 +57,7 @@
     "ticker": "PYR/USDT",
     "upTrend": true,
     "start_date": "2024-11-03T00:00:00",
-    "extrems_date": "2024-11-11T00:00:00"
+    "extrems_date": "2024-11-23T00:00:00"
   },
   {
     "ticker": "LINK/USDT",
