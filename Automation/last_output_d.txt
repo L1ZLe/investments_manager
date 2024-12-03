@@ -23,7 +23,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
-The Original trend of AMU/USDT was : false
+The Original trend of AMU/USDT was : true
 The Final trend is : true
 {
   ticker: 'AMU/USDT',
@@ -34,10 +34,8 @@ The Final trend is : true
   'the start_date - 1 day': '2024-11-21T00:00:00',
   'the extrems_date - 1 day': '2024-11-30T00:00:00'
 }
-Buying AMU/USDT on GATEIO
-Email about buying is sent
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
-The Original trend of NAI/USDT was : false
+The Original trend of NAI/USDT was : true
 The Final trend is : true
 {
   ticker: 'NAI/USDT',
@@ -48,8 +46,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-11-19T00:00:00',
   'the extrems_date - 1 day': '2024-11-30T00:00:00'
 }
-Buying NAI/USDT on GATEIO
-Email about buying is sent
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
 The Final trend is : false
@@ -74,8 +70,6 @@ The Final trend is : true
   'the start_date - 1 day': '2024-11-07T00:00:00',
   'the extrems_date - 1 day': '2024-11-30T00:00:00'
 }
-bought: 30$ of NAI/USDT
-bought: 30$ of AMU/USDT
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
 The Final trend is : false
@@ -89,20 +83,17 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-07-04T00:00:00'
 }
 [31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
-The Original trend of WAGMIGAMES/USDT was : false
+The Original trend of WAGMIGAMES/USDT was : true
 The Final trend is : true
 {
   ticker: 'WAGMIGAMES/USDT',
   newTrend: true,
-  'the high': 0.000019826,
+  'the high': 0.000023504,
   'the low': null,
   'the close': 0.000014676,
   'the start_date - 1 day': '2024-11-21T00:00:00',
-  'the extrems_date - 1 day': '2024-11-30T00:00:00'
+  'the extrems_date - 1 day': '2024-12-01T00:00:00'
 }
-Buying WAGMIGAMES/USDT on GATEIO
-bought: 30$ of WAGMIGAMES/USDT
-Email about buying is sent
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : true
 The Final trend is : true
