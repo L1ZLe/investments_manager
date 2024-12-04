@@ -64,11 +64,11 @@ The Final trend is : true
 {
   ticker: 'MYRIA/USDT',
   newTrend: true,
-  'the high': 0.004267,
+  'the high': 0.004654,
   'the low': null,
-  'the close': 0.002544,
+  'the close': 0.003681,
   'the start_date - 1 day': '2024-11-07T00:00:00',
-  'the extrems_date - 1 day': '2024-11-30T00:00:00'
+  'the extrems_date - 1 day': '2024-12-02T00:00:00'
 }
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
@@ -88,11 +88,11 @@ The Final trend is : true
 {
   ticker: 'WAGMIGAMES/USDT',
   newTrend: true,
-  'the high': 0.000023504,
+  'the high': 0.000026337,
   'the low': null,
   'the close': 0.000014676,
   'the start_date - 1 day': '2024-11-21T00:00:00',
-  'the extrems_date - 1 day': '2024-12-01T00:00:00'
+  'the extrems_date - 1 day': '2024-12-02T00:00:00'
 }
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : true
