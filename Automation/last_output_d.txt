@@ -28,11 +28,11 @@ The Final trend is : true
 {
   ticker: 'AMU/USDT',
   newTrend: true,
-  'the high': 0.007,
+  'the high': 0.01482,
   'the low': null,
-  'the close': 0.00501,
+  'the close': 0.00528,
   'the start_date - 1 day': '2024-11-21T00:00:00',
-  'the extrems_date - 1 day': '2024-11-30T00:00:00'
+  'the extrems_date - 1 day': '2024-12-12T00:00:00'
 }
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : true
@@ -40,11 +40,11 @@ The Final trend is : true
 {
   ticker: 'NAI/USDT',
   newTrend: true,
-  'the high': 0.0139,
+  'the high': 0.014,
   'the low': null,
-  'the close': 0.00705,
+  'the close': 0.01,
   'the start_date - 1 day': '2024-11-19T00:00:00',
-  'the extrems_date - 1 day': '2024-11-30T00:00:00'
+  'the extrems_date - 1 day': '2024-12-03T00:00:00'
 }
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
@@ -60,18 +60,20 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
 The Original trend of MYRIA/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'MYRIA/USDT',
-  newTrend: true,
-  'the high': 0.004654,
-  'the low': null,
-  'the close': 0.003681,
-  'the start_date - 1 day': '2024-11-07T00:00:00',
-  'the extrems_date - 1 day': '2024-12-02T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.002802,
+  'the close': 0.004202,
+  'the start_date - 1 day': '2024-12-02T00:00:00',
+  'the extrems_date - 1 day': '2024-12-08T00:00:00'
 }
+Selling MYRIA/USDT on GATEIO
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
+Email about selling is sent
 The Final trend is : false
 {
   ticker: 'ARB/USDT',
@@ -88,23 +90,25 @@ The Final trend is : true
 {
   ticker: 'WAGMIGAMES/USDT',
   newTrend: true,
-  'the high': 0.000026337,
+  'the high': 0.000032999,
   'the low': null,
   'the close': 0.000014676,
   'the start_date - 1 day': '2024-11-21T00:00:00',
-  'the extrems_date - 1 day': '2024-12-02T00:00:00'
+  'the extrems_date - 1 day': '2024-12-03T00:00:00'
 }
+Balance: 13717.0277 MYRIA
+Sold: 44.4743365$ of MYRIA/USDT
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : true
 The Final trend is : true
 {
   ticker: 'BTC/USDT',
   newTrend: true,
-  'the high': 99588.01,
+  'the high': 104951.72,
   'the low': null,
-  'the close': 89855.99,
+  'the close': 101420,
   'the start_date - 1 day': '2024-11-12T00:00:00',
-  'the extrems_date - 1 day': '2024-11-21T00:00:00'
+  'the extrems_date - 1 day': '2024-12-14T00:00:00'
 }
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : true
@@ -112,11 +116,11 @@ The Final trend is : true
 {
   ticker: 'PYR/USDT',
   newTrend: true,
-  'the high': 4.638,
+  'the high': 4.872,
   'the low': null,
-  'the close': 2.602,
+  'the close': 4.17,
   'the start_date - 1 day': '2024-11-03T00:00:00',
-  'the extrems_date - 1 day': '2024-11-23T00:00:00'
+  'the extrems_date - 1 day': '2024-12-07T00:00:00'
 }
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
