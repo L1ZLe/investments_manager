@@ -19,9 +19,9 @@
   },
   {
     "ticker": "NAI/USDT",
-    "upTrend": true,
-    "start_date": "2024-11-19T00:00:00",
-    "extrems_date": "2024-12-03T00:00:00"
+    "upTrend": false,
+    "start_date": "2024-12-03T00:00:00",
+    "extrems_date": "2024-12-12T00:00:00"
   },
   {
     "ticker": "YGG/USDT",
@@ -51,13 +51,13 @@
     "ticker": "BTC/USDT",
     "upTrend": true,
     "start_date": "2024-11-12T00:00:00",
-    "extrems_date": "2024-12-14T00:00:00"
+    "extrems_date": "2024-12-15T00:00:00"
   },
   {
     "ticker": "PYR/USDT",
-    "upTrend": true,
-    "start_date": "2024-11-03T00:00:00",
-    "extrems_date": "2024-12-07T00:00:00"
+    "upTrend": false,
+    "start_date": "2024-12-07T00:00:00",
+    "extrems_date": "2024-12-09T00:00:00"
   },
   {
     "ticker": "LINK/USDT",
