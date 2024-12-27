@@ -20,7 +20,7 @@
   {
     "ticker": "NAI/USDT",
     "high": null,
-    "low": 0.0075,
+    "low": 0.00739,
     "close": 0.01006
   },
   {
@@ -32,8 +32,8 @@
   {
     "ticker": "MYRIA/USDT",
     "high": null,
-    "low": 0.002001,
-    "close": 0.003261
+    "low": 0.001995,
+    "close": 0.002517
   },
   {
     "ticker": "ARB/USDT",

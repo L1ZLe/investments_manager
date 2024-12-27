@@ -41,10 +41,10 @@ The Final trend is : false
   ticker: 'NAI/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.0075,
+  'the low': 0.00739,
   'the close': 0.01006,
   'the start_date - 1 day': '2024-12-03T00:00:00',
-  'the extrems_date - 1 day': '2024-12-23T00:00:00'
+  'the extrems_date - 1 day': '2024-12-25T00:00:00'
 }
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
@@ -65,10 +65,10 @@ The Final trend is : false
   ticker: 'MYRIA/USDT',
   newTrend: false,
   'the high': null,
-  'the low': 0.002001,
-  'the close': 0.003261,
+  'the low': 0.001995,
+  'the close': 0.002517,
   'the start_date - 1 day': '2024-12-02T00:00:00',
-  'the extrems_date - 1 day': '2024-12-19T00:00:00'
+  'the extrems_date - 1 day': '2024-12-25T00:00:00'
 }
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
@@ -83,7 +83,7 @@ The Final trend is : false
   'the extrems_date - 1 day': '2024-07-04T00:00:00'
 }
 [31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
-The Original trend of WAGMIGAMES/USDT was : true
+The Original trend of WAGMIGAMES/USDT was : false
 The Final trend is : false
 {
   ticker: 'WAGMIGAMES/USDT',
@@ -94,10 +94,8 @@ The Final trend is : false
   'the start_date - 1 day': '2024-12-03T00:00:00',
   'the extrems_date - 1 day': '2024-12-23T00:00:00'
 }
-Selling WAGMIGAMES/USDT on GATEIO
-Email about selling is sent
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
-The Original trend of BTC/USDT was : true
+The Original trend of BTC/USDT was : false
 The Final trend is : false
 {
   ticker: 'BTC/USDT',
@@ -108,8 +106,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-12-16T00:00:00',
   'the extrems_date - 1 day': '2024-12-19T00:00:00'
 }
-Selling BTC/USDT on BINANCE
-Email about selling is sent
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : false
 The Final trend is : false
@@ -122,10 +118,6 @@ The Final trend is : false
   'the start_date - 1 day': '2024-12-07T00:00:00',
   'the extrems_date - 1 day': '2024-12-19T00:00:00'
 }
-Balance: 1513406.079 WAGMIGAMES
-Balance: 0.00000909 BTC
-Error creating order: InvalidOrder: binance amount of BTC/USDT must be greater than minimum amount precision of 5
-Sold: 18.722345626$ of WAGMIGAMES/USDT
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
 The Final trend is : false
