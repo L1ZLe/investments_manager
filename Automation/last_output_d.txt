@@ -24,16 +24,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_AMU_USDT 1DAY AMU/USDT [0m
 The Original trend of AMU/USDT was : true
-The Final trend is : true
+The Final trend is : false
 {
   ticker: 'AMU/USDT',
-  newTrend: true,
-  'the high': 0.01482,
-  'the low': null,
-  'the close': 0.00528,
-  'the start_date - 1 day': '2024-11-21T00:00:00',
-  'the extrems_date - 1 day': '2024-12-12T00:00:00'
+  newTrend: false,
+  'the high': null,
+  'the low': 0.00486,
+  'the close': 0.01025,
+  'the start_date - 1 day': '2024-12-12T00:00:00',
+  'the extrems_date - 1 day': '2024-12-25T00:00:00'
 }
+Selling AMU/USDT on GATEIO
+Email about selling is sent
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
 The Final trend is : false
@@ -58,8 +60,10 @@ The Final trend is : false
   'the start_date - 1 day': '2024-06-02T00:00:00',
   'the extrems_date - 1 day': '2024-08-04T00:00:00'
 }
+Balance: 4881.10599 AMU
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
 The Original trend of MYRIA/USDT was : false
+Sold: 25.088854$ of AMU/USDT
 The Final trend is : false
 {
   ticker: 'MYRIA/USDT',
@@ -84,49 +88,195 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_WAGMIGAMES_USDT 1DAY WAGMIGAMES/USDT [0m
 The Original trend of WAGMIGAMES/USDT was : false
-The Final trend is : false
-{
-  ticker: 'WAGMIGAMES/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.000011508,
-  'the close': 0.000020916,
-  'the start_date - 1 day': '2024-12-03T00:00:00',
-  'the extrems_date - 1 day': '2024-12-23T00:00:00'
+Error fetching crypto OHLC data: AxiosError: getaddrinfo ENOTFOUND rest.coinapi.io
+    at AxiosError.from (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/AxiosError.js:89:14)
+    at RedirectableRequest.handleRequestError (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:610:25)
+    at RedirectableRequest.emit (node:events:520:28)
+    at eventHandlers.<computed> (/data/data/com.termux/files/home/investments_manager/node_modules/follow-redirects/index.js:38:24)
+    at ClientRequest.emit (node:events:520:28)
+    at TLSSocket.socketErrorListener (node:_http_client:502:9)
+    at TLSSocket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async fetchOHLCV (file:///data/data/com.termux/files/home/investments_manager/d/index.js:64:22)
+    at async main (file:///data/data/com.termux/files/home/investments_manager/d/index.js:414:19) {
+  hostname: 'rest.coinapi.io',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3007,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: Infinity,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json',
+      'Content-Type': undefined,
+      'X-CoinAPI-Key': '93D271D2-5CD3-4B59-BFA6-89DE80692521',
+      'User-Agent': 'axios/1.6.8',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_WAGMIGAMES_USDT/history',
+    params: {
+      period_id: '1DAY',
+      time_start: '2024-12-03T00:00:00',
+      time_end: '2024-12-28T00:00:00',
+      limit: 100,
+      include_empty_items: false
+    },
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Function: handleRequestSocket]
+    },
+    _writableState: WritableState {
+      highWaterMark: 65536,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'https:',
+      path: '/v1/ohlcv/GATEIO_SPOT_WAGMIGAMES_USDT/history?period_id=1DAY&time_start=2024-12-03T00:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'rest.coinapi.io',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/v1/ohlcv/GATEIO_SPOT_WAGMIGAMES_USDT/history',
+      search: '?period_id=1DAY&time_start=2024-12-03T00:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      _header: 'GET /v1/ohlcv/GATEIO_SPOT_WAGMIGAMES_USDT/history?period_id=1DAY&time_start=2024-12-03T00:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+        'Accept: application/json\r\n' +
+        'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
+        'User-Agent: axios/1.6.8\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: rest.coinapi.io\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/v1/ohlcv/GATEIO_SPOT_WAGMIGAMES_USDT/history?period_id=1DAY&time_start=2024-12-03T00:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'rest.coinapi.io',
+      protocol: 'https:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_WAGMIGAMES_USDT/history?period_id=1DAY&time_start=2024-12-03T00:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false',
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND rest.coinapi.io
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3007,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'rest.coinapi.io'
+  }
 }
-[31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
-The Original trend of BTC/USDT was : false
-The Final trend is : false
-{
-  ticker: 'BTC/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 92337.11,
-  'the close': 106133.74,
-  'the start_date - 1 day': '2024-12-16T00:00:00',
-  'the extrems_date - 1 day': '2024-12-19T00:00:00'
-}
-[31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
-The Original trend of PYR/USDT was : false
-The Final trend is : false
-{
-  ticker: 'PYR/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 2.697,
-  'the close': 4.017,
-  'the start_date - 1 day': '2024-12-07T00:00:00',
-  'the extrems_date - 1 day': '2024-12-19T00:00:00'
-}
-[31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
-The Original trend of LINK/USDT was : false
-The Final trend is : false
-{
-  ticker: 'LINK/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 8.08,
-  'the close': 12.89,
-  'the start_date - 1 day': '2024-07-20T00:00:00',
-  'the extrems_date - 1 day': '2024-08-04T00:00:00'
-}
+TypeError: Cannot read properties of null (reading 'length')
+    at detectTrend (file:///data/data/com.termux/files/home/investments_manager/d/index.js:80:35)
+    at main (file:///data/data/com.termux/files/home/investments_manager/d/index.js:422:36)
+file:///data/data/com.termux/files/home/investments_manager/d/index.js:422
+    let { newTrend, data } = await detectTrend(
+          ^
+
+TypeError: Cannot destructure property 'newTrend' of '(intermediate value)' as it is null.
+    at main (file:///data/data/com.termux/files/home/investments_manager/d/index.js:422:11)
+
+Node.js v22.2.0
