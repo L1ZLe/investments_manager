@@ -1,88 +1,24 @@
 [31m BINANCE_SPOT_ENS_USDT 4HRS ENS/USDT [0m
 The Original trend of ENS/USDT was : false
-The Final trend is : false
-{
-  ticker: 'ENS/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 14.18,
-  'the close': 20.32,
-  'the start_date - 1 day': '2024-07-29T04:00:00',
-  'the extrems_date - 1 day': '2024-08-05T00:00:00'
-}
-[31m MEXC_SPOT_INSP_USDT 4HRS INSP/USDT [0m
-The Original trend of INSP/USDT was : false
-The Final trend is : false
-{
-  ticker: 'INSP/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.0397,
-  'the close': 0.05558,
-  'the start_date - 1 day': '2024-05-31T04:00:00',
-  'the extrems_date - 1 day': '2024-06-14T12:00:00'
-}
-[31m GATEIO_SPOT_SENATE_USDT 4HRS SENATE/USDT [0m
-The Original trend of SENATE/USDT was : false
-The Final trend is : false
-{
-  ticker: 'SENATE/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.04794,
-  'the close': 0.05346,
-  'the start_date - 1 day': '2024-06-16T08:00:00',
-  'the extrems_date - 1 day': '2024-06-28T12:00:00'
-}
-[31m BINANCE_SPOT_BEAMX_USDT 4HRS BEAMX/USDT [0m
-The Original trend of BEAMX/USDT was : true
-The Final trend is : true
-{
-  ticker: 'BEAMX/USDT',
-  newTrend: true,
-  'the high': 0.01939,
-  'the low': null,
-  'the close': 0.01836,
-  'the start_date - 1 day': '2024-07-04T20:00:00',
-  'the extrems_date - 1 day': '2024-07-20T20:00:00'
-}
-[31m GATEIO_SPOT_SFUND_USDT 4HRS SFUND/USDT [0m
-The Original trend of SFUND/USDT was : false
-The Final trend is : false
-{
-  ticker: 'SFUND/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 1.527,
-  'the close': 1.611,
-  'the start_date - 1 day': '2024-06-12T08:00:00',
-  'the extrems_date - 1 day': '2024-06-28T16:00:00'
-}
-[31m GATEIO_SPOT_LOOKS_USDT 4HRS LOOKS/USDT [0m
-The Original trend of LOOKS/USDT was : false
-The Final trend is : false
-{
-  ticker: 'LOOKS/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.04756,
-  'the close': 0.05842,
-  'the start_date - 1 day': '2024-06-12T08:00:00',
-  'the extrems_date - 1 day': '2024-06-17T20:00:00'
-}
-[31m GATEIO_SPOT_THG_USDT 4HRS THG/USDT [0m
-The Original trend of THG/USDT was : false
-Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
-    at settle (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/settle.js:19:12)
-    at IncomingMessage.handleStreamEnd (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:589:11)
-    at IncomingMessage.emit (node:events:532:35)
-    at endReadableNT (node:internal/streams/readable:1696:12)
+Error fetching crypto OHLC data: AxiosError: getaddrinfo ENOTFOUND rest.coinapi.io
+    at AxiosError.from (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/AxiosError.js:89:14)
+    at RedirectableRequest.handleRequestError (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/adapters/http.js:610:25)
+    at RedirectableRequest.emit (node:events:520:28)
+    at eventHandlers.<computed> (/data/data/com.termux/files/home/investments_manager/node_modules/follow-redirects/index.js:38:24)
+    at ClientRequest.emit (node:events:520:28)
+    at TLSSocket.socketErrorListener (node:_http_client:502:9)
+    at TLSSocket.emit (node:events:520:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
     at Axios.request (file:///data/data/com.termux/files/home/investments_manager/node_modules/axios/lib/core/Axios.js:45:41)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async fetchOHLCV (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:64:22)
     at async main (file:///data/data/com.termux/files/home/investments_manager/4H/index.js:414:19) {
-  code: 'ERR_BAD_REQUEST',
+  hostname: 'rest.coinapi.io',
+  syscall: 'getaddrinfo',
+  code: 'ENOTFOUND',
+  errno: -3007,
   config: {
     transitional: {
       silentJSONParsing: true,
@@ -107,269 +43,73 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
       'Accept-Encoding': 'gzip, compress, deflate, br'
     },
     method: 'get',
-    url: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_THG_USDT/history',
+    url: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history',
     params: {
       period_id: '4HRS',
-      time_start: '2024-06-23T04:00:00',
-      time_end: '2024-12-28T00:00:00',
+      time_start: '2024-07-29T04:00:00',
+      time_end: '2024-12-28T04:00:00',
       limit: 100,
       include_empty_items: false
     },
     data: undefined
   },
-  request: <ref *1> ClientRequest {
-    _events: [Object: null prototype] {
-      abort: [Function (anonymous)],
-      aborted: [Function (anonymous)],
-      connect: [Function (anonymous)],
-      error: [Function (anonymous)],
-      socket: [Function (anonymous)],
-      timeout: [Function (anonymous)],
-      finish: [Function: requestOnFinish]
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Function: handleRequestSocket]
     },
-    _eventsCount: 7,
+    _writableState: WritableState {
+      highWaterMark: 65536,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
     _maxListeners: undefined,
-    outputData: [],
-    outputSize: 0,
-    writable: true,
-    destroyed: true,
-    _last: true,
-    chunkedEncoding: false,
-    shouldKeepAlive: true,
-    maxRequestsOnConnectionReached: false,
-    _defaultKeepAlive: true,
-    useChunkedEncodingByDefault: false,
-    sendDate: false,
-    _removedConnection: false,
-    _removedContLen: false,
-    _removedTE: false,
-    strictContentLength: false,
-    _contentLength: 0,
-    _hasBody: true,
-    _trailer: '',
-    finished: true,
-    _headerSent: true,
-    _closed: true,
-    _header: 'GET /v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
-      'Accept: application/json\r\n' +
-      'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
-      'User-Agent: axios/1.6.8\r\n' +
-      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
-      'Host: rest.coinapi.io\r\n' +
-      'Connection: keep-alive\r\n' +
-      '\r\n',
-    _keepAliveTimeout: 0,
-    _onPendingData: [Function: nop],
-    agent: Agent {
-      _events: [Object: null prototype],
-      _eventsCount: 2,
-      _maxListeners: undefined,
-      defaultPort: 443,
-      protocol: 'https:',
-      options: [Object: null prototype],
-      requests: [Object: null prototype] {},
-      sockets: [Object: null prototype] {},
-      freeSockets: [Object: null prototype],
-      keepAliveMsecs: 1000,
-      keepAlive: true,
-      maxSockets: Infinity,
-      maxFreeSockets: 256,
-      scheduling: 'lifo',
-      maxTotalSockets: Infinity,
-      totalSocketCount: 1,
-      maxCachedSessions: 100,
-      _sessionCache: [Object],
-      [Symbol(shapeMode)]: false,
-      [Symbol(kCapture)]: false
-    },
-    socketPath: undefined,
-    method: 'GET',
-    maxHeaderSize: undefined,
-    insecureHTTPParser: undefined,
-    joinDuplicateHeaders: undefined,
-    path: '/v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false',
-    _ended: true,
-    res: IncomingMessage {
-      _events: [Object],
-      _readableState: [ReadableState],
-      _maxListeners: undefined,
-      socket: null,
-      httpVersionMajor: 1,
-      httpVersionMinor: 1,
-      httpVersion: '1.1',
-      complete: true,
-      rawHeaders: [Array],
-      rawTrailers: [],
-      joinDuplicateHeaders: undefined,
-      aborted: false,
-      upgrade: false,
-      url: '',
-      method: null,
-      statusCode: 429,
-      statusMessage: '',
-      client: [TLSSocket],
-      _consuming: false,
-      _dumped: false,
-      req: [Circular *1],
-      _eventsCount: 4,
-      responseUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false',
-      redirects: [],
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kHeaders)]: [Object],
-      [Symbol(kHeadersCount)]: 8,
-      [Symbol(kTrailers)]: null,
-      [Symbol(kTrailersCount)]: 0
-    },
-    aborted: false,
-    timeoutCb: null,
-    upgradeOrConnect: false,
-    parser: null,
-    maxHeadersCount: null,
-    reusedSocket: true,
-    host: 'rest.coinapi.io',
-    protocol: 'https:',
-    _redirectable: Writable {
-      _events: [Object],
-      _writableState: [WritableState],
-      _maxListeners: undefined,
-      _options: [Object],
-      _ended: true,
-      _ending: true,
-      _redirectCount: 0,
-      _redirects: [],
-      _requestBodyLength: 0,
-      _requestBodyBuffers: [],
-      _eventsCount: 3,
-      _onNativeResponse: [Function (anonymous)],
-      _currentRequest: [Circular *1],
-      _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false',
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false
-    },
-    [Symbol(shapeMode)]: false,
-    [Symbol(kCapture)]: false,
-    [Symbol(kBytesWritten)]: 0,
-    [Symbol(kNeedDrain)]: false,
-    [Symbol(corked)]: 0,
-    [Symbol(kChunkedBuffer)]: [],
-    [Symbol(kChunkedLength)]: 0,
-    [Symbol(kSocket)]: TLSSocket {
-      _tlsOptions: [Object],
-      _secureEstablished: true,
-      _securePending: false,
-      _newSessionPending: false,
-      _controlReleased: true,
-      secureConnecting: false,
-      _SNICallback: null,
-      servername: 'rest.coinapi.io',
-      alpnProtocol: false,
-      authorized: true,
-      authorizationError: null,
-      encrypted: true,
-      _events: [Object: null prototype],
-      _eventsCount: 9,
-      connecting: false,
-      _hadError: false,
-      _parent: null,
-      _host: 'rest.coinapi.io',
-      _closeAfterHandlingError: false,
-      _readableState: [ReadableState],
-      _writableState: [WritableState],
-      allowHalfOpen: false,
-      _maxListeners: undefined,
-      _sockname: null,
-      _pendingData: null,
-      _pendingEncoding: '',
-      server: undefined,
-      _server: null,
-      ssl: [TLSWrap],
-      _requestCert: true,
-      _rejectUnauthorized: true,
-      timeout: 5000,
-      parser: null,
-      _httpMessage: null,
-      autoSelectFamilyAttemptedAddresses: [Array],
-      [Symbol(alpncallback)]: null,
-      [Symbol(res)]: [TLSWrap],
-      [Symbol(verified)]: true,
-      [Symbol(pendingSession)]: null,
-      [Symbol(async_id_symbol)]: -1,
-      [Symbol(kHandle)]: [TLSWrap],
-      [Symbol(lastWriteQueueSize)]: 0,
-      [Symbol(timeout)]: Timeout {
-        _idleTimeout: 5000,
-        _idlePrev: [TimersList],
-        _idleNext: [TimersList],
-        _idleStart: 39181,
-        _onTimeout: [Function: bound ],
-        _timerArgs: undefined,
-        _repeat: null,
-        _destroyed: false,
-        [Symbol(refed)]: false,
-        [Symbol(kHasPrimitive)]: false,
-        [Symbol(asyncId)]: 2271,
-        [Symbol(triggerId)]: 2269
-      },
-      [Symbol(kBuffer)]: null,
-      [Symbol(kBufferCb)]: null,
-      [Symbol(kBufferGen)]: null,
-      [Symbol(shapeMode)]: true,
-      [Symbol(kCapture)]: false,
-      [Symbol(kSetNoDelay)]: false,
-      [Symbol(kSetKeepAlive)]: true,
-      [Symbol(kSetKeepAliveInitialDelay)]: 1,
-      [Symbol(kBytesRead)]: 0,
-      [Symbol(kBytesWritten)]: 0,
-      [Symbol(connect-options)]: [Object]
-    },
-    [Symbol(kOutHeaders)]: [Object: null prototype] {
-      accept: [Array],
-      'x-coinapi-key': [Array],
-      'user-agent': [Array],
-      'accept-encoding': [Array],
-      host: [Array]
-    },
-    [Symbol(errored)]: null,
-    [Symbol(kHighWaterMark)]: 65536,
-    [Symbol(kRejectNonStandardBodyWrites)]: false,
-    [Symbol(kUniqueHeaders)]: null
-  },
-  response: {
-    status: 429,
-    statusText: '',
-    headers: Object [AxiosHeaders] {
-      'content-type': 'application/json',
-      date: 'Sat, 28 Dec 2024 00:02:45 GMT',
-      'retry-after': '15',
-      'transfer-encoding': 'chunked'
-    },
-    config: {
-      transitional: [Object],
-      adapter: [Array],
-      transformRequest: [Array],
-      transformResponse: [Array],
-      timeout: 0,
-      xsrfCookieName: 'XSRF-TOKEN',
-      xsrfHeaderName: 'X-XSRF-TOKEN',
-      maxContentLength: -1,
+    _options: {
+      maxRedirects: 21,
       maxBodyLength: Infinity,
-      env: [Object],
-      validateStatus: [Function: validateStatus],
-      headers: [Object [AxiosHeaders]],
-      method: 'get',
-      url: 'https://rest.coinapi.io/v1/ohlcv/GATEIO_SPOT_THG_USDT/history',
-      params: [Object],
-      data: undefined
+      protocol: 'https:',
+      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-12-28T04:00:00&limit=100&include_empty_items=false',
+      method: 'GET',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'rest.coinapi.io',
+      port: '',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history',
+      search: '?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-12-28T04:00:00&limit=100&include_empty_items=false'
     },
-    request: <ref *1> ClientRequest {
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
       _events: [Object: null prototype],
       _eventsCount: 7,
       _maxListeners: undefined,
       outputData: [],
       outputSize: 0,
       writable: true,
-      destroyed: true,
+      destroyed: false,
       _last: true,
       chunkedEncoding: false,
       shouldKeepAlive: true,
@@ -386,8 +126,8 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
       _trailer: '',
       finished: true,
       _headerSent: true,
-      _closed: true,
-      _header: 'GET /v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
+      _closed: false,
+      _header: 'GET /v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-12-28T04:00:00&limit=100&include_empty_items=false HTTP/1.1\r\n' +
         'Accept: application/json\r\n' +
         'X-CoinAPI-Key: 93D271D2-5CD3-4B59-BFA6-89DE80692521\r\n' +
         'User-Agent: axios/1.6.8\r\n' +
@@ -403,18 +143,18 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
       maxHeaderSize: undefined,
       insecureHTTPParser: undefined,
       joinDuplicateHeaders: undefined,
-      path: '/v1/ohlcv/GATEIO_SPOT_THG_USDT/history?period_id=4HRS&time_start=2024-06-23T04:00:00&time_end=2024-12-28T00:00:00&limit=100&include_empty_items=false',
-      _ended: true,
-      res: [IncomingMessage],
+      path: '/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-12-28T04:00:00&limit=100&include_empty_items=false',
+      _ended: false,
+      res: null,
       aborted: false,
-      timeoutCb: null,
+      timeoutCb: [Function: emitRequestTimeout],
       upgradeOrConnect: false,
       parser: null,
       maxHeadersCount: null,
-      reusedSocket: true,
+      reusedSocket: false,
       host: 'rest.coinapi.io',
       protocol: 'https:',
-      _redirectable: [Writable],
+      _redirectable: [Circular *1],
       [Symbol(shapeMode)]: false,
       [Symbol(kCapture)]: false,
       [Symbol(kBytesWritten)]: 0,
@@ -429,13 +169,16 @@ Error fetching crypto OHLC data: AxiosError: Request failed with status code 429
       [Symbol(kRejectNonStandardBodyWrites)]: false,
       [Symbol(kUniqueHeaders)]: null
     },
-    data: {
-      title: 'Too many requests. Please slow down and try again after Retry-After seconds.',
-      status: 429,
-      detail: 'Too many requests. Please slow down and try again after 15 seconds.',
-      error: 'Too many requests. Please slow down and try again after Retry-After seconds. (Too many requests. Please slow down and try again after 15 seconds.)',
-      'Retry-After': 15
-    }
+    _currentUrl: 'https://rest.coinapi.io/v1/ohlcv/BINANCE_SPOT_ENS_USDT/history?period_id=4HRS&time_start=2024-07-29T04:00:00&time_end=2024-12-28T04:00:00&limit=100&include_empty_items=false',
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: getaddrinfo ENOTFOUND rest.coinapi.io
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+    errno: -3007,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'rest.coinapi.io'
   }
 }
 TypeError: Cannot read properties of null (reading 'length')
