@@ -36,16 +36,18 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_NAI_USDT 1DAY NAI/USDT [0m
 The Original trend of NAI/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'NAI/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.00572,
-  'the close': 0.00635,
-  'the start_date - 1 day': '2024-12-03T00:00:00',
-  'the extrems_date - 1 day': '2024-12-30T00:00:00'
+  newTrend: true,
+  'the high': 0.009,
+  'the low': null,
+  'the close': 0.00655,
+  'the start_date - 1 day': '2024-12-30T00:00:00',
+  'the extrems_date - 1 day': '2025-01-03T00:00:00'
 }
+Buying NAI/USDT on GATEIO
+Email about buying is sent
 [31m BINANCE_SPOT_YGG_USDT 1DAY YGG/USDT [0m
 The Original trend of YGG/USDT was : false
 The Final trend is : false
@@ -60,18 +62,23 @@ The Final trend is : false
 }
 [31m GATEIO_SPOT_MYRIA_USDT 1DAY MYRIA/USDT [0m
 The Original trend of MYRIA/USDT was : false
-The Final trend is : false
+The Final trend is : true
+[33m we assume that close is the starting point [0m
 {
   ticker: 'MYRIA/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 0.001947,
-  'the close': 0.002304,
-  'the start_date - 1 day': '2024-12-02T00:00:00',
-  'the extrems_date - 1 day': '2024-12-31T00:00:00'
+  newTrend: true,
+  'the high': 0.002429,
+  'the low': null,
+  'the close': 0.002022,
+  'the start_date - 1 day': '2024-12-31T00:00:00',
+  'the extrems_date - 1 day': '2025-01-02T00:00:00'
 }
+Buying MYRIA/USDT on GATEIO
+Email about buying is sent
 [31m BINANCE_SPOT_ARB_USDT 1DAY ARB/USDT [0m
 The Original trend of ARB/USDT was : false
+bought: 30$ of MYRIA/USDT
+bought: 30$ of NAI/USDT
 The Final trend is : false
 {
   ticker: 'ARB/USDT',
@@ -96,16 +103,18 @@ The Final trend is : false
 }
 [31m BINANCE_SPOT_BTC_USDT 1DAY BTC/USDT [0m
 The Original trend of BTC/USDT was : false
-The Final trend is : false
+The Final trend is : true
 {
   ticker: 'BTC/USDT',
-  newTrend: false,
-  'the high': null,
-  'the low': 91530.45,
-  'the close': 95300,
-  'the start_date - 1 day': '2024-12-16T00:00:00',
-  'the extrems_date - 1 day': '2024-12-29T00:00:00'
+  newTrend: true,
+  'the high': 98976.91,
+  'the low': null,
+  'the close': 92792.05,
+  'the start_date - 1 day': '2024-12-29T00:00:00',
+  'the extrems_date - 1 day': '2025-01-02T00:00:00'
 }
+Buying BTC/USDT on BINANCE
+Email about buying is sent
 [31m BINANCE_SPOT_PYR_USDT 1DAY PYR/USDT [0m
 The Original trend of PYR/USDT was : false
 The Final trend is : false
@@ -118,6 +127,7 @@ The Final trend is : false
   'the start_date - 1 day': '2024-12-07T00:00:00',
   'the extrems_date - 1 day': '2024-12-19T00:00:00'
 }
+bought: 29.469927$ of BTC/USDT
 [31m BINANCE_SPOT_LINK_USDT 1DAY LINK/USDT [0m
 The Original trend of LINK/USDT was : false
 The Final trend is : false
